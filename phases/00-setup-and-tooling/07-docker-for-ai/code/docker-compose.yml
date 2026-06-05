@@ -16,11 +16,11 @@ services:
       - ~/datasets:/data
     ports:
       - "8888:8888"
-    stdin_open: true
-    tty: true
+    stdin_open: true # 保持容器的stdin打开，适合交互式会话
+    tty: true # 分配一个伪终端，适合交互式会话
     command: jupyter notebook --ip=0.0.0.0 --port=8888 --no-browser --allow-root
 
-  qdrant:
+  qdrant: # 向量数据库服务
     image: qdrant/qdrant:v1.12.5
     ports:
       - "6333:6333"

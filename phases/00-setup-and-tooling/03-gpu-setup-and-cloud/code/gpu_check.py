@@ -26,29 +26,29 @@ def check_gpu():
     print(f"Compute capability: {props.major}.{props.minor}")
 
     print("\n=== CPU vs GPU Benchmark ===\n")
-    size = 4000
+    size = 8000
 
-    a = torch.randn(size, size)
-    b = torch.randn(size, size)
+    a = torch.randn(size, size) # Create random matrices on CPU
+    b = torch.randn(size, size) # Create random matrices on CPU
 
     start = time.time()
-    _ = a @ b
+    _ = a @ b  # Matrix multiplication on CPU
     cpu_time = time.time() - start
     print(f"CPU matrix multiply ({size}x{size}): {cpu_time:.3f}s")
 
-    a_gpu = a.to("cuda")
-    b_gpu = b.to("cuda")
-    torch.cuda.synchronize()
+    a_gpu = a.to("cuda") # Move matrices to GPU
+    b_gpu = b.to("cuda") # Move matrices to GPU
+    torch.cuda.synchronize() # Ensure GPU is ready before timing
 
     start = time.time()
     _ = a_gpu @ b_gpu
-    torch.cuda.synchronize()
+    torch.cuda.synchronize() # Ensure GPU has finished before stopping timer
     gpu_time = time.time() - start
     print(f"GPU matrix multiply ({size}x{size}): {gpu_time:.3f}s")
     print(f"Speedup: {cpu_time / gpu_time:.0f}x")
 
     vram_gb = props.total_memory / 1e9
-    params_fp16 = vram_gb * 1e9 / 2
+    params_fp16 = vram_gb * 1e9 / 2 # Each fp16 parameter takes 2 bytes
     params_billions = params_fp16 / 1e9
     print(f"\nEstimated max model size (fp16): ~{params_billions:.0f}B parameters")
 

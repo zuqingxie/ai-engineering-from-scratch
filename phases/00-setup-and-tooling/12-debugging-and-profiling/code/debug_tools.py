@@ -43,19 +43,20 @@ def check_shapes(model, sample_input):
     print(f"  Input: {sample_input.shape}")
     hooks = []
 
-    def make_hook(name):
-        def hook(module, inp, out):
+    def make_hook(name): # 创建一个hook函数，打印输入输出的shape
+        def hook(module, inp, out): # module是当前层，inp是输入，out是输出
             in_shape = inp[0].shape if isinstance(inp, tuple) else inp.shape
             out_shape = out.shape if hasattr(out, "shape") else type(out).__name__
             print(f"    {name}: {in_shape} -> {out_shape}")
         return hook
 
-    for name, module in model.named_modules():
+    for name, module in model.named_modules(): # 给每个子模块注册一个hook，打印输入输出的shape
         if name:
-            hooks.append(module.register_forward_hook(make_hook(name)))
+            hk = module.register_forward_hook(make_hook(name)) # pytorch的hook机制，前向传播的时候，这一层执行完，自动调用hook函数
+            hooks.append(hk)
 
     with torch.no_grad():
-        model(sample_input)
+        model(sample_input) # 运行一次前向传播，触发hook打印每层的输入输出shape
 
     for h in hooks:
         h.remove()
@@ -64,7 +65,7 @@ def check_shapes(model, sample_input):
 def detect_nan(model, loss, step):
     if torch.isnan(loss):
         print(f"  NaN loss detected at step {step}")
-        for name, param in model.named_parameters():
+        for name, param in model.named_parameters(): # 遍历模型的所有参数，检查梯度中是否有NaN或Inf
             if param.grad is not None:
                 if torch.isnan(param.grad).any():
                     print(f"    NaN gradient in {name}")
@@ -109,6 +110,7 @@ def demo_print_debugging():
     with_nan = out.clone()
     with_nan[0, 0] = float("nan")
     debug_print("with injected NaN", with_nan)
+
 
 
 def demo_timing():
@@ -168,13 +170,13 @@ def demo_nan_detection():
 
     x = torch.randn(4, 784)
     target = torch.randint(0, 10, (4,))
-    criterion = nn.CrossEntropyLoss()
-    optimizer = torch.optim.SGD(model.parameters(), lr=0.01)
+    criterion = nn.CrossEntropyLoss() # 交叉熵损失函数，适用于分类任务
+    optimizer = torch.optim.SGD(model.parameters(), lr=0.01) # 随机梯度下降优化器
 
     optimizer.zero_grad()
-    output = model(x)
-    loss = criterion(output, target)
-    loss.backward()
+    output = model(x) # 前向传播，得到模型输出
+    loss = criterion(output, target) # 计算损失，比较模型输出和目标标签的差距
+    loss.backward() # 反向传播，计算梯度
     print(f"  Normal loss: {loss.item():.4f}")
     nan_found = detect_nan(model, loss, step=0)
     print(f"  NaN detected: {nan_found}")
@@ -191,7 +193,7 @@ def demo_device_checking():
     model = nn.Linear(10, 5)
     t1 = torch.randn(4, 10)
     t2 = torch.randn(4, 10)
-
+    # 查看模型和输入张量所在的设备，确保它们匹配
     check_devices(model, t1, t2)
 
     if torch.cuda.is_available():
@@ -237,12 +239,12 @@ def demo_gpu_memory():
     print(f"  Cached: {torch.cuda.memory_reserved() / 1e6:.1f} MB")
 
     large_tensor = torch.randn(10000, 10000, device="cuda")
-    print(f"  After 10k x 10k tensor:")
+    print("  After 10k x 10k tensor:")
     print(f"    Allocated: {torch.cuda.memory_allocated() / 1e6:.1f} MB")
 
     del large_tensor
     torch.cuda.empty_cache()
-    print(f"  After cleanup:")
+    print("  After cleanup:")
     print(f"    Allocated: {torch.cuda.memory_allocated() / 1e6:.1f} MB")
 
 
@@ -293,8 +295,8 @@ def main():
     demo_memory_tracking()
     demo_shape_checking()
     demo_nan_detection()
-    demo_device_checking()
-    demo_gradient_health()
+    demo_device_checking() # 查看模型和输入张量所在的设备是否一致都是gpu或者cpu
+    demo_gradient_health() # 检查模型参数的梯度是否健康，是否有过大或过小的梯度
     demo_gpu_memory()
     demo_logging()
     demo_conditional_breakpoint()
@@ -305,6 +307,9 @@ def main():
     print("=" * 60 + "\n")
     return 0
 
-
 if __name__ == "__main__":
     sys.exit(main())
+
+# 总结一下在time tracking 里面使用Time类进行跟踪让类函数的开始和消亡参与时间计算，使用tracemalloc进行内存耿总，使用hook机制计入到模型的每一层
+# 可以在hook里面加入打印信息，可以遍历模型里面的所有参数 w和b，查看他们是否有nan或者inf，查看参数的梯度是否存在过大或者过小的情况。
+# 检查参数和模型是否同时在gpu或者cpu里面，否则会报错，使用torch.cuda.memery_summary()查看gpu内从的使用情况
