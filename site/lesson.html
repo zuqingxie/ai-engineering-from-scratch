@@ -292,6 +292,56 @@
       -webkit-hyphens: auto;
     }
 
+    .tts-readable {
+      position: relative;
+      padding-left: 42px;
+    }
+
+    .tts-button {
+      position: absolute;
+      left: 0;
+      top: 0.16em;
+      width: 28px;
+      min-width: 28px;
+      height: 28px;
+      border: 1px solid var(--rule-soft);
+      background: var(--bg-surface);
+      color: var(--ink-soft);
+      font-family: var(--font-mono);
+      font-size: 0.66rem;
+      line-height: 1;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .tts-button:hover:not(:disabled) {
+      border-color: var(--blueprint);
+      color: var(--blueprint);
+      background: var(--blueprint-tint);
+    }
+
+    .tts-button:disabled {
+      cursor: not-allowed;
+      opacity: 0.42;
+    }
+
+    .tts-button.loading {
+      color: var(--ink-mute);
+    }
+
+    .tts-button.playing {
+      border-color: var(--blueprint);
+      background: var(--blueprint);
+      color: var(--bg);
+    }
+
+    .tts-button.error {
+      border-color: #b42318;
+      color: #b42318;
+    }
+
     .lesson-article > p:first-of-type::first-letter,
     .lesson-article .drop-cap::first-letter {
       float: left;
@@ -1605,6 +1655,8 @@
       .lesson-article table th,
       .lesson-article table td { padding: 8px 10px; white-space: nowrap; }
       .lesson-article .motto { font-size: 1.05rem; padding: 14px 16px; }
+      .tts-readable { padding-left: 36px; }
+      .tts-button { width: 26px; min-width: 26px; height: 26px; }
       .ai-panels { margin-top: 40px; gap: 28px; }
       .ai-panel { padding: 22px 16px; }
       .output-cards,
@@ -1619,6 +1671,8 @@
       .lesson-article ul li,
       .lesson-article ol li { font-size: 0.96rem; }
       .lesson-article > p:first-of-type::first-letter { font-size: 2.6rem; }
+      .tts-readable { padding-left: 32px; }
+      .tts-button { width: 24px; min-width: 24px; height: 24px; font-size: 0.6rem; }
       .ai-panel { padding: 18px 12px; }
       .timeline-item { min-width: 70px; }
       .timeline-line { width: 20px; }
@@ -1771,6 +1825,16 @@
       var currentLessonIndex = -1;
       var flatLessons = [];
       var activeLang = (window.AIFSI18N && window.AIFSI18N.currentLang) ? window.AIFSI18N.currentLang() : (localStorage.getItem('site:lang') || 'en');
+      var ttsState = {
+        available: false,
+        checked: false,
+        audio: null,
+        url: '',
+        button: null,
+        abortController: null
+      };
+      var TTS_BASE_URL = 'http://localhost:5050';
+      var TTS_VOICES = { en: 'Ava', zh: 'Junhao' };
 
       if (typeof PHASES !== 'undefined') {
         for (var i = 0; i < PHASES.length; i++) {
@@ -1807,6 +1871,7 @@
       initScrollProgress();
       fetchLesson(lessonPath);
       window.addEventListener('aifs:languagechange', function (event) {
+        stopLessonTTS();
         activeLang = event.detail && event.detail.lang ? event.detail.lang : 'en';
         fetchLesson(lessonPath);
       });
@@ -1854,7 +1919,12 @@
           'lesson.codeSubtitle': zh ? '本课包含的可执行文件' : 'Executable files from this lesson',
           'lesson.codeLoading': zh ? '正在加载代码文件...' : 'Loading code files...',
           'lesson.viewGithub': zh ? '在 GitHub 查看' : 'View on GitHub',
-          'lesson.copyCommand': zh ? '复制命令' : 'Copy command'
+          'lesson.copyCommand': zh ? '复制命令' : 'Copy command',
+          'lesson.ttsRead': zh ? '朗读这一段' : 'Read this passage',
+          'lesson.ttsStop': zh ? '停止朗读' : 'Stop reading',
+          'lesson.ttsLoading': zh ? '正在生成语音' : 'Generating speech',
+          'lesson.ttsUnavailable': zh ? '语音服务不可用' : 'Speech service unavailable',
+          'lesson.ttsError': zh ? '语音生成失败' : 'Speech generation failed'
         };
         var value = fallback[key] || key;
         if (vars) {
@@ -2034,6 +2104,7 @@
 
         initCodeCopy();
         initSnippetRunner();
+        initLessonTTS();
         renderMermaidBlocks();
         renderAIPanels();
         buildTOC();
@@ -2048,6 +2119,210 @@
             }
           });
         });
+      }
+
+      function isPhaseZeroLesson() {
+        return currentPhaseSlug === '00-setup-and-tooling';
+      }
+
+      function ttsLabel(key) {
+        var labels = {
+          read: tr('lesson.ttsRead'),
+          stop: tr('lesson.ttsStop'),
+          loading: tr('lesson.ttsLoading'),
+          unavailable: tr('lesson.ttsUnavailable'),
+          error: tr('lesson.ttsError')
+        };
+        return labels[key] || key;
+      }
+
+      function initLessonTTS() {
+        if (!isPhaseZeroLesson()) return;
+        decorateReadableBlocksForTTS();
+        probeLessonTTS();
+      }
+
+      function decorateReadableBlocksForTTS() {
+        var article = document.querySelector('.lesson-article');
+        if (!article) return;
+        var blocks = article.querySelectorAll('p, blockquote p, li');
+        blocks.forEach(function (block, index) {
+          if (!isTTSReadableBlock(block)) return;
+          var text = normalizeTTSText(block.textContent || '');
+          if (text.length < 12) return;
+
+          block.classList.add('tts-readable');
+          block.setAttribute('data-tts-text', text);
+
+          var btn = document.createElement('button');
+          btn.type = 'button';
+          btn.className = 'tts-button';
+          btn.textContent = '▶';
+          btn.setAttribute('aria-label', ttsLabel('read'));
+          btn.setAttribute('title', ttsLabel('read'));
+          btn.setAttribute('data-tts-index', String(index));
+          btn.disabled = true;
+          btn.addEventListener('click', function () {
+            handleTTSClick(btn, block);
+          });
+          block.insertBefore(btn, block.firstChild);
+        });
+      }
+
+      function isTTSReadableBlock(block) {
+        if (!block || block.querySelector('.tts-button')) return false;
+        if (block.closest('pre, code, table, .quiz-section, .ai-panels, .lesson-nav-bottom, .mermaid-container, .code-output')) return false;
+        if (block.closest('.lesson-meta-tag')) return false;
+        return true;
+      }
+
+      function normalizeTTSText(text) {
+        return String(text || '').replace(/\s+/g, ' ').trim();
+      }
+
+      function probeLessonTTS() {
+        fetch(TTS_BASE_URL + '/health', { cache: 'no-store' })
+          .then(function (res) {
+            if (!res.ok) throw new Error('tts unavailable');
+            return res.json();
+          })
+          .then(function (data) {
+            ttsState.available = !!(data && data.available);
+            ttsState.checked = true;
+            setTTSButtonsAvailability(ttsState.available, data && data.message);
+          })
+          .catch(function () {
+            ttsState.available = false;
+            ttsState.checked = true;
+            setTTSButtonsAvailability(false, ttsLabel('unavailable'));
+          });
+      }
+
+      function setTTSButtonsAvailability(available, reason) {
+        document.querySelectorAll('.tts-button').forEach(function (btn) {
+          btn.disabled = !available;
+          btn.classList.toggle('error', !available);
+          var label = available ? ttsLabel('read') : (reason || ttsLabel('unavailable'));
+          btn.setAttribute('aria-label', label);
+          btn.setAttribute('title', label);
+        });
+      }
+
+      function handleTTSClick(btn, block) {
+        if (!ttsState.available || btn.disabled) return;
+        if (ttsState.button === btn) {
+          stopLessonTTS();
+          return;
+        }
+        playLessonTTS(btn, block.getAttribute('data-tts-text') || block.textContent || '');
+      }
+
+      function playLessonTTS(btn, text) {
+        stopLessonTTS();
+        text = normalizeTTSText(text);
+        if (!text) return;
+
+        var abortController = new AbortController();
+        ttsState.abortController = abortController;
+        ttsState.button = btn;
+
+        btn.disabled = false;
+        btn.classList.add('loading');
+        btn.classList.remove('error', 'playing');
+        btn.textContent = '...';
+        btn.setAttribute('aria-label', ttsLabel('loading'));
+        btn.setAttribute('title', ttsLabel('loading'));
+
+        fetch(TTS_BASE_URL + '/synthesize', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          signal: abortController.signal,
+          body: JSON.stringify({
+            text: text,
+            voice: activeLang === 'zh' ? TTS_VOICES.zh : TTS_VOICES.en,
+            mode: 'voice_clone',
+            execution_device: 'cpu',
+            cpu_threads: 4,
+            enable_text_normalization: true,
+            enable_normalize_tts_text: true
+          })
+        })
+          .then(function (res) {
+            if (!res.ok) {
+              return res.text().then(function (body) {
+                throw new Error(body || 'TTS failed');
+              });
+            }
+            return res.blob();
+          })
+          .then(function (blob) {
+            if (ttsState.button !== btn) return;
+            var url = URL.createObjectURL(blob);
+            var audio = new Audio(url);
+            ttsState.url = url;
+            ttsState.audio = audio;
+
+            btn.disabled = false;
+            btn.classList.remove('loading');
+            btn.classList.add('playing');
+            btn.textContent = '■';
+            btn.setAttribute('aria-label', ttsLabel('stop'));
+            btn.setAttribute('title', ttsLabel('stop'));
+
+            audio.addEventListener('ended', stopLessonTTS);
+            audio.addEventListener('error', function () {
+              markTTSError(btn);
+            });
+            return audio.play();
+          })
+          .catch(function (err) {
+            if (err && err.name === 'AbortError') return;
+            console.warn('TTS failed', err);
+            markTTSError(btn);
+          });
+      }
+
+      function markTTSError(btn) {
+        if (!btn) return;
+        if (ttsState.button === btn) {
+          cleanupLessonTTS(false);
+        }
+        btn.disabled = false;
+        btn.classList.remove('loading', 'playing');
+        btn.classList.add('error');
+        btn.textContent = '▶';
+        btn.setAttribute('aria-label', ttsLabel('error'));
+        btn.setAttribute('title', ttsLabel('error'));
+      }
+
+      function stopLessonTTS() {
+        cleanupLessonTTS(true);
+      }
+
+      function cleanupLessonTTS(resetButton) {
+        if (ttsState.abortController) {
+          try { ttsState.abortController.abort(); } catch (_) {}
+          ttsState.abortController = null;
+        }
+        if (ttsState.audio) {
+          try {
+            ttsState.audio.pause();
+            ttsState.audio.currentTime = 0;
+          } catch (_) {}
+          ttsState.audio = null;
+        }
+        if (ttsState.url) {
+          URL.revokeObjectURL(ttsState.url);
+          ttsState.url = '';
+        }
+        if (resetButton && ttsState.button) {
+          ttsState.button.disabled = !ttsState.available;
+          ttsState.button.classList.remove('loading', 'playing');
+          ttsState.button.textContent = '▶';
+          ttsState.button.setAttribute('aria-label', ttsLabel('read'));
+          ttsState.button.setAttribute('title', ttsLabel('read'));
+        }
+        ttsState.button = null;
       }
 
       function renderMath() {

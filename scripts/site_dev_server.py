@@ -19,9 +19,11 @@ import os
 import subprocess
 import sys
 import tempfile
+import time
 from http import HTTPStatus
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from urllib.parse import unquote, urlparse
+from urllib.request import Request, urlopen
 from pathlib import Path
 from typing import Any
 
@@ -30,6 +32,9 @@ SITE_DIR = ROOT / "site"
 MAX_CODE_BYTES = 32_000
 TIMEOUT_SEC = 5
 DEFAULT_VENV_PYTHON = ROOT / ".venv" / "bin" / "python"
+DEFAULT_TTS_PORT = 5050
+DEFAULT_TTS_REPO = ROOT / "third_party" / "MOSS-TTS-Nano"
+TTS_HEALTH_TIMEOUT_SEC = 1.5
 
 
 class SiteDevHandler(SimpleHTTPRequestHandler):
@@ -167,10 +172,124 @@ def run_snippet(code: str, language: str, python_executable: Path) -> dict[str, 
     }
 
 
+def tts_health_url(host: str, port: int) -> str:
+    return f"http://{host}:{port}/health"
+
+
+def fetch_tts_health(host: str, port: int) -> dict[str, Any] | None:
+    try:
+        req = Request(tts_health_url(host, port), headers={"Accept": "application/json"})
+        with urlopen(req, timeout=TTS_HEALTH_TIMEOUT_SEC) as res:
+            if res.status != HTTPStatus.OK:
+                return None
+            return json.loads(res.read().decode("utf-8"))
+    except Exception:
+        return None
+
+
+def is_tts_reachable(host: str, port: int) -> bool:
+    return fetch_tts_health(host, port) is not None
+
+
+def is_tts_available(host: str, port: int) -> bool:
+    data = fetch_tts_health(host, port)
+    return bool(data and data.get("available"))
+
+
+def wait_for_tts(host: str, port: int, timeout_sec: float = 5.0) -> bool:
+    deadline = time.monotonic() + timeout_sec
+    while time.monotonic() < deadline:
+        if is_tts_reachable(host, port):
+            return True
+        time.sleep(0.25)
+    return False
+
+
+def start_tts_server(
+    *,
+    host: str,
+    port: int,
+    python_executable: Path,
+    moss_repo: Path,
+) -> subprocess.Popen[str] | None:
+    existing_health = fetch_tts_health(host, port)
+    if existing_health is not None:
+        if existing_health.get("available"):
+            print(f"TTS already available at {tts_health_url(host, port)}")
+        else:
+            message = existing_health.get("message") or "TTS adapter is running but MOSS dependencies are not ready."
+            print(f"TTS adapter already running at {tts_health_url(host, port)}")
+            print(f"TTS unavailable: {message}")
+        return None
+
+    script = ROOT / "scripts" / "moss_tts_json_server.py"
+    if not script.is_file():
+        print(f"TTS disabled: missing {script}")
+        return None
+    if not moss_repo.is_dir():
+        print(f"TTS disabled: missing {moss_repo}")
+        print("Initialize it with: git submodule update --init --recursive third_party/MOSS-TTS-Nano")
+        return None
+
+    cmd = [
+        str(python_executable),
+        str(script),
+        "--host",
+        host,
+        "--port",
+        str(port),
+        "--python",
+        str(python_executable),
+        "--moss-repo",
+        str(moss_repo),
+    ]
+    try:
+        proc = subprocess.Popen(
+            cmd,
+            cwd=ROOT,
+            text=True,
+        )
+    except OSError as exc:
+        print(f"TTS disabled: failed to start adapter: {exc}")
+        return None
+
+    if wait_for_tts(host, port):
+        health = fetch_tts_health(host, port) or {}
+        if health.get("available"):
+            print(f"TTS enabled at {tts_health_url(host, port)}")
+        else:
+            print(f"TTS adapter opened at {tts_health_url(host, port)}")
+            print(f"TTS unavailable: {health.get('message') or 'MOSS dependencies are not ready.'}")
+        return proc
+
+    if proc.poll() is not None:
+        print(f"TTS disabled: adapter exited with code {proc.returncode}")
+    else:
+        print(f"TTS adapter started at {tts_health_url(host, port)} but is not ready yet.")
+        print("If dependencies are missing, run: pip install -e third_party/MOSS-TTS-Nano")
+    return proc
+
+
+def stop_tts_server(proc: subprocess.Popen[str] | None) -> None:
+    if proc is None or proc.poll() is not None:
+        return
+    proc.terminate()
+    try:
+        proc.wait(timeout=5)
+    except subprocess.TimeoutExpired:
+        proc.kill()
+        proc.wait(timeout=5)
+
+
 def main(argv: list[str]) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--host", default="127.0.0.1", help="bind host")
     parser.add_argument("--port", type=int, default=8000, help="bind port")
+    parser.add_argument("--no-tts", action="store_true", help="do not start the local MOSS-TTS JSON adapter")
+    parser.add_argument("--tts-host", default="localhost", help="TTS adapter bind host")
+    parser.add_argument("--tts-port", type=int, default=DEFAULT_TTS_PORT, help="TTS adapter bind port")
+    parser.add_argument("--tts-python", type=Path, default=None, help="Python interpreter used for MOSS-TTS")
+    parser.add_argument("--tts-repo", type=Path, default=DEFAULT_TTS_REPO, help="MOSS-TTS-Nano checkout path")
     parser.add_argument(
         "--python",
         type=Path,
@@ -179,17 +298,30 @@ def main(argv: list[str]) -> int:
     )
     args = parser.parse_args(argv)
 
+    tts_proc = None
+    tts_python = args.tts_python or args.python
+    if not args.no_tts:
+        tts_proc = start_tts_server(
+            host=args.tts_host,
+            port=args.tts_port,
+            python_executable=tts_python,
+            moss_repo=args.tts_repo,
+        )
+
     server = ThreadingHTTPServer((args.host, args.port), SiteDevHandler)
     server.python_executable = args.python
     url = f"http://{args.host}:{args.port}"
     print(f"Serving {SITE_DIR} at {url}")
     print(f"Snippet runner enabled with Python: {server.python_executable}")
+    if args.no_tts:
+        print("TTS adapter disabled by --no-tts")
     try:
         server.serve_forever()
     except KeyboardInterrupt:
         print("\nShutting down.")
     finally:
         server.server_close()
+        stop_tts_server(tts_proc)
     return 0
 
 

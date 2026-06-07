@@ -99,7 +99,12 @@
       'lesson.noOutput': '(completed with no output)',
       'lesson.timedOut': 'Timed out.',
       'lesson.exitCode': 'exit code: {code}',
-      'lesson.runnerFailed': 'Runner request failed.'
+      'lesson.runnerFailed': 'Runner request failed.',
+      'lesson.ttsRead': 'Read this passage',
+      'lesson.ttsStop': 'Stop reading',
+      'lesson.ttsLoading': 'Generating speech',
+      'lesson.ttsUnavailable': 'Speech service unavailable',
+      'lesson.ttsError': 'Speech generation failed'
     },
     zh: {
       'nav.contents': '目录',
@@ -190,7 +195,12 @@
       'lesson.noOutput': '（执行完成，无输出）',
       'lesson.timedOut': '执行超时。',
       'lesson.exitCode': '退出码：{code}',
-      'lesson.runnerFailed': 'Runner 请求失败。'
+      'lesson.runnerFailed': 'Runner 请求失败。',
+      'lesson.ttsRead': '朗读这一段',
+      'lesson.ttsStop': '停止朗读',
+      'lesson.ttsLoading': '正在生成语音',
+      'lesson.ttsUnavailable': '语音服务不可用',
+      'lesson.ttsError': '语音生成失败'
     }
   };
 

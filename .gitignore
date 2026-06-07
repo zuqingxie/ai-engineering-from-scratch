@@ -43,6 +43,7 @@ Thumbs.db
 
 data/
 models/
+generated_audio/
 checkpoints/
 wandb/
 mlruns/
