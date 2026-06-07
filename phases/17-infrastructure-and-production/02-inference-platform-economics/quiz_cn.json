@@ -1,0 +1,78 @@
+{
+  "lesson": "02-inference-platform-economics",
+  "title": "Inference Platform Economics — Fireworks, Together, Baseten, Modal, Replicate, Anyscale",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "本课程使用哪三个细分市场来组织 2026 年推理供应商？",
+      "options": [
+        "免费、付费、企业",
+        "单租户、多租户、本地",
+        "定制芯片、GPU 平台、API 优先市场",
+        "开源、商业、混合"
+      ],
+      "correct": 2,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "在 GPU 持续利用率达到多少时，每分钟计费（Baseten、Modal）开始超过按令牌计费（Fireworks、Together）？",
+      "options": [
+        "60%",
+        "90%",
+        "30%",
+        "5%"
+      ],
+      "correct": 2,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "哪个平台被描述为 Python 原生无服务器、按秒计费、预热后 2-4 秒冷启动？",
+      "options": [
+        "巴斯坦",
+        "莫代尔",
+        "烟花",
+        "任意规模"
+      ],
+      "correct": 1,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "Fireworks 显着的 LoRA 定价优势是什么？",
+      "options": [
+        "LoRA 服务的请求成本高于基本模型",
+        "根本不支持LoRA",
+        "LoRA 请求需要单独的专用 GPU 合约",
+        "LoRA 服务的请求按基本模型的每个令牌费率收费"
+      ],
+      "correct": 3,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "哪个平台适合需要 SOC 2 Type II、HIPAA 就绪状态和专用 GPU 的受监管医疗保健客户？",
+      "options": [
+        "巴斯坦",
+        "一起",
+        "任意规模",
+        "复制"
+      ],
+      "correct": 0,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "为什么课程中认为定制引擎声明主要是平台层的营销阴影？",
+      "options": [
+        "每个代币的定价是唯一真正的差异化因素",
+        "vLLM 和 SGLang 约占生产开源推理的 80%，因此平台差异化更多来自 DX、归因和 SLA，而不是引擎",
+        "所有定制引擎都是 TensorRT-LLM 的分支",
+        "定制引擎永远不会优于 vLLM"
+      ],
+      "correct": 1,
+      "explanation": ""
+    }
+  ]
+}

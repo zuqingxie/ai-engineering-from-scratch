@@ -1,0 +1,540 @@
+{
+  "nodes": [
+    {
+      "id": "document:phases/17-infrastructure-and-production/02-inference-platform-economics/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/17-infrastructure-and-production/02-inference-platform-economics/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/17-infrastructure-and-production/02-inference-platform-economics/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/17-infrastructure-and-production/02-inference-platform-economics/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/17-infrastructure-and-production/02-inference-platform-economics/outputs/skill-inference-platform-picker.md",
+      "type": "document",
+      "name": "skill-inference-platform-picker.md",
+      "filePath": "phases/17-infrastructure-and-production/02-inference-platform-economics/outputs/skill-inference-platform-picker.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/17-infrastructure-and-production/02-inference-platform-economics/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/17-infrastructure-and-production/02-inference-platform-economics/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/17-infrastructure-and-production/03-gpu-autoscaling-kubernetes/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/17-infrastructure-and-production/03-gpu-autoscaling-kubernetes/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/17-infrastructure-and-production/03-gpu-autoscaling-kubernetes/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/17-infrastructure-and-production/03-gpu-autoscaling-kubernetes/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/17-infrastructure-and-production/03-gpu-autoscaling-kubernetes/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/17-infrastructure-and-production/03-gpu-autoscaling-kubernetes/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/17-infrastructure-and-production/03-gpu-autoscaling-kubernetes/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/17-infrastructure-and-production/03-gpu-autoscaling-kubernetes/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/17-infrastructure-and-production/03-gpu-autoscaling-kubernetes/outputs/skill-gpu-autoscaler-plan.md",
+      "type": "document",
+      "name": "skill-gpu-autoscaler-plan.md",
+      "filePath": "phases/17-infrastructure-and-production/03-gpu-autoscaling-kubernetes/outputs/skill-gpu-autoscaler-plan.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/17-infrastructure-and-production/03-gpu-autoscaling-kubernetes/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/17-infrastructure-and-production/03-gpu-autoscaling-kubernetes/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/17-infrastructure-and-production/04-vllm-serving-internals/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/17-infrastructure-and-production/04-vllm-serving-internals/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/17-infrastructure-and-production/04-vllm-serving-internals/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/17-infrastructure-and-production/04-vllm-serving-internals/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/17-infrastructure-and-production/04-vllm-serving-internals/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/17-infrastructure-and-production/04-vllm-serving-internals/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/17-infrastructure-and-production/04-vllm-serving-internals/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/17-infrastructure-and-production/04-vllm-serving-internals/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/17-infrastructure-and-production/04-vllm-serving-internals/outputs/skill-vllm-scheduler-reader.md",
+      "type": "document",
+      "name": "skill-vllm-scheduler-reader.md",
+      "filePath": "phases/17-infrastructure-and-production/04-vllm-serving-internals/outputs/skill-vllm-scheduler-reader.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/17-infrastructure-and-production/04-vllm-serving-internals/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/17-infrastructure-and-production/04-vllm-serving-internals/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/17-infrastructure-and-production/05-eagle3-speculative-decoding/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/17-infrastructure-and-production/05-eagle3-speculative-decoding/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/17-infrastructure-and-production/05-eagle3-speculative-decoding/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/17-infrastructure-and-production/05-eagle3-speculative-decoding/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/17-infrastructure-and-production/05-eagle3-speculative-decoding/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/17-infrastructure-and-production/05-eagle3-speculative-decoding/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/17-infrastructure-and-production/05-eagle3-speculative-decoding/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/17-infrastructure-and-production/05-eagle3-speculative-decoding/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/17-infrastructure-and-production/05-eagle3-speculative-decoding/outputs/skill-eagle3-rollout.md",
+      "type": "document",
+      "name": "skill-eagle3-rollout.md",
+      "filePath": "phases/17-infrastructure-and-production/05-eagle3-speculative-decoding/outputs/skill-eagle3-rollout.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/17-infrastructure-and-production/05-eagle3-speculative-decoding/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/17-infrastructure-and-production/05-eagle3-speculative-decoding/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/17-infrastructure-and-production/06-sglang-radixattention/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/17-infrastructure-and-production/06-sglang-radixattention/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/17-infrastructure-and-production/06-sglang-radixattention/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/17-infrastructure-and-production/06-sglang-radixattention/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/17-infrastructure-and-production/06-sglang-radixattention/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/17-infrastructure-and-production/06-sglang-radixattention/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/17-infrastructure-and-production/02-inference-platform-economics/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/17-infrastructure-and-production/02-inference-platform-economics/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/17-infrastructure-and-production/02-inference-platform-economics/outputs/skill-inference-platform-picker.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/17-infrastructure-and-production/02-inference-platform-economics/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/17-infrastructure-and-production/03-gpu-autoscaling-kubernetes/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/17-infrastructure-and-production/03-gpu-autoscaling-kubernetes/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/17-infrastructure-and-production/03-gpu-autoscaling-kubernetes/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/17-infrastructure-and-production/03-gpu-autoscaling-kubernetes/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/17-infrastructure-and-production/03-gpu-autoscaling-kubernetes/outputs/skill-gpu-autoscaler-plan.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/17-infrastructure-and-production/03-gpu-autoscaling-kubernetes/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/17-infrastructure-and-production/04-vllm-serving-internals/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/17-infrastructure-and-production/04-vllm-serving-internals/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/17-infrastructure-and-production/04-vllm-serving-internals/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/17-infrastructure-and-production/04-vllm-serving-internals/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/17-infrastructure-and-production/04-vllm-serving-internals/outputs/skill-vllm-scheduler-reader.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/17-infrastructure-and-production/04-vllm-serving-internals/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/17-infrastructure-and-production/05-eagle3-speculative-decoding/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/17-infrastructure-and-production/05-eagle3-speculative-decoding/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/17-infrastructure-and-production/05-eagle3-speculative-decoding/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/17-infrastructure-and-production/05-eagle3-speculative-decoding/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/17-infrastructure-and-production/05-eagle3-speculative-decoding/outputs/skill-eagle3-rollout.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/17-infrastructure-and-production/05-eagle3-speculative-decoding/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/17-infrastructure-and-production/06-sglang-radixattention/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/17-infrastructure-and-production/06-sglang-radixattention/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/17-infrastructure-and-production/06-sglang-radixattention/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

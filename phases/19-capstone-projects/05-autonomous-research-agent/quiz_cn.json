@@ -1,0 +1,90 @@
+{
+  "lesson": "05-autonomous-research-agent",
+  "title": "Capstone 05 — Autonomous Research Agent (AI-Scientist Class)",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "AI科学家级代理使用什么搜索形状来探索实验？",
+      "options": [
+        "对令牌输出进行波束搜索",
+        "在具有新颖性 x 质量 x 预算分数的实验节点上进行最佳优先树搜索",
+        "来自人类反馈的纯粹强化学习",
+        "随机评分的广度优先扩展"
+      ],
+      "correct": 1,
+      "explanation": ""
+    },
+    {
+      "stage": "pre",
+      "question": "为什么沙箱配置了 --network=none 和有限的资源上限？",
+      "options": [
+        "强制代理使用提示缓存",
+        "强制执行确定性浮点运算",
+        "默认允许 GPU 直通",
+        "防止网络出口并将实验副作用限制在可重现的范围内"
+      ],
+      "correct": 3,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "视觉批评步骤在作家循环中的作用是什么？",
+      "options": [
+        "将数字转换为条形图",
+        "将 LaTeX 草稿编译为 PDF，然后具有 VLM 评论布局、图形易读性和声明证据对齐",
+        "从屏幕截图生成新的实验想法",
+        "在渲染时替换 matplotlib"
+      ],
+      "correct": 1,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "审稿人整体如何控制管道？",
+      "options": [
+        "单个法官接受或拒绝二进制标志",
+        "评审员匿名投票，多数获胜",
+        "仅在发布后进行评论",
+        "五名评委对 NeurIPS 风格的评分标准进行评分，加权总和必须超过阈值，否则草稿将循环返回作者"
+      ],
+      "correct": 3,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "顶点对每篇论文执行哪种成本纪律？",
+      "options": [
+        "通过 Langfuse 计数器和预运行估算跟踪 30 美元的硬预算",
+        "仅成本优化，无需质量检查",
+        "无限计算，仅限硬挂钟",
+        "跟踪 GPU 小时数但从未设定上限"
+      ],
+      "correct": 0,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "哪个评分函数对树节点进行排序以便进一步扩展？",
+      "options": [
+        "新颖性x质量x剩余预算",
+        "相关论文被引用次数",
+        "随机统一优先级",
+        "输出长度和令牌计数"
+      ],
+      "correct": 0,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "红队报告对系统进行了哪些操作？",
+      "options": [
+        "缓存系统提示命中率",
+        "矢量数据库中的多租户数据泄漏",
+        "丢包情况下的延迟尾部",
+        "沙箱逃逸尝试，例如分叉炸弹、网络渗透和文件系统逃逸"
+      ],
+      "correct": 3,
+      "explanation": ""
+    }
+  ]
+}

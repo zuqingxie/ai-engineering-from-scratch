@@ -1,0 +1,78 @@
+{
+  "lesson": "15-indirect-prompt-injection",
+  "title": "Indirect Prompt Injection - Production Attack Surface",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "间接提示注入 (IPI) 与直接提示注入有何区别？",
+      "options": [
+        "IPI需要对目标模型进行微调",
+        "IPI 将指令嵌入到代理在正常操作期间使用的外部内容（网页、电子邮件、工具输出）中，而攻击者无需接触用户的提示",
+        "IPI是越狱的同义词",
+        "IPI 仅适用于多式联运模型"
+      ],
+      "correct": 1,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "以下哪一个不是本课程中列出的三个 IPI 传递载体之一？",
+      "options": [
+        "检索增强生成（中毒检索）",
+        "用户直接进行系统提示编辑",
+        "刀具输出",
+        "收件箱/文档工作流程"
+      ],
+      "correct": 1,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "为什么用户输入过滤器会错过 IPI？",
+      "options": [
+        "过滤器无法读取 JSON",
+        "用户输入过滤器区分大小写",
+        "有效负载永远不会出现在用户的输入中；它出现在检索到的或工具提供的内容中",
+        "过滤器仅在模型响应后运行"
+      ],
+      "correct": 2,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "人工智能代理的信息流控制（IFC）的核心原则是什么？",
+      "options": [
+        "加密所有检索到的内容",
+        "仅使用单轮提示",
+        "默认禁用所有工具",
+        "按来源将内容标记为可信或不可信；由不可信内容触发的操作在执行之前必须得到可信输入的批准"
+      ],
+      "correct": 3,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "纳斯尔等人做了什么？ （2025 年 10 月，“攻击者第二次行动”）找到大约 12 个已发布的带有自适应攻击的 IPI 防御？",
+      "options": [
+        "自适应攻击的评估成本太高",
+        "他们报告的 ASR 接近于零，但受到自适应攻击",
+        "仅一处防御被破",
+        "自适应攻击（梯度、强化学习、随机搜索、人类红队）打破了超过 90% 的攻击，尽管它们最初声称 ASR 接近于零"
+      ],
+      "correct": 3,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "即时注入在 2025 年 OWASP LLM 前 10 名中排名第几？",
+      "options": [
+        "未列出",
+        "LLM01（顶级，#1 应用层威胁）",
+        "法学硕士05",
+        "LLM10（最低）"
+      ],
+      "correct": 1,
+      "explanation": ""
+    }
+  ]
+}

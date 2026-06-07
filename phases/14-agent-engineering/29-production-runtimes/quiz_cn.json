@@ -1,0 +1,90 @@
+{
+  "lesson": "29-production-runtimes",
+  "title": "Production Runtimes: Queue, Event, Cron",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "课程列出的六种运行时形状是什么？",
+      "options": [
+        "请求-响应、流式传输、持久执行、基于队列、事件驱动、计划",
+        "读、写、执行、fork、退出、等待",
+        "REST、gRPC、GraphQL、WebSocket、SSE、MQTT",
+        "映射、过滤、缩小、折叠、扫描、分组"
+      ],
+      "correct": 0,
+      "explanation": "这些是六种运行时形状；在选择框架之前先选择形状。"
+    },
+    {
+      "stage": "pre",
+      "question": "什么时候请求-响应不合适？",
+      "options": [
+        "1秒分类",
+        "当任务花费的时间超过 30 秒并且用户挂断而工作人员堆积时",
+        "关于 REST API",
+        "关于内部服务"
+      ],
+      "correct": 1,
+      "explanation": "同步 HTTP 只适用于短任务；长任务需要队列/持久/事件形状。"
+    },
+    {
+      "stage": "check",
+      "question": "持久执行的核心属性是什么？",
+      "options": [
+        "更快的推理",
+        "每个步骤后都会对状态进行检查点，以便运行时可以在失败时从上一个成功步骤恢复",
+        "更低的代币成本",
+        "原生语音支持"
+      ],
+      "correct": 1,
+      "explanation": "检查点和恢复是差异化因素； LangGraph 是本课的参考资料。"
+    },
+    {
+      "stage": "check",
+      "question": "哪种人为观察证明了长视野代理基于队列的运行时间是合理的？",
+      "options": [
+        "任务总是在 5 秒内完成",
+        "电脑使用公告：每项任务几十到几百步属正常",
+        "任务必须同步运行",
+        "Cron 解决一切"
+      ],
+      "correct": 1,
+      "explanation": "Anthropic 正常情况下为每个任务标记了数十到数百步；该工作负载需要队列或持久的运行时。"
+    },
+    {
+      "stage": "check",
+      "question": "课程中“可观察性是承重的”是什么意思？",
+      "options": [
+        "日志很漂亮",
+        "如果没有 OTel GenAI 跨度和 Langfuse/Phoenix/Opik 后端，您无法调试在第 40 步失败的多步骤代理",
+        "磁盘已满",
+        "提供商需要它来计费"
+      ],
+      "correct": 1,
+      "explanation": "对于多步代理来说，可观察性不是可选的；这就是调试和从头开始重放之间的区别。"
+    },
+    {
+      "stage": "post",
+      "question": "为什么队列工作人员必须有死信队列（DLQ）？",
+      "options": [
+        "如果没有 DLQ，失败的作业会悄然消失",
+        "AWS 需要 DLQ",
+        "DLQ 使工作更快",
+        "DLQ 已加密"
+      ],
+      "correct": 0,
+      "explanation": "没有 DLQ 的失败作业消失； DLQ 是失败作业的停车场。"
+    },
+    {
+      "stage": "post",
+      "question": "本课建议将 cron 形代理与什么配对？",
+      "options": [
+        "GPU 自动缩放器",
+        "持久执行，因此失败的夜间运行会在下一个周期恢复",
+        "流媒体 SSE",
+        "网络RTC"
+      ],
+      "correct": 1,
+      "explanation": "Cron + 持久执行可以从失败的计划运行中干净地恢复。"
+    }
+  ]
+}

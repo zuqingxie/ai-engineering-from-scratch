@@ -1,0 +1,541 @@
+{
+  "nodes": [
+    {
+      "id": "file:phases/13-tools-and-protocols/16-mcp-security-oauth-2-1/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/13-tools-and-protocols/16-mcp-security-oauth-2-1/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/13-tools-and-protocols/16-mcp-security-oauth-2-1/outputs/skill-oauth-scope-planner.md",
+      "type": "document",
+      "name": "skill-oauth-scope-planner.md",
+      "filePath": "phases/13-tools-and-protocols/16-mcp-security-oauth-2-1/outputs/skill-oauth-scope-planner.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/13-tools-and-protocols/17-mcp-gateways-and-registries/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/13-tools-and-protocols/17-mcp-gateways-and-registries/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/13-tools-and-protocols/17-mcp-gateways-and-registries/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/13-tools-and-protocols/17-mcp-gateways-and-registries/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/13-tools-and-protocols/17-mcp-gateways-and-registries/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/13-tools-and-protocols/17-mcp-gateways-and-registries/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/13-tools-and-protocols/17-mcp-gateways-and-registries/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/13-tools-and-protocols/17-mcp-gateways-and-registries/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/13-tools-and-protocols/17-mcp-gateways-and-registries/outputs/skill-gateway-bootstrap.md",
+      "type": "document",
+      "name": "skill-gateway-bootstrap.md",
+      "filePath": "phases/13-tools-and-protocols/17-mcp-gateways-and-registries/outputs/skill-gateway-bootstrap.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/13-tools-and-protocols/18-mcp-auth-production/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/13-tools-and-protocols/18-mcp-auth-production/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/13-tools-and-protocols/18-mcp-auth-production/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/13-tools-and-protocols/18-mcp-auth-production/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/13-tools-and-protocols/18-mcp-auth-production/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/13-tools-and-protocols/18-mcp-auth-production/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/13-tools-and-protocols/18-mcp-auth-production/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/13-tools-and-protocols/18-mcp-auth-production/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/13-tools-and-protocols/18-mcp-auth-production/outputs/skill-mcp-auth.md",
+      "type": "document",
+      "name": "skill-mcp-auth.md",
+      "filePath": "phases/13-tools-and-protocols/18-mcp-auth-production/outputs/skill-mcp-auth.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/13-tools-and-protocols/19-a2a-protocol/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/13-tools-and-protocols/19-a2a-protocol/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:phases/13-tools-and-protocols/19-a2a-protocol/code/main.ts",
+      "type": "file",
+      "name": "main.ts",
+      "filePath": "phases/13-tools-and-protocols/19-a2a-protocol/code/main.ts",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "typescript"
+      ],
+      "language": "typescript"
+    },
+    {
+      "id": "document:phases/13-tools-and-protocols/19-a2a-protocol/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/13-tools-and-protocols/19-a2a-protocol/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/13-tools-and-protocols/19-a2a-protocol/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/13-tools-and-protocols/19-a2a-protocol/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/13-tools-and-protocols/19-a2a-protocol/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/13-tools-and-protocols/19-a2a-protocol/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/13-tools-and-protocols/19-a2a-protocol/outputs/skill-a2a-agent-spec.md",
+      "type": "document",
+      "name": "skill-a2a-agent-spec.md",
+      "filePath": "phases/13-tools-and-protocols/19-a2a-protocol/outputs/skill-a2a-agent-spec.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "test",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/13-tools-and-protocols/20-opentelemetry-genai/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/13-tools-and-protocols/20-opentelemetry-genai/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/13-tools-and-protocols/20-opentelemetry-genai/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/13-tools-and-protocols/20-opentelemetry-genai/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/13-tools-and-protocols/20-opentelemetry-genai/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/13-tools-and-protocols/20-opentelemetry-genai/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/13-tools-and-protocols/20-opentelemetry-genai/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/13-tools-and-protocols/20-opentelemetry-genai/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/13-tools-and-protocols/20-opentelemetry-genai/outputs/skill-otel-genai-instrumentation.md",
+      "type": "document",
+      "name": "skill-otel-genai-instrumentation.md",
+      "filePath": "phases/13-tools-and-protocols/20-opentelemetry-genai/outputs/skill-otel-genai-instrumentation.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/13-tools-and-protocols/21-llm-routing-layer/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/13-tools-and-protocols/21-llm-routing-layer/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/13-tools-and-protocols/21-llm-routing-layer/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/13-tools-and-protocols/21-llm-routing-layer/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/13-tools-and-protocols/16-mcp-security-oauth-2-1/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/13-tools-and-protocols/16-mcp-security-oauth-2-1/outputs/skill-oauth-scope-planner.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/13-tools-and-protocols/17-mcp-gateways-and-registries/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/13-tools-and-protocols/17-mcp-gateways-and-registries/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/13-tools-and-protocols/17-mcp-gateways-and-registries/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/13-tools-and-protocols/17-mcp-gateways-and-registries/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/13-tools-and-protocols/17-mcp-gateways-and-registries/outputs/skill-gateway-bootstrap.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/13-tools-and-protocols/18-mcp-auth-production/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/13-tools-and-protocols/18-mcp-auth-production/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/13-tools-and-protocols/18-mcp-auth-production/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/13-tools-and-protocols/18-mcp-auth-production/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/13-tools-and-protocols/18-mcp-auth-production/outputs/skill-mcp-auth.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/13-tools-and-protocols/19-a2a-protocol/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/13-tools-and-protocols/19-a2a-protocol/code/main.ts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/13-tools-and-protocols/19-a2a-protocol/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/13-tools-and-protocols/19-a2a-protocol/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/13-tools-and-protocols/19-a2a-protocol/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/13-tools-and-protocols/19-a2a-protocol/outputs/skill-a2a-agent-spec.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/13-tools-and-protocols/20-opentelemetry-genai/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/13-tools-and-protocols/20-opentelemetry-genai/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/13-tools-and-protocols/20-opentelemetry-genai/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/13-tools-and-protocols/20-opentelemetry-genai/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/13-tools-and-protocols/20-opentelemetry-genai/outputs/skill-otel-genai-instrumentation.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/13-tools-and-protocols/21-llm-routing-layer/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/13-tools-and-protocols/21-llm-routing-layer/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

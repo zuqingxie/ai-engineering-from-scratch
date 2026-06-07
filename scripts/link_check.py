@@ -25,7 +25,13 @@ Usage:
 Companion to `scripts/audit_lessons.py` (rule L010 validates *internal* links);
 this script handles the external HTTP/HTTPS surface.
 """
-
+"""
+这个脚本检查每个markdown文档中的外部HTTP/HTTPS链接。
+需要Python 3.10+（PEP 604联合类型）。
+它会遍历仓库下的每个`*.md`文件（不包括`.git/`、`node_modules/`、`outputs/`），从markdown
+链接语法和裸URL中提取`https?://` URL，去重，并通过HEAD请求验证每个唯一URL（在405/501上回退到GET）。
+结果会缓存在`.link-cache.json`（仓库根目录，git忽略）中7天，因此重新运行不会对外部服务造成压力。
+"""
 from __future__ import annotations
 
 import argparse

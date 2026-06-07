@@ -1,0 +1,246 @@
+{
+  "nodes": [
+    {
+      "id": "config:.coderabbit.yaml",
+      "type": "config",
+      "name": ".coderabbit.yaml",
+      "filePath": ".coderabbit.yaml",
+      "summary": "项目配置文件，控制仓库工具、部署、编辑器或运行时行为。",
+      "complexity": "simple",
+      "tags": [
+        "configuration",
+        "yaml"
+      ],
+      "language": "yaml"
+    },
+    {
+      "id": "document:AGENTS.md",
+      "type": "document",
+      "name": "AGENTS.md",
+      "filePath": "AGENTS.md",
+      "summary": "项目文档文件，补充课程、贡献流程或仓库治理信息。",
+      "complexity": "complex",
+      "tags": [
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:CHANGELOG.md",
+      "type": "document",
+      "name": "CHANGELOG.md",
+      "filePath": "CHANGELOG.md",
+      "summary": "项目文档文件，补充课程、贡献流程或仓库治理信息。",
+      "complexity": "simple",
+      "tags": [
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:CODE_OF_CONDUCT.md",
+      "type": "document",
+      "name": "CODE_OF_CONDUCT.md",
+      "filePath": "CODE_OF_CONDUCT.md",
+      "summary": "项目文档文件，补充课程、贡献流程或仓库治理信息。",
+      "complexity": "simple",
+      "tags": [
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:CONTRIBUTING.md",
+      "type": "document",
+      "name": "CONTRIBUTING.md",
+      "filePath": "CONTRIBUTING.md",
+      "summary": "项目文档文件，补充课程、贡献流程或仓库治理信息。",
+      "complexity": "moderate",
+      "tags": [
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:FORKING.md",
+      "type": "document",
+      "name": "FORKING.md",
+      "filePath": "FORKING.md",
+      "summary": "项目文档文件，补充课程、贡献流程或仓库治理信息。",
+      "complexity": "moderate",
+      "tags": [
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:LESSON_TEMPLATE.md",
+      "type": "document",
+      "name": "LESSON_TEMPLATE.md",
+      "filePath": "LESSON_TEMPLATE.md",
+      "summary": "项目文档文件，补充课程、贡献流程或仓库治理信息。",
+      "complexity": "moderate",
+      "tags": [
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "README.md",
+      "summary": "仓库入口文档，说明课程定位、学习路径、阶段结构和内置技能。",
+      "complexity": "complex",
+      "tags": [
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:ROADMAP.md",
+      "type": "document",
+      "name": "ROADMAP.md",
+      "filePath": "ROADMAP.md",
+      "summary": "课程路线图，记录 20 个阶段的课程规划与完成状态。",
+      "complexity": "complex",
+      "tags": [
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:SPONSORS.md",
+      "type": "document",
+      "name": "SPONSORS.md",
+      "filePath": "SPONSORS.md",
+      "summary": "项目文档文件，补充课程、贡献流程或仓库治理信息。",
+      "complexity": "moderate",
+      "tags": [
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:requirements.txt",
+      "type": "document",
+      "name": "requirements.txt",
+      "filePath": "requirements.txt",
+      "summary": "项目文档文件，补充课程、贡献流程或仓库治理信息。",
+      "complexity": "simple",
+      "tags": [
+        "documentation",
+        "txt"
+      ],
+      "language": "txt"
+    },
+    {
+      "id": "config:vercel.json",
+      "type": "config",
+      "name": "vercel.json",
+      "filePath": "vercel.json",
+      "summary": "项目配置文件，控制仓库工具、部署、编辑器或运行时行为。",
+      "complexity": "simple",
+      "tags": [
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:configuration",
+      "target": "config:.coderabbit.yaml",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:project-docs",
+      "target": "document:AGENTS.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:project-docs",
+      "target": "document:CHANGELOG.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:project-docs",
+      "target": "document:CODE_OF_CONDUCT.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:project-docs",
+      "target": "document:CONTRIBUTING.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:project-docs",
+      "target": "document:FORKING.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:project-docs",
+      "target": "document:LESSON_TEMPLATE.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:project-docs",
+      "target": "document:README.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:project-docs",
+      "target": "document:ROADMAP.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:project-docs",
+      "target": "document:SPONSORS.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:automation",
+      "target": "document:requirements.txt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:configuration",
+      "target": "config:vercel.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,547 @@
+{
+  "nodes": [
+    {
+      "id": "document:phases/00-setup-and-tooling/03-gpu-setup-and-cloud/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/00-setup-and-tooling/03-gpu-setup-and-cloud/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/00-setup-and-tooling/03-gpu-setup-and-cloud/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/00-setup-and-tooling/03-gpu-setup-and-cloud/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/00-setup-and-tooling/04-apis-and-keys/code/first_api_call.py",
+      "type": "file",
+      "name": "first_api_call.py",
+      "filePath": "phases/00-setup-and-tooling/04-apis-and-keys/code/first_api_call.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:phases/00-setup-and-tooling/04-apis-and-keys/code/first_api_call.ts",
+      "type": "file",
+      "name": "first_api_call.ts",
+      "filePath": "phases/00-setup-and-tooling/04-apis-and-keys/code/first_api_call.ts",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "typescript"
+      ],
+      "language": "typescript"
+    },
+    {
+      "id": "file:phases/00-setup-and-tooling/04-apis-and-keys/code/first_openai_api_call.py",
+      "type": "file",
+      "name": "first_openai_api_call.py",
+      "filePath": "phases/00-setup-and-tooling/04-apis-and-keys/code/first_openai_api_call.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/00-setup-and-tooling/04-apis-and-keys/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/00-setup-and-tooling/04-apis-and-keys/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/00-setup-and-tooling/04-apis-and-keys/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/00-setup-and-tooling/04-apis-and-keys/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/00-setup-and-tooling/04-apis-and-keys/outputs/prompt-api-troubleshooter.md",
+      "type": "document",
+      "name": "prompt-api-troubleshooter.md",
+      "filePath": "phases/00-setup-and-tooling/04-apis-and-keys/outputs/prompt-api-troubleshooter.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/00-setup-and-tooling/04-apis-and-keys/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/00-setup-and-tooling/04-apis-and-keys/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/00-setup-and-tooling/05-jupyter-notebooks/code/notebook_tips.py",
+      "type": "file",
+      "name": "notebook_tips.py",
+      "filePath": "phases/00-setup-and-tooling/05-jupyter-notebooks/code/notebook_tips.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/00-setup-and-tooling/05-jupyter-notebooks/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/00-setup-and-tooling/05-jupyter-notebooks/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/00-setup-and-tooling/05-jupyter-notebooks/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/00-setup-and-tooling/05-jupyter-notebooks/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/00-setup-and-tooling/05-jupyter-notebooks/outputs/prompt-notebook-helper.md",
+      "type": "document",
+      "name": "prompt-notebook-helper.md",
+      "filePath": "phases/00-setup-and-tooling/05-jupyter-notebooks/outputs/prompt-notebook-helper.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/00-setup-and-tooling/05-jupyter-notebooks/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/00-setup-and-tooling/05-jupyter-notebooks/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/00-setup-and-tooling/06-python-environments/code/env_setup.sh",
+      "type": "file",
+      "name": "env_setup.sh",
+      "filePath": "phases/00-setup-and-tooling/06-python-environments/code/env_setup.sh",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "automation",
+        "shell"
+      ],
+      "language": "shell"
+    },
+    {
+      "id": "document:phases/00-setup-and-tooling/06-python-environments/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/00-setup-and-tooling/06-python-environments/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/00-setup-and-tooling/06-python-environments/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/00-setup-and-tooling/06-python-environments/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/00-setup-and-tooling/06-python-environments/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/00-setup-and-tooling/06-python-environments/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "document:phases/00-setup-and-tooling/07-docker-for-ai/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/00-setup-and-tooling/07-docker-for-ai/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/00-setup-and-tooling/07-docker-for-ai/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/00-setup-and-tooling/07-docker-for-ai/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/00-setup-and-tooling/07-docker-for-ai/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/00-setup-and-tooling/07-docker-for-ai/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "config:phases/00-setup-and-tooling/08-editor-setup/code/vscode/extensions.json",
+      "type": "config",
+      "name": "extensions.json",
+      "filePath": "phases/00-setup-and-tooling/08-editor-setup/code/vscode/extensions.json",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "示例代码",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "config:phases/00-setup-and-tooling/08-editor-setup/code/vscode/settings.json",
+      "type": "config",
+      "name": "settings.json",
+      "filePath": "phases/00-setup-and-tooling/08-editor-setup/code/vscode/settings.json",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "document:phases/00-setup-and-tooling/08-editor-setup/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/00-setup-and-tooling/08-editor-setup/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/00-setup-and-tooling/08-editor-setup/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/00-setup-and-tooling/08-editor-setup/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/00-setup-and-tooling/03-gpu-setup-and-cloud/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/00-setup-and-tooling/03-gpu-setup-and-cloud/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/00-setup-and-tooling/04-apis-and-keys/code/first_api_call.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/00-setup-and-tooling/04-apis-and-keys/code/first_api_call.ts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/00-setup-and-tooling/04-apis-and-keys/code/first_openai_api_call.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/00-setup-and-tooling/04-apis-and-keys/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/00-setup-and-tooling/04-apis-and-keys/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/00-setup-and-tooling/04-apis-and-keys/outputs/prompt-api-troubleshooter.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/00-setup-and-tooling/04-apis-and-keys/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/00-setup-and-tooling/05-jupyter-notebooks/code/notebook_tips.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/00-setup-and-tooling/05-jupyter-notebooks/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/00-setup-and-tooling/05-jupyter-notebooks/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/00-setup-and-tooling/05-jupyter-notebooks/outputs/prompt-notebook-helper.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/00-setup-and-tooling/05-jupyter-notebooks/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/00-setup-and-tooling/06-python-environments/code/env_setup.sh",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/00-setup-and-tooling/06-python-environments/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/00-setup-and-tooling/06-python-environments/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/00-setup-and-tooling/06-python-environments/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/00-setup-and-tooling/07-docker-for-ai/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/00-setup-and-tooling/07-docker-for-ai/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/00-setup-and-tooling/07-docker-for-ai/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/00-setup-and-tooling/08-editor-setup/code/vscode/extensions.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/00-setup-and-tooling/08-editor-setup/code/vscode/settings.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/00-setup-and-tooling/08-editor-setup/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/00-setup-and-tooling/08-editor-setup/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,545 @@
+{
+  "nodes": [
+    {
+      "id": "document:phases/10-llms-from-scratch/08-dpo/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/10-llms-from-scratch/08-dpo/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/10-llms-from-scratch/08-dpo/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/10-llms-from-scratch/08-dpo/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/10-llms-from-scratch/08-dpo/outputs/prompt-alignment-method-selector.md",
+      "type": "document",
+      "name": "prompt-alignment-method-selector.md",
+      "filePath": "phases/10-llms-from-scratch/08-dpo/outputs/prompt-alignment-method-selector.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/10-llms-from-scratch/08-dpo/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/10-llms-from-scratch/08-dpo/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/10-llms-from-scratch/09-constitutional-ai-self-improvement/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/10-llms-from-scratch/09-constitutional-ai-self-improvement/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/10-llms-from-scratch/09-constitutional-ai-self-improvement/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/10-llms-from-scratch/09-constitutional-ai-self-improvement/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/10-llms-from-scratch/09-constitutional-ai-self-improvement/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/10-llms-from-scratch/09-constitutional-ai-self-improvement/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/10-llms-from-scratch/09-constitutional-ai-self-improvement/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/10-llms-from-scratch/09-constitutional-ai-self-improvement/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/10-llms-from-scratch/09-constitutional-ai-self-improvement/outputs/skill-self-improvement-auditor.md",
+      "type": "document",
+      "name": "skill-self-improvement-auditor.md",
+      "filePath": "phases/10-llms-from-scratch/09-constitutional-ai-self-improvement/outputs/skill-self-improvement-auditor.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/10-llms-from-scratch/10-evaluation/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/10-llms-from-scratch/10-evaluation/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/10-llms-from-scratch/10-evaluation/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/10-llms-from-scratch/10-evaluation/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/10-llms-from-scratch/10-evaluation/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/10-llms-from-scratch/10-evaluation/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/10-llms-from-scratch/10-evaluation/outputs/prompt-eval-designer.md",
+      "type": "document",
+      "name": "prompt-eval-designer.md",
+      "filePath": "phases/10-llms-from-scratch/10-evaluation/outputs/prompt-eval-designer.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/10-llms-from-scratch/10-evaluation/outputs/skill-llm-evaluation.md",
+      "type": "document",
+      "name": "skill-llm-evaluation.md",
+      "filePath": "phases/10-llms-from-scratch/10-evaluation/outputs/skill-llm-evaluation.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/10-llms-from-scratch/10-evaluation/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/10-llms-from-scratch/10-evaluation/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/10-llms-from-scratch/11-quantization/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/10-llms-from-scratch/11-quantization/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:phases/10-llms-from-scratch/11-quantization/code/main.rs",
+      "type": "file",
+      "name": "main.rs",
+      "filePath": "phases/10-llms-from-scratch/11-quantization/code/main.rs",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "rust"
+      ],
+      "language": "rust"
+    },
+    {
+      "id": "document:phases/10-llms-from-scratch/11-quantization/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/10-llms-from-scratch/11-quantization/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/10-llms-from-scratch/11-quantization/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/10-llms-from-scratch/11-quantization/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/10-llms-from-scratch/11-quantization/outputs/skill-quantization.md",
+      "type": "document",
+      "name": "skill-quantization.md",
+      "filePath": "phases/10-llms-from-scratch/11-quantization/outputs/skill-quantization.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/10-llms-from-scratch/11-quantization/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/10-llms-from-scratch/11-quantization/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/10-llms-from-scratch/12-inference-optimization/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/10-llms-from-scratch/12-inference-optimization/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:phases/10-llms-from-scratch/12-inference-optimization/code/main.rs",
+      "type": "file",
+      "name": "main.rs",
+      "filePath": "phases/10-llms-from-scratch/12-inference-optimization/code/main.rs",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "rust"
+      ],
+      "language": "rust"
+    },
+    {
+      "id": "document:phases/10-llms-from-scratch/12-inference-optimization/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/10-llms-from-scratch/12-inference-optimization/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/10-llms-from-scratch/12-inference-optimization/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/10-llms-from-scratch/12-inference-optimization/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/10-llms-from-scratch/08-dpo/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/10-llms-from-scratch/08-dpo/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/10-llms-from-scratch/08-dpo/outputs/prompt-alignment-method-selector.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/10-llms-from-scratch/08-dpo/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/10-llms-from-scratch/09-constitutional-ai-self-improvement/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/10-llms-from-scratch/09-constitutional-ai-self-improvement/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/10-llms-from-scratch/09-constitutional-ai-self-improvement/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/10-llms-from-scratch/09-constitutional-ai-self-improvement/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/10-llms-from-scratch/09-constitutional-ai-self-improvement/outputs/skill-self-improvement-auditor.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/10-llms-from-scratch/10-evaluation/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/10-llms-from-scratch/10-evaluation/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/10-llms-from-scratch/10-evaluation/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/10-llms-from-scratch/10-evaluation/outputs/prompt-eval-designer.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/10-llms-from-scratch/10-evaluation/outputs/skill-llm-evaluation.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/10-llms-from-scratch/10-evaluation/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/10-llms-from-scratch/11-quantization/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/10-llms-from-scratch/11-quantization/code/main.rs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/10-llms-from-scratch/11-quantization/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/10-llms-from-scratch/11-quantization/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/10-llms-from-scratch/11-quantization/outputs/skill-quantization.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/10-llms-from-scratch/11-quantization/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/10-llms-from-scratch/12-inference-optimization/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/10-llms-from-scratch/12-inference-optimization/code/main.rs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/10-llms-from-scratch/12-inference-optimization/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/10-llms-from-scratch/12-inference-optimization/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

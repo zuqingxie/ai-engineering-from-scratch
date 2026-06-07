@@ -1,0 +1,540 @@
+{
+  "nodes": [
+    {
+      "id": "file:phases/06-speech-and-audio/10-audio-language-models/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/06-speech-and-audio/10-audio-language-models/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/06-speech-and-audio/10-audio-language-models/outputs/skill-alm-picker.md",
+      "type": "document",
+      "name": "skill-alm-picker.md",
+      "filePath": "phases/06-speech-and-audio/10-audio-language-models/outputs/skill-alm-picker.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/06-speech-and-audio/11-real-time-audio-processing/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/06-speech-and-audio/11-real-time-audio-processing/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:phases/06-speech-and-audio/11-real-time-audio-processing/code/main.rs",
+      "type": "file",
+      "name": "main.rs",
+      "filePath": "phases/06-speech-and-audio/11-real-time-audio-processing/code/main.rs",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "rust"
+      ],
+      "language": "rust"
+    },
+    {
+      "id": "document:phases/06-speech-and-audio/11-real-time-audio-processing/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/06-speech-and-audio/11-real-time-audio-processing/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/06-speech-and-audio/11-real-time-audio-processing/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/06-speech-and-audio/11-real-time-audio-processing/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/06-speech-and-audio/11-real-time-audio-processing/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/06-speech-and-audio/11-real-time-audio-processing/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/06-speech-and-audio/11-real-time-audio-processing/outputs/skill-realtime-pipeline.md",
+      "type": "document",
+      "name": "skill-realtime-pipeline.md",
+      "filePath": "phases/06-speech-and-audio/11-real-time-audio-processing/outputs/skill-realtime-pipeline.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/06-speech-and-audio/12-voice-assistant-pipeline/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/06-speech-and-audio/12-voice-assistant-pipeline/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/06-speech-and-audio/12-voice-assistant-pipeline/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/06-speech-and-audio/12-voice-assistant-pipeline/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/06-speech-and-audio/12-voice-assistant-pipeline/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/06-speech-and-audio/12-voice-assistant-pipeline/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/06-speech-and-audio/12-voice-assistant-pipeline/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/06-speech-and-audio/12-voice-assistant-pipeline/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/06-speech-and-audio/12-voice-assistant-pipeline/outputs/skill-voice-assistant-architect.md",
+      "type": "document",
+      "name": "skill-voice-assistant-architect.md",
+      "filePath": "phases/06-speech-and-audio/12-voice-assistant-pipeline/outputs/skill-voice-assistant-architect.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/06-speech-and-audio/13-neural-audio-codecs/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/06-speech-and-audio/13-neural-audio-codecs/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/06-speech-and-audio/13-neural-audio-codecs/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/06-speech-and-audio/13-neural-audio-codecs/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/06-speech-and-audio/13-neural-audio-codecs/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/06-speech-and-audio/13-neural-audio-codecs/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/06-speech-and-audio/13-neural-audio-codecs/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/06-speech-and-audio/13-neural-audio-codecs/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/06-speech-and-audio/13-neural-audio-codecs/outputs/skill-codec-picker.md",
+      "type": "document",
+      "name": "skill-codec-picker.md",
+      "filePath": "phases/06-speech-and-audio/13-neural-audio-codecs/outputs/skill-codec-picker.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/06-speech-and-audio/14-voice-activity-detection-turn-taking/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/06-speech-and-audio/14-voice-activity-detection-turn-taking/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/06-speech-and-audio/14-voice-activity-detection-turn-taking/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/06-speech-and-audio/14-voice-activity-detection-turn-taking/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/06-speech-and-audio/14-voice-activity-detection-turn-taking/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/06-speech-and-audio/14-voice-activity-detection-turn-taking/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/06-speech-and-audio/14-voice-activity-detection-turn-taking/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/06-speech-and-audio/14-voice-activity-detection-turn-taking/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/06-speech-and-audio/14-voice-activity-detection-turn-taking/outputs/skill-vad-tuner.md",
+      "type": "document",
+      "name": "skill-vad-tuner.md",
+      "filePath": "phases/06-speech-and-audio/14-voice-activity-detection-turn-taking/outputs/skill-vad-tuner.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/06-speech-and-audio/15-streaming-speech-to-speech-moshi-hibiki/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/06-speech-and-audio/15-streaming-speech-to-speech-moshi-hibiki/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/06-speech-and-audio/15-streaming-speech-to-speech-moshi-hibiki/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/06-speech-and-audio/15-streaming-speech-to-speech-moshi-hibiki/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/06-speech-and-audio/10-audio-language-models/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/06-speech-and-audio/10-audio-language-models/outputs/skill-alm-picker.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/06-speech-and-audio/11-real-time-audio-processing/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/06-speech-and-audio/11-real-time-audio-processing/code/main.rs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/06-speech-and-audio/11-real-time-audio-processing/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/06-speech-and-audio/11-real-time-audio-processing/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/06-speech-and-audio/11-real-time-audio-processing/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/06-speech-and-audio/11-real-time-audio-processing/outputs/skill-realtime-pipeline.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/06-speech-and-audio/12-voice-assistant-pipeline/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/06-speech-and-audio/12-voice-assistant-pipeline/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/06-speech-and-audio/12-voice-assistant-pipeline/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/06-speech-and-audio/12-voice-assistant-pipeline/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/06-speech-and-audio/12-voice-assistant-pipeline/outputs/skill-voice-assistant-architect.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/06-speech-and-audio/13-neural-audio-codecs/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/06-speech-and-audio/13-neural-audio-codecs/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/06-speech-and-audio/13-neural-audio-codecs/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/06-speech-and-audio/13-neural-audio-codecs/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/06-speech-and-audio/13-neural-audio-codecs/outputs/skill-codec-picker.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/06-speech-and-audio/14-voice-activity-detection-turn-taking/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/06-speech-and-audio/14-voice-activity-detection-turn-taking/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/06-speech-and-audio/14-voice-activity-detection-turn-taking/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/06-speech-and-audio/14-voice-activity-detection-turn-taking/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/06-speech-and-audio/14-voice-activity-detection-turn-taking/outputs/skill-vad-tuner.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/06-speech-and-audio/15-streaming-speech-to-speech-moshi-hibiki/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/06-speech-and-audio/15-streaming-speech-to-speech-moshi-hibiki/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

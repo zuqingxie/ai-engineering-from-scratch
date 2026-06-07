@@ -1,0 +1,542 @@
+{
+  "nodes": [
+    {
+      "id": "file:phases/15-autonomous-systems/05-ai-scientist-v2/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/15-autonomous-systems/05-ai-scientist-v2/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/15-autonomous-systems/05-ai-scientist-v2/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/15-autonomous-systems/05-ai-scientist-v2/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/15-autonomous-systems/05-ai-scientist-v2/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/15-autonomous-systems/05-ai-scientist-v2/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/15-autonomous-systems/05-ai-scientist-v2/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/15-autonomous-systems/05-ai-scientist-v2/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/15-autonomous-systems/05-ai-scientist-v2/outputs/skill-ai-scientist-sandbox-review.md",
+      "type": "document",
+      "name": "skill-ai-scientist-sandbox-review.md",
+      "filePath": "phases/15-autonomous-systems/05-ai-scientist-v2/outputs/skill-ai-scientist-sandbox-review.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/15-autonomous-systems/06-automated-alignment-research/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/15-autonomous-systems/06-automated-alignment-research/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/15-autonomous-systems/06-automated-alignment-research/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/15-autonomous-systems/06-automated-alignment-research/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/15-autonomous-systems/06-automated-alignment-research/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/15-autonomous-systems/06-automated-alignment-research/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/15-autonomous-systems/06-automated-alignment-research/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/15-autonomous-systems/06-automated-alignment-research/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/15-autonomous-systems/06-automated-alignment-research/outputs/skill-aar-deployment-review.md",
+      "type": "document",
+      "name": "skill-aar-deployment-review.md",
+      "filePath": "phases/15-autonomous-systems/06-automated-alignment-research/outputs/skill-aar-deployment-review.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/15-autonomous-systems/07-recursive-self-improvement/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/15-autonomous-systems/07-recursive-self-improvement/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/15-autonomous-systems/07-recursive-self-improvement/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/15-autonomous-systems/07-recursive-self-improvement/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/15-autonomous-systems/07-recursive-self-improvement/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/15-autonomous-systems/07-recursive-self-improvement/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/15-autonomous-systems/07-recursive-self-improvement/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/15-autonomous-systems/07-recursive-self-improvement/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/15-autonomous-systems/07-recursive-self-improvement/outputs/skill-rsi-cycle-pause-spec.md",
+      "type": "document",
+      "name": "skill-rsi-cycle-pause-spec.md",
+      "filePath": "phases/15-autonomous-systems/07-recursive-self-improvement/outputs/skill-rsi-cycle-pause-spec.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "test",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/15-autonomous-systems/08-bounded-self-improvement/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/15-autonomous-systems/08-bounded-self-improvement/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/15-autonomous-systems/08-bounded-self-improvement/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/15-autonomous-systems/08-bounded-self-improvement/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/15-autonomous-systems/08-bounded-self-improvement/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/15-autonomous-systems/08-bounded-self-improvement/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/15-autonomous-systems/08-bounded-self-improvement/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/15-autonomous-systems/08-bounded-self-improvement/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/15-autonomous-systems/08-bounded-self-improvement/outputs/skill-bounded-loop-review.md",
+      "type": "document",
+      "name": "skill-bounded-loop-review.md",
+      "filePath": "phases/15-autonomous-systems/08-bounded-self-improvement/outputs/skill-bounded-loop-review.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/15-autonomous-systems/09-coding-agent-landscape/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/15-autonomous-systems/09-coding-agent-landscape/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/15-autonomous-systems/09-coding-agent-landscape/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/15-autonomous-systems/09-coding-agent-landscape/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/15-autonomous-systems/09-coding-agent-landscape/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/15-autonomous-systems/09-coding-agent-landscape/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/15-autonomous-systems/09-coding-agent-landscape/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/15-autonomous-systems/09-coding-agent-landscape/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/15-autonomous-systems/09-coding-agent-landscape/outputs/skill-scaffold-audit.md",
+      "type": "document",
+      "name": "skill-scaffold-audit.md",
+      "filePath": "phases/15-autonomous-systems/09-coding-agent-landscape/outputs/skill-scaffold-audit.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/15-autonomous-systems/05-ai-scientist-v2/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/15-autonomous-systems/05-ai-scientist-v2/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/15-autonomous-systems/05-ai-scientist-v2/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/15-autonomous-systems/05-ai-scientist-v2/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/15-autonomous-systems/05-ai-scientist-v2/outputs/skill-ai-scientist-sandbox-review.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/15-autonomous-systems/06-automated-alignment-research/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/15-autonomous-systems/06-automated-alignment-research/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/15-autonomous-systems/06-automated-alignment-research/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/15-autonomous-systems/06-automated-alignment-research/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/15-autonomous-systems/06-automated-alignment-research/outputs/skill-aar-deployment-review.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/15-autonomous-systems/07-recursive-self-improvement/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/15-autonomous-systems/07-recursive-self-improvement/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/15-autonomous-systems/07-recursive-self-improvement/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/15-autonomous-systems/07-recursive-self-improvement/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/15-autonomous-systems/07-recursive-self-improvement/outputs/skill-rsi-cycle-pause-spec.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/15-autonomous-systems/08-bounded-self-improvement/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/15-autonomous-systems/08-bounded-self-improvement/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/15-autonomous-systems/08-bounded-self-improvement/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/15-autonomous-systems/08-bounded-self-improvement/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/15-autonomous-systems/08-bounded-self-improvement/outputs/skill-bounded-loop-review.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/15-autonomous-systems/09-coding-agent-landscape/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/15-autonomous-systems/09-coding-agent-landscape/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/15-autonomous-systems/09-coding-agent-landscape/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/15-autonomous-systems/09-coding-agent-landscape/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/15-autonomous-systems/09-coding-agent-landscape/outputs/skill-scaffold-audit.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

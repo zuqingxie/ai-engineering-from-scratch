@@ -1,0 +1,296 @@
+{
+  "nodes": [
+    {
+      "id": "file:phases/19-capstone-projects/03-realtime-voice-assistant/code/ts/src/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "phases/19-capstone-projects/03-realtime-voice-assistant/code/ts/src/index.ts",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "typescript"
+      ],
+      "language": "typescript"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/03-realtime-voice-assistant/code/ts/src/orchestrator.ts",
+      "type": "file",
+      "name": "orchestrator.ts",
+      "filePath": "phases/19-capstone-projects/03-realtime-voice-assistant/code/ts/src/orchestrator.ts",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "typescript"
+      ],
+      "language": "typescript"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/03-realtime-voice-assistant/code/ts/src/protocol.ts",
+      "type": "file",
+      "name": "protocol.ts",
+      "filePath": "phases/19-capstone-projects/03-realtime-voice-assistant/code/ts/src/protocol.ts",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "示例代码",
+        "typescript"
+      ],
+      "language": "typescript"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/03-realtime-voice-assistant/code/ts/src/server.ts",
+      "type": "file",
+      "name": "server.ts",
+      "filePath": "phases/19-capstone-projects/03-realtime-voice-assistant/code/ts/src/server.ts",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "typescript"
+      ],
+      "language": "typescript"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/03-realtime-voice-assistant/code/ts/src/types.ts",
+      "type": "file",
+      "name": "types.ts",
+      "filePath": "phases/19-capstone-projects/03-realtime-voice-assistant/code/ts/src/types.ts",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "示例代码",
+        "typescript"
+      ],
+      "language": "typescript"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/03-realtime-voice-assistant/code/ts/src/vad.ts",
+      "type": "file",
+      "name": "vad.ts",
+      "filePath": "phases/19-capstone-projects/03-realtime-voice-assistant/code/ts/src/vad.ts",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "示例代码",
+        "typescript"
+      ],
+      "language": "typescript"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/03-realtime-voice-assistant/code/ts/tests/orchestrator.test.ts",
+      "type": "file",
+      "name": "orchestrator.test.ts",
+      "filePath": "phases/19-capstone-projects/03-realtime-voice-assistant/code/ts/tests/orchestrator.test.ts",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "test",
+        "typescript"
+      ],
+      "language": "typescript"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/03-realtime-voice-assistant/code/ts/tests/protocol.test.ts",
+      "type": "file",
+      "name": "protocol.test.ts",
+      "filePath": "phases/19-capstone-projects/03-realtime-voice-assistant/code/ts/tests/protocol.test.ts",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "示例代码",
+        "test",
+        "typescript"
+      ],
+      "language": "typescript"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/03-realtime-voice-assistant/code/ts/tests/vad.test.ts",
+      "type": "file",
+      "name": "vad.test.ts",
+      "filePath": "phases/19-capstone-projects/03-realtime-voice-assistant/code/ts/tests/vad.test.ts",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "示例代码",
+        "test",
+        "typescript"
+      ],
+      "language": "typescript"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/03-realtime-voice-assistant/code/ts/src/index.ts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:phases/19-capstone-projects/03-realtime-voice-assistant/code/ts/src/index.ts",
+      "target": "file:phases/19-capstone-projects/03-realtime-voice-assistant/code/ts/src/orchestrator.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:phases/19-capstone-projects/03-realtime-voice-assistant/code/ts/src/index.ts",
+      "target": "file:phases/19-capstone-projects/03-realtime-voice-assistant/code/ts/src/protocol.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:phases/19-capstone-projects/03-realtime-voice-assistant/code/ts/src/index.ts",
+      "target": "file:phases/19-capstone-projects/03-realtime-voice-assistant/code/ts/src/server.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:phases/19-capstone-projects/03-realtime-voice-assistant/code/ts/src/index.ts",
+      "target": "file:phases/19-capstone-projects/03-realtime-voice-assistant/code/ts/src/vad.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/03-realtime-voice-assistant/code/ts/src/orchestrator.ts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:phases/19-capstone-projects/03-realtime-voice-assistant/code/ts/src/orchestrator.ts",
+      "target": "file:phases/19-capstone-projects/03-realtime-voice-assistant/code/ts/src/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:phases/19-capstone-projects/03-realtime-voice-assistant/code/ts/src/orchestrator.ts",
+      "target": "file:phases/19-capstone-projects/03-realtime-voice-assistant/code/ts/src/vad.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/03-realtime-voice-assistant/code/ts/src/protocol.ts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/03-realtime-voice-assistant/code/ts/src/server.ts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:phases/19-capstone-projects/03-realtime-voice-assistant/code/ts/src/server.ts",
+      "target": "file:phases/19-capstone-projects/03-realtime-voice-assistant/code/ts/src/orchestrator.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:phases/19-capstone-projects/03-realtime-voice-assistant/code/ts/src/server.ts",
+      "target": "file:phases/19-capstone-projects/03-realtime-voice-assistant/code/ts/src/protocol.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:phases/19-capstone-projects/03-realtime-voice-assistant/code/ts/src/server.ts",
+      "target": "file:phases/19-capstone-projects/03-realtime-voice-assistant/code/ts/src/vad.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/03-realtime-voice-assistant/code/ts/src/types.ts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/03-realtime-voice-assistant/code/ts/src/vad.ts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:phases/19-capstone-projects/03-realtime-voice-assistant/code/ts/src/vad.ts",
+      "target": "file:phases/19-capstone-projects/03-realtime-voice-assistant/code/ts/src/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/03-realtime-voice-assistant/code/ts/tests/orchestrator.test.ts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:phases/19-capstone-projects/03-realtime-voice-assistant/code/ts/tests/orchestrator.test.ts",
+      "target": "file:phases/19-capstone-projects/03-realtime-voice-assistant/code/ts/src/orchestrator.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:phases/19-capstone-projects/03-realtime-voice-assistant/code/ts/tests/orchestrator.test.ts",
+      "target": "file:phases/19-capstone-projects/03-realtime-voice-assistant/code/ts/src/vad.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/03-realtime-voice-assistant/code/ts/tests/protocol.test.ts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:phases/19-capstone-projects/03-realtime-voice-assistant/code/ts/tests/protocol.test.ts",
+      "target": "file:phases/19-capstone-projects/03-realtime-voice-assistant/code/ts/src/protocol.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/03-realtime-voice-assistant/code/ts/tests/vad.test.ts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:phases/19-capstone-projects/03-realtime-voice-assistant/code/ts/tests/vad.test.ts",
+      "target": "file:phases/19-capstone-projects/03-realtime-voice-assistant/code/ts/src/vad.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

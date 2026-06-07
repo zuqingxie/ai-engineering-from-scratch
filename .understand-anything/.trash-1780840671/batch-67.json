@@ -1,0 +1,541 @@
+{
+  "nodes": [
+    {
+      "id": "document:phases/08-generative-ai/01-generative-models-taxonomy-history/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/08-generative-ai/01-generative-models-taxonomy-history/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/08-generative-ai/01-generative-models-taxonomy-history/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/08-generative-ai/01-generative-models-taxonomy-history/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/08-generative-ai/01-generative-models-taxonomy-history/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/08-generative-ai/01-generative-models-taxonomy-history/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/08-generative-ai/01-generative-models-taxonomy-history/outputs/skill-model-chooser.md",
+      "type": "document",
+      "name": "skill-model-chooser.md",
+      "filePath": "phases/08-generative-ai/01-generative-models-taxonomy-history/outputs/skill-model-chooser.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/08-generative-ai/02-autoencoders-vae/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/08-generative-ai/02-autoencoders-vae/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/08-generative-ai/02-autoencoders-vae/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/08-generative-ai/02-autoencoders-vae/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/08-generative-ai/02-autoencoders-vae/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/08-generative-ai/02-autoencoders-vae/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/08-generative-ai/02-autoencoders-vae/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/08-generative-ai/02-autoencoders-vae/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/08-generative-ai/02-autoencoders-vae/outputs/skill-vae-trainer.md",
+      "type": "document",
+      "name": "skill-vae-trainer.md",
+      "filePath": "phases/08-generative-ai/02-autoencoders-vae/outputs/skill-vae-trainer.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/08-generative-ai/03-gans-generator-discriminator/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/08-generative-ai/03-gans-generator-discriminator/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/08-generative-ai/03-gans-generator-discriminator/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/08-generative-ai/03-gans-generator-discriminator/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/08-generative-ai/03-gans-generator-discriminator/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/08-generative-ai/03-gans-generator-discriminator/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/08-generative-ai/03-gans-generator-discriminator/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/08-generative-ai/03-gans-generator-discriminator/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/08-generative-ai/03-gans-generator-discriminator/outputs/skill-gan-debugger.md",
+      "type": "document",
+      "name": "skill-gan-debugger.md",
+      "filePath": "phases/08-generative-ai/03-gans-generator-discriminator/outputs/skill-gan-debugger.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/08-generative-ai/04-conditional-gans-pix2pix/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/08-generative-ai/04-conditional-gans-pix2pix/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/08-generative-ai/04-conditional-gans-pix2pix/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/08-generative-ai/04-conditional-gans-pix2pix/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/08-generative-ai/04-conditional-gans-pix2pix/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/08-generative-ai/04-conditional-gans-pix2pix/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/08-generative-ai/04-conditional-gans-pix2pix/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/08-generative-ai/04-conditional-gans-pix2pix/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/08-generative-ai/04-conditional-gans-pix2pix/outputs/skill-img2img-chooser.md",
+      "type": "document",
+      "name": "skill-img2img-chooser.md",
+      "filePath": "phases/08-generative-ai/04-conditional-gans-pix2pix/outputs/skill-img2img-chooser.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/08-generative-ai/05-stylegan/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/08-generative-ai/05-stylegan/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/08-generative-ai/05-stylegan/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/08-generative-ai/05-stylegan/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/08-generative-ai/05-stylegan/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/08-generative-ai/05-stylegan/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/08-generative-ai/05-stylegan/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/08-generative-ai/05-stylegan/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/08-generative-ai/05-stylegan/outputs/skill-stylegan-inversion.md",
+      "type": "document",
+      "name": "skill-stylegan-inversion.md",
+      "filePath": "phases/08-generative-ai/05-stylegan/outputs/skill-stylegan-inversion.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/08-generative-ai/06-diffusion-ddpm-from-scratch/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/08-generative-ai/06-diffusion-ddpm-from-scratch/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/08-generative-ai/01-generative-models-taxonomy-history/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/08-generative-ai/01-generative-models-taxonomy-history/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/08-generative-ai/01-generative-models-taxonomy-history/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/08-generative-ai/01-generative-models-taxonomy-history/outputs/skill-model-chooser.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/08-generative-ai/02-autoencoders-vae/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/08-generative-ai/02-autoencoders-vae/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/08-generative-ai/02-autoencoders-vae/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/08-generative-ai/02-autoencoders-vae/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/08-generative-ai/02-autoencoders-vae/outputs/skill-vae-trainer.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/08-generative-ai/03-gans-generator-discriminator/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/08-generative-ai/03-gans-generator-discriminator/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/08-generative-ai/03-gans-generator-discriminator/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/08-generative-ai/03-gans-generator-discriminator/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/08-generative-ai/03-gans-generator-discriminator/outputs/skill-gan-debugger.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/08-generative-ai/04-conditional-gans-pix2pix/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/08-generative-ai/04-conditional-gans-pix2pix/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/08-generative-ai/04-conditional-gans-pix2pix/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/08-generative-ai/04-conditional-gans-pix2pix/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/08-generative-ai/04-conditional-gans-pix2pix/outputs/skill-img2img-chooser.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/08-generative-ai/05-stylegan/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/08-generative-ai/05-stylegan/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/08-generative-ai/05-stylegan/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/08-generative-ai/05-stylegan/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/08-generative-ai/05-stylegan/outputs/skill-stylegan-inversion.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/08-generative-ai/06-diffusion-ddpm-from-scratch/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

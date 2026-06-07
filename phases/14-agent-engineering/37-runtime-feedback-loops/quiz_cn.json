@@ -1,0 +1,90 @@
+{
+  "lesson": "37-runtime-feedback-loops",
+  "title": "Runtime Feedback Loops",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "反馈运行器迫使代理做什么？",
+      "options": [
+        "对想象的输出做出反应",
+        "对事实做出反应：在每个命令的循环中捕获结构化的 stdout/stderr/exit/duration 记录",
+        "跳过验证",
+        "使用不同的模型"
+      ],
+      "correct": 1,
+      "explanation": "跑步者缩小了“测试通过”（想象）和“测试实际运行并退出零”（记录）之间的差距。"
+    },
+    {
+      "stage": "pre",
+      "question": "反馈与遥测有何不同？",
+      "options": [
+        "遥测已付费",
+        "反馈针对本次运行的下一轮；遥测用于操作员跨时间审查运行（不同的文件，不同的保留）",
+        "遥测使用 OTel；反馈使用 GraphQL",
+        "它们是同一个东西"
+      ],
+      "correct": 1,
+      "explanation": "两者共享字段，但存在于具有不同保留的不同文件中；反馈是内部运行，遥测是交叉运行。"
+    },
+    {
+      "stage": "check",
+      "question": "每个反馈记录中必须出现哪个字段？",
+      "options": [
+        "型号_id",
+        "exit_code（并且空退出必须拒绝推进循环）",
+        "嵌入向量",
+        "提示缓存令牌"
+      ],
+      "correct": 1,
+      "explanation": "exit_code 是明确的成功信号；空退出意味着没有进展。"
+    },
+    {
+      "stage": "check",
+      "question": "跑步者如何截断大输出？",
+      "options": [
+        "随机抽样",
+        "具有“截断 N 行”标记的确定性头 + 尾，因此相同的输出始终产生相同的记录",
+        "仅前 10 行",
+        "使用 gzip 压缩"
+      ],
+      "correct": 1,
+      "explanation": "确定性截断保持记录可重播，同时限制代币成本；尾部携带故障摘要。"
+    },
+    {
+      "stage": "check",
+      "question": "为什么在写入时而不是读取时进行编辑？",
+      "options": [
+        "压缩",
+        "攻击者可以访问磁盘上的文件；仅在读取时进行编辑会在 JSONL 文件中留下机密",
+        "读取时编辑破坏了 JSON",
+        "速度更快"
+      ],
+      "correct": 1,
+      "explanation": "在附加之前编辑匹配 Bearer、password=、api_key=、AKIA...、xox[baprs]- 的行；每季度审核一次模式。"
+    },
+    {
+      "stage": "post",
+      "question": "Parent_command_id 为工作台提供了什么？",
+      "options": [
+        "更便宜的推理",
+        "重试链接到其父尝试，以便审核者和审核人员看到失败链；没有它，重试看起来像是独立的成功",
+        "更快的文件 I/O",
+        "内存较低"
+      ],
+      "correct": 1,
+      "explanation": "父链接使重试链对审阅者（第 39 课）和验证门可见。"
+    },
+    {
+      "stage": "post",
+      "question": "为什么将 Feedback_record.jsonl 限制为 1 MB 并进行轮换？",
+      "options": [
+        "JSON 不处理较大的文件",
+        "代理只读取当前文件；旋转保持运行时成本有限，而 CI 工件捕获完整集",
+        "磁盘速度太慢",
+        "提供商按字节收费"
+      ],
+      "correct": 1,
+      "explanation": "有界当前文件 + 旋转历史记录与 logrotate 使用的模式相同；热循环中的可预测成本。"
+    }
+  ]
+}

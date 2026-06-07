@@ -1,0 +1,542 @@
+{
+  "nodes": [
+    {
+      "id": "document:phases/06-speech-and-audio/15-streaming-speech-to-speech-moshi-hibiki/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/06-speech-and-audio/15-streaming-speech-to-speech-moshi-hibiki/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/06-speech-and-audio/15-streaming-speech-to-speech-moshi-hibiki/outputs/skill-duplex-pipeline.md",
+      "type": "document",
+      "name": "skill-duplex-pipeline.md",
+      "filePath": "phases/06-speech-and-audio/15-streaming-speech-to-speech-moshi-hibiki/outputs/skill-duplex-pipeline.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/06-speech-and-audio/16-anti-spoofing-audio-watermarking/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/06-speech-and-audio/16-anti-spoofing-audio-watermarking/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/06-speech-and-audio/16-anti-spoofing-audio-watermarking/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/06-speech-and-audio/16-anti-spoofing-audio-watermarking/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/06-speech-and-audio/16-anti-spoofing-audio-watermarking/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/06-speech-and-audio/16-anti-spoofing-audio-watermarking/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/06-speech-and-audio/16-anti-spoofing-audio-watermarking/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/06-speech-and-audio/16-anti-spoofing-audio-watermarking/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/06-speech-and-audio/16-anti-spoofing-audio-watermarking/outputs/skill-spoof-defender.md",
+      "type": "document",
+      "name": "skill-spoof-defender.md",
+      "filePath": "phases/06-speech-and-audio/16-anti-spoofing-audio-watermarking/outputs/skill-spoof-defender.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/06-speech-and-audio/17-audio-evaluation-metrics/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/06-speech-and-audio/17-audio-evaluation-metrics/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/06-speech-and-audio/17-audio-evaluation-metrics/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/06-speech-and-audio/17-audio-evaluation-metrics/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/06-speech-and-audio/17-audio-evaluation-metrics/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/06-speech-and-audio/17-audio-evaluation-metrics/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/06-speech-and-audio/17-audio-evaluation-metrics/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/06-speech-and-audio/17-audio-evaluation-metrics/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/06-speech-and-audio/17-audio-evaluation-metrics/outputs/skill-audio-evaluator.md",
+      "type": "document",
+      "name": "skill-audio-evaluator.md",
+      "filePath": "phases/06-speech-and-audio/17-audio-evaluation-metrics/outputs/skill-audio-evaluator.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/06-speech-and-audio/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "phases/06-speech-and-audio/README.md",
+      "summary": "项目文档文件，补充课程、贡献流程或仓库治理信息。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/07-transformers-deep-dive/01-why-transformers/code/main.jl",
+      "type": "file",
+      "name": "main.jl",
+      "filePath": "phases/07-transformers-deep-dive/01-why-transformers/code/main.jl",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "jl"
+      ],
+      "language": "jl"
+    },
+    {
+      "id": "file:phases/07-transformers-deep-dive/01-why-transformers/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/07-transformers-deep-dive/01-why-transformers/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/07-transformers-deep-dive/01-why-transformers/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/07-transformers-deep-dive/01-why-transformers/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/07-transformers-deep-dive/01-why-transformers/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/07-transformers-deep-dive/01-why-transformers/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/07-transformers-deep-dive/01-why-transformers/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/07-transformers-deep-dive/01-why-transformers/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/07-transformers-deep-dive/01-why-transformers/outputs/skill-architecture-picker.md",
+      "type": "document",
+      "name": "skill-architecture-picker.md",
+      "filePath": "phases/07-transformers-deep-dive/01-why-transformers/outputs/skill-architecture-picker.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/07-transformers-deep-dive/02-self-attention-from-scratch/code/main.jl",
+      "type": "file",
+      "name": "main.jl",
+      "filePath": "phases/07-transformers-deep-dive/02-self-attention-from-scratch/code/main.jl",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "jl"
+      ],
+      "language": "jl"
+    },
+    {
+      "id": "file:phases/07-transformers-deep-dive/02-self-attention-from-scratch/code/main.rs",
+      "type": "file",
+      "name": "main.rs",
+      "filePath": "phases/07-transformers-deep-dive/02-self-attention-from-scratch/code/main.rs",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "rust"
+      ],
+      "language": "rust"
+    },
+    {
+      "id": "file:phases/07-transformers-deep-dive/02-self-attention-from-scratch/code/self_attention.py",
+      "type": "file",
+      "name": "self_attention.py",
+      "filePath": "phases/07-transformers-deep-dive/02-self-attention-from-scratch/code/self_attention.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/07-transformers-deep-dive/02-self-attention-from-scratch/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/07-transformers-deep-dive/02-self-attention-from-scratch/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/07-transformers-deep-dive/02-self-attention-from-scratch/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/07-transformers-deep-dive/02-self-attention-from-scratch/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/07-transformers-deep-dive/02-self-attention-from-scratch/outputs/prompt-attention-explainer.md",
+      "type": "document",
+      "name": "prompt-attention-explainer.md",
+      "filePath": "phases/07-transformers-deep-dive/02-self-attention-from-scratch/outputs/prompt-attention-explainer.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/06-speech-and-audio/15-streaming-speech-to-speech-moshi-hibiki/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/06-speech-and-audio/15-streaming-speech-to-speech-moshi-hibiki/outputs/skill-duplex-pipeline.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/06-speech-and-audio/16-anti-spoofing-audio-watermarking/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/06-speech-and-audio/16-anti-spoofing-audio-watermarking/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/06-speech-and-audio/16-anti-spoofing-audio-watermarking/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/06-speech-and-audio/16-anti-spoofing-audio-watermarking/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/06-speech-and-audio/16-anti-spoofing-audio-watermarking/outputs/skill-spoof-defender.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/06-speech-and-audio/17-audio-evaluation-metrics/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/06-speech-and-audio/17-audio-evaluation-metrics/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/06-speech-and-audio/17-audio-evaluation-metrics/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/06-speech-and-audio/17-audio-evaluation-metrics/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/06-speech-and-audio/17-audio-evaluation-metrics/outputs/skill-audio-evaluator.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/06-speech-and-audio/README.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/07-transformers-deep-dive/01-why-transformers/code/main.jl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/07-transformers-deep-dive/01-why-transformers/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/07-transformers-deep-dive/01-why-transformers/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/07-transformers-deep-dive/01-why-transformers/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/07-transformers-deep-dive/01-why-transformers/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/07-transformers-deep-dive/01-why-transformers/outputs/skill-architecture-picker.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/07-transformers-deep-dive/02-self-attention-from-scratch/code/main.jl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/07-transformers-deep-dive/02-self-attention-from-scratch/code/main.rs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/07-transformers-deep-dive/02-self-attention-from-scratch/code/self_attention.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/07-transformers-deep-dive/02-self-attention-from-scratch/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/07-transformers-deep-dive/02-self-attention-from-scratch/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/07-transformers-deep-dive/02-self-attention-from-scratch/outputs/prompt-attention-explainer.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

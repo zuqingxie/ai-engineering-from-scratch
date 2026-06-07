@@ -1,0 +1,78 @@
+{
+  "lesson": "45-gradient-clipping-amp",
+  "title": "Gradient Clipping and Mixed Precision",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "全局L2梯度裁剪解决什么问题？",
+      "options": [
+        "缓慢训练",
+        "单个坏批次可能会使梯度范数飙升几个数量级；裁剪限制了最坏情况的优化器步骤，因此一批无法重置学习时间",
+        "词汇漂移",
+        "随机重启"
+      ],
+      "correct": 1,
+      "explanation": "裁剪是防止噪声批次破坏损失曲线的安全带。"
+    },
+    {
+      "stage": "check",
+      "question": "步骤中 GradScaler 操作的正确顺序是什么？",
+      "options": [
+        "步进、缩放、取消缩放、向后、更新",
+        "scaler.scale(loss).backward(); scaler.unscale_（优化器）；剪辑_梯度_范数_；缩放器.step(优化器);定标器.update()",
+        "向后、步进、缩放、更新",
+        "任何订单；定标器在内部重新排序"
+      ],
+      "correct": 1,
+      "explanation": "在unscale_和step之间剪辑未缩放的渐变；更新始终运行。"
+    },
+    {
+      "stage": "check",
+      "question": "scaler.update() 对跳过的步骤执行什么操作？",
+      "options": [
+        "什么都没有",
+        "将比例因子减半并重置 no-inf 计数器；忘记在跳过路径上调用它是产生“缩放因子从未改变”的错误",
+        "将缩放因子加倍",
+        "关闭运行"
+      ],
+      "correct": 1,
+      "explanation": "缩放器根据最近步骤的跳过/清理比率来调整其因子。"
+    },
+    {
+      "stage": "check",
+      "question": "为什么即使使用 GradScaler 也需要进行损失有限性检查？",
+      "options": [
+        "因为 GradScaler 很慢",
+        "GradScaler 处理后向传递溢出，但非有限损失不会产生有用的梯度；在向后之前跳过可以节省计算并避免污染缩放器的状态",
+        "是装饰性的",
+        "PyTorch 需要它"
+      ],
+      "correct": 1,
+      "explanation": "丢失检查涵盖前向传递失败；定标器涵盖了向后传递失败。"
+    },
+    {
+      "stage": "post",
+      "question": "滚动跳跃率中的生产信号是什么？",
+      "options": [
+        "始终在任何跳过处翻页",
+        "每次跑步时跳跃几次是健康的；每个 epoch 数百次跳跃（高于大约 5% 的滚动率）是一个硬警报，表明模型处于 FP16 无法保持的状态",
+        "跳过率无关紧要",
+        "仅在连续跳过时翻页"
+      ],
+      "correct": 1,
+      "explanation": "基于速率的警报可以捕获偶尔跳过页面无法捕获的静默故障模式。"
+    },
+    {
+      "stage": "post",
+      "question": "当跳过频繁时，为什么要从 FP16 自动施法切换到 BF16 自动施法？",
+      "options": [
+        "BF16 较新",
+        "BF16 比 FP16 具有更宽的指数范围，并且很少需要损失缩放；在同一型号上，跳跃率通常降至零",
+        "BF16 速度较慢，因此跳过次数较少",
+        "随机传统"
+      ],
+      "correct": 1,
+      "explanation": "FP16 更倾向于尾数精度而不是范围； BF16 以相反的方式进行交易，完全删除了溢出类。"
+    }
+  ]
+}

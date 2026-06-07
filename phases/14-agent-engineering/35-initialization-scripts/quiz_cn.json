@@ -1,0 +1,90 @@
+{
+  "lesson": "35-initialization-scripts",
+  "title": "Initialization Scripts for Agents",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "初始化脚本消除了什么？",
+      "options": [
+        "推理延迟",
+        "每个会话设置税：探测运行时、列出存储库、在每个新会话中重试相同的检查",
+        "提供商速率限制",
+        "身份验证令牌"
+      ],
+      "correct": 1,
+      "explanation": "该脚本支付一次税款并将答案写入代理读取的 init_report.json 中。"
+    },
+    {
+      "stage": "pre",
+      "question": "初始化脚本的故障模式契约是什么？",
+      "options": [
+        "软失败并继续",
+        "大声失败、快速失败、在一处失败；工作台损坏时拒绝启动",
+        "总是成功",
+        "永远重试"
+      ],
+      "correct": 1,
+      "explanation": "重点是工作台坏了就拒绝启动；沉默的后退违背了目的。"
+    },
+    {
+      "stage": "check",
+      "question": "哪一项不是课程列出的探究之一？",
+      "options": [
+        "运行时版本",
+        "依赖项可用性",
+        "测试命令解析能力",
+        "逐个采样温度"
+      ],
+      "correct": 3,
+      "explanation": "探针包括运行时版本、依赖项、测试命令、路径、环境变量、状态新鲜度、最后一次已知的良好提交。"
+    },
+    {
+      "stage": "check",
+      "question": "为什么课上说init必须是幂等的？",
+      "options": [
+        "满足SOC 2",
+        "除了新的时间戳之外，运行两次应该是无操作，因此可以将其连接到 CI、挂钩或任务前斜杠命令中",
+        "幂等性省钱",
+        "JSON 模式需要它"
+      ],
+      "correct": 1,
+      "explanation": "幂等性使得 init 可以安全地从许多入口点（hooks、CI、slash 命令）调用。"
+    },
+    {
+      "stage": "check",
+      "question": "什么是最后已知的良好提交锚定？",
+      "options": [
+        "团队负责人最近的提交",
+        "探测 LKG 文件的当前提交；如果差异超出预算而未经人工批准则拒绝启动",
+        "仓库中最早的提交",
+        "HEAD 和 main 的合并基础"
+      ],
+      "correct": 1,
+      "explanation": "Cloudflare 的 AI 代码审查根据 LKG 确定审查人员的范围，以防止跨会话出现偏差。"
+    },
+    {
+      "stage": "post",
+      "question": "带有TTL模式的锁定文件有什么作用？",
+      "options": [
+        "锁定存储库以防止编辑",
+        "成功探测通过后写入 prereqs.lock；如果清单哈希匹配，后续运行将在 24 小时内信任该锁并跳过昂贵的探测",
+        "24 小时内阻止所有写入",
+        "禁用 CI"
+      ],
+      "correct": 1,
+      "explanation": "与 Docker 层缓存的形状相同：幂等探针 + 内容哈希 = 跳过。"
+    },
+    {
+      "stage": "post",
+      "question": "什么永远不应该出现在 init 热路径中？",
+      "options": [
+        "本地文件系统读取",
+        "网络通话、LLM 通话、外部许可证检查；探针在三秒内是确定性的管道",
+        "读取环境变量",
+        "读取锁文件"
+      ],
+      "correct": 1,
+      "explanation": "调用 LLM 的探针是工作流程，而不是探针；保持 init 的确定性。"
+    }
+  ]
+}

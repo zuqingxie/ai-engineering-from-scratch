@@ -1,0 +1,543 @@
+{
+  "nodes": [
+    {
+      "id": "config:phases/02-ml-fundamentals/16-anomaly-detection/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/02-ml-fundamentals/16-anomaly-detection/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/02-ml-fundamentals/17-imbalanced-data/code/imbalanced.py",
+      "type": "file",
+      "name": "imbalanced.py",
+      "filePath": "phases/02-ml-fundamentals/17-imbalanced-data/code/imbalanced.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/02-ml-fundamentals/17-imbalanced-data/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/02-ml-fundamentals/17-imbalanced-data/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/02-ml-fundamentals/17-imbalanced-data/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/02-ml-fundamentals/17-imbalanced-data/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/02-ml-fundamentals/17-imbalanced-data/outputs/skill-imbalanced-data.md",
+      "type": "document",
+      "name": "skill-imbalanced-data.md",
+      "filePath": "phases/02-ml-fundamentals/17-imbalanced-data/outputs/skill-imbalanced-data.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/02-ml-fundamentals/17-imbalanced-data/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/02-ml-fundamentals/17-imbalanced-data/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/02-ml-fundamentals/18-feature-selection/code/feature_selection.py",
+      "type": "file",
+      "name": "feature_selection.py",
+      "filePath": "phases/02-ml-fundamentals/18-feature-selection/code/feature_selection.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/02-ml-fundamentals/18-feature-selection/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/02-ml-fundamentals/18-feature-selection/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/02-ml-fundamentals/18-feature-selection/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/02-ml-fundamentals/18-feature-selection/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/02-ml-fundamentals/18-feature-selection/outputs/skill-feature-selector.md",
+      "type": "document",
+      "name": "skill-feature-selector.md",
+      "filePath": "phases/02-ml-fundamentals/18-feature-selection/outputs/skill-feature-selector.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/02-ml-fundamentals/18-feature-selection/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/02-ml-fundamentals/18-feature-selection/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "document:phases/02-ml-fundamentals/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "phases/02-ml-fundamentals/README.md",
+      "summary": "项目文档文件，补充课程、贡献流程或仓库治理信息。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/03-deep-learning-core/01-the-perceptron/code/main.jl",
+      "type": "file",
+      "name": "main.jl",
+      "filePath": "phases/03-deep-learning-core/01-the-perceptron/code/main.jl",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "jl"
+      ],
+      "language": "jl"
+    },
+    {
+      "id": "file:phases/03-deep-learning-core/01-the-perceptron/code/perceptron.py",
+      "type": "file",
+      "name": "perceptron.py",
+      "filePath": "phases/03-deep-learning-core/01-the-perceptron/code/perceptron.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/03-deep-learning-core/01-the-perceptron/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/03-deep-learning-core/01-the-perceptron/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/03-deep-learning-core/01-the-perceptron/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/03-deep-learning-core/01-the-perceptron/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/03-deep-learning-core/01-the-perceptron/outputs/skill-perceptron.md",
+      "type": "document",
+      "name": "skill-perceptron.md",
+      "filePath": "phases/03-deep-learning-core/01-the-perceptron/outputs/skill-perceptron.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/03-deep-learning-core/01-the-perceptron/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/03-deep-learning-core/01-the-perceptron/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/03-deep-learning-core/02-multi-layer-networks/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/03-deep-learning-core/02-multi-layer-networks/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/03-deep-learning-core/02-multi-layer-networks/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/03-deep-learning-core/02-multi-layer-networks/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/03-deep-learning-core/02-multi-layer-networks/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/03-deep-learning-core/02-multi-layer-networks/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/03-deep-learning-core/02-multi-layer-networks/outputs/prompt-network-architect.md",
+      "type": "document",
+      "name": "prompt-network-architect.md",
+      "filePath": "phases/03-deep-learning-core/02-multi-layer-networks/outputs/prompt-network-architect.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/03-deep-learning-core/02-multi-layer-networks/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/03-deep-learning-core/02-multi-layer-networks/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/03-deep-learning-core/03-backpropagation/code/main.jl",
+      "type": "file",
+      "name": "main.jl",
+      "filePath": "phases/03-deep-learning-core/03-backpropagation/code/main.jl",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "jl"
+      ],
+      "language": "jl"
+    },
+    {
+      "id": "file:phases/03-deep-learning-core/03-backpropagation/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/03-deep-learning-core/03-backpropagation/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/02-ml-fundamentals/16-anomaly-detection/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/02-ml-fundamentals/17-imbalanced-data/code/imbalanced.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/02-ml-fundamentals/17-imbalanced-data/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/02-ml-fundamentals/17-imbalanced-data/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/02-ml-fundamentals/17-imbalanced-data/outputs/skill-imbalanced-data.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/02-ml-fundamentals/17-imbalanced-data/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/02-ml-fundamentals/18-feature-selection/code/feature_selection.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/02-ml-fundamentals/18-feature-selection/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/02-ml-fundamentals/18-feature-selection/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/02-ml-fundamentals/18-feature-selection/outputs/skill-feature-selector.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/02-ml-fundamentals/18-feature-selection/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/02-ml-fundamentals/README.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/03-deep-learning-core/01-the-perceptron/code/main.jl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/03-deep-learning-core/01-the-perceptron/code/perceptron.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/03-deep-learning-core/01-the-perceptron/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/03-deep-learning-core/01-the-perceptron/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/03-deep-learning-core/01-the-perceptron/outputs/skill-perceptron.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/03-deep-learning-core/01-the-perceptron/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/03-deep-learning-core/02-multi-layer-networks/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/03-deep-learning-core/02-multi-layer-networks/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/03-deep-learning-core/02-multi-layer-networks/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/03-deep-learning-core/02-multi-layer-networks/outputs/prompt-network-architect.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/03-deep-learning-core/02-multi-layer-networks/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/03-deep-learning-core/03-backpropagation/code/main.jl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/03-deep-learning-core/03-backpropagation/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

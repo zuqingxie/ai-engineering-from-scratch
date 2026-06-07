@@ -1,0 +1,78 @@
+{
+  "lesson": "21-tool-registry-schema-validation",
+  "title": "Tool Registry with Schema Validation",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "为什么要将工具的架构与其处理程序分开注册？",
+      "options": [
+        "因为模式必须存在于 YAML 中",
+        "因此验证器保持纯数据，处理程序保持不透明代码",
+        "因为处理程序无法返回 JSON",
+        "因为必须编译模式"
+      ],
+      "correct": 1,
+      "explanation": "将架构保留为数据，将处理程序保留为代码，使验证器成为架构树上的纯函数。"
+    },
+    {
+      "stage": "check",
+      "question": "哪些关键字有意位于本课程实现的子集之外？",
+      "options": [
+        "类型、属性、必需",
+        "最小长度、最大长度、模式",
+        "oneOf、anyOf、$ref、allOf",
+        "项目、枚举"
+      ],
+      "correct": 2,
+      "explanation": "省略的关键字添加循环和参考分辨率。我们保持子集线性，因此验证器保持单次递归行走。"
+    },
+    {
+      "stage": "check",
+      "question": "为什么 register() 默认拒绝重复项？",
+      "options": [
+        "因为注册表不能为每个名称存储多个记录",
+        "无提示覆盖是生产工具目录漂移的原因",
+        "因为架构无法重新验证",
+        "因为处理程序无法被替换"
+      ],
+      "correct": 1,
+      "explanation": "强制 override=True 会出现代码的两部分想要拥有相同工具名称的情况。"
+    },
+    {
+      "stage": "check",
+      "question": "当模式指定整数类型但收到值 True 时，验证器会做什么？",
+      "options": [
+        "将其视为 1 并通过",
+        "返回类型错误，因为 bool 在此验证器中不是整数",
+        "引发未处理的异常",
+        "静默强制转换为整数"
+      ],
+      "correct": 1,
+      "explanation": "Python bool 是 int 的子类，但验证器将 bool 从整数检查中过滤掉。 JSON 布尔值和整数是不同的。"
+    },
+    {
+      "stage": "post",
+      "question": "当输入对象为 {'user': {'email': 0}} 并且 schema 要求 user.email 为字符串时，错误路径是什么？",
+      "options": [
+        "/",
+        "/用户",
+        "/用户/电子邮件",
+        "用户邮箱"
+      ],
+      "correct": 2,
+      "explanation": "JSON 指针将通过用户然后通过电子邮件的下降编码为 /user/email。"
+    },
+    {
+      "stage": "post",
+      "question": "为什么注册表不是安全边界？",
+      "options": [
+        "因为验证通过后处理程序仍然可能行为不当",
+        "因为处理程序是异步的",
+        "因为架构是 JSON",
+        "因为注册表正在处理中"
+      ],
+      "correct": 0,
+      "explanation": "注册表检查形状。行为、超时和隔离属于调度程序和沙箱。"
+    }
+  ]
+}

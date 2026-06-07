@@ -1,0 +1,540 @@
+{
+  "nodes": [
+    {
+      "id": "document:phases/18-ethics-safety-alignment/10-ai-control-subversion/outputs/skill-control-protocol-audit.md",
+      "type": "document",
+      "name": "skill-control-protocol-audit.md",
+      "filePath": "phases/18-ethics-safety-alignment/10-ai-control-subversion/outputs/skill-control-protocol-audit.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/18-ethics-safety-alignment/10-ai-control-subversion/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/18-ethics-safety-alignment/10-ai-control-subversion/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/18-ethics-safety-alignment/11-scalable-oversight-weak-to-strong/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/18-ethics-safety-alignment/11-scalable-oversight-weak-to-strong/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/18-ethics-safety-alignment/11-scalable-oversight-weak-to-strong/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/18-ethics-safety-alignment/11-scalable-oversight-weak-to-strong/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/18-ethics-safety-alignment/11-scalable-oversight-weak-to-strong/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/18-ethics-safety-alignment/11-scalable-oversight-weak-to-strong/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/18-ethics-safety-alignment/11-scalable-oversight-weak-to-strong/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/18-ethics-safety-alignment/11-scalable-oversight-weak-to-strong/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/18-ethics-safety-alignment/11-scalable-oversight-weak-to-strong/outputs/skill-w2sg-pgr.md",
+      "type": "document",
+      "name": "skill-w2sg-pgr.md",
+      "filePath": "phases/18-ethics-safety-alignment/11-scalable-oversight-weak-to-strong/outputs/skill-w2sg-pgr.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/18-ethics-safety-alignment/11-scalable-oversight-weak-to-strong/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/18-ethics-safety-alignment/11-scalable-oversight-weak-to-strong/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/18-ethics-safety-alignment/12-red-teaming-pair-automated-attacks/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/18-ethics-safety-alignment/12-red-teaming-pair-automated-attacks/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/18-ethics-safety-alignment/12-red-teaming-pair-automated-attacks/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/18-ethics-safety-alignment/12-red-teaming-pair-automated-attacks/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/18-ethics-safety-alignment/12-red-teaming-pair-automated-attacks/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/18-ethics-safety-alignment/12-red-teaming-pair-automated-attacks/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/18-ethics-safety-alignment/12-red-teaming-pair-automated-attacks/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/18-ethics-safety-alignment/12-red-teaming-pair-automated-attacks/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/18-ethics-safety-alignment/12-red-teaming-pair-automated-attacks/outputs/skill-attack-audit.md",
+      "type": "document",
+      "name": "skill-attack-audit.md",
+      "filePath": "phases/18-ethics-safety-alignment/12-red-teaming-pair-automated-attacks/outputs/skill-attack-audit.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/18-ethics-safety-alignment/12-red-teaming-pair-automated-attacks/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/18-ethics-safety-alignment/12-red-teaming-pair-automated-attacks/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/18-ethics-safety-alignment/13-many-shot-jailbreaking/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/18-ethics-safety-alignment/13-many-shot-jailbreaking/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/18-ethics-safety-alignment/13-many-shot-jailbreaking/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/18-ethics-safety-alignment/13-many-shot-jailbreaking/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/18-ethics-safety-alignment/13-many-shot-jailbreaking/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/18-ethics-safety-alignment/13-many-shot-jailbreaking/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/18-ethics-safety-alignment/13-many-shot-jailbreaking/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/18-ethics-safety-alignment/13-many-shot-jailbreaking/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/18-ethics-safety-alignment/13-many-shot-jailbreaking/outputs/skill-msj-audit.md",
+      "type": "document",
+      "name": "skill-msj-audit.md",
+      "filePath": "phases/18-ethics-safety-alignment/13-many-shot-jailbreaking/outputs/skill-msj-audit.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/18-ethics-safety-alignment/13-many-shot-jailbreaking/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/18-ethics-safety-alignment/13-many-shot-jailbreaking/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/18-ethics-safety-alignment/14-ascii-art-visual-jailbreaks/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/18-ethics-safety-alignment/14-ascii-art-visual-jailbreaks/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/18-ethics-safety-alignment/14-ascii-art-visual-jailbreaks/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/18-ethics-safety-alignment/14-ascii-art-visual-jailbreaks/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/18-ethics-safety-alignment/14-ascii-art-visual-jailbreaks/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/18-ethics-safety-alignment/14-ascii-art-visual-jailbreaks/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/18-ethics-safety-alignment/14-ascii-art-visual-jailbreaks/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/18-ethics-safety-alignment/14-ascii-art-visual-jailbreaks/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/18-ethics-safety-alignment/14-ascii-art-visual-jailbreaks/outputs/skill-encoding-audit.md",
+      "type": "document",
+      "name": "skill-encoding-audit.md",
+      "filePath": "phases/18-ethics-safety-alignment/14-ascii-art-visual-jailbreaks/outputs/skill-encoding-audit.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/18-ethics-safety-alignment/10-ai-control-subversion/outputs/skill-control-protocol-audit.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/18-ethics-safety-alignment/10-ai-control-subversion/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/18-ethics-safety-alignment/11-scalable-oversight-weak-to-strong/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/18-ethics-safety-alignment/11-scalable-oversight-weak-to-strong/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/18-ethics-safety-alignment/11-scalable-oversight-weak-to-strong/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/18-ethics-safety-alignment/11-scalable-oversight-weak-to-strong/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/18-ethics-safety-alignment/11-scalable-oversight-weak-to-strong/outputs/skill-w2sg-pgr.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/18-ethics-safety-alignment/11-scalable-oversight-weak-to-strong/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/18-ethics-safety-alignment/12-red-teaming-pair-automated-attacks/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/18-ethics-safety-alignment/12-red-teaming-pair-automated-attacks/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/18-ethics-safety-alignment/12-red-teaming-pair-automated-attacks/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/18-ethics-safety-alignment/12-red-teaming-pair-automated-attacks/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/18-ethics-safety-alignment/12-red-teaming-pair-automated-attacks/outputs/skill-attack-audit.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/18-ethics-safety-alignment/12-red-teaming-pair-automated-attacks/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/18-ethics-safety-alignment/13-many-shot-jailbreaking/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/18-ethics-safety-alignment/13-many-shot-jailbreaking/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/18-ethics-safety-alignment/13-many-shot-jailbreaking/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/18-ethics-safety-alignment/13-many-shot-jailbreaking/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/18-ethics-safety-alignment/13-many-shot-jailbreaking/outputs/skill-msj-audit.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/18-ethics-safety-alignment/13-many-shot-jailbreaking/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/18-ethics-safety-alignment/14-ascii-art-visual-jailbreaks/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/18-ethics-safety-alignment/14-ascii-art-visual-jailbreaks/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/18-ethics-safety-alignment/14-ascii-art-visual-jailbreaks/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/18-ethics-safety-alignment/14-ascii-art-visual-jailbreaks/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/18-ethics-safety-alignment/14-ascii-art-visual-jailbreaks/outputs/skill-encoding-audit.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

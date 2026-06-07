@@ -1,0 +1,90 @@
+{
+  "lesson": "14-speculative-decoding-server",
+  "title": "Capstone 14 — Speculative-Decoding Inference Server",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "推测解码背后的两层机制是什么？",
+      "options": [
+        "每个令牌有两个目标模型交替",
+        "嵌入模型和合成器",
+        "检索缓存和重新排序器",
+        "模型草案提出 k 个候选代币；目标模型一次性验证它们"
+      ],
+      "correct": 3,
+      "explanation": ""
+    },
+    {
+      "stage": "pre",
+      "question": "EAGLE-3 做了哪些 ngram 草稿没有做的事情？",
+      "options": [
+        "它替换了目标模型",
+        "它在目标模型的隐藏状态上训练草稿头以获得更高的接受率",
+        "它完全避免了标记化",
+        "它仅在 CPU 上运行"
+      ],
+      "correct": 1,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "为什么批量大小为 1、8 和 32 时会报告 p99 尾部延迟？",
+      "options": [
+        "每秒稳态令牌可以隐藏拒绝验证传递比普通解码更昂贵的事实",
+        "vLLM 无法提供低于 8 的批量大小",
+        "p99 仅在批量大小为 32 时才重要",
+        "尾部延迟与批量大小无关"
+      ],
+      "correct": 0,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "为什么当流量分布发生变化时，接受率会发生变化？",
+      "options": [
+        "vLLM 每小时轮换一次模型",
+        "草稿对齐取决于输入分布：ShareGPT、代码和域数据采用不同的模式",
+        "操作系统调度程序重新洗牌 GPU 内存",
+        "运行时量化变化"
+      ],
+      "correct": 1,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "部署在哪个 Kubernetes HPA 信号上进行扩展？",
+      "options": [
+        "集群自动缩放器节点",
+        "CPU利用率",
+        "磁盘IOPS",
+        "推理请求的队列等待时间"
+      ],
+      "correct": 3,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "P-EAGLE 比系列 EAGLE-3 添加了什么？",
+      "options": [
+        "量化为 FP4 权重",
+        "删除目标模型",
+        "在一次目标传递中验证的草稿分支树上的并行推测",
+        "自动数据集管理"
+      ],
+      "correct": 2,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "相对于非推测性基准，该标题要求哪个吞吐量目标？",
+      "options": [
+        "两个型号的质量匹配时至少提高 2.5 倍",
+        "任何高于基线的改善",
+        "在匹配质量下大约是 1.1 倍",
+        "在任何质量下吞吐量均达到 10 倍"
+      ],
+      "correct": 0,
+      "explanation": ""
+    }
+  ]
+}

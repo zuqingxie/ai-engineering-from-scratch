@@ -1,0 +1,78 @@
+{
+  "lesson": "19-ai-gateways",
+  "title": "AI Gateways — LiteLLM, Portkey, Kong AI Gateway, Bifrost",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "AI网关在课程中的核心作用是什么？",
+      "options": [
+        "模型微调服务",
+        "用于检索的矢量数据库",
+        "仅限日志记录的 sidecar",
+        "位于应用程序和模型提供者之间的流程，可将路由、回退、重试、速率限制、秘密引用、可观察性和一个 API 背后的护栏整合在一起"
+      ],
+      "correct": 3,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "Kong的LiteLLM基准报告的规模上限是多少？",
+      "options": [
+        "最高速度为 50 RPS",
+        "它在 8 GB 内存和持续负载下出现级联故障时崩溃大约为 2000 RPS",
+        "它线性扩展超过 10k RPS",
+        "LiteLLM 无法进行基准测试"
+      ],
+      "correct": 1,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "根据同等 CPU 上的 Kong 基准测试，Kong AI Gateway 比 Portkey 和 LiteLLM 快多少？",
+      "options": [
+        "比 Portkey 快 228%，比 LiteLLM 快 859%",
+        "大约快 10% 和 20%",
+        "相同",
+        "比两者都慢"
+      ],
+      "correct": 0,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "本课程将哪个网关定位为具有 20-40 毫秒延迟开销和护栏/PII 编辑/越狱检测重点？",
+      "options": [
+        "Kong人工智能网关",
+        "莱特法学硕士",
+        "Cloudflare AI 网关",
+        "门钥匙"
+      ],
+      "correct": 3,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "本课所说的自托管网关与托管网关决策的强制功能是什么？",
+      "options": [
+        "网关是否开源",
+        "支持的提供商数量",
+        "每个请求的成本",
+        "数据驻留要求"
+      ],
+      "correct": 3,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "当 SLA 为 TTFT P99 < 100 毫秒时，哪些网关符合预算？",
+      "options": [
+        "任意网关",
+        "只有门钥匙",
+        "仅LiteLLM",
+        "Kong（约 3-8 毫秒）或 Cloudflare/Vercel 边缘网关（约 1-3 毫秒）； 20-40 毫秒的门钥匙太重了"
+      ],
+      "correct": 3,
+      "explanation": ""
+    }
+  ]
+}

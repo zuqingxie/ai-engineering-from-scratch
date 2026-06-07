@@ -1,0 +1,78 @@
+{
+  "lesson": "44-cosine-lr-warmup",
+  "title": "Cosine LR with Linear Warmup",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "为什么余弦热身计划从零开始，而不是从 lr_max 开始？",
+      "options": [
+        "因为lr_max在第0步是非法的",
+        "前 1000 个更新是嘈杂的；从零到 lr_max 的线性斜坡为优化器提供了较小的有效步长，同时运行估计稳定",
+        "因为亚当需要它",
+        "随机传统"
+      ],
+      "correct": 1,
+      "explanation": "预热使脆弱的早期更新保持较小的规模；否则，模型要么发散，要么趋于稳定。"
+    },
+    {
+      "stage": "check",
+      "question": "为什么计划是作为单个函数跨步骤实现的，而不是三个粘合段？",
+      "options": [
+        "单一功能较小",
+        "第一次更改 lr_max 时，粘合调度会失去一个边界；单个函数计算相同的封闭式表达式并在预热和总端点处保持连续性",
+        "Linters 需要它",
+        "随机"
+      ],
+      "correct": 1,
+      "explanation": "lr(warmup_steps) 和 lr(total_steps) 处的连续性来自封闭形式。"
+    },
+    {
+      "stage": "check",
+      "question": "计划中的步骤 >total_steps 会发生什么情况？",
+      "options": [
+        "它抛出异常",
+        "它固定在lr_min；时间表不会推断，并且需要扩展训练的培训师明确更改total_steps",
+        "它返回南",
+        "它环绕着"
+      ],
+      "correct": 1,
+      "explanation": "固定地板可以使超调训练器保持在记录状态，而不是崩溃。"
+    },
+    {
+      "stage": "check",
+      "question": "为什么要在学习率旁边记录梯度 L2 范数？",
+      "options": [
+        "看起来很漂亮",
+        "常态是训练健康状况的另一半：发散的运行在损失之前会达到其常态；过于激进的峰值显示为热身后保持较高水平的常态",
+        "亚当需要它",
+        "传统"
+      ],
+      "correct": 1,
+      "explanation": "共同记录使病态的时间表在运行时可见，而不是事后可见。"
+    },
+    {
+      "stage": "post",
+      "question": "为什么在生产中将warmup_steps 配置为total_steps 的一部分？",
+      "options": [
+        "分数更干净",
+        "适合 20k 步运行的固定热身计数本质上是 200M 步运行中的无热身；该分数（通常为 1-3%）随训练持续时间而变化",
+        "随机偏好",
+        "硬件要求"
+      ],
+      "correct": 1,
+      "explanation": "绝对热身计数在训练持续时间范围内的行为不当。"
+    },
+    {
+      "stage": "post",
+      "question": "为什么非零 lr_min 在生产中很常见？",
+      "options": [
+        "Adam 要求非零",
+        "lr_max 接近 10% 的下限可以让优化器在长尾期间不断学习； lr_min 为零会产生看起来不错的曲线和尚未完成训练的模型",
+        "数值稳定性",
+        "向后兼容性"
+      ],
+      "correct": 1,
+      "explanation": "时间表的尾部是后期改进的地方；将其归零会浪费该信号。"
+    }
+  ]
+}

@@ -332,22 +332,36 @@ p.dropcap::first-letter {
   opacity: 0.4;
 }
 
-.theme-toggle {
+.theme-toggle,
+.language-select {
   background: transparent;
   border: 1px solid var(--rule-soft);
-  width: 36px;
   height: 36px;
   cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   font-family: var(--font-mono);
   font-size: 0.95rem;
   color: var(--ink);
   transition: border-color 0.15s, color 0.15s;
 }
 
-.theme-toggle:hover {
+.theme-toggle {
+  width: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.language-select {
+  width: 96px;
+  padding: 0 28px 0 10px;
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.theme-toggle:hover,
+.language-select:hover,
+.language-select:focus {
   border-color: var(--blueprint);
   color: var(--blueprint);
 }
@@ -924,10 +938,17 @@ body.js-anim .toc-row.in-view {
     gap: 4px;
   }
 
-  .theme-toggle {
+  .theme-toggle,
+  .language-select {
     width: 32px;
     height: 32px;
     flex-shrink: 0;
+  }
+
+  .language-select {
+    width: 140px;
+    padding: 0 8px;
+    font-size: 0.68rem;
   }
 
   .container {

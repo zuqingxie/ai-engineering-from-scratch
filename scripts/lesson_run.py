@@ -25,6 +25,12 @@ Exit codes:
     1 — `--strict` and at least one lesson failed
 
 Stdlib only. Python 3.10+ syntax (PEP 604 unions).
+
+这个脚本检查每个课程的Python代码是否有语法错误。
+默认情况下，它会使用`py_compile`对`phases/**/[0-9][0-9]-*/code/`下的每个`.py`文件进行字节编译。
+它不会执行代码，因为执行代码需要API密钥和重型ML依赖项，而课程没有固定这些依赖项。仅语法检查就足以
+捕捉贡献者最常引入的回归（错误的缩进、损坏的f字符串、杂乱的编辑）。
+
 """
 
 from __future__ import annotations

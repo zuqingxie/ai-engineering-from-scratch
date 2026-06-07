@@ -1,0 +1,540 @@
+{
+  "nodes": [
+    {
+      "id": "document:phases/14-agent-engineering/27-prompt-injection-defense/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/14-agent-engineering/27-prompt-injection-defense/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/14-agent-engineering/27-prompt-injection-defense/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/14-agent-engineering/27-prompt-injection-defense/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/14-agent-engineering/27-prompt-injection-defense/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/14-agent-engineering/27-prompt-injection-defense/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/14-agent-engineering/27-prompt-injection-defense/outputs/skill-injection-defense.md",
+      "type": "document",
+      "name": "skill-injection-defense.md",
+      "filePath": "phases/14-agent-engineering/27-prompt-injection-defense/outputs/skill-injection-defense.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/14-agent-engineering/27-prompt-injection-defense/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/14-agent-engineering/27-prompt-injection-defense/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/14-agent-engineering/28-orchestration-patterns/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/14-agent-engineering/28-orchestration-patterns/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/14-agent-engineering/28-orchestration-patterns/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/14-agent-engineering/28-orchestration-patterns/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/14-agent-engineering/28-orchestration-patterns/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/14-agent-engineering/28-orchestration-patterns/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/14-agent-engineering/28-orchestration-patterns/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/14-agent-engineering/28-orchestration-patterns/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/14-agent-engineering/28-orchestration-patterns/outputs/skill-orchestration-picker.md",
+      "type": "document",
+      "name": "skill-orchestration-picker.md",
+      "filePath": "phases/14-agent-engineering/28-orchestration-patterns/outputs/skill-orchestration-picker.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/14-agent-engineering/28-orchestration-patterns/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/14-agent-engineering/28-orchestration-patterns/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/14-agent-engineering/29-production-runtimes/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/14-agent-engineering/29-production-runtimes/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/14-agent-engineering/29-production-runtimes/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/14-agent-engineering/29-production-runtimes/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/14-agent-engineering/29-production-runtimes/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/14-agent-engineering/29-production-runtimes/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/14-agent-engineering/29-production-runtimes/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/14-agent-engineering/29-production-runtimes/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/14-agent-engineering/29-production-runtimes/outputs/skill-runtime-shape.md",
+      "type": "document",
+      "name": "skill-runtime-shape.md",
+      "filePath": "phases/14-agent-engineering/29-production-runtimes/outputs/skill-runtime-shape.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/14-agent-engineering/29-production-runtimes/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/14-agent-engineering/29-production-runtimes/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/14-agent-engineering/30-eval-driven-agent-development/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/14-agent-engineering/30-eval-driven-agent-development/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/14-agent-engineering/30-eval-driven-agent-development/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/14-agent-engineering/30-eval-driven-agent-development/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/14-agent-engineering/30-eval-driven-agent-development/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/14-agent-engineering/30-eval-driven-agent-development/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/14-agent-engineering/30-eval-driven-agent-development/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/14-agent-engineering/30-eval-driven-agent-development/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/14-agent-engineering/30-eval-driven-agent-development/outputs/skill-eval-suite.md",
+      "type": "document",
+      "name": "skill-eval-suite.md",
+      "filePath": "phases/14-agent-engineering/30-eval-driven-agent-development/outputs/skill-eval-suite.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/14-agent-engineering/30-eval-driven-agent-development/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/14-agent-engineering/30-eval-driven-agent-development/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/14-agent-engineering/31-agent-workbench-why-models-fail/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/14-agent-engineering/31-agent-workbench-why-models-fail/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/14-agent-engineering/31-agent-workbench-why-models-fail/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/14-agent-engineering/31-agent-workbench-why-models-fail/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/14-agent-engineering/27-prompt-injection-defense/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/14-agent-engineering/27-prompt-injection-defense/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/14-agent-engineering/27-prompt-injection-defense/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/14-agent-engineering/27-prompt-injection-defense/outputs/skill-injection-defense.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/14-agent-engineering/27-prompt-injection-defense/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/14-agent-engineering/28-orchestration-patterns/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/14-agent-engineering/28-orchestration-patterns/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/14-agent-engineering/28-orchestration-patterns/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/14-agent-engineering/28-orchestration-patterns/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/14-agent-engineering/28-orchestration-patterns/outputs/skill-orchestration-picker.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/14-agent-engineering/28-orchestration-patterns/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/14-agent-engineering/29-production-runtimes/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/14-agent-engineering/29-production-runtimes/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/14-agent-engineering/29-production-runtimes/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/14-agent-engineering/29-production-runtimes/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/14-agent-engineering/29-production-runtimes/outputs/skill-runtime-shape.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/14-agent-engineering/29-production-runtimes/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/14-agent-engineering/30-eval-driven-agent-development/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/14-agent-engineering/30-eval-driven-agent-development/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/14-agent-engineering/30-eval-driven-agent-development/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/14-agent-engineering/30-eval-driven-agent-development/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/14-agent-engineering/30-eval-driven-agent-development/outputs/skill-eval-suite.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/14-agent-engineering/30-eval-driven-agent-development/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/14-agent-engineering/31-agent-workbench-why-models-fail/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/14-agent-engineering/31-agent-workbench-why-models-fail/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

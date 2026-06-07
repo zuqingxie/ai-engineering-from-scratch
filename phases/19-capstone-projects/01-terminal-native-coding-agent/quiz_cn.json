@@ -1,0 +1,90 @@
+{
+  "lesson": "01-terminal-native-coding-agent",
+  "title": "Capstone 01 — Terminal-Native Coding Agent",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "2026 终端编码代理共用哪种环路形状？",
+      "options": [
+        "计划、行动、观察、恢复",
+        "编码、解码、采样、流式传输",
+        "培训、评估、部署、监控",
+        "获取、嵌入、排名、综合"
+      ],
+      "correct": 0,
+      "explanation": ""
+    },
+    {
+      "stage": "pre",
+      "question": "为什么线束在 E2B 或 Daytona 沙箱内运行每个任务？",
+      "options": [
+        "将文件系统和工具执行与主机隔离，以便工作树可以在完成后拆除",
+        "绕过模型提供商速率限制",
+        "对冷缓存上的令牌吞吐量进行基准测试",
+        "为代理循环启用 GPU 访问"
+      ],
+      "correct": 0,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "哪个内置挂钩是在执行之前阻止破坏性 shell 命令的自然位置？",
+      "options": [
+        "预工具使用",
+        "会话开始",
+        "停止",
+        "后期工具使用"
+      ],
+      "correct": 0,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "顶点将每个工具的结果限制为大约 4k 代币。主要防止哪种故障模式？",
+      "options": [
+        "通过恶意 shell 元字符进行沙箱逃逸",
+        "当工具返回大量转储时，上下文中毒和失控成本",
+        "跨恢复会话的过时计划状态",
+        "模型过度拟合工具调用轨迹"
+      ],
+      "correct": 1,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "PreCompact 钩子在 150k 代币标记上有什么作用？",
+      "options": [
+        "取消运行并退还用户预算",
+        "将旧的转弯总结为先验状态块，以便计划和新的观察结果仍然适合",
+        "强制推送当前分支以支持进度",
+        "将支持模型切换为较小的草稿模型"
+      ],
+      "correct": 1,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "capstone 在 30 个问题的 SWE-bench Pro 子集上将其工具与哪个基线进行比较？",
+      "options": [
+        "开放代码",
+        "迷你瑞典代理",
+        "实时 SWE 代理",
+        "艾德尔"
+      ],
+      "correct": 1,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "可交付成果是根据哪个指标集进行衡量的？",
+      "options": [
+        "WER、MOS 和第一个音频输出",
+        "困惑、BLEU 和 ROUGE",
+        "pass@1、每任务轮数和每任务美元",
+        "MRR@10 和 nDCG@10"
+      ],
+      "correct": 2,
+      "explanation": ""
+    }
+  ]
+}

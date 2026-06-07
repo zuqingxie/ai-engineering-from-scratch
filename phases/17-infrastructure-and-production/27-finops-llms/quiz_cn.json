@@ -1,0 +1,78 @@
+{
+  "lesson": "27-finops-llms",
+  "title": "FinOps for LLMs — Unit Economics and Multi-Tenant Attribution",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "为什么传统的 FinOps 会破坏法学硕士的支出？",
+      "options": [
+        "LLM 不需要花钱",
+        "LLM账单始终免费",
+        "云提供商拒绝逐项列出",
+        "成本是代币交易而不是资源正常运行时间；标签不会从 API 调用自动传播，您必须在调用站点标记用户/任务/租户"
+      ],
+      "correct": 3,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "本课程在第一天需要检测哪三个归因维度？",
+      "options": [
+        "每个用户 (user_id)、每个任务 (task_id + 路由)、每个租户 (tenant_id)",
+        "提供商、型号、API 版本",
+        "区域、AZ、数据中心",
+        "GPU、CPU、内存"
+      ],
+      "correct": 0,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "成本归属应该分解哪四个代币层？",
+      "options": [
+        "提示、工具、记忆、响应",
+        "输入、输出、网络、磁盘",
+        "缓存、模型、网关、可观测性",
+        "GPU、CPU、RAM、存储"
+      ],
+      "correct": 0,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "执法阶梯中的终止开关触发器是什么？",
+      "options": [
+        "租户支出 z 得分相对于基线 > 4；自动暂停租户和呼叫页面",
+        "延迟 P50 > 2 秒",
+        "任何 5xx 响应",
+        "一分钟花费超过 1 美元"
+      ],
+      "correct": 0,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "本课程建议使用哪种单位指标来代替 $/M 代币？",
+      "options": [
+        "每个网关的成本",
+        "每 GPU 小时的成本",
+        "每秒成本",
+        "每个产品成果的成本（例如每个已解决的支持票证的成本、每个生成的文章的成本、每个成功的代理任务的成本）"
+      ],
+      "correct": 3,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "本课程称成熟团队使用的准确度最高的归因模式是哪一种？",
+      "options": [
+        "抽样和外推",
+        "基于模型的分配",
+        "仅标记和聚合",
+        "遥测连接器 — 通过跟踪 ID 将跟踪连接到计费"
+      ],
+      "correct": 3,
+      "explanation": ""
+    }
+  ]
+}

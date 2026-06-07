@@ -1,0 +1,541 @@
+{
+  "nodes": [
+    {
+      "id": "document:phases/12-multimodal-ai/07-open-weight-vlm-recipes/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/12-multimodal-ai/07-open-weight-vlm-recipes/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/12-multimodal-ai/07-open-weight-vlm-recipes/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/12-multimodal-ai/07-open-weight-vlm-recipes/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/12-multimodal-ai/07-open-weight-vlm-recipes/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/12-multimodal-ai/07-open-weight-vlm-recipes/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/12-multimodal-ai/07-open-weight-vlm-recipes/outputs/skill-vlm-recipe-picker.md",
+      "type": "document",
+      "name": "skill-vlm-recipe-picker.md",
+      "filePath": "phases/12-multimodal-ai/07-open-weight-vlm-recipes/outputs/skill-vlm-recipe-picker.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/12-multimodal-ai/08-llava-onevision-single-multi-video/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/12-multimodal-ai/08-llava-onevision-single-multi-video/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/12-multimodal-ai/08-llava-onevision-single-multi-video/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/12-multimodal-ai/08-llava-onevision-single-multi-video/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/12-multimodal-ai/08-llava-onevision-single-multi-video/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/12-multimodal-ai/08-llava-onevision-single-multi-video/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/12-multimodal-ai/08-llava-onevision-single-multi-video/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/12-multimodal-ai/08-llava-onevision-single-multi-video/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/12-multimodal-ai/08-llava-onevision-single-multi-video/outputs/skill-onevision-budget-planner.md",
+      "type": "document",
+      "name": "skill-onevision-budget-planner.md",
+      "filePath": "phases/12-multimodal-ai/08-llava-onevision-single-multi-video/outputs/skill-onevision-budget-planner.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/12-multimodal-ai/09-qwen-vl-family-dynamic-fps/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/12-multimodal-ai/09-qwen-vl-family-dynamic-fps/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/12-multimodal-ai/09-qwen-vl-family-dynamic-fps/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/12-multimodal-ai/09-qwen-vl-family-dynamic-fps/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/12-multimodal-ai/09-qwen-vl-family-dynamic-fps/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/12-multimodal-ai/09-qwen-vl-family-dynamic-fps/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/12-multimodal-ai/09-qwen-vl-family-dynamic-fps/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/12-multimodal-ai/09-qwen-vl-family-dynamic-fps/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/12-multimodal-ai/09-qwen-vl-family-dynamic-fps/outputs/skill-qwen-vl-pipeline-designer.md",
+      "type": "document",
+      "name": "skill-qwen-vl-pipeline-designer.md",
+      "filePath": "phases/12-multimodal-ai/09-qwen-vl-family-dynamic-fps/outputs/skill-qwen-vl-pipeline-designer.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/12-multimodal-ai/10-internvl3-native-multimodal/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/12-multimodal-ai/10-internvl3-native-multimodal/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/12-multimodal-ai/10-internvl3-native-multimodal/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/12-multimodal-ai/10-internvl3-native-multimodal/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/12-multimodal-ai/10-internvl3-native-multimodal/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/12-multimodal-ai/10-internvl3-native-multimodal/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/12-multimodal-ai/10-internvl3-native-multimodal/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/12-multimodal-ai/10-internvl3-native-multimodal/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/12-multimodal-ai/10-internvl3-native-multimodal/outputs/skill-native-vs-posthoc-auditor.md",
+      "type": "document",
+      "name": "skill-native-vs-posthoc-auditor.md",
+      "filePath": "phases/12-multimodal-ai/10-internvl3-native-multimodal/outputs/skill-native-vs-posthoc-auditor.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/12-multimodal-ai/11-chameleon-early-fusion-tokens/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/12-multimodal-ai/11-chameleon-early-fusion-tokens/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/12-multimodal-ai/11-chameleon-early-fusion-tokens/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/12-multimodal-ai/11-chameleon-early-fusion-tokens/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/12-multimodal-ai/11-chameleon-early-fusion-tokens/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/12-multimodal-ai/11-chameleon-early-fusion-tokens/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/12-multimodal-ai/11-chameleon-early-fusion-tokens/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/12-multimodal-ai/11-chameleon-early-fusion-tokens/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/12-multimodal-ai/11-chameleon-early-fusion-tokens/outputs/skill-tokenizer-vs-adapter-picker.md",
+      "type": "document",
+      "name": "skill-tokenizer-vs-adapter-picker.md",
+      "filePath": "phases/12-multimodal-ai/11-chameleon-early-fusion-tokens/outputs/skill-tokenizer-vs-adapter-picker.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/12-multimodal-ai/12-emu3-next-token-for-generation/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/12-multimodal-ai/12-emu3-next-token-for-generation/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/12-multimodal-ai/07-open-weight-vlm-recipes/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/12-multimodal-ai/07-open-weight-vlm-recipes/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/12-multimodal-ai/07-open-weight-vlm-recipes/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/12-multimodal-ai/07-open-weight-vlm-recipes/outputs/skill-vlm-recipe-picker.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/12-multimodal-ai/08-llava-onevision-single-multi-video/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/12-multimodal-ai/08-llava-onevision-single-multi-video/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/12-multimodal-ai/08-llava-onevision-single-multi-video/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/12-multimodal-ai/08-llava-onevision-single-multi-video/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/12-multimodal-ai/08-llava-onevision-single-multi-video/outputs/skill-onevision-budget-planner.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/12-multimodal-ai/09-qwen-vl-family-dynamic-fps/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/12-multimodal-ai/09-qwen-vl-family-dynamic-fps/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/12-multimodal-ai/09-qwen-vl-family-dynamic-fps/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/12-multimodal-ai/09-qwen-vl-family-dynamic-fps/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/12-multimodal-ai/09-qwen-vl-family-dynamic-fps/outputs/skill-qwen-vl-pipeline-designer.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/12-multimodal-ai/10-internvl3-native-multimodal/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/12-multimodal-ai/10-internvl3-native-multimodal/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/12-multimodal-ai/10-internvl3-native-multimodal/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/12-multimodal-ai/10-internvl3-native-multimodal/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/12-multimodal-ai/10-internvl3-native-multimodal/outputs/skill-native-vs-posthoc-auditor.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/12-multimodal-ai/11-chameleon-early-fusion-tokens/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/12-multimodal-ai/11-chameleon-early-fusion-tokens/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/12-multimodal-ai/11-chameleon-early-fusion-tokens/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/12-multimodal-ai/11-chameleon-early-fusion-tokens/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/12-multimodal-ai/11-chameleon-early-fusion-tokens/outputs/skill-tokenizer-vs-adapter-picker.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/12-multimodal-ai/12-emu3-next-token-for-generation/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

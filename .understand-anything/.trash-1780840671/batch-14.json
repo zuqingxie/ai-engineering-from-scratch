@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "id": "document:glossary/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "glossary/README.md",
+      "summary": "术语表文档，维护课程中复用概念的统一定义。",
+      "complexity": "simple",
+      "tags": [
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:glossary/myths.md",
+      "type": "document",
+      "name": "myths.md",
+      "filePath": "glossary/myths.md",
+      "summary": "术语表文档，维护课程中复用概念的统一定义。",
+      "complexity": "moderate",
+      "tags": [
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:glossary/terms.md",
+      "type": "document",
+      "name": "terms.md",
+      "filePath": "glossary/terms.md",
+      "summary": "术语表文档，维护课程中复用概念的统一定义。",
+      "complexity": "complex",
+      "tags": [
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:project-docs",
+      "target": "document:glossary/README.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:project-docs",
+      "target": "document:glossary/myths.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:project-docs",
+      "target": "document:glossary/terms.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

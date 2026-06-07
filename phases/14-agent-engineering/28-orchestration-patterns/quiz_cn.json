@@ -1,0 +1,90 @@
+{
+  "lesson": "28-orchestration-patterns",
+  "title": "Orchestration Patterns: Supervisor, Swarm, Hierarchical",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "本课程列出了哪四种编排模式？",
+      "options": [
+        "主管-工人、集群/点对点、分层、辩论",
+        "顺序、并行、分布式、联合",
+        "计划、行动、反思、完善",
+        "推、拉、批、流"
+      ],
+      "correct": 0,
+      "explanation": "主管-工人、群体、分层和争论在 2026 年框架中反复出现。"
+    },
+    {
+      "stage": "pre",
+      "question": "2026年浪链关于监管的建议是什么？",
+      "options": [
+        "始终使用create_supervisor",
+        "更喜欢直接工具调用而不是 create_supervisor，以实现更精细的上下文工程控制",
+        "完全规避监管",
+        "在 GPU 上运行 Supervisor"
+      ],
+      "correct": 1,
+      "explanation": "基于工具调用的监督使您可以精确控制每个专家所看到的内容。"
+    },
+    {
+      "stage": "check",
+      "question": "集群与主管-工作者拓扑有何区别？",
+      "options": [
+        "Swarm 使用 GPU",
+        "Swarm没有中央路由器；代理直接通过共享工具界面进行交接",
+        "Swarm 是单代理",
+        "Swarm 仅在 cron 上运行"
+      ],
+      "correct": 1,
+      "explanation": "Swarm 是点对点的；主管通过一名法学硕士进行集中路由。"
+    },
+    {
+      "stage": "check",
+      "question": "分层编排何时合理？",
+      "options": [
+        "总是；它可以免费扩展",
+        "当单个主管的背景预算无法容纳所有专家的描述时",
+        "仅使用 GPU",
+        "从来没有；这是一种反模式"
+      ],
+      "correct": 1,
+      "explanation": "嵌套主管适用于超出一名主管预算的大量专家群体。"
+    },
+    {
+      "stage": "check",
+      "question": "Anthropic 支持的推荐决策顺序是什么？",
+      "options": [
+        "始终从分层多代理开始",
+        "从单个代理加上工作流程模式开始；仅在需要时添加拓扑；主管先于群，再于分层；争论何时准确性战胜成本",
+        "从辩论开始",
+        "从群体开始，逐渐趋于单一"
+      ],
+      "correct": 1,
+      "explanation": "Anthropic 的指导是根据您的需求构建正确的系统，而不是最复杂的系统。"
+    },
+    {
+      "stage": "post",
+      "question": "本课中什么是假层次结构？",
+      "options": [
+        "YAML 标签错误",
+        "三层主管是因为“企业”只有两个实际团队；折叠它",
+        "用 TypeScript 编写的编排器",
+        "测试治具"
+      ],
+      "correct": 1,
+      "explanation": "与真实团队不对应的层会增加操作复杂性，但不会带来任何回报。"
+    },
+    {
+      "stage": "post",
+      "question": "如何减轻群中的跳动切换（A -> B -> A -> B）？",
+      "options": [
+        "将温度固定为 0",
+        "添加跳数计数器并在 N 次传输后拒绝",
+        "禁用跟踪",
+        "降低速率限制"
+      ],
+      "correct": 1,
+      "explanation": "跳跃计数器在群循环无限循环之前对其进行限制。"
+    }
+  ]
+}

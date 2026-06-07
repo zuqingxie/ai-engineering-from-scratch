@@ -1,0 +1,548 @@
+{
+  "nodes": [
+    {
+      "id": "document:phases/04-computer-vision/15-real-time-edge/outputs/prompt-edge-deployment-planner.md",
+      "type": "document",
+      "name": "prompt-edge-deployment-planner.md",
+      "filePath": "phases/04-computer-vision/15-real-time-edge/outputs/prompt-edge-deployment-planner.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/04-computer-vision/15-real-time-edge/outputs/skill-latency-profiler.md",
+      "type": "document",
+      "name": "skill-latency-profiler.md",
+      "filePath": "phases/04-computer-vision/15-real-time-edge/outputs/skill-latency-profiler.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/04-computer-vision/15-real-time-edge/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/04-computer-vision/15-real-time-edge/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/04-computer-vision/16-vision-pipeline-capstone/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/04-computer-vision/16-vision-pipeline-capstone/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/04-computer-vision/16-vision-pipeline-capstone/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/04-computer-vision/16-vision-pipeline-capstone/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/04-computer-vision/16-vision-pipeline-capstone/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/04-computer-vision/16-vision-pipeline-capstone/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/04-computer-vision/16-vision-pipeline-capstone/outputs/prompt-vision-service-shape-reviewer.md",
+      "type": "document",
+      "name": "prompt-vision-service-shape-reviewer.md",
+      "filePath": "phases/04-computer-vision/16-vision-pipeline-capstone/outputs/prompt-vision-service-shape-reviewer.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/04-computer-vision/16-vision-pipeline-capstone/outputs/skill-pipeline-budget-planner.md",
+      "type": "document",
+      "name": "skill-pipeline-budget-planner.md",
+      "filePath": "phases/04-computer-vision/16-vision-pipeline-capstone/outputs/skill-pipeline-budget-planner.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/04-computer-vision/16-vision-pipeline-capstone/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/04-computer-vision/16-vision-pipeline-capstone/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/04-computer-vision/17-self-supervised-vision/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/04-computer-vision/17-self-supervised-vision/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/04-computer-vision/17-self-supervised-vision/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/04-computer-vision/17-self-supervised-vision/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/04-computer-vision/17-self-supervised-vision/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/04-computer-vision/17-self-supervised-vision/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/04-computer-vision/17-self-supervised-vision/outputs/prompt-ssl-pretraining-picker.md",
+      "type": "document",
+      "name": "prompt-ssl-pretraining-picker.md",
+      "filePath": "phases/04-computer-vision/17-self-supervised-vision/outputs/prompt-ssl-pretraining-picker.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/04-computer-vision/17-self-supervised-vision/outputs/skill-linear-probe-runner.md",
+      "type": "document",
+      "name": "skill-linear-probe-runner.md",
+      "filePath": "phases/04-computer-vision/17-self-supervised-vision/outputs/skill-linear-probe-runner.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/04-computer-vision/17-self-supervised-vision/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/04-computer-vision/17-self-supervised-vision/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/04-computer-vision/18-open-vocab-clip/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/04-computer-vision/18-open-vocab-clip/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/04-computer-vision/18-open-vocab-clip/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/04-computer-vision/18-open-vocab-clip/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/04-computer-vision/18-open-vocab-clip/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/04-computer-vision/18-open-vocab-clip/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/04-computer-vision/18-open-vocab-clip/outputs/prompt-zero-shot-class-picker.md",
+      "type": "document",
+      "name": "prompt-zero-shot-class-picker.md",
+      "filePath": "phases/04-computer-vision/18-open-vocab-clip/outputs/prompt-zero-shot-class-picker.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/04-computer-vision/18-open-vocab-clip/outputs/skill-image-text-retriever.md",
+      "type": "document",
+      "name": "skill-image-text-retriever.md",
+      "filePath": "phases/04-computer-vision/18-open-vocab-clip/outputs/skill-image-text-retriever.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/04-computer-vision/18-open-vocab-clip/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/04-computer-vision/18-open-vocab-clip/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/04-computer-vision/19-ocr-document-understanding/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/04-computer-vision/19-ocr-document-understanding/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/04-computer-vision/19-ocr-document-understanding/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/04-computer-vision/19-ocr-document-understanding/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/04-computer-vision/19-ocr-document-understanding/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/04-computer-vision/19-ocr-document-understanding/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/04-computer-vision/19-ocr-document-understanding/outputs/prompt-ocr-stack-picker.md",
+      "type": "document",
+      "name": "prompt-ocr-stack-picker.md",
+      "filePath": "phases/04-computer-vision/19-ocr-document-understanding/outputs/prompt-ocr-stack-picker.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/15-real-time-edge/outputs/prompt-edge-deployment-planner.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/15-real-time-edge/outputs/skill-latency-profiler.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/04-computer-vision/15-real-time-edge/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/04-computer-vision/16-vision-pipeline-capstone/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/16-vision-pipeline-capstone/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/16-vision-pipeline-capstone/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/16-vision-pipeline-capstone/outputs/prompt-vision-service-shape-reviewer.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/16-vision-pipeline-capstone/outputs/skill-pipeline-budget-planner.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/04-computer-vision/16-vision-pipeline-capstone/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/04-computer-vision/17-self-supervised-vision/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/17-self-supervised-vision/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/17-self-supervised-vision/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/17-self-supervised-vision/outputs/prompt-ssl-pretraining-picker.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/17-self-supervised-vision/outputs/skill-linear-probe-runner.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/04-computer-vision/17-self-supervised-vision/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/04-computer-vision/18-open-vocab-clip/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/18-open-vocab-clip/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/18-open-vocab-clip/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/18-open-vocab-clip/outputs/prompt-zero-shot-class-picker.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/18-open-vocab-clip/outputs/skill-image-text-retriever.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/04-computer-vision/18-open-vocab-clip/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/04-computer-vision/19-ocr-document-understanding/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/19-ocr-document-understanding/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/19-ocr-document-understanding/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/19-ocr-document-understanding/outputs/prompt-ocr-stack-picker.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

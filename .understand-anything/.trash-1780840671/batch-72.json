@@ -1,0 +1,543 @@
+{
+  "nodes": [
+    {
+      "id": "document:phases/09-reinforcement-learning/11-sim-to-real-transfer/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/09-reinforcement-learning/11-sim-to-real-transfer/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/09-reinforcement-learning/11-sim-to-real-transfer/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/09-reinforcement-learning/11-sim-to-real-transfer/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/09-reinforcement-learning/11-sim-to-real-transfer/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/09-reinforcement-learning/11-sim-to-real-transfer/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/09-reinforcement-learning/11-sim-to-real-transfer/outputs/skill-sim2real-planner.md",
+      "type": "document",
+      "name": "skill-sim2real-planner.md",
+      "filePath": "phases/09-reinforcement-learning/11-sim-to-real-transfer/outputs/skill-sim2real-planner.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/09-reinforcement-learning/12-rl-for-games/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/09-reinforcement-learning/12-rl-for-games/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/09-reinforcement-learning/12-rl-for-games/docs/cn.cn.failed.md",
+      "type": "document",
+      "name": "cn.cn.failed.md",
+      "filePath": "phases/09-reinforcement-learning/12-rl-for-games/docs/cn.cn.failed.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/09-reinforcement-learning/12-rl-for-games/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/09-reinforcement-learning/12-rl-for-games/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/09-reinforcement-learning/12-rl-for-games/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/09-reinforcement-learning/12-rl-for-games/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/09-reinforcement-learning/12-rl-for-games/outputs/skill-game-rl-designer.md",
+      "type": "document",
+      "name": "skill-game-rl-designer.md",
+      "filePath": "phases/09-reinforcement-learning/12-rl-for-games/outputs/skill-game-rl-designer.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/09-reinforcement-learning/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "phases/09-reinforcement-learning/README.md",
+      "summary": "项目文档文件，补充课程、贡献流程或仓库治理信息。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/10-llms-from-scratch/01-tokenizers/code/bpe.py",
+      "type": "file",
+      "name": "bpe.py",
+      "filePath": "phases/10-llms-from-scratch/01-tokenizers/code/bpe.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:phases/10-llms-from-scratch/01-tokenizers/code/bpe.rs",
+      "type": "file",
+      "name": "bpe.rs",
+      "filePath": "phases/10-llms-from-scratch/01-tokenizers/code/bpe.rs",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "rust"
+      ],
+      "language": "rust"
+    },
+    {
+      "id": "file:phases/10-llms-from-scratch/01-tokenizers/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/10-llms-from-scratch/01-tokenizers/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/10-llms-from-scratch/01-tokenizers/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/10-llms-from-scratch/01-tokenizers/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/10-llms-from-scratch/01-tokenizers/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/10-llms-from-scratch/01-tokenizers/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/10-llms-from-scratch/01-tokenizers/outputs/prompt-tokenizer-analyzer.md",
+      "type": "document",
+      "name": "prompt-tokenizer-analyzer.md",
+      "filePath": "phases/10-llms-from-scratch/01-tokenizers/outputs/prompt-tokenizer-analyzer.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/10-llms-from-scratch/01-tokenizers/outputs/skill-tokenizer.md",
+      "type": "document",
+      "name": "skill-tokenizer.md",
+      "filePath": "phases/10-llms-from-scratch/01-tokenizers/outputs/skill-tokenizer.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/10-llms-from-scratch/01-tokenizers/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/10-llms-from-scratch/01-tokenizers/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/10-llms-from-scratch/02-building-a-tokenizer/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/10-llms-from-scratch/02-building-a-tokenizer/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/10-llms-from-scratch/02-building-a-tokenizer/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/10-llms-from-scratch/02-building-a-tokenizer/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/10-llms-from-scratch/02-building-a-tokenizer/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/10-llms-from-scratch/02-building-a-tokenizer/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/10-llms-from-scratch/02-building-a-tokenizer/outputs/prompt-tokenizer-builder.md",
+      "type": "document",
+      "name": "prompt-tokenizer-builder.md",
+      "filePath": "phases/10-llms-from-scratch/02-building-a-tokenizer/outputs/prompt-tokenizer-builder.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/10-llms-from-scratch/02-building-a-tokenizer/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/10-llms-from-scratch/02-building-a-tokenizer/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/10-llms-from-scratch/03-data-pipelines/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/10-llms-from-scratch/03-data-pipelines/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/10-llms-from-scratch/03-data-pipelines/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/10-llms-from-scratch/03-data-pipelines/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/09-reinforcement-learning/11-sim-to-real-transfer/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/09-reinforcement-learning/11-sim-to-real-transfer/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/09-reinforcement-learning/11-sim-to-real-transfer/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/09-reinforcement-learning/11-sim-to-real-transfer/outputs/skill-sim2real-planner.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/09-reinforcement-learning/12-rl-for-games/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/09-reinforcement-learning/12-rl-for-games/docs/cn.cn.failed.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/09-reinforcement-learning/12-rl-for-games/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/09-reinforcement-learning/12-rl-for-games/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/09-reinforcement-learning/12-rl-for-games/outputs/skill-game-rl-designer.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/09-reinforcement-learning/README.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/10-llms-from-scratch/01-tokenizers/code/bpe.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/10-llms-from-scratch/01-tokenizers/code/bpe.rs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/10-llms-from-scratch/01-tokenizers/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/10-llms-from-scratch/01-tokenizers/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/10-llms-from-scratch/01-tokenizers/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/10-llms-from-scratch/01-tokenizers/outputs/prompt-tokenizer-analyzer.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/10-llms-from-scratch/01-tokenizers/outputs/skill-tokenizer.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/10-llms-from-scratch/01-tokenizers/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/10-llms-from-scratch/02-building-a-tokenizer/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/10-llms-from-scratch/02-building-a-tokenizer/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/10-llms-from-scratch/02-building-a-tokenizer/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/10-llms-from-scratch/02-building-a-tokenizer/outputs/prompt-tokenizer-builder.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/10-llms-from-scratch/02-building-a-tokenizer/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/10-llms-from-scratch/03-data-pipelines/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/10-llms-from-scratch/03-data-pipelines/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

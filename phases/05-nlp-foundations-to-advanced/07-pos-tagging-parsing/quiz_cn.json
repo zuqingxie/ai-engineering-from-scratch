@@ -1,0 +1,102 @@
+{
+  "lesson": "07-pos-tagging-parsing",
+  "title": "POS Tagging and Syntactic Parsing",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "POS 标签的目标是什么？",
+      "options": [
+        "检测情绪",
+        "翻译这句话",
+        "提取命名实体",
+        "为每个标记分配语法类别（名词、动词等）"
+      ],
+      "correct": 3,
+      "explanation": "词性标记用其词性来标记每个标记。"
+    },
+    {
+      "stage": "pre",
+      "question": "哪个标签集是跨语言工作的默认标签集？",
+      "options": [
+        "宾夕法尼亚树库",
+        "斯坦福大学附属机构",
+        "通用依赖关系",
+        "CoNLL-2003"
+      ],
+      "correct": 2,
+      "explanation": "通用依赖项提供了一个更粗略的、与语言无关的 17 个标签集。"
+    },
+    {
+      "stage": "check",
+      "question": "二元 HMM POS 标注器模型是什么？",
+      "options": [
+        "仅 P（标签）",
+        "依赖解析",
+        "嵌入相似性",
+        "P（标签 | 前一个标签）转换加上 P（字 | 标签）发射，用维特比解码"
+      ],
+      "correct": 3,
+      "explanation": "Bigram HMM 使用标签转换和单词发射；维特比找到最高概率的序列。"
+    },
+    {
+      "stage": "check",
+      "question": "维特比算法为 HMM 标注器计算什么？",
+      "options": [
+        "通过标签格上的动态编程得到单个最高概率的标签序列",
+        "转移矩阵",
+        "每个标签的边际概率",
+        "仅前向概率"
+      ],
+      "correct": 0,
+      "explanation": "Viterbi 通过 O(n * |T|^2) 动态规划找到 argmax 序列。"
+    },
+    {
+      "stage": "check",
+      "question": "依存分析会产生什么？",
+      "options": [
+        "一棵树，其中每个单词都有一个中心词和一个标记的语法关系",
+        "扁平 BIO 序列",
+        "NP/VP/PP 标签的选区树",
+        "共指链"
+      ],
+      "correct": 0,
+      "explanation": "依存分析给出每个单词（头、关系）的边缘；选区解析给出嵌套短语结构。"
+    },
+    {
+      "stage": "post",
+      "question": "为什么 PTB POS 标签的准确度上限在 97-98% 左右？",
+      "options": [
+        "模型在任何任务中都不能超过 98%",
+        "通用依赖项上限为 98%",
+        "人类注释者仅在大约 97% 的情况下达成一致，因此高于 ~98% 的模型可能会过度拟合测试数据",
+        "硬件限制"
+      ],
+      "correct": 2,
+      "explanation": "注释者的分歧限制了可实现的准确性；非常高的数字通常表明过度拟合。"
+    },
+    {
+      "stage": "post",
+      "question": "为什么 POS 标签在 2026 年 LLM 管道中仍然很重要？",
+      "options": [
+        "法学硕士没有它就无法运行",
+        "词形还原、基于方面的情感、查询分解、结构化输出验证和跨语言传输仍然消耗 POS 或依赖解析",
+        "标记化所需",
+        "取代变压器"
+      ],
+      "correct": 1,
+      "explanation": "即使法学硕士生成散文，POS 和依存解析也会为许多结构化下游任务提供支持。"
+    },
+    {
+      "stage": "post",
+      "question": "在大多数生产 POS/解析任务中您应该使用哪个库？",
+      "options": [
+        "scikit学习",
+        "数值模拟",
+        "spaCy（或 stanza/trankit 以获得最高准确度或更广泛的语言覆盖范围）",
+        "推出你自己的解析器"
+      ],
+      "correct": 2,
+      "explanation": "spaCy 提供快速生产级 POS + 依赖解析器； stanza/trankit 涵盖更广泛的语言。"
+    }
+  ]
+}

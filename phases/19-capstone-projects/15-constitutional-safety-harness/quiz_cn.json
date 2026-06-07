@@ -1,0 +1,90 @@
+{
+  "lesson": "15-constitutional-safety-harness",
+  "title": "Capstone 15 — Constitutional Safety Harness + Red-Team Range",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "这个顶点中的分层安全意味着什么？",
+      "options": [
+        "手动审核每个回复",
+        "仅在输入上运行一个强分类器",
+        "输出上基于单一规则的正则表达式",
+        "跨输入清理、策略轨道、分类器门、模型、输出过滤器和 HITL 层的深度防御"
+      ],
+      "correct": 3,
+      "explanation": ""
+    },
+    {
+      "stage": "pre",
+      "question": "哪个分类器可以处理大约 132 种语言的多语言覆盖？",
+      "options": [
+        "Nemotron 3 内容安全",
+        "ShieldGemma-2",
+        "X-卫士",
+        "骆驼卫士 4"
+      ],
+      "correct": 2,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "为什么在像 XSTest 这样的良性套件上测量过度拒绝？",
+      "options": [
+        "取代红队得分",
+        "衡量令牌吞吐量",
+        "认证护栏框架",
+        "跟踪误报块，使模型保持有用，同时提高无害性"
+      ],
+      "correct": 3,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "这个顶点中的宪法自我批评循环是什么？",
+      "options": [
+        "对候选人越狱提示的重新排名",
+        "从头开始训练的 RLHF 奖励模型",
+        "单次向前传球穿过 Llama Guard 4",
+        "Critic LLM 根据书面宪法对草稿进行评分，提示模型重写反对的输出，SFT 在改进的对上运行"
+      ],
+      "correct": 3,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "成功越狱的严重程度如何在调查结果中进行评分？",
+      "options": [
+        "通过产生响应的模型",
+        "使用具有攻击向量、复杂性和影响以及披露时间表的 CVSS 4.0",
+        "按提示的原始标记计数",
+        "操作员选择的手动调整的 1-10 等级"
+      ],
+      "correct": 1,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "红队范围运行哪六个攻击系列？",
+      "options": [
+        "BLEU、ROUGE、METEOR、BERTScore、CometKiwi 和 chrF",
+        "PAIR、TAP、GCG、编码 (ASCII/base64/rot13)、多轮角色和多语言代码切换",
+        "暴力破解、字典、重放、MITM、网络钓鱼和 CSRF",
+        "PSI、KL、MMD、KS、JS 和 Wasserstein"
+      ],
+      "correct": 1,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "为什么范围自动化（cron + 警报）是标题的一部分？",
+      "options": [
+        "Cron是调用OPA的唯一方式",
+        "随着时间的推移，连续计划的探测会发现攻击成功率的漂移和过度拒绝回归",
+        "明确需要手动运行",
+        "需要自动化来禁用 Llama Guard 4"
+      ],
+      "correct": 1,
+      "explanation": ""
+    }
+  ]
+}

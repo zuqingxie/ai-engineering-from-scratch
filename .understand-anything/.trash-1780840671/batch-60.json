@@ -1,0 +1,541 @@
+{
+  "nodes": [
+    {
+      "id": "config:phases/05-nlp-foundations-to-advanced/29-dialogue-state-tracking/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/05-nlp-foundations-to-advanced/29-dialogue-state-tracking/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "document:phases/05-nlp-foundations-to-advanced/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "phases/05-nlp-foundations-to-advanced/README.md",
+      "summary": "项目文档文件，补充课程、贡献流程或仓库治理信息。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/06-speech-and-audio/01-audio-fundamentals/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/06-speech-and-audio/01-audio-fundamentals/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/06-speech-and-audio/01-audio-fundamentals/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/06-speech-and-audio/01-audio-fundamentals/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/06-speech-and-audio/01-audio-fundamentals/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/06-speech-and-audio/01-audio-fundamentals/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/06-speech-and-audio/01-audio-fundamentals/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/06-speech-and-audio/01-audio-fundamentals/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/06-speech-and-audio/01-audio-fundamentals/outputs/skill-audio-loader.md",
+      "type": "document",
+      "name": "skill-audio-loader.md",
+      "filePath": "phases/06-speech-and-audio/01-audio-fundamentals/outputs/skill-audio-loader.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/06-speech-and-audio/02-spectrograms-mel-features/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/06-speech-and-audio/02-spectrograms-mel-features/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/06-speech-and-audio/02-spectrograms-mel-features/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/06-speech-and-audio/02-spectrograms-mel-features/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/06-speech-and-audio/02-spectrograms-mel-features/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/06-speech-and-audio/02-spectrograms-mel-features/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/06-speech-and-audio/02-spectrograms-mel-features/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/06-speech-and-audio/02-spectrograms-mel-features/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/06-speech-and-audio/02-spectrograms-mel-features/outputs/skill-feature-extractor.md",
+      "type": "document",
+      "name": "skill-feature-extractor.md",
+      "filePath": "phases/06-speech-and-audio/02-spectrograms-mel-features/outputs/skill-feature-extractor.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/06-speech-and-audio/03-audio-classification/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/06-speech-and-audio/03-audio-classification/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/06-speech-and-audio/03-audio-classification/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/06-speech-and-audio/03-audio-classification/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/06-speech-and-audio/03-audio-classification/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/06-speech-and-audio/03-audio-classification/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/06-speech-and-audio/03-audio-classification/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/06-speech-and-audio/03-audio-classification/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/06-speech-and-audio/03-audio-classification/outputs/skill-classifier-designer.md",
+      "type": "document",
+      "name": "skill-classifier-designer.md",
+      "filePath": "phases/06-speech-and-audio/03-audio-classification/outputs/skill-classifier-designer.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/06-speech-and-audio/04-speech-recognition-asr/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/06-speech-and-audio/04-speech-recognition-asr/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/06-speech-and-audio/04-speech-recognition-asr/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/06-speech-and-audio/04-speech-recognition-asr/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/06-speech-and-audio/04-speech-recognition-asr/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/06-speech-and-audio/04-speech-recognition-asr/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/06-speech-and-audio/04-speech-recognition-asr/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/06-speech-and-audio/04-speech-recognition-asr/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/06-speech-and-audio/04-speech-recognition-asr/outputs/skill-asr-picker.md",
+      "type": "document",
+      "name": "skill-asr-picker.md",
+      "filePath": "phases/06-speech-and-audio/04-speech-recognition-asr/outputs/skill-asr-picker.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/06-speech-and-audio/05-whisper-architecture-finetuning/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/06-speech-and-audio/05-whisper-architecture-finetuning/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/06-speech-and-audio/05-whisper-architecture-finetuning/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/06-speech-and-audio/05-whisper-architecture-finetuning/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/06-speech-and-audio/05-whisper-architecture-finetuning/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/06-speech-and-audio/05-whisper-architecture-finetuning/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/05-nlp-foundations-to-advanced/29-dialogue-state-tracking/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/05-nlp-foundations-to-advanced/README.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/06-speech-and-audio/01-audio-fundamentals/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/06-speech-and-audio/01-audio-fundamentals/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/06-speech-and-audio/01-audio-fundamentals/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/06-speech-and-audio/01-audio-fundamentals/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/06-speech-and-audio/01-audio-fundamentals/outputs/skill-audio-loader.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/06-speech-and-audio/02-spectrograms-mel-features/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/06-speech-and-audio/02-spectrograms-mel-features/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/06-speech-and-audio/02-spectrograms-mel-features/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/06-speech-and-audio/02-spectrograms-mel-features/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/06-speech-and-audio/02-spectrograms-mel-features/outputs/skill-feature-extractor.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/06-speech-and-audio/03-audio-classification/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/06-speech-and-audio/03-audio-classification/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/06-speech-and-audio/03-audio-classification/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/06-speech-and-audio/03-audio-classification/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/06-speech-and-audio/03-audio-classification/outputs/skill-classifier-designer.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/06-speech-and-audio/04-speech-recognition-asr/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/06-speech-and-audio/04-speech-recognition-asr/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/06-speech-and-audio/04-speech-recognition-asr/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/06-speech-and-audio/04-speech-recognition-asr/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/06-speech-and-audio/04-speech-recognition-asr/outputs/skill-asr-picker.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/06-speech-and-audio/05-whisper-architecture-finetuning/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/06-speech-and-audio/05-whisper-architecture-finetuning/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/06-speech-and-audio/05-whisper-architecture-finetuning/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

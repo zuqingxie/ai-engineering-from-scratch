@@ -1,0 +1,90 @@
+{
+  "lesson": "03-realtime-voice-assistant",
+  "title": "Capstone 03 — Real-Time Voice Assistant (ASR to LLM to TTS)",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "为什么不能通过拼接三个阻塞的 REST 调用来构建语音代理？",
+      "options": [
+        "REST endpoints have a 30-second hard timeout",
+        "REST is incompatible with WebRTC",
+        "JSON 序列化对于音频数据来说太慢",
+        "低于 800 毫秒的端到端延迟需要在每个阶段进行流水线流式传输"
+      ],
+      "correct": 3,
+      "explanation": ""
+    },
+    {
+      "stage": "pre",
+      "question": "转弯检测器与 VAD 一起发挥什么作用？",
+      "options": [
+        "为代理训练自定义语音克隆",
+        "读取部分文字记录并对用户是否真正完成其话语进行评分",
+        "检测多方通话中哪个发言者正在讲话",
+        "将背景音乐混合到输出流中"
+      ],
+      "correct": 1,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "当用户在客服人员正在响应时开始讲话时，必须发生什么情况才能让插话感觉正确？",
+      "options": [
+        "TTS 在放弃之前完成当前句子",
+        "管道缓冲用户音频直到 TTS 完成",
+        "TTS 立即取消，剩余的 LLM 输出被丢弃，ASR 重新准备",
+        "客服人员提高 TTS 音量以表明优先级"
+      ],
+      "correct": 2,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "当工具超过约 300 毫秒时，为什么会发出诸如“一秒钟，让我检查一下”之类的简短填充词？",
+      "options": [
+        "它避免了沉默，因此在旁路工具运行时对话不会停止",
+        "它触发后备 ASR 模型",
+        "它重置 WebRTC 抖动缓冲区",
+        "它提高了下一个话语的 WER"
+      ],
+      "correct": 0,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "第一个音频块必须在第一个 LLM 令牌大约多长时间内离开服务器？",
+      "options": [
+        "20毫秒",
+        "800毫秒",
+        "2秒",
+        "200毫秒"
+      ],
+      "correct": 3,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "哪个指标直接衡量不适当的闯入或过度急切的转弯关闭？",
+      "options": [
+        "世界教育联盟",
+        "金属氧化物半导体",
+        "录取率",
+        "误截率"
+      ],
+      "correct": 3,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "在 3% 的丢包率下，管道依赖哪两种自适应行为？",
+      "options": [
+        "切换到更大的 LLM 并禁用 TTS",
+        "回退到 PSTN 音频编解码器",
+        "保留部分成绩单并提高 VAD 语音门阈值",
+        "重启LiveKit房间"
+      ],
+      "correct": 2,
+      "explanation": ""
+    }
+  ]
+}

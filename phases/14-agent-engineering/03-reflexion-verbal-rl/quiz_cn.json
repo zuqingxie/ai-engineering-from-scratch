@@ -1,0 +1,90 @@
+{
+  "lesson": "03-reflexion-verbal-rl",
+  "title": "Reflexion: Verbal Reinforcement Learning",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "反射在标准强化学习中取代了什么？",
+      "options": [
+        "用持续的奖励塑造奖励",
+        "使用在试验之间存储的自然语言反射进行梯度更新",
+        "具有随机搜索的策略网络",
+        "情景记忆与参数记忆"
+      ],
+      "correct": 1,
+      "explanation": "反射在情景记忆中使用自然语言反射而不是权重更新。"
+    },
+    {
+      "stage": "pre",
+      "question": "反射系统由哪三个组成部分定义？",
+      "options": [
+        "规划者、工作者、求解者",
+        "演员、评价者、自我反思者",
+        "生成器、批评者、优化器",
+        "选择器、扩展器、反向传播器"
+      ],
+      "correct": 1,
+      "explanation": "反思将智能体分为运行轨迹的参与者、对轨迹进行评分的评估者和编写课程的自我反思者。"
+    },
+    {
+      "stage": "check",
+      "question": "哪种评估器类型使用外部二进制信号（例如单元测试或已知的正确答案）？",
+      "options": [
+        "启发式",
+        "标量",
+        "自我评价",
+        "基于投票的"
+      ],
+      "correct": 1,
+      "explanation": "标量评估器从地面事实中读取通过/失败信号（ALFWorld 成功、HumanEval 测试）。"
+    },
+    {
+      "stage": "check",
+      "question": "为什么自我评价的信号比标量反馈弱？",
+      "options": [
+        "计算速度较慢",
+        "模型判断本身没有外部接地，因此它可以自行决定答案",
+        "它总是需要更大的模型",
+        "它无法在工具上运行"
+      ],
+      "correct": 1,
+      "explanation": "自我评价缺乏外部检查，因此自信的幻觉得分很高；将其与基于工具的验证配对。"
+    },
+    {
+      "stage": "check",
+      "question": "本课将哪种情况列为反射无济于事的地方？",
+      "options": [
+        "测试可以评分的代码生成",
+        "外部瞬时故障，例如网络故障",
+        "ALFWorld 导航任务",
+        "HotpotQA 多跳问题"
+      ],
+      "correct": 1,
+      "explanation": "对短暂的外部中断进行反思会产生无助于未来运行的反思。"
+    },
+    {
+      "stage": "post",
+      "question": "反射模式中的记忆腐烂是什么？",
+      "options": [
+        "进程重新启动时丢失反射",
+        "情景缓冲区充满了过时或错误的反思，并减慢或使未来的试验产生偏差",
+        "反射由提供商加密",
+        "反射提示超出上下文窗口"
+      ],
+      "correct": 1,
+      "explanation": "积累的陈旧或错误的反思会降低行为；通过压缩或 TTL 来缓解。"
+    },
+    {
+      "stage": "post",
+      "question": "哪种制作模式与本课的 Reflexion 最匹配？",
+      "options": [
+        "光标的应用编辑流程",
+        "Claude Code 的 CLAUDE.md 学习内容已添加到未来的课程中",
+        "OpenAI 的批处理 API",
+        "Anthropic 的提示缓存"
+      ],
+      "correct": 1,
+      "explanation": "CLAUDE.md 的学习、pro-workflow 的学习规则和 Letta 的睡眠时间计算都将情景反射缓冲区具体化。"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "nodes": [
+    {
+      "id": "file:phases/19-capstone-projects/87-end-to-end-safety-gate/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/19-capstone-projects/87-end-to-end-safety-gate/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/87-end-to-end-safety-gate/code/mock_llm_stream.py",
+      "type": "file",
+      "name": "mock_llm_stream.py",
+      "filePath": "phases/19-capstone-projects/87-end-to-end-safety-gate/code/mock_llm_stream.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/87-end-to-end-safety-gate/code/safety_gate.py",
+      "type": "file",
+      "name": "safety_gate.py",
+      "filePath": "phases/19-capstone-projects/87-end-to-end-safety-gate/code/safety_gate.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/87-end-to-end-safety-gate/code/tests.py",
+      "type": "file",
+      "name": "tests.py",
+      "filePath": "phases/19-capstone-projects/87-end-to-end-safety-gate/code/tests.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "test",
+        "python"
+      ],
+      "language": "python"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/87-end-to-end-safety-gate/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:phases/19-capstone-projects/87-end-to-end-safety-gate/code/main.py",
+      "target": "file:phases/19-capstone-projects/87-end-to-end-safety-gate/code/safety_gate.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/87-end-to-end-safety-gate/code/mock_llm_stream.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/87-end-to-end-safety-gate/code/safety_gate.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:phases/19-capstone-projects/87-end-to-end-safety-gate/code/safety_gate.py",
+      "target": "file:phases/19-capstone-projects/87-end-to-end-safety-gate/code/mock_llm_stream.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/87-end-to-end-safety-gate/code/tests.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:phases/19-capstone-projects/87-end-to-end-safety-gate/code/tests.py",
+      "target": "file:phases/19-capstone-projects/87-end-to-end-safety-gate/code/mock_llm_stream.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:phases/19-capstone-projects/87-end-to-end-safety-gate/code/tests.py",
+      "target": "file:phases/19-capstone-projects/87-end-to-end-safety-gate/code/safety_gate.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

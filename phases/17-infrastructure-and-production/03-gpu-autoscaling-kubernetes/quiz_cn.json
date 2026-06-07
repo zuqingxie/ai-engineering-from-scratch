@@ -1,0 +1,78 @@
+{
+  "lesson": "03-gpu-autoscaling-kubernetes",
+  "title": "GPU Autoscaling on Kubernetes — Karpenter, KAI Scheduler, Gang Scheduling",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "默认情况下，HPA 通常会根据哪个信号进行扩展，课程中将其称为 vLLM 式服务损坏？",
+      "options": [
+        "队列深度",
+        "P99 薄膜晶体管",
+        "KV缓存利用率",
+        "DCGM_FI_DEV_GPU_UTIL 占空比"
+      ],
+      "correct": 3,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "KAI Scheduler 中的组调度主要防止哪些问题？",
+      "options": [
+        "GPU内存碎片",
+        "分词器 GIL 争用",
+        "部分分配陷阱，8 个 GPU 中的 7 个处于空闲状态，等待第 8 个 GPU",
+        "冷启动延迟"
+      ],
+      "correct": 2,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "为什么 Karpenter 的默认整合策略 WhenEmptyOrUnderutilized 对于推理 GPU 池来说是危险的？",
+      "options": [
+        "它拒绝在突发情况下扩大规模",
+        "它仅整合现货实例",
+        "它终止正在运行的 GPU 节点以迁移 pod，从而驱逐正在运行的请求并重新加载权重",
+        "它阻止 Karpenter 配置新节点"
+      ],
+      "correct": 2,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "与 Cluster Autoscaler 相比，Karpenter 配置 GPU 节点的速度大约快多少？",
+      "options": [
+        "大约快 40%（约 45-60 秒 vs 约 90-120 秒）",
+        "大约慢 10 倍",
+        "一样的",
+        "大约快 5%"
+      ],
+      "correct": 0,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "对于分解的预填充/解码 Pod（第 17·17 阶段），本课程建议使用哪些缩放信号？",
+      "options": [
+        "仅手动缩放",
+        "单个 HPA 工作周期涵盖两个 Pod 类别",
+        "预填充 Pod 的队列深度和解码 Pod 的 KV 缓存压力，作为单独的每个角色 HPA",
+        "两者的集群自动缩放器"
+      ],
+      "correct": 2,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "本课程建议推理 GPU 池使用哪种 Karpenter 中断设置以避免驱逐正在运行的作业？",
+      "options": [
+        "合并策略：WhenEmptyOrUnderutilized 与 consolidateAfter：0s",
+        "合并策略：WhenEmpty with consolidateAfter：1h",
+        "始终使用竞价实例运行且不进行整合",
+        "完全禁用 Karpenter"
+      ],
+      "correct": 1,
+      "explanation": ""
+    }
+  ]
+}

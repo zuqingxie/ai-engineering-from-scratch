@@ -1,0 +1,540 @@
+{
+  "nodes": [
+    {
+      "id": "file:phases/14-agent-engineering/42-agent-workbench-capstone/outputs/agent-workbench-pack/scripts/verify_agent.py",
+      "type": "file",
+      "name": "verify_agent.py",
+      "filePath": "phases/14-agent-engineering/42-agent-workbench-capstone/outputs/agent-workbench-pack/scripts/verify_agent.py",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:phases/14-agent-engineering/42-agent-workbench-capstone/outputs/agent-workbench-pack/VERSION",
+      "type": "file",
+      "name": "VERSION",
+      "filePath": "phases/14-agent-engineering/42-agent-workbench-capstone/outputs/agent-workbench-pack/VERSION",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/14-agent-engineering/42-agent-workbench-capstone/outputs/skill-workbench-pack.md",
+      "type": "document",
+      "name": "skill-workbench-pack.md",
+      "filePath": "phases/14-agent-engineering/42-agent-workbench-capstone/outputs/skill-workbench-pack.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/14-agent-engineering/42-agent-workbench-capstone/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/14-agent-engineering/42-agent-workbench-capstone/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "document:phases/14-agent-engineering/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "phases/14-agent-engineering/README.md",
+      "summary": "项目文档文件，补充课程、贡献流程或仓库治理信息。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/15-autonomous-systems/01-long-horizon-agents/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/15-autonomous-systems/01-long-horizon-agents/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/15-autonomous-systems/01-long-horizon-agents/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/15-autonomous-systems/01-long-horizon-agents/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/15-autonomous-systems/01-long-horizon-agents/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/15-autonomous-systems/01-long-horizon-agents/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/15-autonomous-systems/01-long-horizon-agents/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/15-autonomous-systems/01-long-horizon-agents/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/15-autonomous-systems/01-long-horizon-agents/outputs/skill-horizon-reality-check.md",
+      "type": "document",
+      "name": "skill-horizon-reality-check.md",
+      "filePath": "phases/15-autonomous-systems/01-long-horizon-agents/outputs/skill-horizon-reality-check.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/15-autonomous-systems/02-star-family-reasoning/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/15-autonomous-systems/02-star-family-reasoning/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/15-autonomous-systems/02-star-family-reasoning/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/15-autonomous-systems/02-star-family-reasoning/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/15-autonomous-systems/02-star-family-reasoning/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/15-autonomous-systems/02-star-family-reasoning/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/15-autonomous-systems/02-star-family-reasoning/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/15-autonomous-systems/02-star-family-reasoning/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/15-autonomous-systems/02-star-family-reasoning/outputs/skill-star-loop-reviewer.md",
+      "type": "document",
+      "name": "skill-star-loop-reviewer.md",
+      "filePath": "phases/15-autonomous-systems/02-star-family-reasoning/outputs/skill-star-loop-reviewer.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/15-autonomous-systems/03-alphaevolve-evolutionary-coding/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/15-autonomous-systems/03-alphaevolve-evolutionary-coding/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/15-autonomous-systems/03-alphaevolve-evolutionary-coding/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/15-autonomous-systems/03-alphaevolve-evolutionary-coding/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/15-autonomous-systems/03-alphaevolve-evolutionary-coding/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/15-autonomous-systems/03-alphaevolve-evolutionary-coding/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/15-autonomous-systems/03-alphaevolve-evolutionary-coding/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/15-autonomous-systems/03-alphaevolve-evolutionary-coding/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/15-autonomous-systems/03-alphaevolve-evolutionary-coding/outputs/skill-evaluator-rigor-audit.md",
+      "type": "document",
+      "name": "skill-evaluator-rigor-audit.md",
+      "filePath": "phases/15-autonomous-systems/03-alphaevolve-evolutionary-coding/outputs/skill-evaluator-rigor-audit.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/15-autonomous-systems/04-darwin-godel-machine/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/15-autonomous-systems/04-darwin-godel-machine/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/15-autonomous-systems/04-darwin-godel-machine/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/15-autonomous-systems/04-darwin-godel-machine/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/15-autonomous-systems/04-darwin-godel-machine/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/15-autonomous-systems/04-darwin-godel-machine/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/15-autonomous-systems/04-darwin-godel-machine/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/15-autonomous-systems/04-darwin-godel-machine/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/15-autonomous-systems/04-darwin-godel-machine/outputs/skill-dgm-evaluator-firewall.md",
+      "type": "document",
+      "name": "skill-dgm-evaluator-firewall.md",
+      "filePath": "phases/15-autonomous-systems/04-darwin-godel-machine/outputs/skill-dgm-evaluator-firewall.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/14-agent-engineering/42-agent-workbench-capstone/outputs/agent-workbench-pack/scripts/verify_agent.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/14-agent-engineering/42-agent-workbench-capstone/outputs/agent-workbench-pack/VERSION",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/14-agent-engineering/42-agent-workbench-capstone/outputs/skill-workbench-pack.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/14-agent-engineering/42-agent-workbench-capstone/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/14-agent-engineering/README.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/15-autonomous-systems/01-long-horizon-agents/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/15-autonomous-systems/01-long-horizon-agents/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/15-autonomous-systems/01-long-horizon-agents/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/15-autonomous-systems/01-long-horizon-agents/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/15-autonomous-systems/01-long-horizon-agents/outputs/skill-horizon-reality-check.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/15-autonomous-systems/02-star-family-reasoning/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/15-autonomous-systems/02-star-family-reasoning/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/15-autonomous-systems/02-star-family-reasoning/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/15-autonomous-systems/02-star-family-reasoning/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/15-autonomous-systems/02-star-family-reasoning/outputs/skill-star-loop-reviewer.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/15-autonomous-systems/03-alphaevolve-evolutionary-coding/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/15-autonomous-systems/03-alphaevolve-evolutionary-coding/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/15-autonomous-systems/03-alphaevolve-evolutionary-coding/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/15-autonomous-systems/03-alphaevolve-evolutionary-coding/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/15-autonomous-systems/03-alphaevolve-evolutionary-coding/outputs/skill-evaluator-rigor-audit.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/15-autonomous-systems/04-darwin-godel-machine/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/15-autonomous-systems/04-darwin-godel-machine/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/15-autonomous-systems/04-darwin-godel-machine/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/15-autonomous-systems/04-darwin-godel-machine/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/15-autonomous-systems/04-darwin-godel-machine/outputs/skill-dgm-evaluator-firewall.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

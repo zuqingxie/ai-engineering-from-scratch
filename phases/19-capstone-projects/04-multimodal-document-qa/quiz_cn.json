@@ -1,0 +1,90 @@
+{
+  "lesson": "04-multimodal-document-qa",
+  "title": "Capstone 04 — Multimodal Document QA (Vision-First PDF, Tables, Charts)",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "为什么 2026 年前沿在金融 PDF 和科学论文上更喜欢视觉优先的后期交互，而不是 OCR 然后文本？",
+      "options": [
+        "视觉模型每页更便宜",
+        "OCR 管道破坏了旋转表格、密集方程和图表图像，丢失了一半信号",
+        "OCR 比渲染慢",
+        "OCR 无法在 GPU 上运行"
+      ],
+      "correct": 1,
+      "explanation": ""
+    },
+    {
+      "stage": "pre",
+      "question": "ColPali 式检索中的延迟交互意味着什么？",
+      "options": [
+        "每个查询标记针对每个补丁标记进行评分，并且每个标记的最大值通过 MaxSim 求和",
+        "嵌入被推迟到评估时间",
+        "嵌入是在用户单击结果后计算的",
+        "重新排名器仅对最终候选者运行"
+      ],
+      "correct": 0,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "ColQwen 嵌入每页大约生成多少个补丁向量，这会产生什么存储问题？",
+      "options": [
+        "每页大约 2048 个补丁向量，与单向量索引相比，原始存储不断膨胀",
+        "正好 128 个向量，可以干净地适合任何向量数据库",
+        "每页 1 个矢量，无存储问题",
+        "16 个向量，存储开销可以忽略不计"
+      ],
+      "correct": 0,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "DocPruner 在这个管道中做了什么？",
+      "options": [
+        "在摄取之前删除重复的 PDF 页面",
+        "通过将高信号补丁保持在 50% 左右来压缩多向量索引，并且精度损失可以忽略不计",
+        "重写较短向量的查询嵌入",
+        "裁剪证据区域周围的边界框"
+      ],
+      "correct": 1,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "为什么有些页面还拼接OCR文本通道？",
+      "options": [
+        "它提高了 PDF 渲染质量",
+        "VLM 无法读取 180 DPI 的图像",
+        "OCR 是主要检索方式",
+        "方程密集和表格较多的页面受益于图像旁边的文本回退"
+      ],
+      "correct": 3,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "该顶点目标是视觉优先检索评估的哪个基准？",
+      "options": [
+        "RewardBench-2",
+        "SWE 工作台 Pro",
+        "维多雷 v3",
+        "MMLU-专业版"
+      ],
+      "correct": 2,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "证据区域接地的标题是什么意思？",
+      "options": [
+        "DocPruner 实现的压缩比",
+        "p99 尾部的重新排序延迟",
+        "每个查询检索的总页数",
+        "实际包含答案范围的引用边界框的比例"
+      ],
+      "correct": 3,
+      "explanation": ""
+    }
+  ]
+}

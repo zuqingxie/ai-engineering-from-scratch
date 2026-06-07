@@ -1,0 +1,544 @@
+{
+  "nodes": [
+    {
+      "id": "document:phases/14-agent-engineering/35-initialization-scripts/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/14-agent-engineering/35-initialization-scripts/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/14-agent-engineering/35-initialization-scripts/mission.md",
+      "type": "document",
+      "name": "mission.md",
+      "filePath": "phases/14-agent-engineering/35-initialization-scripts/mission.md",
+      "summary": "项目文档文件，补充课程、贡献流程或仓库治理信息。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/14-agent-engineering/35-initialization-scripts/outputs/skill-init-script.md",
+      "type": "document",
+      "name": "skill-init-script.md",
+      "filePath": "phases/14-agent-engineering/35-initialization-scripts/outputs/skill-init-script.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/14-agent-engineering/35-initialization-scripts/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/14-agent-engineering/35-initialization-scripts/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/14-agent-engineering/36-scope-contracts/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/14-agent-engineering/36-scope-contracts/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/14-agent-engineering/36-scope-contracts/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/14-agent-engineering/36-scope-contracts/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/14-agent-engineering/36-scope-contracts/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/14-agent-engineering/36-scope-contracts/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/14-agent-engineering/36-scope-contracts/mission.md",
+      "type": "document",
+      "name": "mission.md",
+      "filePath": "phases/14-agent-engineering/36-scope-contracts/mission.md",
+      "summary": "项目文档文件，补充课程、贡献流程或仓库治理信息。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/14-agent-engineering/36-scope-contracts/outputs/skill-scope-contract.md",
+      "type": "document",
+      "name": "skill-scope-contract.md",
+      "filePath": "phases/14-agent-engineering/36-scope-contracts/outputs/skill-scope-contract.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/14-agent-engineering/36-scope-contracts/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/14-agent-engineering/36-scope-contracts/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/14-agent-engineering/37-runtime-feedback-loops/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/14-agent-engineering/37-runtime-feedback-loops/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/14-agent-engineering/37-runtime-feedback-loops/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/14-agent-engineering/37-runtime-feedback-loops/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/14-agent-engineering/37-runtime-feedback-loops/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/14-agent-engineering/37-runtime-feedback-loops/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/14-agent-engineering/37-runtime-feedback-loops/mission.md",
+      "type": "document",
+      "name": "mission.md",
+      "filePath": "phases/14-agent-engineering/37-runtime-feedback-loops/mission.md",
+      "summary": "项目文档文件，补充课程、贡献流程或仓库治理信息。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/14-agent-engineering/37-runtime-feedback-loops/outputs/skill-feedback-runner.md",
+      "type": "document",
+      "name": "skill-feedback-runner.md",
+      "filePath": "phases/14-agent-engineering/37-runtime-feedback-loops/outputs/skill-feedback-runner.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/14-agent-engineering/37-runtime-feedback-loops/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/14-agent-engineering/37-runtime-feedback-loops/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/14-agent-engineering/38-verification-gates/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/14-agent-engineering/38-verification-gates/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/14-agent-engineering/38-verification-gates/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/14-agent-engineering/38-verification-gates/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/14-agent-engineering/38-verification-gates/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/14-agent-engineering/38-verification-gates/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/14-agent-engineering/38-verification-gates/mission.md",
+      "type": "document",
+      "name": "mission.md",
+      "filePath": "phases/14-agent-engineering/38-verification-gates/mission.md",
+      "summary": "项目文档文件，补充课程、贡献流程或仓库治理信息。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/14-agent-engineering/38-verification-gates/outputs/skill-verification-gate.md",
+      "type": "document",
+      "name": "skill-verification-gate.md",
+      "filePath": "phases/14-agent-engineering/38-verification-gates/outputs/skill-verification-gate.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/14-agent-engineering/38-verification-gates/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/14-agent-engineering/38-verification-gates/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/14-agent-engineering/39-reviewer-agent/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/14-agent-engineering/39-reviewer-agent/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/14-agent-engineering/39-reviewer-agent/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/14-agent-engineering/39-reviewer-agent/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/14-agent-engineering/39-reviewer-agent/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/14-agent-engineering/39-reviewer-agent/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/14-agent-engineering/35-initialization-scripts/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/14-agent-engineering/35-initialization-scripts/mission.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/14-agent-engineering/35-initialization-scripts/outputs/skill-init-script.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/14-agent-engineering/35-initialization-scripts/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/14-agent-engineering/36-scope-contracts/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/14-agent-engineering/36-scope-contracts/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/14-agent-engineering/36-scope-contracts/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/14-agent-engineering/36-scope-contracts/mission.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/14-agent-engineering/36-scope-contracts/outputs/skill-scope-contract.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/14-agent-engineering/36-scope-contracts/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/14-agent-engineering/37-runtime-feedback-loops/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/14-agent-engineering/37-runtime-feedback-loops/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/14-agent-engineering/37-runtime-feedback-loops/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/14-agent-engineering/37-runtime-feedback-loops/mission.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/14-agent-engineering/37-runtime-feedback-loops/outputs/skill-feedback-runner.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/14-agent-engineering/37-runtime-feedback-loops/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/14-agent-engineering/38-verification-gates/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/14-agent-engineering/38-verification-gates/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/14-agent-engineering/38-verification-gates/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/14-agent-engineering/38-verification-gates/mission.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/14-agent-engineering/38-verification-gates/outputs/skill-verification-gate.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/14-agent-engineering/38-verification-gates/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/14-agent-engineering/39-reviewer-agent/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/14-agent-engineering/39-reviewer-agent/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/14-agent-engineering/39-reviewer-agent/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

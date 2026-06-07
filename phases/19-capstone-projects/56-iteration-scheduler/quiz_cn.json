@@ -1,0 +1,78 @@
+{
+  "lesson": "56-iteration-scheduler",
+  "title": "Iteration Scheduler",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "为什么调度程序使用 UCB 评分而不是始终选择当前最佳分支？",
+      "options": [
+        "因为 UCB 的计算速度更快",
+        "因为贪婪的选择永远不会探索； UCB 平衡开发与探索",
+        "因为asyncio需要UCB",
+        "因为否则队列无法排序"
+      ],
+      "correct": 1,
+      "explanation": "贪婪锁定第一条线索。制服从不剥削。 UCB 选择领导者，同时通过 sqrt(ln N / n) 项为较少探索的分支保留容量。"
+    },
+    {
+      "stage": "pre",
+      "question": "在 UCB1 下，完成运行为零的分支会获得什么分数？",
+      "options": [
+        "零",
+        "探索常数 c",
+        "正无穷大，因此总是首先选择未经尝试的分支",
+        "所有其他分支的平均奖励"
+      ],
+      "correct": 2,
+      "explanation": "本课程为运行分配 +inf=0。这保证了在重新访问任何分支之前至少尝试每个分支一次。"
+    },
+    {
+      "stage": "check",
+      "question": "调度程序如何保持多个槽忙碌？",
+      "options": [
+        "它在线程池中运行运行器",
+        "它对每个分派的假设使用 asyncio.create_task 并等待正在进行的集合上的 FIRST_COMPLETED",
+        "它使用多处理",
+        "它会阻止睡眠时的事件循环"
+      ],
+      "correct": 1,
+      "explanation": "每个分配的假设都成为一个任务。主循环等待 FIRST_COMPLETED，因此已完成的槽会立即释放，并调度另一个假设。"
+    },
+    {
+      "stage": "check",
+      "question": "调度程序何时为分支发出 paper.trigger？",
+      "options": [
+        "每当结果落在该分支上时",
+        "在第一个分支均值达到或超过论文阈值的结果上，并且每个分支仅一次",
+        "仅在运行结束时",
+        "当修剪地板被击中时"
+      ],
+      "correct": 1,
+      "explanation": "触发器在每个分支上触发一次，即分支的平均值第一次超过阈值时。 BranchStats 上的 paper_triggered 标志可防止重复。"
+    },
+    {
+      "stage": "post",
+      "question": "在最小运行阈值之后，如果分支的平均奖励保持在修剪下限以下，会发生什么情况？",
+      "options": [
+        "什么都没有； UCB最终将选择另一家分行",
+        "该分支被标记为已修剪，并且该分支上的剩余假设将从队列中删除",
+        "调度程序引发异常",
+        "奖励底线自动降低"
+      ],
+      "correct": 1,
+      "explanation": "修剪将从未来的调度中删除该分支。修剪与选择器是分开的：UCB 排名、修剪剔除。"
+    },
+    {
+      "stage": "post",
+      "question": "调度程序强制执行哪两个预算作为硬限制？",
+      "options": [
+        "内存和CPU",
+        "max_experiments（总运行次数）和 max_seconds（挂钟）",
+        "槽位和队列深度",
+        "纸张触发器和修剪计数"
+      ],
+      "correct": 1,
+      "explanation": "两者均以停止原因触发。 max_experiments 限制了总工作量。 max_seconds 限制了墙上的时间。跟踪记录了哪一个停止了运行。"
+    }
+  ]
+}

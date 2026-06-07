@@ -1,0 +1,581 @@
+{
+  "nodes": [
+    {
+      "id": "config:phases/19-capstone-projects/67-query-rewriting-hyde/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/19-capstone-projects/67-query-rewriting-hyde/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/68-rag-eval-precision-recall/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/19-capstone-projects/68-rag-eval-precision-recall/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/68-rag-eval-precision-recall/code/tests/test_eval.py",
+      "type": "file",
+      "name": "test_eval.py",
+      "filePath": "phases/19-capstone-projects/68-rag-eval-precision-recall/code/tests/test_eval.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "test",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/19-capstone-projects/68-rag-eval-precision-recall/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/19-capstone-projects/68-rag-eval-precision-recall/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/19-capstone-projects/68-rag-eval-precision-recall/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/19-capstone-projects/68-rag-eval-precision-recall/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/19-capstone-projects/68-rag-eval-precision-recall/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/19-capstone-projects/68-rag-eval-precision-recall/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/69-end-to-end-rag-system/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/19-capstone-projects/69-end-to-end-rag-system/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/69-end-to-end-rag-system/code/tests/test_pipeline.py",
+      "type": "file",
+      "name": "test_pipeline.py",
+      "filePath": "phases/19-capstone-projects/69-end-to-end-rag-system/code/tests/test_pipeline.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "test",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/19-capstone-projects/69-end-to-end-rag-system/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/19-capstone-projects/69-end-to-end-rag-system/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/19-capstone-projects/69-end-to-end-rag-system/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/19-capstone-projects/69-end-to-end-rag-system/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/19-capstone-projects/69-end-to-end-rag-system/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/19-capstone-projects/69-end-to-end-rag-system/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/70-task-spec-format/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/19-capstone-projects/70-task-spec-format/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/70-task-spec-format/code/tests/test_spec.py",
+      "type": "file",
+      "name": "test_spec.py",
+      "filePath": "phases/19-capstone-projects/70-task-spec-format/code/tests/test_spec.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "test",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/19-capstone-projects/70-task-spec-format/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/19-capstone-projects/70-task-spec-format/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/19-capstone-projects/70-task-spec-format/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/19-capstone-projects/70-task-spec-format/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/19-capstone-projects/70-task-spec-format/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/19-capstone-projects/70-task-spec-format/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/71-classical-metrics/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/19-capstone-projects/71-classical-metrics/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/71-classical-metrics/code/tests/test_metrics.py",
+      "type": "file",
+      "name": "test_metrics.py",
+      "filePath": "phases/19-capstone-projects/71-classical-metrics/code/tests/test_metrics.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "test",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/19-capstone-projects/71-classical-metrics/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/19-capstone-projects/71-classical-metrics/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/19-capstone-projects/71-classical-metrics/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/19-capstone-projects/71-classical-metrics/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/19-capstone-projects/71-classical-metrics/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/19-capstone-projects/71-classical-metrics/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/72-code-exec-metric/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/19-capstone-projects/72-code-exec-metric/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/72-code-exec-metric/code/tests/test_exec.py",
+      "type": "file",
+      "name": "test_exec.py",
+      "filePath": "phases/19-capstone-projects/72-code-exec-metric/code/tests/test_exec.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "test",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/19-capstone-projects/72-code-exec-metric/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/19-capstone-projects/72-code-exec-metric/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/19-capstone-projects/72-code-exec-metric/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/19-capstone-projects/72-code-exec-metric/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/19-capstone-projects/67-query-rewriting-hyde/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/68-rag-eval-precision-recall/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/68-rag-eval-precision-recall/code/tests/test_eval.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:phases/19-capstone-projects/68-rag-eval-precision-recall/code/tests/test_eval.py",
+      "target": "file:phases/19-capstone-projects/68-rag-eval-precision-recall/code/main.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/19-capstone-projects/68-rag-eval-precision-recall/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/19-capstone-projects/68-rag-eval-precision-recall/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/19-capstone-projects/68-rag-eval-precision-recall/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/69-end-to-end-rag-system/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/69-end-to-end-rag-system/code/tests/test_pipeline.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:phases/19-capstone-projects/69-end-to-end-rag-system/code/tests/test_pipeline.py",
+      "target": "file:phases/19-capstone-projects/69-end-to-end-rag-system/code/main.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/19-capstone-projects/69-end-to-end-rag-system/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/19-capstone-projects/69-end-to-end-rag-system/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/19-capstone-projects/69-end-to-end-rag-system/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/70-task-spec-format/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/70-task-spec-format/code/tests/test_spec.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:phases/19-capstone-projects/70-task-spec-format/code/tests/test_spec.py",
+      "target": "file:phases/19-capstone-projects/70-task-spec-format/code/main.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/19-capstone-projects/70-task-spec-format/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/19-capstone-projects/70-task-spec-format/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/19-capstone-projects/70-task-spec-format/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/71-classical-metrics/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/71-classical-metrics/code/tests/test_metrics.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:phases/19-capstone-projects/71-classical-metrics/code/tests/test_metrics.py",
+      "target": "file:phases/19-capstone-projects/71-classical-metrics/code/main.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/19-capstone-projects/71-classical-metrics/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/19-capstone-projects/71-classical-metrics/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/19-capstone-projects/71-classical-metrics/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/72-code-exec-metric/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/72-code-exec-metric/code/tests/test_exec.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:phases/19-capstone-projects/72-code-exec-metric/code/tests/test_exec.py",
+      "target": "file:phases/19-capstone-projects/72-code-exec-metric/code/main.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/19-capstone-projects/72-code-exec-metric/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/19-capstone-projects/72-code-exec-metric/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

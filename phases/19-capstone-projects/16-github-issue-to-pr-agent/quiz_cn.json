@@ -1,0 +1,90 @@
+{
+  "lesson": "16-github-issue-to-pr-agent",
+  "title": "Capstone 16 — GitHub Issue-to-PR Autonomous Agent",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "生产中如何触发异步云编码代理？",
+      "options": [
+        "与虚拟机的长期 SSH 会话",
+        "由问题标签或 PR 评论触发的 GitHub Webhook，发送给沙箱工作人员",
+        "预定的 cron 作业命中存储库",
+        "手动文件上传"
+      ],
+      "correct": 1,
+      "explanation": ""
+    },
+    {
+      "stage": "pre",
+      "question": "为什么代理必须使用短期 GitHub 应用程序安装令牌而不是个人访问令牌运行？",
+      "options": [
+        "应用程序完全避免 GitHub 速率限制",
+        "应用程序令牌授予适合每个任务工作人员的细粒度、有范围、短期的凭证",
+        "个人访问令牌无法打开 PR",
+        "应用程序需要的代码比 PAT 少"
+      ],
+      "correct": 1,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "哪两项保护措施可以防止代理破坏主干线？",
+      "options": [
+        "每次推送都需要验证码",
+        "分支保护强制不直接推送或强制推送到主干，且应用程序不在绕过列表中",
+        "在克隆之前加密存储库",
+        "在worker上禁用git"
+      ],
+      "correct": 1,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "为什么在工作人员处强制执行对 .github/workflows 的路径范围保护，而不是作为 GitHub 应用程序权限？",
+      "options": [
+        "工作流程存储在存储库外部",
+        "任何形式的路径范围都是不可能的",
+        "GitHub 应用程序权限不是路径范围的，因此工作人员对建议差异的允许列表检查是强制执行它的正确位置",
+        ".github/workflows 是虚拟路径"
+      ],
+      "correct": 2,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "代理循环结束后、打开 PR 之前会发生什么门控？",
+      "options": [
+        "审阅者模型重写了 diff",
+        "完整的 CI 在沙箱中运行；计算覆盖范围增量；回归超过阈值的 PR 被标记为需求审查",
+        "PR 立即打开，无需检查",
+        "该仓库被强制推送到主仓库"
+      ],
+      "correct": 1,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "调度员每天对每个存储库执行哪些预算旋钮？",
+      "options": [
+        "只有一个挂钟帽",
+        "无限 PR 和无限费用",
+        "每个 PR 的美元上限加上每个回购协议每天的 PR 最大数量",
+        "只有一个转帽"
+      ],
+      "correct": 2,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "代理发布的公关正文包含哪些内容？",
+      "options": [
+        "仅有差异",
+        "基本原理、差异摘要、跟踪 URL、成本和轮次计数，以便审阅者可以审核和跟进",
+        "仅生成的变更日志",
+        "什么都没有； PR 的正文是空的"
+      ],
+      "correct": 1,
+      "explanation": ""
+    }
+  ]
+}

@@ -1,0 +1,541 @@
+{
+  "nodes": [
+    {
+      "id": "document:phases/12-multimodal-ai/12-emu3-next-token-for-generation/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/12-multimodal-ai/12-emu3-next-token-for-generation/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/12-multimodal-ai/12-emu3-next-token-for-generation/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/12-multimodal-ai/12-emu3-next-token-for-generation/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/12-multimodal-ai/12-emu3-next-token-for-generation/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/12-multimodal-ai/12-emu3-next-token-for-generation/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/12-multimodal-ai/12-emu3-next-token-for-generation/outputs/skill-token-gen-cost-analyzer.md",
+      "type": "document",
+      "name": "skill-token-gen-cost-analyzer.md",
+      "filePath": "phases/12-multimodal-ai/12-emu3-next-token-for-generation/outputs/skill-token-gen-cost-analyzer.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/12-multimodal-ai/13-transfusion-autoregressive-diffusion/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/12-multimodal-ai/13-transfusion-autoregressive-diffusion/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/12-multimodal-ai/13-transfusion-autoregressive-diffusion/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/12-multimodal-ai/13-transfusion-autoregressive-diffusion/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/12-multimodal-ai/13-transfusion-autoregressive-diffusion/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/12-multimodal-ai/13-transfusion-autoregressive-diffusion/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/12-multimodal-ai/13-transfusion-autoregressive-diffusion/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/12-multimodal-ai/13-transfusion-autoregressive-diffusion/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/12-multimodal-ai/13-transfusion-autoregressive-diffusion/outputs/skill-two-loss-trainer-designer.md",
+      "type": "document",
+      "name": "skill-two-loss-trainer-designer.md",
+      "filePath": "phases/12-multimodal-ai/13-transfusion-autoregressive-diffusion/outputs/skill-two-loss-trainer-designer.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/12-multimodal-ai/14-show-o-discrete-diffusion-unified/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/12-multimodal-ai/14-show-o-discrete-diffusion-unified/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/12-multimodal-ai/14-show-o-discrete-diffusion-unified/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/12-multimodal-ai/14-show-o-discrete-diffusion-unified/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/12-multimodal-ai/14-show-o-discrete-diffusion-unified/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/12-multimodal-ai/14-show-o-discrete-diffusion-unified/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/12-multimodal-ai/14-show-o-discrete-diffusion-unified/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/12-multimodal-ai/14-show-o-discrete-diffusion-unified/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/12-multimodal-ai/14-show-o-discrete-diffusion-unified/outputs/skill-unified-gen-model-picker.md",
+      "type": "document",
+      "name": "skill-unified-gen-model-picker.md",
+      "filePath": "phases/12-multimodal-ai/14-show-o-discrete-diffusion-unified/outputs/skill-unified-gen-model-picker.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/12-multimodal-ai/15-janus-pro-decoupled-encoders/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/12-multimodal-ai/15-janus-pro-decoupled-encoders/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/12-multimodal-ai/15-janus-pro-decoupled-encoders/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/12-multimodal-ai/15-janus-pro-decoupled-encoders/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/12-multimodal-ai/15-janus-pro-decoupled-encoders/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/12-multimodal-ai/15-janus-pro-decoupled-encoders/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/12-multimodal-ai/15-janus-pro-decoupled-encoders/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/12-multimodal-ai/15-janus-pro-decoupled-encoders/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/12-multimodal-ai/15-janus-pro-decoupled-encoders/outputs/skill-decoupled-encoder-picker.md",
+      "type": "document",
+      "name": "skill-decoupled-encoder-picker.md",
+      "filePath": "phases/12-multimodal-ai/15-janus-pro-decoupled-encoders/outputs/skill-decoupled-encoder-picker.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/12-multimodal-ai/16-mio-any-to-any-streaming/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/12-multimodal-ai/16-mio-any-to-any-streaming/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/12-multimodal-ai/16-mio-any-to-any-streaming/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/12-multimodal-ai/16-mio-any-to-any-streaming/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/12-multimodal-ai/16-mio-any-to-any-streaming/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/12-multimodal-ai/16-mio-any-to-any-streaming/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/12-multimodal-ai/16-mio-any-to-any-streaming/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/12-multimodal-ai/16-mio-any-to-any-streaming/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/12-multimodal-ai/16-mio-any-to-any-streaming/outputs/skill-any-to-any-pipeline-auditor.md",
+      "type": "document",
+      "name": "skill-any-to-any-pipeline-auditor.md",
+      "filePath": "phases/12-multimodal-ai/16-mio-any-to-any-streaming/outputs/skill-any-to-any-pipeline-auditor.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/12-multimodal-ai/17-video-language-temporal-grounding/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/12-multimodal-ai/17-video-language-temporal-grounding/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/12-multimodal-ai/12-emu3-next-token-for-generation/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/12-multimodal-ai/12-emu3-next-token-for-generation/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/12-multimodal-ai/12-emu3-next-token-for-generation/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/12-multimodal-ai/12-emu3-next-token-for-generation/outputs/skill-token-gen-cost-analyzer.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/12-multimodal-ai/13-transfusion-autoregressive-diffusion/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/12-multimodal-ai/13-transfusion-autoregressive-diffusion/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/12-multimodal-ai/13-transfusion-autoregressive-diffusion/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/12-multimodal-ai/13-transfusion-autoregressive-diffusion/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/12-multimodal-ai/13-transfusion-autoregressive-diffusion/outputs/skill-two-loss-trainer-designer.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/12-multimodal-ai/14-show-o-discrete-diffusion-unified/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/12-multimodal-ai/14-show-o-discrete-diffusion-unified/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/12-multimodal-ai/14-show-o-discrete-diffusion-unified/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/12-multimodal-ai/14-show-o-discrete-diffusion-unified/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/12-multimodal-ai/14-show-o-discrete-diffusion-unified/outputs/skill-unified-gen-model-picker.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/12-multimodal-ai/15-janus-pro-decoupled-encoders/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/12-multimodal-ai/15-janus-pro-decoupled-encoders/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/12-multimodal-ai/15-janus-pro-decoupled-encoders/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/12-multimodal-ai/15-janus-pro-decoupled-encoders/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/12-multimodal-ai/15-janus-pro-decoupled-encoders/outputs/skill-decoupled-encoder-picker.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/12-multimodal-ai/16-mio-any-to-any-streaming/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/12-multimodal-ai/16-mio-any-to-any-streaming/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/12-multimodal-ai/16-mio-any-to-any-streaming/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/12-multimodal-ai/16-mio-any-to-any-streaming/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/12-multimodal-ai/16-mio-any-to-any-streaming/outputs/skill-any-to-any-pipeline-auditor.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/12-multimodal-ai/17-video-language-temporal-grounding/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,589 @@
+{
+  "nodes": [
+    {
+      "id": "file:phases/19-capstone-projects/27-eval-harness-fixture-tasks/code/tests/test_main.py",
+      "type": "file",
+      "name": "test_main.py",
+      "filePath": "phases/19-capstone-projects/27-eval-harness-fixture-tasks/code/tests/test_main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "test",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/19-capstone-projects/27-eval-harness-fixture-tasks/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/19-capstone-projects/27-eval-harness-fixture-tasks/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/19-capstone-projects/27-eval-harness-fixture-tasks/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/19-capstone-projects/27-eval-harness-fixture-tasks/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/19-capstone-projects/27-eval-harness-fixture-tasks/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/19-capstone-projects/27-eval-harness-fixture-tasks/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/28-observability-otel-traces/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/19-capstone-projects/28-observability-otel-traces/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/28-observability-otel-traces/code/tests/test_main.py",
+      "type": "file",
+      "name": "test_main.py",
+      "filePath": "phases/19-capstone-projects/28-observability-otel-traces/code/tests/test_main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "test",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/19-capstone-projects/28-observability-otel-traces/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/19-capstone-projects/28-observability-otel-traces/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/19-capstone-projects/28-observability-otel-traces/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/19-capstone-projects/28-observability-otel-traces/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/19-capstone-projects/28-observability-otel-traces/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/19-capstone-projects/28-observability-otel-traces/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/29-end-to-end-coding-task-demo/code/fixture_repo/src/fizz.py",
+      "type": "file",
+      "name": "fizz.py",
+      "filePath": "phases/19-capstone-projects/29-end-to-end-coding-task-demo/code/fixture_repo/src/fizz.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/29-end-to-end-coding-task-demo/code/fixture_repo/tests/test_fizz.py",
+      "type": "file",
+      "name": "test_fizz.py",
+      "filePath": "phases/19-capstone-projects/29-end-to-end-coding-task-demo/code/fixture_repo/tests/test_fizz.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "示例代码",
+        "test",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/29-end-to-end-coding-task-demo/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/19-capstone-projects/29-end-to-end-coding-task-demo/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/29-end-to-end-coding-task-demo/code/tests/test_main.py",
+      "type": "file",
+      "name": "test_main.py",
+      "filePath": "phases/19-capstone-projects/29-end-to-end-coding-task-demo/code/tests/test_main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "test",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/19-capstone-projects/29-end-to-end-coding-task-demo/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/19-capstone-projects/29-end-to-end-coding-task-demo/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/19-capstone-projects/29-end-to-end-coding-task-demo/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/19-capstone-projects/29-end-to-end-coding-task-demo/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/19-capstone-projects/29-end-to-end-coding-task-demo/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/19-capstone-projects/29-end-to-end-coding-task-demo/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/30-bpe-tokenizer-from-scratch/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/19-capstone-projects/30-bpe-tokenizer-from-scratch/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/30-bpe-tokenizer-from-scratch/code/tests/test_bpe.py",
+      "type": "file",
+      "name": "test_bpe.py",
+      "filePath": "phases/19-capstone-projects/30-bpe-tokenizer-from-scratch/code/tests/test_bpe.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "test",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/19-capstone-projects/30-bpe-tokenizer-from-scratch/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/19-capstone-projects/30-bpe-tokenizer-from-scratch/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/19-capstone-projects/30-bpe-tokenizer-from-scratch/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/19-capstone-projects/30-bpe-tokenizer-from-scratch/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/19-capstone-projects/30-bpe-tokenizer-from-scratch/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/19-capstone-projects/30-bpe-tokenizer-from-scratch/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/31-tokenized-dataset-sliding-window/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/19-capstone-projects/31-tokenized-dataset-sliding-window/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/31-tokenized-dataset-sliding-window/code/tests/test_dataset.py",
+      "type": "file",
+      "name": "test_dataset.py",
+      "filePath": "phases/19-capstone-projects/31-tokenized-dataset-sliding-window/code/tests/test_dataset.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "test",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/19-capstone-projects/31-tokenized-dataset-sliding-window/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/19-capstone-projects/31-tokenized-dataset-sliding-window/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/19-capstone-projects/31-tokenized-dataset-sliding-window/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/19-capstone-projects/31-tokenized-dataset-sliding-window/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/27-eval-harness-fixture-tasks/code/tests/test_main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:phases/19-capstone-projects/27-eval-harness-fixture-tasks/code/tests/test_main.py",
+      "target": "file:phases/19-capstone-projects/27-eval-harness-fixture-tasks/code/main.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/19-capstone-projects/27-eval-harness-fixture-tasks/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/19-capstone-projects/27-eval-harness-fixture-tasks/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/19-capstone-projects/27-eval-harness-fixture-tasks/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/28-observability-otel-traces/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/28-observability-otel-traces/code/tests/test_main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:phases/19-capstone-projects/28-observability-otel-traces/code/tests/test_main.py",
+      "target": "file:phases/19-capstone-projects/28-observability-otel-traces/code/main.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/19-capstone-projects/28-observability-otel-traces/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/19-capstone-projects/28-observability-otel-traces/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/19-capstone-projects/28-observability-otel-traces/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/29-end-to-end-coding-task-demo/code/fixture_repo/src/fizz.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/29-end-to-end-coding-task-demo/code/fixture_repo/tests/test_fizz.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:phases/19-capstone-projects/29-end-to-end-coding-task-demo/code/fixture_repo/tests/test_fizz.py",
+      "target": "file:phases/19-capstone-projects/29-end-to-end-coding-task-demo/code/fixture_repo/src/fizz.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/29-end-to-end-coding-task-demo/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/29-end-to-end-coding-task-demo/code/tests/test_main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:phases/19-capstone-projects/29-end-to-end-coding-task-demo/code/tests/test_main.py",
+      "target": "file:phases/19-capstone-projects/29-end-to-end-coding-task-demo/code/main.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/19-capstone-projects/29-end-to-end-coding-task-demo/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/19-capstone-projects/29-end-to-end-coding-task-demo/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/19-capstone-projects/29-end-to-end-coding-task-demo/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/30-bpe-tokenizer-from-scratch/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/30-bpe-tokenizer-from-scratch/code/tests/test_bpe.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:phases/19-capstone-projects/30-bpe-tokenizer-from-scratch/code/tests/test_bpe.py",
+      "target": "file:phases/19-capstone-projects/30-bpe-tokenizer-from-scratch/code/main.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/19-capstone-projects/30-bpe-tokenizer-from-scratch/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/19-capstone-projects/30-bpe-tokenizer-from-scratch/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/19-capstone-projects/30-bpe-tokenizer-from-scratch/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/31-tokenized-dataset-sliding-window/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/31-tokenized-dataset-sliding-window/code/tests/test_dataset.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:phases/19-capstone-projects/31-tokenized-dataset-sliding-window/code/tests/test_dataset.py",
+      "target": "file:phases/19-capstone-projects/31-tokenized-dataset-sliding-window/code/main.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/19-capstone-projects/31-tokenized-dataset-sliding-window/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/19-capstone-projects/31-tokenized-dataset-sliding-window/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

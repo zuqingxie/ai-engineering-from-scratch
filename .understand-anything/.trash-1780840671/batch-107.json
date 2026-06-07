@@ -1,0 +1,542 @@
+{
+  "nodes": [
+    {
+      "id": "document:phases/16-multi-agent-and-swarms/02-fipa-acl-heritage/outputs/skill-fipa-mapper.md",
+      "type": "document",
+      "name": "skill-fipa-mapper.md",
+      "filePath": "phases/16-multi-agent-and-swarms/02-fipa-acl-heritage/outputs/skill-fipa-mapper.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/16-multi-agent-and-swarms/03-communication-protocols/code/main.ts",
+      "type": "file",
+      "name": "main.ts",
+      "filePath": "phases/16-multi-agent-and-swarms/03-communication-protocols/code/main.ts",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "typescript"
+      ],
+      "language": "typescript"
+    },
+    {
+      "id": "document:phases/16-multi-agent-and-swarms/03-communication-protocols/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/16-multi-agent-and-swarms/03-communication-protocols/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/16-multi-agent-and-swarms/03-communication-protocols/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/16-multi-agent-and-swarms/03-communication-protocols/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/16-multi-agent-and-swarms/03-communication-protocols/outputs/prompt-protocol-selector.md",
+      "type": "document",
+      "name": "prompt-protocol-selector.md",
+      "filePath": "phases/16-multi-agent-and-swarms/03-communication-protocols/outputs/prompt-protocol-selector.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/16-multi-agent-and-swarms/03-communication-protocols/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/16-multi-agent-and-swarms/03-communication-protocols/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/16-multi-agent-and-swarms/04-primitive-model/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/16-multi-agent-and-swarms/04-primitive-model/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/16-multi-agent-and-swarms/04-primitive-model/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/16-multi-agent-and-swarms/04-primitive-model/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/16-multi-agent-and-swarms/04-primitive-model/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/16-multi-agent-and-swarms/04-primitive-model/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/16-multi-agent-and-swarms/04-primitive-model/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/16-multi-agent-and-swarms/04-primitive-model/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/16-multi-agent-and-swarms/04-primitive-model/outputs/skill-primitive-mapper.md",
+      "type": "document",
+      "name": "skill-primitive-mapper.md",
+      "filePath": "phases/16-multi-agent-and-swarms/04-primitive-model/outputs/skill-primitive-mapper.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/16-multi-agent-and-swarms/05-supervisor-orchestrator-pattern/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/16-multi-agent-and-swarms/05-supervisor-orchestrator-pattern/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/16-multi-agent-and-swarms/05-supervisor-orchestrator-pattern/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/16-multi-agent-and-swarms/05-supervisor-orchestrator-pattern/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/16-multi-agent-and-swarms/05-supervisor-orchestrator-pattern/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/16-multi-agent-and-swarms/05-supervisor-orchestrator-pattern/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/16-multi-agent-and-swarms/05-supervisor-orchestrator-pattern/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/16-multi-agent-and-swarms/05-supervisor-orchestrator-pattern/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/16-multi-agent-and-swarms/05-supervisor-orchestrator-pattern/outputs/skill-supervisor-designer.md",
+      "type": "document",
+      "name": "skill-supervisor-designer.md",
+      "filePath": "phases/16-multi-agent-and-swarms/05-supervisor-orchestrator-pattern/outputs/skill-supervisor-designer.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/16-multi-agent-and-swarms/06-hierarchical-architecture/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/16-multi-agent-and-swarms/06-hierarchical-architecture/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/16-multi-agent-and-swarms/06-hierarchical-architecture/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/16-multi-agent-and-swarms/06-hierarchical-architecture/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/16-multi-agent-and-swarms/06-hierarchical-architecture/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/16-multi-agent-and-swarms/06-hierarchical-architecture/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/16-multi-agent-and-swarms/06-hierarchical-architecture/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/16-multi-agent-and-swarms/06-hierarchical-architecture/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/16-multi-agent-and-swarms/06-hierarchical-architecture/outputs/skill-hierarchy-fitness.md",
+      "type": "document",
+      "name": "skill-hierarchy-fitness.md",
+      "filePath": "phases/16-multi-agent-and-swarms/06-hierarchical-architecture/outputs/skill-hierarchy-fitness.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/16-multi-agent-and-swarms/07-society-of-mind-debate/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/16-multi-agent-and-swarms/07-society-of-mind-debate/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/16-multi-agent-and-swarms/07-society-of-mind-debate/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/16-multi-agent-and-swarms/07-society-of-mind-debate/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/16-multi-agent-and-swarms/07-society-of-mind-debate/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/16-multi-agent-and-swarms/07-society-of-mind-debate/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/16-multi-agent-and-swarms/07-society-of-mind-debate/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/16-multi-agent-and-swarms/07-society-of-mind-debate/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/16-multi-agent-and-swarms/02-fipa-acl-heritage/outputs/skill-fipa-mapper.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/16-multi-agent-and-swarms/03-communication-protocols/code/main.ts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/16-multi-agent-and-swarms/03-communication-protocols/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/16-multi-agent-and-swarms/03-communication-protocols/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/16-multi-agent-and-swarms/03-communication-protocols/outputs/prompt-protocol-selector.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/16-multi-agent-and-swarms/03-communication-protocols/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/16-multi-agent-and-swarms/04-primitive-model/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/16-multi-agent-and-swarms/04-primitive-model/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/16-multi-agent-and-swarms/04-primitive-model/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/16-multi-agent-and-swarms/04-primitive-model/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/16-multi-agent-and-swarms/04-primitive-model/outputs/skill-primitive-mapper.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/16-multi-agent-and-swarms/05-supervisor-orchestrator-pattern/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/16-multi-agent-and-swarms/05-supervisor-orchestrator-pattern/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/16-multi-agent-and-swarms/05-supervisor-orchestrator-pattern/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/16-multi-agent-and-swarms/05-supervisor-orchestrator-pattern/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/16-multi-agent-and-swarms/05-supervisor-orchestrator-pattern/outputs/skill-supervisor-designer.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/16-multi-agent-and-swarms/06-hierarchical-architecture/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/16-multi-agent-and-swarms/06-hierarchical-architecture/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/16-multi-agent-and-swarms/06-hierarchical-architecture/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/16-multi-agent-and-swarms/06-hierarchical-architecture/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/16-multi-agent-and-swarms/06-hierarchical-architecture/outputs/skill-hierarchy-fitness.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/16-multi-agent-and-swarms/07-society-of-mind-debate/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/16-multi-agent-and-swarms/07-society-of-mind-debate/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/16-multi-agent-and-swarms/07-society-of-mind-debate/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/16-multi-agent-and-swarms/07-society-of-mind-debate/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

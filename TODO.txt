@@ -1,0 +1,4 @@
+1. 嵌入tts语音： https://github.com/OpenMOSS/MOSS-TTS-Nano
+2. 在每一个文字的右上方都添加一个语音喇叭标志，使得可以自由播放文字内容
+3. 不用翻译成中文的列表：
+    pipeline

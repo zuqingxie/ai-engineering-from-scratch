@@ -1,0 +1,548 @@
+{
+  "nodes": [
+    {
+      "id": "document:phases/04-computer-vision/19-ocr-document-understanding/outputs/skill-ctc-decoder.md",
+      "type": "document",
+      "name": "skill-ctc-decoder.md",
+      "filePath": "phases/04-computer-vision/19-ocr-document-understanding/outputs/skill-ctc-decoder.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/04-computer-vision/19-ocr-document-understanding/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/04-computer-vision/19-ocr-document-understanding/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/04-computer-vision/20-image-retrieval-metric/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/04-computer-vision/20-image-retrieval-metric/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/04-computer-vision/20-image-retrieval-metric/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/04-computer-vision/20-image-retrieval-metric/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/04-computer-vision/20-image-retrieval-metric/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/04-computer-vision/20-image-retrieval-metric/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/04-computer-vision/20-image-retrieval-metric/outputs/prompt-retrieval-loss-picker.md",
+      "type": "document",
+      "name": "prompt-retrieval-loss-picker.md",
+      "filePath": "phases/04-computer-vision/20-image-retrieval-metric/outputs/prompt-retrieval-loss-picker.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/04-computer-vision/20-image-retrieval-metric/outputs/skill-recall-at-k-runner.md",
+      "type": "document",
+      "name": "skill-recall-at-k-runner.md",
+      "filePath": "phases/04-computer-vision/20-image-retrieval-metric/outputs/skill-recall-at-k-runner.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/04-computer-vision/20-image-retrieval-metric/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/04-computer-vision/20-image-retrieval-metric/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/04-computer-vision/21-keypoint-pose/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/04-computer-vision/21-keypoint-pose/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/04-computer-vision/21-keypoint-pose/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/04-computer-vision/21-keypoint-pose/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/04-computer-vision/21-keypoint-pose/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/04-computer-vision/21-keypoint-pose/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/04-computer-vision/21-keypoint-pose/outputs/prompt-pose-stack-picker.md",
+      "type": "document",
+      "name": "prompt-pose-stack-picker.md",
+      "filePath": "phases/04-computer-vision/21-keypoint-pose/outputs/prompt-pose-stack-picker.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/04-computer-vision/21-keypoint-pose/outputs/skill-heatmap-to-coords.md",
+      "type": "document",
+      "name": "skill-heatmap-to-coords.md",
+      "filePath": "phases/04-computer-vision/21-keypoint-pose/outputs/skill-heatmap-to-coords.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/04-computer-vision/21-keypoint-pose/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/04-computer-vision/21-keypoint-pose/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/04-computer-vision/22-3d-gaussian-splatting/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/04-computer-vision/22-3d-gaussian-splatting/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/04-computer-vision/22-3d-gaussian-splatting/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/04-computer-vision/22-3d-gaussian-splatting/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/04-computer-vision/22-3d-gaussian-splatting/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/04-computer-vision/22-3d-gaussian-splatting/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/04-computer-vision/22-3d-gaussian-splatting/outputs/prompt-3dgs-capture-planner.md",
+      "type": "document",
+      "name": "prompt-3dgs-capture-planner.md",
+      "filePath": "phases/04-computer-vision/22-3d-gaussian-splatting/outputs/prompt-3dgs-capture-planner.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/04-computer-vision/22-3d-gaussian-splatting/outputs/skill-3dgs-export-router.md",
+      "type": "document",
+      "name": "skill-3dgs-export-router.md",
+      "filePath": "phases/04-computer-vision/22-3d-gaussian-splatting/outputs/skill-3dgs-export-router.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/04-computer-vision/22-3d-gaussian-splatting/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/04-computer-vision/22-3d-gaussian-splatting/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/04-computer-vision/23-diffusion-transformers-rectified-flow/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/04-computer-vision/23-diffusion-transformers-rectified-flow/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/04-computer-vision/23-diffusion-transformers-rectified-flow/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/04-computer-vision/23-diffusion-transformers-rectified-flow/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/04-computer-vision/23-diffusion-transformers-rectified-flow/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/04-computer-vision/23-diffusion-transformers-rectified-flow/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/04-computer-vision/23-diffusion-transformers-rectified-flow/outputs/prompt-dit-model-picker.md",
+      "type": "document",
+      "name": "prompt-dit-model-picker.md",
+      "filePath": "phases/04-computer-vision/23-diffusion-transformers-rectified-flow/outputs/prompt-dit-model-picker.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/04-computer-vision/23-diffusion-transformers-rectified-flow/outputs/skill-rectified-flow-trainer.md",
+      "type": "document",
+      "name": "skill-rectified-flow-trainer.md",
+      "filePath": "phases/04-computer-vision/23-diffusion-transformers-rectified-flow/outputs/skill-rectified-flow-trainer.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/19-ocr-document-understanding/outputs/skill-ctc-decoder.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/04-computer-vision/19-ocr-document-understanding/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/04-computer-vision/20-image-retrieval-metric/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/20-image-retrieval-metric/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/20-image-retrieval-metric/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/20-image-retrieval-metric/outputs/prompt-retrieval-loss-picker.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/20-image-retrieval-metric/outputs/skill-recall-at-k-runner.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/04-computer-vision/20-image-retrieval-metric/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/04-computer-vision/21-keypoint-pose/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/21-keypoint-pose/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/21-keypoint-pose/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/21-keypoint-pose/outputs/prompt-pose-stack-picker.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/21-keypoint-pose/outputs/skill-heatmap-to-coords.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/04-computer-vision/21-keypoint-pose/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/04-computer-vision/22-3d-gaussian-splatting/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/22-3d-gaussian-splatting/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/22-3d-gaussian-splatting/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/22-3d-gaussian-splatting/outputs/prompt-3dgs-capture-planner.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/22-3d-gaussian-splatting/outputs/skill-3dgs-export-router.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/04-computer-vision/22-3d-gaussian-splatting/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/04-computer-vision/23-diffusion-transformers-rectified-flow/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/23-diffusion-transformers-rectified-flow/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/23-diffusion-transformers-rectified-flow/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/23-diffusion-transformers-rectified-flow/outputs/prompt-dit-model-picker.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/23-diffusion-transformers-rectified-flow/outputs/skill-rectified-flow-trainer.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

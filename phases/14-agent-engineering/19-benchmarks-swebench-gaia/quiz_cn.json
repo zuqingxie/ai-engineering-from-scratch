@@ -1,0 +1,90 @@
+{
+  "lesson": "19-benchmarks-swebench-gaia",
+  "title": "Benchmarks: SWE-bench, GAIA, AgentBench",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "SWE-bench 的评估程序对候选补丁检查什么？",
+      "options": [
+        "相对于参考修复的 BLEU 分数",
+        "以前失败的测试现在通过 (FAIL_TO_PASS)，以前通过的测试仍然通过 (PASS_TO_PASS)",
+        "补丁长度低于 200 行",
+        "帕奇通过了单独的法学硕士评审"
+      ],
+      "correct": 1,
+      "explanation": "测试转换的控制门：暴露错误的测试必须翻转，而回归测试必须保持绿色。"
+    },
+    {
+      "stage": "pre",
+      "question": "为什么存在 SWE-bench Verified？",
+      "options": [
+        "它跑得更快",
+        "OpenAI 的 500 项人工任务子集消除了不明确的问题和不可靠的测试",
+        "它包括更多语言",
+        "它使用不同的补丁格式"
+      ],
+      "correct": 1,
+      "explanation": "已验证是可靠报告的更清晰的子集。"
+    },
+    {
+      "stage": "check",
+      "question": "SWE-bench+ 在成功的补丁中发现了什么？",
+      "options": [
+        "32.67% 的人泄露了问题中的解决方案文本，31.08% 的测试覆盖率可疑薄弱",
+        "所有补丁均已记住",
+        "没有污染",
+        "补丁总是超过 1000 行"
+      ],
+      "correct": 0,
+      "explanation": "SWE-bench+ 标记了大部分成功补丁的解决方案泄漏和覆盖率较弱的情况。"
+    },
+    {
+      "stage": "check",
+      "question": "GAIA的设计理念是什么？",
+      "options": [
+        "对人类来说很难，对人工智能来说很容易",
+        "概念上对人类来说很简单（约 92%），但对 AI 来说很难（带有插件的早期 GPT-4：约 15%）",
+        "向量检索的纯粹基准",
+        "仅限单轮问题"
+      ],
+      "correct": 1,
+      "explanation": "GAIA 是故意对人类来说容易，对人工智能来说困难，测试推理+工具+模态。"
+    },
+    {
+      "stage": "check",
+      "question": "哪一个不是 AgentBench 的环境类别之一？",
+      "options": [
+        "代码（Bash、DB、KG）",
+        "游戏（Alfworld、LTP）",
+        "网络（WebShop、Mind2Web）",
+        "梯度（RL、IRL）"
+      ],
+      "correct": 3,
+      "explanation": "AgentBench 涵盖代码、游戏、Web 和开放式生成。没有渐变类别。"
+    },
+    {
+      "stage": "post",
+      "question": "本课程认为报告 SWE 基准数据的错误方式是什么？",
+      "options": [
+        "报告每个存储库的故障",
+        "报告一个总数而不提及已验证或 SWE-bench+ 上下文",
+        "报告步数",
+        "报告挂钟"
+      ],
+      "correct": 1,
+      "explanation": "单号固定隐藏了污染和成本；始终报告已验证和每个发行版的上下文。"
+    },
+    {
+      "stage": "post",
+      "question": "这些基准不衡量哪个维度？",
+      "options": [
+        "现实世界的运营成本（代币、挂钟）、对抗安全性和您自己的领域",
+        "测试转换",
+        "每项任务的成功",
+        "计步数"
+      ],
+      "correct": 0,
+      "explanation": "基准汇总；它们不会捕获成本、对抗鲁棒性或您的领域。"
+    }
+  ]
+}

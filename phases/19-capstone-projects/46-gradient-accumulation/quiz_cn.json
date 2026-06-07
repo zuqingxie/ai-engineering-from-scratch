@@ -1,0 +1,78 @@
+{
+  "lesson": "46-gradient-accumulation",
+  "title": "Gradient Accumulation",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "梯度累积所表达的有效批次同一性是什么？",
+      "options": [
+        "effective_batch = micro_batch / Accum_steps",
+        "effective_batch = micro_batch * Accum_steps",
+        "effective_batch = micro_batch + Accum_steps",
+        "effective_batch = 仅 world_size"
+      ],
+      "correct": 1,
+      "explanation": "微批次适合内存；累积步骤是在一个优化器步骤之前将梯度堆入同一缓冲区的前向+后向传递次数。"
+    },
+    {
+      "stage": "pre",
+      "question": "为什么在每个微批次上向后之前必须将损失除以accum_steps？",
+      "options": [
+        "它使损失曲线更漂亮",
+        "PyTorch 默认将梯度求和到 param.grad 中，因此如果没有除法，累积的梯度会太大 N 倍，并且优化器步骤会太激进 N 倍",
+        "它避免了 NaN",
+        "仅混合精度需要"
+      ],
+      "correct": 1,
+      "explanation": "累积缓冲区是一个总和。每微批次缩放 1/N 会将总和推回到单个全批次向后产生的相同比例。"
+    },
+    {
+      "stage": "check",
+      "question": "优化器步骤何时在累积循环内运行？",
+      "options": [
+        "每个微批次之后",
+        "仅在累积窗口中的最后一个微批次之后",
+        "为了安全起见，每个窗口两次",
+        "从来没有；优化器被替换"
+      ],
+      "correct": 1,
+      "explanation": "累积中的步进会污染其余运行所依赖的每个参数。每个有效批次都会触发优化器步骤一次。"
+    },
+    {
+      "stage": "check",
+      "question": "no_sync 上下文在真正的多 GPU 运行中包裹着什么？",
+      "options": [
+        "向前传球",
+        "优化器步骤",
+        "非最终微批次，因此梯度全归约仅在最后一次向后而不是 N 次之后触发",
+        "数据加载器"
+      ],
+      "correct": 2,
+      "explanation": "DDP 的 no_sync 跳过梯度集合。包装除最后一个微批次之外的所有批次会将每个有效步骤的 N 个集合变成一个。"
+    },
+    {
+      "stage": "check",
+      "question": "main.py 中的 equalence_check 函数断言什么？",
+      "options": [
+        "损失收敛",
+        "单个全批量向后和一个accum_steps以loss / N向后分块产生相同的梯度缓冲区和相同的后步骤参数，直到小容差",
+        "吞吐量是恒定的",
+        "梯度为零"
+      ],
+      "correct": 1,
+      "explanation": "断言界限是 1e-4 下的 max-abs-diff。如果没有损失缩放，差异就会爆炸；通过缩放，它处于浮点噪声。"
+    },
+    {
+      "stage": "post",
+      "question": "根据有效批次曲线读取吞吐量，什么保持大致恒定以及什么规模？",
+      "options": [
+        "有效批次较大时每秒的样本数下降",
+        "每秒的样本数接近硬件限制，而每个优化器步骤的挂起时间与 Accum_steps 成线性比例；每秒优化器的步数是下降的",
+        "两个指标均随累积值线性缩放",
+        "由于模型变得更快，因此吞吐量增加"
+      ],
+      "correct": 1,
+      "explanation": "每个微批次的成本都是相同的前向+后向。累积购买的是每个优化器步骤的统计平滑，而不是原始吞吐量；这条曲线是对民间传说的有用现实检验。"
+    }
+  ]
+}

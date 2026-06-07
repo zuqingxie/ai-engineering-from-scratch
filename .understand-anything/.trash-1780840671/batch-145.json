@@ -1,0 +1,565 @@
+{
+  "nodes": [
+    {
+      "id": "config:phases/19-capstone-projects/72-code-exec-metric/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/19-capstone-projects/72-code-exec-metric/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/73-perplexity-calibration/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/19-capstone-projects/73-perplexity-calibration/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/73-perplexity-calibration/code/tests/test_calibration.py",
+      "type": "file",
+      "name": "test_calibration.py",
+      "filePath": "phases/19-capstone-projects/73-perplexity-calibration/code/tests/test_calibration.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "test",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/19-capstone-projects/73-perplexity-calibration/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/19-capstone-projects/73-perplexity-calibration/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/19-capstone-projects/73-perplexity-calibration/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/19-capstone-projects/73-perplexity-calibration/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/19-capstone-projects/73-perplexity-calibration/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/19-capstone-projects/73-perplexity-calibration/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/74-leaderboard-aggregation/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/19-capstone-projects/74-leaderboard-aggregation/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/74-leaderboard-aggregation/code/tests/test_leaderboard.py",
+      "type": "file",
+      "name": "test_leaderboard.py",
+      "filePath": "phases/19-capstone-projects/74-leaderboard-aggregation/code/tests/test_leaderboard.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "test",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/19-capstone-projects/74-leaderboard-aggregation/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/19-capstone-projects/74-leaderboard-aggregation/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/19-capstone-projects/74-leaderboard-aggregation/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/19-capstone-projects/74-leaderboard-aggregation/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/19-capstone-projects/74-leaderboard-aggregation/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/19-capstone-projects/74-leaderboard-aggregation/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/75-end-to-end-eval-runner/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/19-capstone-projects/75-end-to-end-eval-runner/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/75-end-to-end-eval-runner/code/tests/test_runner.py",
+      "type": "file",
+      "name": "test_runner.py",
+      "filePath": "phases/19-capstone-projects/75-end-to-end-eval-runner/code/tests/test_runner.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "test",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/19-capstone-projects/75-end-to-end-eval-runner/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/19-capstone-projects/75-end-to-end-eval-runner/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/19-capstone-projects/75-end-to-end-eval-runner/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/19-capstone-projects/75-end-to-end-eval-runner/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/19-capstone-projects/75-end-to-end-eval-runner/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/19-capstone-projects/75-end-to-end-eval-runner/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/76-collective-ops-from-scratch/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/19-capstone-projects/76-collective-ops-from-scratch/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/19-capstone-projects/76-collective-ops-from-scratch/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/19-capstone-projects/76-collective-ops-from-scratch/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/19-capstone-projects/76-collective-ops-from-scratch/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/19-capstone-projects/76-collective-ops-from-scratch/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/19-capstone-projects/76-collective-ops-from-scratch/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/19-capstone-projects/76-collective-ops-from-scratch/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/76-collective-ops-from-scratch/tests/test_collectives.py",
+      "type": "file",
+      "name": "test_collectives.py",
+      "filePath": "phases/19-capstone-projects/76-collective-ops-from-scratch/tests/test_collectives.py",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "test",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/77-data-parallel-ddp/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/19-capstone-projects/77-data-parallel-ddp/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/19-capstone-projects/77-data-parallel-ddp/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/19-capstone-projects/77-data-parallel-ddp/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/19-capstone-projects/77-data-parallel-ddp/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/19-capstone-projects/77-data-parallel-ddp/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/19-capstone-projects/77-data-parallel-ddp/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/19-capstone-projects/77-data-parallel-ddp/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/19-capstone-projects/72-code-exec-metric/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/73-perplexity-calibration/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/73-perplexity-calibration/code/tests/test_calibration.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:phases/19-capstone-projects/73-perplexity-calibration/code/tests/test_calibration.py",
+      "target": "file:phases/19-capstone-projects/73-perplexity-calibration/code/main.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/19-capstone-projects/73-perplexity-calibration/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/19-capstone-projects/73-perplexity-calibration/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/19-capstone-projects/73-perplexity-calibration/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/74-leaderboard-aggregation/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/74-leaderboard-aggregation/code/tests/test_leaderboard.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:phases/19-capstone-projects/74-leaderboard-aggregation/code/tests/test_leaderboard.py",
+      "target": "file:phases/19-capstone-projects/74-leaderboard-aggregation/code/main.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/19-capstone-projects/74-leaderboard-aggregation/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/19-capstone-projects/74-leaderboard-aggregation/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/19-capstone-projects/74-leaderboard-aggregation/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/75-end-to-end-eval-runner/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/75-end-to-end-eval-runner/code/tests/test_runner.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:phases/19-capstone-projects/75-end-to-end-eval-runner/code/tests/test_runner.py",
+      "target": "file:phases/19-capstone-projects/75-end-to-end-eval-runner/code/main.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/19-capstone-projects/75-end-to-end-eval-runner/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/19-capstone-projects/75-end-to-end-eval-runner/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/19-capstone-projects/75-end-to-end-eval-runner/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/76-collective-ops-from-scratch/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/19-capstone-projects/76-collective-ops-from-scratch/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/19-capstone-projects/76-collective-ops-from-scratch/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/19-capstone-projects/76-collective-ops-from-scratch/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/76-collective-ops-from-scratch/tests/test_collectives.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/77-data-parallel-ddp/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/19-capstone-projects/77-data-parallel-ddp/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/19-capstone-projects/77-data-parallel-ddp/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/19-capstone-projects/77-data-parallel-ddp/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "lesson": "28-alignment-research-ecosystem",
+  "title": "Alignment Research Ecosystem - MATS, Redwood, Apollo, METR",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "MATS 是做什么的？它的大致规模是多少？",
+      "options": [
+        "奖励模式培训服务",
+        "ML Alignment & Theory Scholars：自 2021 年以来有超过 527 名学者、180 多篇论文以及大约 80% 的 2025 年前校友从事安全/安保工作的研究指导计划",
+        "颁发人工智能出口许可证的监管机构",
+        "欧盟拥有的边境安全机构"
+      ],
+      "correct": 1,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "红木研究提出了哪些议程？",
+      "options": [
+        "LLM 的差异化隐私",
+        "AI控制（第10课）：尽管通过U / T / H协议进行颠覆，但仍然安全",
+        "通过 SynthID 添加水印",
+        "宪法人工智能"
+      ],
+      "correct": 1,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "哪个组织撰写了 In-Context Schemaing 论文和“走向 AI Schemaing 安全案例”框架？",
+      "options": [
+        "米特",
+        "垫子",
+        "埃利奥斯人工智能",
+        "阿波罗研究中心"
+      ],
+      "correct": 3,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "METR 在对齐生态系统中独特的方法风格是什么？",
+      "options": [
+        "基础模型的对抗训练",
+        "基于任务的能力评估、自主任务时间范围研究和框架综合（例如，“前沿人工智能安全政策的共同要素”）",
+        "硬件证明的可验证推理",
+        "仅闭源红队"
+      ],
+      "correct": 1,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "为什么多组织共同作者对于安全声明很重要？",
+      "options": [
+        "它增加了引用计数",
+        "它加快了发布速度",
+        "它是由欧盟人工智能法案强制执行的",
+        "评估自己模型的实验室存在结构性利益冲突；外部评估人员（Redwood、Apollo、METR、Eleos、UK AISI）可以提出并验证实验室可能漏报的故障模式"
+      ],
+      "correct": 3,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "Eleos AI Research 对生态系统的主要贡献是什么？",
+      "options": [
+        "人工智能控制基准",
+        "水印标准",
+        "加州培训数据法律起草",
+        "部署前模型-福利评估（第19课），包括Claude Opus 4的系统卡中的外部福利评估"
+      ],
+      "correct": 3,
+      "explanation": ""
+    }
+  ]
+}

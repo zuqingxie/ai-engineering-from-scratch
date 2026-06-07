@@ -1,0 +1,78 @@
+{
+  "lesson": "10-cold-start-mitigation",
+  "title": "Cold Start Mitigation for Serverless LLMs",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "对于没有缓解措施的新节点上的 70B 模型，冷启动通常需要大约多长时间？",
+      "options": [
+        "1个多小时",
+        "30-60秒",
+        "3-8分钟",
+        "10秒以内"
+      ],
+      "correct": 2,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "本课程建议使用哪种 AWS 端功能来预先播种容器映像，以便第 2 步的映像拉取消失？",
+      "options": [
+        "Bottlerocket双卷架构引用自EC2NodeClass",
+        "ECS 任务定义",
+        "现货车队布局",
+        "仅 EBS 卷快照"
+      ],
+      "correct": 0,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "哪个 Modal 功能通过将加载后状态直接反序列化到 HBM 来提供最接近“几秒钟内暖 GPU 启动”的功能？",
+      "options": [
+        "分层 NVMe 到 DRAM 加载",
+        "实时迁移",
+        "GPU 内存快照（检查点）",
+        "奔跑吧：ai模型流光"
+      ],
+      "correct": 2,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "为什么实时迁移在节点之间传输输入令牌而不是 KV 缓存？",
+      "options": [
+        "GDPR 要求实时迁移",
+        "输入令牌具有较大的熵",
+        "KV缓存已加密且无法移动",
+        "在目标上重新计算 KV 比通过网络传输 GB 的 KV 缓存更便宜"
+      ],
+      "correct": 3,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "哪个无服务器层通过保持至少一个副本处于活动状态，以直接 GPU 成本换取可预测的准备情况？",
+      "options": [
+        "min_workers >= 1 的温池",
+        "分层加载",
+        "Bottlerocket 预播种",
+        "实时迁移"
+      ],
+      "correct": 0,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "为什么课程中说冷启动缓解措施必须跨层堆叠，而不是作为单一工具来选择？",
+      "options": [
+        "没有单层消除了每个步骤（节点提供、图像拉取、权重加载、引擎初始化）；堆叠层压缩每一步",
+        "这是监管要求",
+        "Modal 拥有整个堆栈",
+        "所有五层都捆绑在 vLLM 中"
+      ],
+      "correct": 0,
+      "explanation": ""
+    }
+  ]
+}

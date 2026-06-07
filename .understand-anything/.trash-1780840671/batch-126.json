@@ -1,0 +1,539 @@
+{
+  "nodes": [
+    {
+      "id": "document:phases/19-capstone-projects/01-terminal-native-coding-agent/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/19-capstone-projects/01-terminal-native-coding-agent/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/19-capstone-projects/01-terminal-native-coding-agent/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/19-capstone-projects/01-terminal-native-coding-agent/outputs/skill-terminal-coding-agent.md",
+      "type": "document",
+      "name": "skill-terminal-coding-agent.md",
+      "filePath": "phases/19-capstone-projects/01-terminal-native-coding-agent/outputs/skill-terminal-coding-agent.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/19-capstone-projects/01-terminal-native-coding-agent/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/19-capstone-projects/01-terminal-native-coding-agent/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/02-rag-over-codebase/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/19-capstone-projects/02-rag-over-codebase/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/19-capstone-projects/02-rag-over-codebase/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/19-capstone-projects/02-rag-over-codebase/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/19-capstone-projects/02-rag-over-codebase/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/19-capstone-projects/02-rag-over-codebase/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/02-rag-over-codebase/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/19-capstone-projects/02-rag-over-codebase/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/19-capstone-projects/02-rag-over-codebase/outputs/skill-codebase-rag.md",
+      "type": "document",
+      "name": "skill-codebase-rag.md",
+      "filePath": "phases/19-capstone-projects/02-rag-over-codebase/outputs/skill-codebase-rag.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/19-capstone-projects/02-rag-over-codebase/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/19-capstone-projects/02-rag-over-codebase/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/03-realtime-voice-assistant/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/19-capstone-projects/03-realtime-voice-assistant/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/19-capstone-projects/03-realtime-voice-assistant/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/19-capstone-projects/03-realtime-voice-assistant/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/19-capstone-projects/03-realtime-voice-assistant/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/19-capstone-projects/03-realtime-voice-assistant/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/03-realtime-voice-assistant/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/19-capstone-projects/03-realtime-voice-assistant/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/19-capstone-projects/03-realtime-voice-assistant/outputs/skill-voice-agent.md",
+      "type": "document",
+      "name": "skill-voice-agent.md",
+      "filePath": "phases/19-capstone-projects/03-realtime-voice-assistant/outputs/skill-voice-agent.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/19-capstone-projects/03-realtime-voice-assistant/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/19-capstone-projects/03-realtime-voice-assistant/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/04-multimodal-document-qa/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/19-capstone-projects/04-multimodal-document-qa/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/04-multimodal-document-qa/code/ts/src/fixtures.ts",
+      "type": "file",
+      "name": "fixtures.ts",
+      "filePath": "phases/19-capstone-projects/04-multimodal-document-qa/code/ts/src/fixtures.ts",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "typescript"
+      ],
+      "language": "typescript"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/04-multimodal-document-qa/code/ts/src/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "phases/19-capstone-projects/04-multimodal-document-qa/code/ts/src/index.ts",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "typescript"
+      ],
+      "language": "typescript"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/04-multimodal-document-qa/code/ts/src/render.ts",
+      "type": "file",
+      "name": "render.ts",
+      "filePath": "phases/19-capstone-projects/04-multimodal-document-qa/code/ts/src/render.ts",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "typescript"
+      ],
+      "language": "typescript"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/04-multimodal-document-qa/code/ts/src/server.ts",
+      "type": "file",
+      "name": "server.ts",
+      "filePath": "phases/19-capstone-projects/04-multimodal-document-qa/code/ts/src/server.ts",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "示例代码",
+        "typescript"
+      ],
+      "language": "typescript"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/04-multimodal-document-qa/code/ts/src/types.ts",
+      "type": "file",
+      "name": "types.ts",
+      "filePath": "phases/19-capstone-projects/04-multimodal-document-qa/code/ts/src/types.ts",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "示例代码",
+        "typescript"
+      ],
+      "language": "typescript"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/04-multimodal-document-qa/code/ts/tests/fixtures.test.ts",
+      "type": "file",
+      "name": "fixtures.test.ts",
+      "filePath": "phases/19-capstone-projects/04-multimodal-document-qa/code/ts/tests/fixtures.test.ts",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "示例代码",
+        "test",
+        "typescript"
+      ],
+      "language": "typescript"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/04-multimodal-document-qa/code/ts/tests/render.test.ts",
+      "type": "file",
+      "name": "render.test.ts",
+      "filePath": "phases/19-capstone-projects/04-multimodal-document-qa/code/ts/tests/render.test.ts",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "test",
+        "typescript"
+      ],
+      "language": "typescript"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/04-multimodal-document-qa/code/ts/tests/server.test.ts",
+      "type": "file",
+      "name": "server.test.ts",
+      "filePath": "phases/19-capstone-projects/04-multimodal-document-qa/code/ts/tests/server.test.ts",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "test",
+        "typescript"
+      ],
+      "language": "typescript"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/19-capstone-projects/01-terminal-native-coding-agent/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/19-capstone-projects/01-terminal-native-coding-agent/outputs/skill-terminal-coding-agent.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/19-capstone-projects/01-terminal-native-coding-agent/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/02-rag-over-codebase/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/19-capstone-projects/02-rag-over-codebase/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/19-capstone-projects/02-rag-over-codebase/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/02-rag-over-codebase/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/19-capstone-projects/02-rag-over-codebase/outputs/skill-codebase-rag.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/19-capstone-projects/02-rag-over-codebase/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/03-realtime-voice-assistant/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/19-capstone-projects/03-realtime-voice-assistant/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/19-capstone-projects/03-realtime-voice-assistant/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/03-realtime-voice-assistant/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/19-capstone-projects/03-realtime-voice-assistant/outputs/skill-voice-agent.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/19-capstone-projects/03-realtime-voice-assistant/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/04-multimodal-document-qa/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/04-multimodal-document-qa/code/ts/src/fixtures.ts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/04-multimodal-document-qa/code/ts/src/index.ts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/04-multimodal-document-qa/code/ts/src/render.ts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/04-multimodal-document-qa/code/ts/src/server.ts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/04-multimodal-document-qa/code/ts/src/types.ts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/04-multimodal-document-qa/code/ts/tests/fixtures.test.ts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/04-multimodal-document-qa/code/ts/tests/render.test.ts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/04-multimodal-document-qa/code/ts/tests/server.test.ts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

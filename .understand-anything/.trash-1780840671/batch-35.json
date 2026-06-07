@@ -1,0 +1,544 @@
+{
+  "nodes": [
+    {
+      "id": "config:phases/01-math-foundations/05-chain-rule-and-autodiff/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/01-math-foundations/05-chain-rule-and-autodiff/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/01-math-foundations/06-probability-and-distributions/code/main.jl",
+      "type": "file",
+      "name": "main.jl",
+      "filePath": "phases/01-math-foundations/06-probability-and-distributions/code/main.jl",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "jl"
+      ],
+      "language": "jl"
+    },
+    {
+      "id": "file:phases/01-math-foundations/06-probability-and-distributions/code/probability.py",
+      "type": "file",
+      "name": "probability.py",
+      "filePath": "phases/01-math-foundations/06-probability-and-distributions/code/probability.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/01-math-foundations/06-probability-and-distributions/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/01-math-foundations/06-probability-and-distributions/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/01-math-foundations/06-probability-and-distributions/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/01-math-foundations/06-probability-and-distributions/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/01-math-foundations/06-probability-and-distributions/outputs/skill-probability-reasoning.md",
+      "type": "document",
+      "name": "skill-probability-reasoning.md",
+      "filePath": "phases/01-math-foundations/06-probability-and-distributions/outputs/skill-probability-reasoning.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/01-math-foundations/06-probability-and-distributions/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/01-math-foundations/06-probability-and-distributions/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/01-math-foundations/07-bayes-theorem/code/bayes.py",
+      "type": "file",
+      "name": "bayes.py",
+      "filePath": "phases/01-math-foundations/07-bayes-theorem/code/bayes.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/01-math-foundations/07-bayes-theorem/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/01-math-foundations/07-bayes-theorem/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/01-math-foundations/07-bayes-theorem/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/01-math-foundations/07-bayes-theorem/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/01-math-foundations/07-bayes-theorem/outputs/prompt-bayesian-reasoning.md",
+      "type": "document",
+      "name": "prompt-bayesian-reasoning.md",
+      "filePath": "phases/01-math-foundations/07-bayes-theorem/outputs/prompt-bayesian-reasoning.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/01-math-foundations/07-bayes-theorem/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/01-math-foundations/07-bayes-theorem/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/01-math-foundations/08-optimization/code/main.jl",
+      "type": "file",
+      "name": "main.jl",
+      "filePath": "phases/01-math-foundations/08-optimization/code/main.jl",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "jl"
+      ],
+      "language": "jl"
+    },
+    {
+      "id": "file:phases/01-math-foundations/08-optimization/code/optimizers.py",
+      "type": "file",
+      "name": "optimizers.py",
+      "filePath": "phases/01-math-foundations/08-optimization/code/optimizers.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/01-math-foundations/08-optimization/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/01-math-foundations/08-optimization/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/01-math-foundations/08-optimization/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/01-math-foundations/08-optimization/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/01-math-foundations/08-optimization/outputs/prompt-optimizer-guide.md",
+      "type": "document",
+      "name": "prompt-optimizer-guide.md",
+      "filePath": "phases/01-math-foundations/08-optimization/outputs/prompt-optimizer-guide.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/01-math-foundations/08-optimization/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/01-math-foundations/08-optimization/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/01-math-foundations/09-information-theory/code/information_theory.py",
+      "type": "file",
+      "name": "information_theory.py",
+      "filePath": "phases/01-math-foundations/09-information-theory/code/information_theory.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/01-math-foundations/09-information-theory/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/01-math-foundations/09-information-theory/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/01-math-foundations/09-information-theory/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/01-math-foundations/09-information-theory/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/01-math-foundations/09-information-theory/outputs/skill-information-theory.md",
+      "type": "document",
+      "name": "skill-information-theory.md",
+      "filePath": "phases/01-math-foundations/09-information-theory/outputs/skill-information-theory.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/01-math-foundations/09-information-theory/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/01-math-foundations/09-information-theory/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/01-math-foundations/10-dimensionality-reduction/code/dim_reduction.py",
+      "type": "file",
+      "name": "dim_reduction.py",
+      "filePath": "phases/01-math-foundations/10-dimensionality-reduction/code/dim_reduction.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/01-math-foundations/10-dimensionality-reduction/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/01-math-foundations/10-dimensionality-reduction/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/01-math-foundations/05-chain-rule-and-autodiff/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/01-math-foundations/06-probability-and-distributions/code/main.jl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/01-math-foundations/06-probability-and-distributions/code/probability.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/01-math-foundations/06-probability-and-distributions/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/01-math-foundations/06-probability-and-distributions/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/01-math-foundations/06-probability-and-distributions/outputs/skill-probability-reasoning.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/01-math-foundations/06-probability-and-distributions/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/01-math-foundations/07-bayes-theorem/code/bayes.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/01-math-foundations/07-bayes-theorem/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/01-math-foundations/07-bayes-theorem/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/01-math-foundations/07-bayes-theorem/outputs/prompt-bayesian-reasoning.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/01-math-foundations/07-bayes-theorem/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/01-math-foundations/08-optimization/code/main.jl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/01-math-foundations/08-optimization/code/optimizers.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/01-math-foundations/08-optimization/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/01-math-foundations/08-optimization/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/01-math-foundations/08-optimization/outputs/prompt-optimizer-guide.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/01-math-foundations/08-optimization/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/01-math-foundations/09-information-theory/code/information_theory.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/01-math-foundations/09-information-theory/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/01-math-foundations/09-information-theory/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/01-math-foundations/09-information-theory/outputs/skill-information-theory.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/01-math-foundations/09-information-theory/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/01-math-foundations/10-dimensionality-reduction/code/dim_reduction.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/01-math-foundations/10-dimensionality-reduction/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,564 @@
+{
+  "nodes": [
+    {
+      "id": "document:phases/19-capstone-projects/49-lm-eval-harness/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/19-capstone-projects/49-lm-eval-harness/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/19-capstone-projects/49-lm-eval-harness/outputs/leaderboard.json",
+      "type": "config",
+      "name": "leaderboard.json",
+      "filePath": "phases/19-capstone-projects/49-lm-eval-harness/outputs/leaderboard.json",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "document:phases/19-capstone-projects/49-lm-eval-harness/outputs/skill-lm-eval-harness.md",
+      "type": "document",
+      "name": "skill-lm-eval-harness.md",
+      "filePath": "phases/19-capstone-projects/49-lm-eval-harness/outputs/skill-lm-eval-harness.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/49-lm-eval-harness/outputs/tasks/arithmetic.jsonl",
+      "type": "file",
+      "name": "arithmetic.jsonl",
+      "filePath": "phases/19-capstone-projects/49-lm-eval-harness/outputs/tasks/arithmetic.jsonl",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "jsonl"
+      ],
+      "language": "jsonl"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/49-lm-eval-harness/outputs/tasks/code-exec.jsonl",
+      "type": "file",
+      "name": "code-exec.jsonl",
+      "filePath": "phases/19-capstone-projects/49-lm-eval-harness/outputs/tasks/code-exec.jsonl",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "jsonl"
+      ],
+      "language": "jsonl"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/49-lm-eval-harness/outputs/tasks/generation.jsonl",
+      "type": "file",
+      "name": "generation.jsonl",
+      "filePath": "phases/19-capstone-projects/49-lm-eval-harness/outputs/tasks/generation.jsonl",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "jsonl"
+      ],
+      "language": "jsonl"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/49-lm-eval-harness/outputs/tasks/multiple-choice.jsonl",
+      "type": "file",
+      "name": "multiple-choice.jsonl",
+      "filePath": "phases/19-capstone-projects/49-lm-eval-harness/outputs/tasks/multiple-choice.jsonl",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "jsonl"
+      ],
+      "language": "jsonl"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/49-lm-eval-harness/outputs/tasks/summary.jsonl",
+      "type": "file",
+      "name": "summary.jsonl",
+      "filePath": "phases/19-capstone-projects/49-lm-eval-harness/outputs/tasks/summary.jsonl",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "jsonl"
+      ],
+      "language": "jsonl"
+    },
+    {
+      "id": "config:phases/19-capstone-projects/49-lm-eval-harness/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/19-capstone-projects/49-lm-eval-harness/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/50-hypothesis-generator/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/19-capstone-projects/50-hypothesis-generator/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/50-hypothesis-generator/code/tests/test_generator.py",
+      "type": "file",
+      "name": "test_generator.py",
+      "filePath": "phases/19-capstone-projects/50-hypothesis-generator/code/tests/test_generator.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "test",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/19-capstone-projects/50-hypothesis-generator/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/19-capstone-projects/50-hypothesis-generator/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/19-capstone-projects/50-hypothesis-generator/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/19-capstone-projects/50-hypothesis-generator/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/19-capstone-projects/50-hypothesis-generator/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/19-capstone-projects/50-hypothesis-generator/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/51-literature-retrieval/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/19-capstone-projects/51-literature-retrieval/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/51-literature-retrieval/code/tests/test_retrieval.py",
+      "type": "file",
+      "name": "test_retrieval.py",
+      "filePath": "phases/19-capstone-projects/51-literature-retrieval/code/tests/test_retrieval.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "test",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/19-capstone-projects/51-literature-retrieval/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/19-capstone-projects/51-literature-retrieval/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/19-capstone-projects/51-literature-retrieval/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/19-capstone-projects/51-literature-retrieval/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/19-capstone-projects/51-literature-retrieval/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/19-capstone-projects/51-literature-retrieval/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/52-experiment-runner/code/experiments/crashing_experiment.py",
+      "type": "file",
+      "name": "crashing_experiment.py",
+      "filePath": "phases/19-capstone-projects/52-experiment-runner/code/experiments/crashing_experiment.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/52-experiment-runner/code/experiments/sparsity_experiment.py",
+      "type": "file",
+      "name": "sparsity_experiment.py",
+      "filePath": "phases/19-capstone-projects/52-experiment-runner/code/experiments/sparsity_experiment.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/52-experiment-runner/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/19-capstone-projects/52-experiment-runner/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/52-experiment-runner/code/tests/test_runner.py",
+      "type": "file",
+      "name": "test_runner.py",
+      "filePath": "phases/19-capstone-projects/52-experiment-runner/code/tests/test_runner.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "test",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/19-capstone-projects/52-experiment-runner/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/19-capstone-projects/52-experiment-runner/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/19-capstone-projects/52-experiment-runner/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/19-capstone-projects/52-experiment-runner/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/19-capstone-projects/49-lm-eval-harness/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/19-capstone-projects/49-lm-eval-harness/outputs/leaderboard.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/19-capstone-projects/49-lm-eval-harness/outputs/skill-lm-eval-harness.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/49-lm-eval-harness/outputs/tasks/arithmetic.jsonl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/49-lm-eval-harness/outputs/tasks/code-exec.jsonl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/49-lm-eval-harness/outputs/tasks/generation.jsonl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/49-lm-eval-harness/outputs/tasks/multiple-choice.jsonl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/49-lm-eval-harness/outputs/tasks/summary.jsonl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/19-capstone-projects/49-lm-eval-harness/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/50-hypothesis-generator/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/50-hypothesis-generator/code/tests/test_generator.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:phases/19-capstone-projects/50-hypothesis-generator/code/tests/test_generator.py",
+      "target": "file:phases/19-capstone-projects/50-hypothesis-generator/code/main.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/19-capstone-projects/50-hypothesis-generator/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/19-capstone-projects/50-hypothesis-generator/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/19-capstone-projects/50-hypothesis-generator/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/51-literature-retrieval/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/51-literature-retrieval/code/tests/test_retrieval.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:phases/19-capstone-projects/51-literature-retrieval/code/tests/test_retrieval.py",
+      "target": "file:phases/19-capstone-projects/51-literature-retrieval/code/main.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/19-capstone-projects/51-literature-retrieval/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/19-capstone-projects/51-literature-retrieval/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/19-capstone-projects/51-literature-retrieval/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/52-experiment-runner/code/experiments/crashing_experiment.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/52-experiment-runner/code/experiments/sparsity_experiment.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/52-experiment-runner/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/52-experiment-runner/code/tests/test_runner.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:phases/19-capstone-projects/52-experiment-runner/code/tests/test_runner.py",
+      "target": "file:phases/19-capstone-projects/52-experiment-runner/code/main.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/19-capstone-projects/52-experiment-runner/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/19-capstone-projects/52-experiment-runner/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

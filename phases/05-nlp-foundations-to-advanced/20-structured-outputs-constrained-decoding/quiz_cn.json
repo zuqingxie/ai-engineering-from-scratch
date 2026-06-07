@@ -1,0 +1,102 @@
+{
+  "lesson": "20-structured-outputs-constrained-decoding",
+  "title": "Structured Outputs & Constrained Decoding",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "为什么仅提示“返回 JSON”不足以用于生产？",
+      "options": [
+        "JSON 太冗长",
+        "提示太长",
+        "前沿模型在大多数情况下都符合要求，但并非总是如此；一小部分格式错误的输出会破坏下游解析器",
+        "提示无法描述模式"
+      ],
+      "correct": 2,
+      "explanation": "仅提示结构在前沿模型上的运行时间约为 80%；生产需要更严格的保障。"
+    },
+    {
+      "stage": "pre",
+      "question": "约束解码在每个生成步骤会修改什么？",
+      "options": [
+        "KV缓存",
+        "分词器",
+        "训练损失",
+        "logit 向量，屏蔽会使目标语法无效的标记，因此只能对有效的延续进行采样"
+      ],
+      "correct": 3,
+      "explanation": "logit 处理器将无效标记设置为 -inf，因此 softmax 无法对它们进行采样。"
+    },
+    {
+      "stage": "check",
+      "question": "为什么受限解码可能比自由生成更快？",
+      "options": [
+        "模型比较小",
+        "强制脚手架令牌（例如 '{\"name\": \"'）可以直接发出而无需采样，并且有效令牌搜索空间缩小",
+        "它完全避免了softmax",
+        "它跳过反向传播"
+      ],
+      "correct": 1,
+      "explanation": "确定的令牌跳过采样，减少有效令牌集可以降低解码成本。"
+    },
+    {
+      "stage": "check",
+      "question": "哪种模式设计选择可以防止模型过早承诺？",
+      "options": [
+        "把“答案”放在第一位",
+        "使用较短的按键",
+        "将推理字段放在答案/决策字段之前，以便模型在提交之前进行思考",
+        "使用snake_case"
+      ],
+      "correct": 2,
+      "explanation": "字段顺序是逻辑：将推理放在首位让模型在锁定答案之前进行思考。"
+    },
+    {
+      "stage": "check",
+      "question": "Outlines 等基于 FSM 的约束解码工具有什么局限性？",
+      "options": [
+        "它们不是确定性的",
+        "他们将你锁定在 OpenAI 上",
+        "递归模式必须扁平化；真正的递归结构需要基于 CFG 的引擎，例如 XGrammar",
+        "他们只支持枚举"
+      ],
+      "correct": 2,
+      "explanation": "FSM不能代表无界递归； CFG 引擎可以处理它。"
+    },
+    {
+      "stage": "post",
+      "question": "为什么 Instructor 被描述为不修改 logits？",
+      "options": [
+        "教师将模式格式化为提示并解析/重试输出； logit 屏蔽发生在服务器端或根本不发生",
+        "它使用梯度更新",
+        "人择要求",
+        "它编辑提示"
+      ],
+      "correct": 0,
+      "explanation": "讲师使用提供者端结构化输出加上客户端验证和重试，而不是 logit 屏蔽。"
+    },
+    {
+      "stage": "post",
+      "question": "像 date='YYYY-MM-DD' 这样的严格正则表达式会带来什么问题？",
+      "options": [
+        "需要CFG支持",
+        "它删除了未知值的任何逃生舱口，因此模型会伪造一个日期而不是返回 null/sentinel",
+        "它破坏了 JSON 解析",
+        "正则表达式很慢"
+      ],
+      "correct": 1,
+      "explanation": "过于严格的语法迫使模型发明值；始终允许未知数为空/哨兵。"
+    },
+    {
+      "stage": "post",
+      "question": "您什么时候应该使用 vLLM 引导解码而不是供应商结构化输出 API？",
+      "options": [
+        "始终供应商",
+        "仅适用于小型架构",
+        "仅适用于字节级 BPE",
+        "自托管推理，您可以控制模型并希望无需重试即可获得 logit 级别保证"
+      ],
+      "correct": 3,
+      "explanation": "vLLM 引导解码适合具有 logit 级别约束的自托管服务；供应商 API 将您锁定在他们的堆栈中。"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "lesson": "17-claude-agent-sdk",
+  "title": "Claude Agent SDK: Subagents and Session Store",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "Anthropic Client SDK 和 Claude Agent SDK 有什么区别？",
+      "options": [
+        "客户端 SDK 是原始消息 API； Agent SDK 是 Claude Code 线束形状，具有内置工具、MCP、挂钩、子代理和会话存储",
+        "客户端SDK需付费；代理SDK免费",
+        "客户端 SDK 仅适用于 Python",
+        "没有什么区别"
+      ],
+      "correct": 0,
+      "explanation": "客户端 SDK 为您提供循环； Agent SDK 附带了预先构建的循环。"
+    },
+    {
+      "stage": "pre",
+      "question": "子代理的两个记录目的是什么？",
+      "options": [
+        "并行化和上下文隔离",
+        "缓存和速率限制",
+        "日志记录和指标",
+        "Authn 和 authz"
+      ],
+      "correct": 0,
+      "explanation": "子代理同时运行独立的工作，并通过隔离上下文来保留编排器的上下文预算。"
+    },
+    {
+      "stage": "check",
+      "question": "哪种方法不是会话存储表面的一部分？",
+      "options": [
+        "追加",
+        "负载",
+        "列表子键",
+        "编译提示符"
+      ],
+      "correct": 3,
+      "explanation": "会话存储包含追加、加载、list_sessions、删除、list_subkeys； compile_prompt 不是会话 API。"
+    },
+    {
+      "stage": "check",
+      "question": "哪个不是 Claude Agent SDK 生命周期挂钩？",
+      "options": [
+        "预工具使用",
+        "后期工具使用",
+        "预紧凑型",
+        "预嵌入"
+      ],
+      "correct": 3,
+      "explanation": "挂钩包括 PreToolUse、PostToolUse、SessionStart/End、UserPromptSubmit、PreCompact、Stop、Notification。 PreEmbedding 不是钩子。"
+    },
+    {
+      "stage": "check",
+      "question": "跟踪上下文如何在代理和 CLI 子进程中传播？",
+      "options": [
+        "通过文件系统",
+        "通过 W3C 跟踪上下文标头传递到 CLI 子进程",
+        "仅通过提供商的仪表板",
+        "仅通过环境变量"
+      ],
+      "correct": 1,
+      "explanation": "调用者上的 OTel 跨度通过 W3C 跟踪上下文传播到 CLI 子进程，因此整个多进程运行是一个跟踪。"
+    },
+    {
+      "stage": "post",
+      "question": "什么是子代理过度生成以及何时发生？",
+      "options": [
+        "为 100 个开销占主导地位的小任务生成 100 个子代理；批量代替",
+        "忘记关闭子代理",
+        "在 SessionStart 之前生成",
+        "产生比 CPU 核心更多的子代理"
+      ],
+      "correct": 0,
+      "explanation": "子代理有管理费用；批量处理小任务，而不是每个任务生成一个。"
+    },
+    {
+      "stage": "post",
+      "question": "Claude Managed Agents 与自托管 SDK 有何权衡？",
+      "options": [
+        "控制托管基础设施（长时间运行的异步、内置提示缓存、内置压缩）",
+        "成本延迟",
+        "记忆工具",
+        "流式传输跟踪"
+      ],
+      "correct": 0,
+      "explanation": "托管代理是长时间运行的异步工作的托管替代方案；更少的控制，更少的操作面。"
+    }
+  ]
+}

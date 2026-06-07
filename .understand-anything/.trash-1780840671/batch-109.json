@@ -1,0 +1,541 @@
+{
+  "nodes": [
+    {
+      "id": "document:phases/16-multi-agent-and-swarms/12-a2a-protocol/outputs/skill-a2a-integrator.md",
+      "type": "document",
+      "name": "skill-a2a-integrator.md",
+      "filePath": "phases/16-multi-agent-and-swarms/12-a2a-protocol/outputs/skill-a2a-integrator.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/16-multi-agent-and-swarms/13-shared-memory-blackboard/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/16-multi-agent-and-swarms/13-shared-memory-blackboard/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/16-multi-agent-and-swarms/13-shared-memory-blackboard/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/16-multi-agent-and-swarms/13-shared-memory-blackboard/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/16-multi-agent-and-swarms/13-shared-memory-blackboard/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/16-multi-agent-and-swarms/13-shared-memory-blackboard/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/16-multi-agent-and-swarms/13-shared-memory-blackboard/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/16-multi-agent-and-swarms/13-shared-memory-blackboard/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/16-multi-agent-and-swarms/13-shared-memory-blackboard/outputs/skill-memory-auditor.md",
+      "type": "document",
+      "name": "skill-memory-auditor.md",
+      "filePath": "phases/16-multi-agent-and-swarms/13-shared-memory-blackboard/outputs/skill-memory-auditor.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/16-multi-agent-and-swarms/14-consensus-and-bft/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/16-multi-agent-and-swarms/14-consensus-and-bft/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/16-multi-agent-and-swarms/14-consensus-and-bft/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/16-multi-agent-and-swarms/14-consensus-and-bft/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/16-multi-agent-and-swarms/14-consensus-and-bft/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/16-multi-agent-and-swarms/14-consensus-and-bft/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/16-multi-agent-and-swarms/14-consensus-and-bft/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/16-multi-agent-and-swarms/14-consensus-and-bft/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/16-multi-agent-and-swarms/14-consensus-and-bft/outputs/skill-consensus-designer.md",
+      "type": "document",
+      "name": "skill-consensus-designer.md",
+      "filePath": "phases/16-multi-agent-and-swarms/14-consensus-and-bft/outputs/skill-consensus-designer.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/16-multi-agent-and-swarms/15-voting-debate-topology/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/16-multi-agent-and-swarms/15-voting-debate-topology/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/16-multi-agent-and-swarms/15-voting-debate-topology/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/16-multi-agent-and-swarms/15-voting-debate-topology/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/16-multi-agent-and-swarms/15-voting-debate-topology/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/16-multi-agent-and-swarms/15-voting-debate-topology/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/16-multi-agent-and-swarms/15-voting-debate-topology/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/16-multi-agent-and-swarms/15-voting-debate-topology/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/16-multi-agent-and-swarms/15-voting-debate-topology/outputs/skill-topology-picker.md",
+      "type": "document",
+      "name": "skill-topology-picker.md",
+      "filePath": "phases/16-multi-agent-and-swarms/15-voting-debate-topology/outputs/skill-topology-picker.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/16-multi-agent-and-swarms/16-negotiation-bargaining/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/16-multi-agent-and-swarms/16-negotiation-bargaining/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/16-multi-agent-and-swarms/16-negotiation-bargaining/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/16-multi-agent-and-swarms/16-negotiation-bargaining/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/16-multi-agent-and-swarms/16-negotiation-bargaining/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/16-multi-agent-and-swarms/16-negotiation-bargaining/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/16-multi-agent-and-swarms/16-negotiation-bargaining/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/16-multi-agent-and-swarms/16-negotiation-bargaining/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/16-multi-agent-and-swarms/16-negotiation-bargaining/outputs/skill-bargainer-designer.md",
+      "type": "document",
+      "name": "skill-bargainer-designer.md",
+      "filePath": "phases/16-multi-agent-and-swarms/16-negotiation-bargaining/outputs/skill-bargainer-designer.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/16-multi-agent-and-swarms/17-generative-agents-simulation/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/16-multi-agent-and-swarms/17-generative-agents-simulation/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/16-multi-agent-and-swarms/17-generative-agents-simulation/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/16-multi-agent-and-swarms/17-generative-agents-simulation/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/16-multi-agent-and-swarms/17-generative-agents-simulation/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/16-multi-agent-and-swarms/17-generative-agents-simulation/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/16-multi-agent-and-swarms/17-generative-agents-simulation/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/16-multi-agent-and-swarms/17-generative-agents-simulation/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/16-multi-agent-and-swarms/12-a2a-protocol/outputs/skill-a2a-integrator.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/16-multi-agent-and-swarms/13-shared-memory-blackboard/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/16-multi-agent-and-swarms/13-shared-memory-blackboard/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/16-multi-agent-and-swarms/13-shared-memory-blackboard/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/16-multi-agent-and-swarms/13-shared-memory-blackboard/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/16-multi-agent-and-swarms/13-shared-memory-blackboard/outputs/skill-memory-auditor.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/16-multi-agent-and-swarms/14-consensus-and-bft/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/16-multi-agent-and-swarms/14-consensus-and-bft/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/16-multi-agent-and-swarms/14-consensus-and-bft/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/16-multi-agent-and-swarms/14-consensus-and-bft/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/16-multi-agent-and-swarms/14-consensus-and-bft/outputs/skill-consensus-designer.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/16-multi-agent-and-swarms/15-voting-debate-topology/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/16-multi-agent-and-swarms/15-voting-debate-topology/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/16-multi-agent-and-swarms/15-voting-debate-topology/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/16-multi-agent-and-swarms/15-voting-debate-topology/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/16-multi-agent-and-swarms/15-voting-debate-topology/outputs/skill-topology-picker.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/16-multi-agent-and-swarms/16-negotiation-bargaining/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/16-multi-agent-and-swarms/16-negotiation-bargaining/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/16-multi-agent-and-swarms/16-negotiation-bargaining/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/16-multi-agent-and-swarms/16-negotiation-bargaining/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/16-multi-agent-and-swarms/16-negotiation-bargaining/outputs/skill-bargainer-designer.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/16-multi-agent-and-swarms/17-generative-agents-simulation/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/16-multi-agent-and-swarms/17-generative-agents-simulation/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/16-multi-agent-and-swarms/17-generative-agents-simulation/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/16-multi-agent-and-swarms/17-generative-agents-simulation/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

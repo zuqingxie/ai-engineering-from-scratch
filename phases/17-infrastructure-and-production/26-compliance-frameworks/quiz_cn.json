@@ -1,0 +1,78 @@
+{
+  "lesson": "26-compliance-frameworks",
+  "title": "Compliance — SOC 2, HIPAA, GDPR, PCI-DSS, EU AI Act, ISO 42001",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "针对高风险系统的欧盟人工智能法案何时开始执行？",
+      "options": [
+        "2025 年 2 月 2 日",
+        "2026 年 8 月 2 日",
+        "已于 2024 年全面实施",
+        "2030 年 1 月 1 日"
+      ],
+      "correct": 1,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "欧盟人工智能法案定义了哪一个两级罚款上限？",
+      "options": [
+        "任何违规行为最高可达 100 万欧元",
+        "任何违规行为最高可达 10 万欧元",
+        "高风险系统义务高达 1500 万欧元或全球年营业额的 3%（第 99(4) 条）；对于禁止的人工智能做法，最高罚款 3500 万欧元或 7%（第 99(3) 条）",
+        "没有经济处罚，只有删除令"
+      ],
+      "correct": 2,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "为什么后处理 PII 清理不是一个站得住脚的 GDPR 立场？",
+      "options": [
+        "规模太慢",
+        "GDPR 完全禁止编辑",
+        "后处理与实时相同",
+        "该模型已经看到了数据，因此实时推理层编辑（在 LLM 调用之前）是可靠的 2026 年标准"
+      ],
+      "correct": 3,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "SOC 2 Type I 和 Type II 之间有什么实际区别？",
+      "options": [
+        "I 类需要 HIPAA BAA",
+        "I 型比 II 型更严格",
+        "I 类证明控制措施的设计和记录； II 类证明控制措施在 6-12 个月内有效运行",
+        "II 型仅适用于初创公司"
+      ],
+      "correct": 2,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "跨框架控制映射的目的是什么？",
+      "options": [
+        "满足多个框架要求的一种控制策略（例如，访问日志记录映射到 ISO 27001 A.5.15-5.18、GDPR 第 32 条、HIPAA §164.312(a)）",
+        "消除审计",
+        "用 ISO 42001 替换所有框架",
+        "每个框架有更多不同的控件"
+      ],
+      "correct": 0,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "本课程对 HIPAA + LLM 工作负载有何建议？",
+      "options": [
+        "HIPAA 不适用于法学硕士",
+        "切勿在没有签署 BAA 的情况下将 PHI 发送到外部 AI 服务；所有三个超大规模提供商和主要 LLM API 提供商均提供 BAA",
+        "仅使用本地模型，从不托管",
+        "将 PHI 发送给任何提供商； BAA 是可选的"
+      ],
+      "correct": 1,
+      "explanation": ""
+    }
+  ]
+}

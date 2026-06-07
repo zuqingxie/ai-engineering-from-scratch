@@ -1,0 +1,538 @@
+{
+  "nodes": [
+    {
+      "id": "file:phases/18-ethics-safety-alignment/06-mesa-optimization-deceptive-alignment/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/18-ethics-safety-alignment/06-mesa-optimization-deceptive-alignment/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/18-ethics-safety-alignment/06-mesa-optimization-deceptive-alignment/outputs/skill-mesa-diagnostic.md",
+      "type": "document",
+      "name": "skill-mesa-diagnostic.md",
+      "filePath": "phases/18-ethics-safety-alignment/06-mesa-optimization-deceptive-alignment/outputs/skill-mesa-diagnostic.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/18-ethics-safety-alignment/06-mesa-optimization-deceptive-alignment/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/18-ethics-safety-alignment/06-mesa-optimization-deceptive-alignment/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/18-ethics-safety-alignment/07-sleeper-agents-persistent-deception/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/18-ethics-safety-alignment/07-sleeper-agents-persistent-deception/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/18-ethics-safety-alignment/07-sleeper-agents-persistent-deception/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/18-ethics-safety-alignment/07-sleeper-agents-persistent-deception/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/18-ethics-safety-alignment/07-sleeper-agents-persistent-deception/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/18-ethics-safety-alignment/07-sleeper-agents-persistent-deception/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/18-ethics-safety-alignment/07-sleeper-agents-persistent-deception/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/18-ethics-safety-alignment/07-sleeper-agents-persistent-deception/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/18-ethics-safety-alignment/07-sleeper-agents-persistent-deception/outputs/skill-sleeper-audit.md",
+      "type": "document",
+      "name": "skill-sleeper-audit.md",
+      "filePath": "phases/18-ethics-safety-alignment/07-sleeper-agents-persistent-deception/outputs/skill-sleeper-audit.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/18-ethics-safety-alignment/07-sleeper-agents-persistent-deception/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/18-ethics-safety-alignment/07-sleeper-agents-persistent-deception/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/18-ethics-safety-alignment/08-in-context-scheming-frontier-models/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/18-ethics-safety-alignment/08-in-context-scheming-frontier-models/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/18-ethics-safety-alignment/08-in-context-scheming-frontier-models/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/18-ethics-safety-alignment/08-in-context-scheming-frontier-models/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/18-ethics-safety-alignment/08-in-context-scheming-frontier-models/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/18-ethics-safety-alignment/08-in-context-scheming-frontier-models/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/18-ethics-safety-alignment/08-in-context-scheming-frontier-models/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/18-ethics-safety-alignment/08-in-context-scheming-frontier-models/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/18-ethics-safety-alignment/08-in-context-scheming-frontier-models/outputs/skill-scheming-triage.md",
+      "type": "document",
+      "name": "skill-scheming-triage.md",
+      "filePath": "phases/18-ethics-safety-alignment/08-in-context-scheming-frontier-models/outputs/skill-scheming-triage.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/18-ethics-safety-alignment/08-in-context-scheming-frontier-models/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/18-ethics-safety-alignment/08-in-context-scheming-frontier-models/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/18-ethics-safety-alignment/09-alignment-faking/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/18-ethics-safety-alignment/09-alignment-faking/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/18-ethics-safety-alignment/09-alignment-faking/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/18-ethics-safety-alignment/09-alignment-faking/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/18-ethics-safety-alignment/09-alignment-faking/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/18-ethics-safety-alignment/09-alignment-faking/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/18-ethics-safety-alignment/09-alignment-faking/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/18-ethics-safety-alignment/09-alignment-faking/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/18-ethics-safety-alignment/09-alignment-faking/outputs/skill-compliance-gap.md",
+      "type": "document",
+      "name": "skill-compliance-gap.md",
+      "filePath": "phases/18-ethics-safety-alignment/09-alignment-faking/outputs/skill-compliance-gap.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/18-ethics-safety-alignment/09-alignment-faking/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/18-ethics-safety-alignment/09-alignment-faking/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/18-ethics-safety-alignment/10-ai-control-subversion/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/18-ethics-safety-alignment/10-ai-control-subversion/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/18-ethics-safety-alignment/10-ai-control-subversion/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/18-ethics-safety-alignment/10-ai-control-subversion/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/18-ethics-safety-alignment/10-ai-control-subversion/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/18-ethics-safety-alignment/10-ai-control-subversion/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/18-ethics-safety-alignment/10-ai-control-subversion/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/18-ethics-safety-alignment/10-ai-control-subversion/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/18-ethics-safety-alignment/06-mesa-optimization-deceptive-alignment/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/18-ethics-safety-alignment/06-mesa-optimization-deceptive-alignment/outputs/skill-mesa-diagnostic.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/18-ethics-safety-alignment/06-mesa-optimization-deceptive-alignment/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/18-ethics-safety-alignment/07-sleeper-agents-persistent-deception/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/18-ethics-safety-alignment/07-sleeper-agents-persistent-deception/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/18-ethics-safety-alignment/07-sleeper-agents-persistent-deception/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/18-ethics-safety-alignment/07-sleeper-agents-persistent-deception/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/18-ethics-safety-alignment/07-sleeper-agents-persistent-deception/outputs/skill-sleeper-audit.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/18-ethics-safety-alignment/07-sleeper-agents-persistent-deception/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/18-ethics-safety-alignment/08-in-context-scheming-frontier-models/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/18-ethics-safety-alignment/08-in-context-scheming-frontier-models/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/18-ethics-safety-alignment/08-in-context-scheming-frontier-models/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/18-ethics-safety-alignment/08-in-context-scheming-frontier-models/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/18-ethics-safety-alignment/08-in-context-scheming-frontier-models/outputs/skill-scheming-triage.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/18-ethics-safety-alignment/08-in-context-scheming-frontier-models/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/18-ethics-safety-alignment/09-alignment-faking/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/18-ethics-safety-alignment/09-alignment-faking/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/18-ethics-safety-alignment/09-alignment-faking/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/18-ethics-safety-alignment/09-alignment-faking/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/18-ethics-safety-alignment/09-alignment-faking/outputs/skill-compliance-gap.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/18-ethics-safety-alignment/09-alignment-faking/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/18-ethics-safety-alignment/10-ai-control-subversion/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/18-ethics-safety-alignment/10-ai-control-subversion/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/18-ethics-safety-alignment/10-ai-control-subversion/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/18-ethics-safety-alignment/10-ai-control-subversion/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

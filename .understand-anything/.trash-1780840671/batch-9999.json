@@ -1,0 +1,152 @@
+{
+  "nodes": [],
+  "edges": [
+    {
+      "source": "document:phases/07-transformers-deep-dive/16-speculative-decoding/outputs/skill-spec-decode-picker.md",
+      "target": "document:phases/07-transformers-deep-dive/16-speculative-decoding/outputs/skill-spec-decode-picker.md",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:phases/17-infrastructure-and-production/22-load-testing-llm-apis/outputs/skill-load-test-plan.md",
+      "target": "document:phases/17-infrastructure-and-production/22-load-testing-llm-apis/outputs/skill-load-test-plan.md",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:phases/19-capstone-projects/25-verification-gates-observation-budget/code/main.py",
+      "target": "file:phases/19-capstone-projects/25-verification-gates-observation-budget/code/tests/test_main.py",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:phases/19-capstone-projects/26-sandbox-runner-denylist/code/main.py",
+      "target": "file:phases/19-capstone-projects/26-sandbox-runner-denylist/code/tests/test_main.py",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:phases/19-capstone-projects/27-eval-harness-fixture-tasks/code/main.py",
+      "target": "file:phases/19-capstone-projects/27-eval-harness-fixture-tasks/code/tests/test_main.py",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:phases/19-capstone-projects/28-observability-otel-traces/code/main.py",
+      "target": "file:phases/19-capstone-projects/28-observability-otel-traces/code/tests/test_main.py",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:phases/19-capstone-projects/29-end-to-end-coding-task-demo/code/main.py",
+      "target": "file:phases/19-capstone-projects/29-end-to-end-coding-task-demo/code/tests/test_main.py",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:phases/19-capstone-projects/38-classifier-finetuning/code/main.py",
+      "target": "file:phases/19-capstone-projects/38-classifier-finetuning/code/tests/test_main.py",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:phases/19-capstone-projects/39-instruction-tuning-sft/code/main.py",
+      "target": "file:phases/19-capstone-projects/39-instruction-tuning-sft/code/tests/test_main.py",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:phases/19-capstone-projects/40-dpo-from-scratch/code/main.py",
+      "target": "file:phases/19-capstone-projects/40-dpo-from-scratch/code/tests/test_main.py",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:phases/19-capstone-projects/41-eval-pipeline/code/main.py",
+      "target": "file:phases/19-capstone-projects/41-eval-pipeline/code/tests/test_main.py",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:phases/19-capstone-projects/46-gradient-accumulation/code/main.py",
+      "target": "file:phases/19-capstone-projects/46-gradient-accumulation/code/test_main.py",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:phases/19-capstone-projects/47-checkpoint-save-resume/code/main.py",
+      "target": "file:phases/19-capstone-projects/47-checkpoint-save-resume/code/test_main.py",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:phases/19-capstone-projects/48-distributed-fsdp-ddp/code/main.py",
+      "target": "file:phases/19-capstone-projects/48-distributed-fsdp-ddp/code/test_main.py",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:phases/19-capstone-projects/49-lm-eval-harness/code/main.py",
+      "target": "file:phases/19-capstone-projects/49-lm-eval-harness/code/test_main.py",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:phases/19-capstone-projects/58-vision-encoder-patches/code/main.py",
+      "target": "file:phases/19-capstone-projects/58-vision-encoder-patches/code/test_main.py",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:phases/19-capstone-projects/59-vit-transformer/code/main.py",
+      "target": "file:phases/19-capstone-projects/59-vit-transformer/code/test_main.py",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:phases/19-capstone-projects/60-projection-layer-modality-align/code/main.py",
+      "target": "file:phases/19-capstone-projects/60-projection-layer-modality-align/code/test_main.py",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:phases/19-capstone-projects/61-cross-attention-fusion/code/main.py",
+      "target": "file:phases/19-capstone-projects/61-cross-attention-fusion/code/test_main.py",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:phases/19-capstone-projects/62-vision-language-pretraining/code/main.py",
+      "target": "file:phases/19-capstone-projects/62-vision-language-pretraining/code/test_main.py",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:phases/19-capstone-projects/63-multimodal-eval/code/main.py",
+      "target": "file:phases/19-capstone-projects/63-multimodal-eval/code/test_main.py",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    }
+  ]
+}

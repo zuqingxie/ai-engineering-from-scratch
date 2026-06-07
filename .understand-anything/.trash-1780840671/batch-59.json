@@ -1,0 +1,540 @@
+{
+  "nodes": [
+    {
+      "id": "document:phases/05-nlp-foundations-to-advanced/25-entity-linking/outputs/skill-entity-linker.md",
+      "type": "document",
+      "name": "skill-entity-linker.md",
+      "filePath": "phases/05-nlp-foundations-to-advanced/25-entity-linking/outputs/skill-entity-linker.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/05-nlp-foundations-to-advanced/25-entity-linking/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/05-nlp-foundations-to-advanced/25-entity-linking/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/05-nlp-foundations-to-advanced/26-relation-extraction-kg/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/05-nlp-foundations-to-advanced/26-relation-extraction-kg/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/05-nlp-foundations-to-advanced/26-relation-extraction-kg/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/05-nlp-foundations-to-advanced/26-relation-extraction-kg/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/05-nlp-foundations-to-advanced/26-relation-extraction-kg/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/05-nlp-foundations-to-advanced/26-relation-extraction-kg/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/05-nlp-foundations-to-advanced/26-relation-extraction-kg/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/05-nlp-foundations-to-advanced/26-relation-extraction-kg/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/05-nlp-foundations-to-advanced/26-relation-extraction-kg/outputs/skill-re-designer.md",
+      "type": "document",
+      "name": "skill-re-designer.md",
+      "filePath": "phases/05-nlp-foundations-to-advanced/26-relation-extraction-kg/outputs/skill-re-designer.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/05-nlp-foundations-to-advanced/26-relation-extraction-kg/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/05-nlp-foundations-to-advanced/26-relation-extraction-kg/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/05-nlp-foundations-to-advanced/27-llm-evaluation-frameworks/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/05-nlp-foundations-to-advanced/27-llm-evaluation-frameworks/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/05-nlp-foundations-to-advanced/27-llm-evaluation-frameworks/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/05-nlp-foundations-to-advanced/27-llm-evaluation-frameworks/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/05-nlp-foundations-to-advanced/27-llm-evaluation-frameworks/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/05-nlp-foundations-to-advanced/27-llm-evaluation-frameworks/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/05-nlp-foundations-to-advanced/27-llm-evaluation-frameworks/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/05-nlp-foundations-to-advanced/27-llm-evaluation-frameworks/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/05-nlp-foundations-to-advanced/27-llm-evaluation-frameworks/outputs/skill-eval-architect.md",
+      "type": "document",
+      "name": "skill-eval-architect.md",
+      "filePath": "phases/05-nlp-foundations-to-advanced/27-llm-evaluation-frameworks/outputs/skill-eval-architect.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/05-nlp-foundations-to-advanced/27-llm-evaluation-frameworks/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/05-nlp-foundations-to-advanced/27-llm-evaluation-frameworks/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/05-nlp-foundations-to-advanced/28-long-context-evaluation/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/05-nlp-foundations-to-advanced/28-long-context-evaluation/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/05-nlp-foundations-to-advanced/28-long-context-evaluation/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/05-nlp-foundations-to-advanced/28-long-context-evaluation/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/05-nlp-foundations-to-advanced/28-long-context-evaluation/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/05-nlp-foundations-to-advanced/28-long-context-evaluation/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/05-nlp-foundations-to-advanced/28-long-context-evaluation/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/05-nlp-foundations-to-advanced/28-long-context-evaluation/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/05-nlp-foundations-to-advanced/28-long-context-evaluation/outputs/skill-long-context-eval.md",
+      "type": "document",
+      "name": "skill-long-context-eval.md",
+      "filePath": "phases/05-nlp-foundations-to-advanced/28-long-context-evaluation/outputs/skill-long-context-eval.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/05-nlp-foundations-to-advanced/28-long-context-evaluation/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/05-nlp-foundations-to-advanced/28-long-context-evaluation/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/05-nlp-foundations-to-advanced/29-dialogue-state-tracking/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/05-nlp-foundations-to-advanced/29-dialogue-state-tracking/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/05-nlp-foundations-to-advanced/29-dialogue-state-tracking/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/05-nlp-foundations-to-advanced/29-dialogue-state-tracking/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/05-nlp-foundations-to-advanced/29-dialogue-state-tracking/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/05-nlp-foundations-to-advanced/29-dialogue-state-tracking/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/05-nlp-foundations-to-advanced/29-dialogue-state-tracking/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/05-nlp-foundations-to-advanced/29-dialogue-state-tracking/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/05-nlp-foundations-to-advanced/29-dialogue-state-tracking/outputs/skill-dst-designer.md",
+      "type": "document",
+      "name": "skill-dst-designer.md",
+      "filePath": "phases/05-nlp-foundations-to-advanced/29-dialogue-state-tracking/outputs/skill-dst-designer.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/05-nlp-foundations-to-advanced/25-entity-linking/outputs/skill-entity-linker.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/05-nlp-foundations-to-advanced/25-entity-linking/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/05-nlp-foundations-to-advanced/26-relation-extraction-kg/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/05-nlp-foundations-to-advanced/26-relation-extraction-kg/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/05-nlp-foundations-to-advanced/26-relation-extraction-kg/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/05-nlp-foundations-to-advanced/26-relation-extraction-kg/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/05-nlp-foundations-to-advanced/26-relation-extraction-kg/outputs/skill-re-designer.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/05-nlp-foundations-to-advanced/26-relation-extraction-kg/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/05-nlp-foundations-to-advanced/27-llm-evaluation-frameworks/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/05-nlp-foundations-to-advanced/27-llm-evaluation-frameworks/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/05-nlp-foundations-to-advanced/27-llm-evaluation-frameworks/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/05-nlp-foundations-to-advanced/27-llm-evaluation-frameworks/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/05-nlp-foundations-to-advanced/27-llm-evaluation-frameworks/outputs/skill-eval-architect.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/05-nlp-foundations-to-advanced/27-llm-evaluation-frameworks/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/05-nlp-foundations-to-advanced/28-long-context-evaluation/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/05-nlp-foundations-to-advanced/28-long-context-evaluation/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/05-nlp-foundations-to-advanced/28-long-context-evaluation/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/05-nlp-foundations-to-advanced/28-long-context-evaluation/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/05-nlp-foundations-to-advanced/28-long-context-evaluation/outputs/skill-long-context-eval.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/05-nlp-foundations-to-advanced/28-long-context-evaluation/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/05-nlp-foundations-to-advanced/29-dialogue-state-tracking/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/05-nlp-foundations-to-advanced/29-dialogue-state-tracking/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/05-nlp-foundations-to-advanced/29-dialogue-state-tracking/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/05-nlp-foundations-to-advanced/29-dialogue-state-tracking/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/05-nlp-foundations-to-advanced/29-dialogue-state-tracking/outputs/skill-dst-designer.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

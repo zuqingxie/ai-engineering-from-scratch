@@ -1,0 +1,544 @@
+{
+  "nodes": [
+    {
+      "id": "file:phases/07-transformers-deep-dive/12-kv-cache-flash-attention/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/07-transformers-deep-dive/12-kv-cache-flash-attention/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/07-transformers-deep-dive/12-kv-cache-flash-attention/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/07-transformers-deep-dive/12-kv-cache-flash-attention/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/07-transformers-deep-dive/12-kv-cache-flash-attention/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/07-transformers-deep-dive/12-kv-cache-flash-attention/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/07-transformers-deep-dive/12-kv-cache-flash-attention/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/07-transformers-deep-dive/12-kv-cache-flash-attention/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/07-transformers-deep-dive/12-kv-cache-flash-attention/outputs/skill-inference-optimizer.md",
+      "type": "document",
+      "name": "skill-inference-optimizer.md",
+      "filePath": "phases/07-transformers-deep-dive/12-kv-cache-flash-attention/outputs/skill-inference-optimizer.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/07-transformers-deep-dive/13-scaling-laws/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/07-transformers-deep-dive/13-scaling-laws/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/07-transformers-deep-dive/13-scaling-laws/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/07-transformers-deep-dive/13-scaling-laws/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/07-transformers-deep-dive/13-scaling-laws/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/07-transformers-deep-dive/13-scaling-laws/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/07-transformers-deep-dive/13-scaling-laws/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/07-transformers-deep-dive/13-scaling-laws/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/07-transformers-deep-dive/13-scaling-laws/outputs/skill-training-budget-estimator.md",
+      "type": "document",
+      "name": "skill-training-budget-estimator.md",
+      "filePath": "phases/07-transformers-deep-dive/13-scaling-laws/outputs/skill-training-budget-estimator.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/07-transformers-deep-dive/14-build-a-transformer-capstone/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/07-transformers-deep-dive/14-build-a-transformer-capstone/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/07-transformers-deep-dive/14-build-a-transformer-capstone/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/07-transformers-deep-dive/14-build-a-transformer-capstone/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/07-transformers-deep-dive/14-build-a-transformer-capstone/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/07-transformers-deep-dive/14-build-a-transformer-capstone/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/07-transformers-deep-dive/14-build-a-transformer-capstone/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/07-transformers-deep-dive/14-build-a-transformer-capstone/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/07-transformers-deep-dive/14-build-a-transformer-capstone/outputs/skill-transformer-review.md",
+      "type": "document",
+      "name": "skill-transformer-review.md",
+      "filePath": "phases/07-transformers-deep-dive/14-build-a-transformer-capstone/outputs/skill-transformer-review.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/07-transformers-deep-dive/15-attention-variants/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/07-transformers-deep-dive/15-attention-variants/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/07-transformers-deep-dive/15-attention-variants/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/07-transformers-deep-dive/15-attention-variants/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/07-transformers-deep-dive/15-attention-variants/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/07-transformers-deep-dive/15-attention-variants/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/07-transformers-deep-dive/15-attention-variants/outputs/skill-attention-variant-picker.md",
+      "type": "document",
+      "name": "skill-attention-variant-picker.md",
+      "filePath": "phases/07-transformers-deep-dive/15-attention-variants/outputs/skill-attention-variant-picker.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/07-transformers-deep-dive/16-speculative-decoding/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/07-transformers-deep-dive/16-speculative-decoding/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/07-transformers-deep-dive/16-speculative-decoding/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/07-transformers-deep-dive/16-speculative-decoding/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/07-transformers-deep-dive/16-speculative-decoding/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/07-transformers-deep-dive/16-speculative-decoding/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/07-transformers-deep-dive/16-speculative-decoding/outputs/skill-spec-decode-picker.md",
+      "type": "document",
+      "name": "skill-spec-decode-picker.md",
+      "filePath": "phases/07-transformers-deep-dive/16-speculative-decoding/outputs/skill-spec-decode-picker.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "test",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/07-transformers-deep-dive/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "phases/07-transformers-deep-dive/README.md",
+      "summary": "项目文档文件，补充课程、贡献流程或仓库治理信息。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/08-generative-ai/01-generative-models-taxonomy-history/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/08-generative-ai/01-generative-models-taxonomy-history/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/07-transformers-deep-dive/12-kv-cache-flash-attention/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/07-transformers-deep-dive/12-kv-cache-flash-attention/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/07-transformers-deep-dive/12-kv-cache-flash-attention/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/07-transformers-deep-dive/12-kv-cache-flash-attention/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/07-transformers-deep-dive/12-kv-cache-flash-attention/outputs/skill-inference-optimizer.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/07-transformers-deep-dive/13-scaling-laws/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/07-transformers-deep-dive/13-scaling-laws/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/07-transformers-deep-dive/13-scaling-laws/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/07-transformers-deep-dive/13-scaling-laws/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/07-transformers-deep-dive/13-scaling-laws/outputs/skill-training-budget-estimator.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/07-transformers-deep-dive/14-build-a-transformer-capstone/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/07-transformers-deep-dive/14-build-a-transformer-capstone/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/07-transformers-deep-dive/14-build-a-transformer-capstone/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/07-transformers-deep-dive/14-build-a-transformer-capstone/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/07-transformers-deep-dive/14-build-a-transformer-capstone/outputs/skill-transformer-review.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/07-transformers-deep-dive/15-attention-variants/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/07-transformers-deep-dive/15-attention-variants/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/07-transformers-deep-dive/15-attention-variants/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/07-transformers-deep-dive/15-attention-variants/outputs/skill-attention-variant-picker.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/07-transformers-deep-dive/16-speculative-decoding/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/07-transformers-deep-dive/16-speculative-decoding/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/07-transformers-deep-dive/16-speculative-decoding/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/07-transformers-deep-dive/16-speculative-decoding/outputs/skill-spec-decode-picker.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/07-transformers-deep-dive/README.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/08-generative-ai/01-generative-models-taxonomy-history/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

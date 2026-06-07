@@ -1,0 +1,72 @@
+{
+  "nodes": [
+    {
+      "id": "document:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/README.md",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "示例代码",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/package.json",
+      "type": "config",
+      "name": "package.json",
+      "filePath": "phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/package.json",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "示例代码",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "config:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/tsconfig.json",
+      "type": "config",
+      "name": "tsconfig.json",
+      "filePath": "phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/tsconfig.json",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "示例代码",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/README.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/package.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/tsconfig.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

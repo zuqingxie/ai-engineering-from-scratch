@@ -1,0 +1,102 @@
+{
+  "lesson": "27-llm-evaluation-frameworks",
+  "title": "LLM Evaluation — RAGAS, DeepEval, G-Eval",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "为什么精确匹配和 token-F1 不足以评估现代 LLM 输出？",
+      "options": [
+        "他们太慢了",
+        "它们是不可微分的",
+        "他们需要 GPU",
+        "他们错过了语义对等； “2007 年 6 月 29 日”与“2007 年 6 月 29 日”尽管正确，但得分为 0 EM"
+      ],
+      "correct": 3,
+      "explanation": "精确匹配/F1 无法识别人类会标记为正确的释义或格式差异。"
+    },
+    {
+      "stage": "pre",
+      "question": "RAGAS 忠诚度指标衡量什么？",
+      "options": [
+        "检索回忆",
+        "答案中的每个主张是否都包含在检索到的上下文中（通过 NLI）",
+        "延迟",
+        "每秒令牌数"
+      ],
+      "correct": 1,
+      "explanation": "忠实性使用 NLI 蕴涵根据检索到的上下文检查每个答案声明。"
+    },
+    {
+      "stage": "check",
+      "question": "为什么在信任分数之前需要针对人类标签进行法官模型校准？",
+      "options": [
+        "GDPR 要求",
+        "如果法官和人类标签之间的 Spearman 相关性太低（例如低于 0.7），则分数是噪声而不是信号",
+        "校准加快判断速度",
+        "校准是一个标记化问题"
+      ],
+      "correct": 1,
+      "explanation": "如果没有校准，您就无法判断判断分数是否反映了质量或模型偏差。"
+    },
+    {
+      "stage": "check",
+      "question": "法学硕士法官设置中的自我评价偏差是什么？",
+      "options": [
+        "与独立评委相比，使用相同的 LLM 系列来生成和评判分数会高出 10-20%",
+        "更低的延迟",
+        "法官在缓存的输出上运行得更快",
+        "评委无视系统提示"
+      ],
+      "correct": 0,
+      "explanation": "同族生成者+法官的偏见得分向上；使用不同的模型系列进行判断。"
+    },
+    {
+      "stage": "check",
+      "question": "G-Eval 在简单的“分数 0-1”提示中特别添加了什么？",
+      "options": [
+        "更大的背景",
+        "成本更低",
+        "多语言评分",
+        "具有命名评估步骤的明确的思路链，可产生更稳定的分数"
+      ],
+      "correct": 3,
+      "explanation": "G-Eval 的结构化评估步骤比自由形式的“评分”提示产生更可靠的分数。"
+    },
+    {
+      "stage": "post",
+      "question": "为什么仅报告总平均分是危险的？",
+      "options": [
+        "聚集体太大",
+        "聚合忽略判断",
+        "聚合需要 GPU",
+        "0.85 的均值可以隐藏 5% 的灾难性故障；始终检查底部分位数"
+      ],
+      "correct": 3,
+      "explanation": "意味着隐藏尾部失败；表面底部 10% 来捕获高严重性问题。"
+    },
+    {
+      "stage": "post",
+      "question": "为什么要在CI中固定判断模型+版本？",
+      "options": [
+        "人择要求",
+        "成本更低",
+        "分词器漂移",
+        "升级法官会改变每一个指标；纵向比较在没有冻结判断的情况下中断"
+      ],
+      "correct": 3,
+      "explanation": "法官升级悄然改变了指标基线；固定保留了交叉运行的可比性。"
+    },
+    {
+      "stage": "post",
+      "question": "DeepEval 相对于 RAGAS 适合什么？",
+      "options": [
+        "DeepEval 是 LLM 的 pytest（CI 门、G-Eval、幻觉指标）； RAGAS 专注于无参考 RAG 监控",
+        "DeepEval 仅托管",
+        "DeepEval 是一个分词器",
+        "完全取代 RAGAS"
+      ],
+      "correct": 0,
+      "explanation": "DeepEval 锚定 CI/CD 回归测试； RAGAS 处理无参考 RAG 监控。"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "lesson": "06-named-entity-recognition",
+  "title": "Named Entity Recognition",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "什么是生物标记？",
+      "options": [
+        "每个令牌标签：B-TYPE 表示实体开始，I-TYPE 表示内部，O 表示外部",
+        "二元实体与非实体方案",
+        "标记化风格",
+        "实体的树表示"
+      ],
+      "correct": 0,
+      "explanation": "BIO 将跨度提取转变为带有 B/I/O 前缀的标记分类。"
+    },
+    {
+      "stage": "pre",
+      "question": "为什么基于规则的地名词典在生产 NER 中很脆弱？",
+      "options": [
+        "他们需要 GPU",
+        "他们很慢",
+        "他们对新实体的覆盖率为零，并且无法消除歧义（例如苹果水果与公司）",
+        "他们无法处理多令牌实体"
+      ],
+      "correct": 2,
+      "explanation": "地名词典可以匹配已知的字符串，但不能消除歧义或概括为未见过的名称。"
+    },
+    {
+      "stage": "check",
+      "question": "对于 NER 而言，CRF 相对于 HMM 的主要优势是什么？",
+      "options": [
+        "CRF 避免了维特比算法",
+        "CRF 永远不需要训练数据",
+        "CRF 具有区分性，可以混合任意特征（形状、大小写、邻居）",
+        "CRF 更快"
+      ],
+      "correct": 2,
+      "explanation": "CRF 具有区分性，可以让您以丰富的、重叠的特征为条件。"
+    },
+    {
+      "stage": "check",
+      "question": "在 BiLSTM-CRF 架构中，CRF 层扮演什么角色？",
+      "options": [
+        "执行标记化",
+        "通过在 LSTM 发射之上对标签到标签的转换进行建模，强制执行有效的 BIO 标签序列",
+        "预训练 LSTM",
+        "替换嵌入"
+      ],
+      "correct": 1,
+      "explanation": "LSTM 之上的 CRF 可以对标签间依赖关系进行建模并排除非法序列。"
+    },
+    {
+      "stage": "check",
+      "question": "为什么必须用实体级F1而不是令牌级F1来评估NER？",
+      "options": [
+        "实体级F1更容易计算",
+        "预测跨度必须与真实跨度完全匹配；令牌级 F1 通过计算部分匹配夸大了准确性",
+        "代币级F1无法处理BIO",
+        "HuggingFace 需要实体级 F1"
+      ],
+      "correct": 1,
+      "explanation": "Span 精确匹配是有意义的指标；令牌级 F1 通过部分重叠来夸大分数。"
+    },
+    {
+      "stage": "post",
+      "question": "aggregation_strategy='simple' 在 HuggingFace NER 管道中做什么？",
+      "options": [
+        "将输出小写",
+        "跳过标记化",
+        "将连续的 B-X 和 I-X 令牌合并到单个范围中",
+        "仅返回最有信心的实体"
+      ],
+      "correct": 2,
+      "explanation": "它将相同类型的连续 BIO 令牌合并到跨级实体中。"
+    },
+    {
+      "stage": "post",
+      "question": "为什么标准 BIO 在嵌套实体上失败？",
+      "options": [
+        "BIO需要变压器",
+        "BIO 是一种扁平的每令牌方案，无法表达两个不同类型的重叠跨度",
+        "BIO不能代表多代币实体",
+        "BIO 删除类型标签"
+      ],
+      "correct": 1,
+      "explanation": "BIO为每个代币分配一个标签；嵌套跨度需要多通道或基于跨度的模型。"
+    },
+    {
+      "stage": "post",
+      "question": "2026 年，经典 NER（CRF 或 BiLSTM-CRF）何时仍能击败 LLM？",
+      "options": [
+        "关于嵌套实体",
+        "每当输入是英文时",
+        "论开放领域叙事",
+        "在紧张的延迟预算、丰富的标签、稳定的本体或非生成性监管约束下"
+      ],
+      "correct": 3,
+      "explanation": "经典 NER 在延迟、标记数据机制、固定本体和本地约束方面获胜。"
+    }
+  ]
+}

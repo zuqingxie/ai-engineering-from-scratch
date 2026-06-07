@@ -1,0 +1,546 @@
+{
+  "nodes": [
+    {
+      "id": "document:phases/01-math-foundations/10-dimensionality-reduction/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/01-math-foundations/10-dimensionality-reduction/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/01-math-foundations/10-dimensionality-reduction/outputs/skill-dimensionality-reduction.md",
+      "type": "document",
+      "name": "skill-dimensionality-reduction.md",
+      "filePath": "phases/01-math-foundations/10-dimensionality-reduction/outputs/skill-dimensionality-reduction.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/01-math-foundations/10-dimensionality-reduction/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/01-math-foundations/10-dimensionality-reduction/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/01-math-foundations/11-singular-value-decomposition/code/svd.jl",
+      "type": "file",
+      "name": "svd.jl",
+      "filePath": "phases/01-math-foundations/11-singular-value-decomposition/code/svd.jl",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "jl"
+      ],
+      "language": "jl"
+    },
+    {
+      "id": "file:phases/01-math-foundations/11-singular-value-decomposition/code/svd.py",
+      "type": "file",
+      "name": "svd.py",
+      "filePath": "phases/01-math-foundations/11-singular-value-decomposition/code/svd.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/01-math-foundations/11-singular-value-decomposition/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/01-math-foundations/11-singular-value-decomposition/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/01-math-foundations/11-singular-value-decomposition/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/01-math-foundations/11-singular-value-decomposition/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/01-math-foundations/11-singular-value-decomposition/outputs/skill-svd.md",
+      "type": "document",
+      "name": "skill-svd.md",
+      "filePath": "phases/01-math-foundations/11-singular-value-decomposition/outputs/skill-svd.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/01-math-foundations/11-singular-value-decomposition/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/01-math-foundations/11-singular-value-decomposition/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/01-math-foundations/12-tensor-operations/code/tensors.py",
+      "type": "file",
+      "name": "tensors.py",
+      "filePath": "phases/01-math-foundations/12-tensor-operations/code/tensors.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/01-math-foundations/12-tensor-operations/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/01-math-foundations/12-tensor-operations/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/01-math-foundations/12-tensor-operations/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/01-math-foundations/12-tensor-operations/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/01-math-foundations/12-tensor-operations/outputs/prompt-tensor-debugger.md",
+      "type": "document",
+      "name": "prompt-tensor-debugger.md",
+      "filePath": "phases/01-math-foundations/12-tensor-operations/outputs/prompt-tensor-debugger.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/01-math-foundations/12-tensor-operations/outputs/prompt-tensor-shapes.md",
+      "type": "document",
+      "name": "prompt-tensor-shapes.md",
+      "filePath": "phases/01-math-foundations/12-tensor-operations/outputs/prompt-tensor-shapes.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/01-math-foundations/12-tensor-operations/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/01-math-foundations/12-tensor-operations/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/01-math-foundations/13-numerical-stability/code/numerical.py",
+      "type": "file",
+      "name": "numerical.py",
+      "filePath": "phases/01-math-foundations/13-numerical-stability/code/numerical.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/01-math-foundations/13-numerical-stability/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/01-math-foundations/13-numerical-stability/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/01-math-foundations/13-numerical-stability/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/01-math-foundations/13-numerical-stability/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/01-math-foundations/13-numerical-stability/outputs/prompt-numerical-debugger.md",
+      "type": "document",
+      "name": "prompt-numerical-debugger.md",
+      "filePath": "phases/01-math-foundations/13-numerical-stability/outputs/prompt-numerical-debugger.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/01-math-foundations/13-numerical-stability/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/01-math-foundations/13-numerical-stability/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/01-math-foundations/14-norms-and-distances/code/distances.py",
+      "type": "file",
+      "name": "distances.py",
+      "filePath": "phases/01-math-foundations/14-norms-and-distances/code/distances.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/01-math-foundations/14-norms-and-distances/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/01-math-foundations/14-norms-and-distances/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/01-math-foundations/14-norms-and-distances/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/01-math-foundations/14-norms-and-distances/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/01-math-foundations/14-norms-and-distances/outputs/prompt-distance-chooser.md",
+      "type": "document",
+      "name": "prompt-distance-chooser.md",
+      "filePath": "phases/01-math-foundations/14-norms-and-distances/outputs/prompt-distance-chooser.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/01-math-foundations/14-norms-and-distances/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/01-math-foundations/14-norms-and-distances/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/01-math-foundations/10-dimensionality-reduction/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/01-math-foundations/10-dimensionality-reduction/outputs/skill-dimensionality-reduction.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/01-math-foundations/10-dimensionality-reduction/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/01-math-foundations/11-singular-value-decomposition/code/svd.jl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/01-math-foundations/11-singular-value-decomposition/code/svd.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/01-math-foundations/11-singular-value-decomposition/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/01-math-foundations/11-singular-value-decomposition/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/01-math-foundations/11-singular-value-decomposition/outputs/skill-svd.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/01-math-foundations/11-singular-value-decomposition/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/01-math-foundations/12-tensor-operations/code/tensors.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/01-math-foundations/12-tensor-operations/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/01-math-foundations/12-tensor-operations/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/01-math-foundations/12-tensor-operations/outputs/prompt-tensor-debugger.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/01-math-foundations/12-tensor-operations/outputs/prompt-tensor-shapes.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/01-math-foundations/12-tensor-operations/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/01-math-foundations/13-numerical-stability/code/numerical.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/01-math-foundations/13-numerical-stability/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/01-math-foundations/13-numerical-stability/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/01-math-foundations/13-numerical-stability/outputs/prompt-numerical-debugger.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/01-math-foundations/13-numerical-stability/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/01-math-foundations/14-norms-and-distances/code/distances.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/01-math-foundations/14-norms-and-distances/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/01-math-foundations/14-norms-and-distances/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/01-math-foundations/14-norms-and-distances/outputs/prompt-distance-chooser.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/01-math-foundations/14-norms-and-distances/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

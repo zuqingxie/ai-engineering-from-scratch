@@ -1,0 +1,62 @@
+[
+  {
+    "question": "PyTorch 和 JAX 之间的根本设计区别是什么？",
+    "options": [
+      "PyTorch 更快",
+      "PyTorch 急切地改变张量，而 JAX 编译纯函数而没有副作用",
+      "JAX 不支持 GPU",
+      "PyTorch 不支持自动微分"
+    ],
+    "correct": 1,
+    "explanation": "PyTorch 使用具有可变状态的急切执行（例如，tensor.grad 就地修改）。 JAX 支持函数式编程：函数是纯粹的，状态是显式的，jit 编译优化了整个计算图。",
+    "stage": "pre"
+  },
+  {
+    "question": "jax.jit 是做什么的？",
+    "options": [
+      "它增加了 dropout 正则化",
+      "它将 Python 函数编译为优化的 XLA 代码，运行速度比解释的 Python 快得多",
+      "它初始化模型权重",
+      "它计算梯度"
+    ],
+    "correct": 1,
+    "explanation": "jax.jit 跟踪函数并将其编译为 XLA（加速线性代数）机器代码。第一次调用很慢（编译），但后续调用运行优化的编译版本。",
+    "stage": "pre"
+  },
+  {
+    "question": "jax.vmap 有什么作用？",
+    "options": [
+      "向量化函数以在批量维度上运行，而无需编写显式循环",
+      "验证模型架构",
+      "管理 GPU 内存",
+      "计算二阶梯度"
+    ],
+    "correct": 0,
+    "explanation": "jax.vmap 自动矢量化为单个示例编写的函数以处理整个批次。您为一个示例编写代码，然后 vmap 处理批处理，通常比手动批处理循环更有效。",
+    "stage": "post"
+  },
+  {
+    "question": "JAX 处理模型状态（权重）的方式与 PyTorch 有何不同？",
+    "options": [
+      "JAX 仅在 CPU 上存储权重",
+      "JAX 需要显式状态传递——权重是函数参数，而不是可变对象属性",
+      "JAX 不支持可训练的权重",
+      "JAX 和 PyTorch 处理状态的方式相同"
+    ],
+    "correct": 1,
+    "explanation": "在 PyTorch 中，权重存在于 nn.Module 对象内部并就地变异。在 JAX 中，权重作为函数参数显式传递并作为新值返回。没有突变，没有隐藏状态。",
+    "stage": "post"
+  },
+  {
+    "question": "您什么时候会选择 JAX 而不是 PyTorch？",
+    "options": [
+      "用于小型模型的快速原型制作",
+      "在 TPU pod 上进行大规模训练时，编译和函数转换可提供显着的加速",
+      "当您需要最大的预训练模型生态系统时",
+      "用于在移动设备上部署"
+    ],
+    "correct": 1,
+    "explanation": "JAX 在规模方面表现出色：jit 编译消除了 Python 开销，pmap 自然地处理多设备并行性，跨整个计算图的 XLA 优化显着提高了 TPU 集群的速度。",
+    "stage": "post"
+  }
+]

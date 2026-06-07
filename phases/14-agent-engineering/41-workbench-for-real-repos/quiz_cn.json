@@ -1,0 +1,90 @@
+{
+  "lesson": "41-workbench-for-real-repos",
+  "title": "The Workbench on a Real Repo",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "通过仅提示和工作台引导的管道运行相同任务的目标是什么？",
+      "options": [
+        "比较型号",
+        "要生成前后报告，您可以向怀疑论者提供数字，而不是参数",
+        "选择供应商",
+        "对 GPU 进行基准测试"
+      ],
+      "correct": 1,
+      "explanation": "数字可以说明一切；这个案例是根据真实的任务而不是玩具制作的。"
+    },
+    {
+      "stage": "pre",
+      "question": "哪一项不是所衡量的五个结果之一？",
+      "options": [
+        "测试实际运行",
+        "接受_满足",
+        "文件范围外",
+        "模型困惑度"
+      ],
+      "correct": 3,
+      "explanation": "这五个是tests_actually_run、acceptance_met、files_outside_scope、handoff_quality、reviewer_total。"
+    },
+    {
+      "stage": "check",
+      "question": "LangChain的《Anatomy of an Agent Harness》在Terminal Bench 2.0上测量了什么？",
+      "options": [
+        "模型全部收敛于 top-3",
+        "同一型号仅通过改变安全带就从前 30 名之外跃升至第五名",
+        "顶级模特失去了 25 个名次",
+        "线束变化并没有改变等级"
+      ],
+      "correct": 1,
+      "explanation": "同一型号的二十五级增量是头条线束与型号收据。"
+    },
+    {
+      "stage": "check",
+      "question": "preprints.org 论文引用的企业代理项目的失败率是多少？",
+      "options": [
+        "8%",
+        "大约 88% 未能达到生产，故障集中在运行时，而不是推理",
+        "约50%",
+        "没有失败"
+      ],
+      "correct": 1,
+      "explanation": "语言代理的利用工程预印本将故障追溯到运行时问题（陈旧状态、脆弱的重试、过度增长的上下文）。"
+    },
+    {
+      "stage": "check",
+      "question": "WebAgent 基线准确性在长上下文条件下有什么作用？",
+      "options": [
+        "保持平坦",
+        "从 40-50% 下降到 10% 以下，主要是由于无限循环和目标丢失",
+        "上涨30%",
+        "减半但仍保持在 30% 以上"
+      ],
+      "correct": 1,
+      "explanation": "拉尔夫环路和切换数据包的存在就是为了吸收长上下文崩溃。"
+    },
+    {
+      "stage": "post",
+      "question": "本课对漏报（仅提示速度更快的情况）有何看法？",
+      "options": [
+        "他们不存在",
+        "单步实际任务、单行 lint、格式化程序运行速度更快（仅提示）；诚实地列举它们，这样工作台就不会被认为是矫枉过正",
+        "他们证明工作台失败了",
+        "他们使利用论无效"
+      ],
+      "correct": 1,
+      "explanation": "诚实地列举仅提示最快的情况可以使线束论证保持可信。"
+    },
+    {
+      "stage": "post",
+      "question": "你在哪里引用了本课的报告？",
+      "options": [
+        "内部人力资源审查",
+        "当有人“只是为了这个冲刺”而想要放弃验证门时，或者当新的代理产品推出并需要便携式节省时间基准时",
+        "仅在营销平台中",
+        "仅在黑客马拉松上"
+      ],
+      "correct": 1,
+      "explanation": "数字比解释更深入；当压力试图使表面短路时引用该报告。"
+    }
+  ]
+}

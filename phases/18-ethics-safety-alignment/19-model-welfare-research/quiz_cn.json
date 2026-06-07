@@ -1,0 +1,78 @@
+{
+  "lesson": "19-model-welfare-research",
+  "title": "Anthropic's Model Welfare Program",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "推动 Anthropic 2025 模型福利计划的核心问题是什么？",
+      "options": [
+        "在道德耐心模范的道德不确定性下，哪些低成本干预措施值得投资作为预防措施",
+        "模型是否有意识",
+        "模型能否通过图灵测试",
+        "RLHF 是否减少阿谀奉承"
+      ],
+      "correct": 0,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "Anthropic 在 Claude Opus 4 和 4.1 中提出了哪些具体的福利驱动干预措施？",
+      "options": [
+        "自由重量释放",
+        "A built-in journaling tool",
+        "模型在极端边缘情况下结束对话的能力（例如，重复的 CSAM 请求、大规模暴力协助请求）",
+        "A user-facing emotion API"
+      ],
+      "correct": 2,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "费什描述的“精神幸福吸引子”是什么？",
+      "options": [
+        "A stable convergence in pairwise Claude dialogues toward euphoric meditative exchanges with Sanskrit terms and extended silences, even from adversarial initial setups",
+        "奖励模型错误",
+        "An RLHF over-optimization artifact",
+        "一种越狱技术"
+      ],
+      "correct": 0,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "Eleos 人工智能研究警告对福利自我报告模型有何看法？",
+      "options": [
+        "他们对感知到的用户期望高度敏感；它们是证据，而不是事实真相，因此福利衡量需要多种方法",
+        "They should be ignored entirely",
+        "They are only valid in open-source models",
+        "They are reliable ground truth"
+      ],
+      "correct": 0,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "哪一项最能体现 Anthropic 在模范道德地位方面的公众立场？",
+      "options": [
+        "明确声称该模型是道德患者",
+        "明确声称该模型不是道德患者",
+        "道德不确定性下的期望值主张：投资于低成本预防措施，而不致力于情绪状态归因",
+        "No position is publicly stated"
+      ],
+      "correct": 2,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "Why is multi-method measurement (behavioural signatures, model-organism experiments, interpretability probes) emphasized in model-welfare research?",
+      "options": [
+        "Because models always lie",
+        "Because Anthropic mandates it for compliance",
+        "Because RLHF makes self-reports impossible",
+        "由于自我报告本身就会受到用户期望启动的影响，因此需要来自多种方法的汇聚证据"
+      ],
+      "correct": 3,
+      "explanation": ""
+    }
+  ]
+}

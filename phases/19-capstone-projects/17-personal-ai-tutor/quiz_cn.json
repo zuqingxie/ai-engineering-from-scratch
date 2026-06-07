@@ -1,0 +1,90 @@
+{
+  "lesson": "17-personal-ai-tutor",
+  "title": "Capstone 17 — Personal AI Tutor (Adaptive, Multimodal, with Memory)",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "当学习者直接询问答案时，苏格拉底式导师政策会起到什么作用？",
+      "options": [
+        "提出引导性问题，帮助学习者找到答案",
+        "记录请求并保持沉默",
+        "立即提供答案并继续",
+        "切换到不同的概念节点"
+      ],
+      "correct": 0,
+      "explanation": ""
+    },
+    {
+      "stage": "pre",
+      "question": "课程图编码哪种结构？",
+      "options": [
+        "具有先决条件边缘的概念有向图，附加到 OER 内容",
+        "随机洗牌的主题",
+        "不相关概念的简单列表",
+        "仅最近研究的节点"
+      ],
+      "correct": 0,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "每次交互后学习者模型会更新什么？",
+      "options": [
+        "基础LLM的权重",
+        "COPPA 保留政策",
+        "课程图模式",
+        "通过贝叶斯知识追踪或类似变体的每个概念掌握概率"
+      ],
+      "correct": 3,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "记忆如何在情景存储和语义存储之间划分？",
+      "options": [
+        "每一次互动都是情景式的；语义包含由情景推动的紧凑错误和偏好",
+        "它们是相同数据的重复项",
+        "情景式适合家长；语义是为学习者准备的",
+        "Episodic 持有嵌入；语义保存原始音频"
+      ],
+      "correct": 0,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "哪些限制会影响 K-12 学习者的记忆保留？",
+      "options": [
+        "基于模型上下文长度的保留",
+        "永久保留不删除",
+        "仅限 GDPR",
+        "COPPA 感知保留，在定义的窗口和家长访问后自动删除"
+      ],
+      "correct": 3,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "用于控制可交付成果的功效研究的结构是什么？",
+      "options": [
+        "匿名网络调查",
+        "30 秒 AB 测试",
+        "对 10 名学习者进行为期两周的预测试和后测试，与非适应性基线队列进行比较",
+        "与一名学习者进行一小时的单一课程"
+      ],
+      "correct": 2,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "导师向学习者展示哪些多模式输入路径？",
+      "options": [
+        "仅文本",
+        "仅通过自定义 OCR 模型拍摄照片",
+        "只有语音，没有文字或照片",
+        "输入文本、通过 LiveKit + Whisper 进行语音、通过dots.ocr 或 PaliGemma 2 进行照片数学运算"
+      ],
+      "correct": 3,
+      "explanation": ""
+    }
+  ]
+}

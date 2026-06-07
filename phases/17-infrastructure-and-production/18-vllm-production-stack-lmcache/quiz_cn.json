@@ -1,0 +1,78 @@
+{
+  "lesson": "18-vllm-production-stack-lmcache",
+  "title": "vLLM Production Stack with LMCache KV Offloading",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "LMCache 在 vLLM 部署中主要解决什么问题？",
+      "options": [
+        "HBM 中的 KV 缓存压力导致相同前缀的抢占和重新预填充",
+        "分词器 GIL 争用",
+        "网络出口过滤",
+        "冷启动镜像拉取"
+      ],
+      "correct": 0,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "哪些 vLLM API 引入了可插入 KV 缓存后端？",
+      "options": [
+        "前缀缓存标志",
+        "分页注意力 v2",
+        "vLLM v0.9.0 中的连接器 API",
+        "分块预填充 API"
+      ],
+      "correct": 2,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "vLLM 0.11.0（2026 年 1 月）版本在 KV 卸载路径中添加了哪些内容？",
+      "options": [
+        "异步卸载路径，因此引擎在常见情况下不会阻塞卸载",
+        "仅同步卸载",
+        "强制 FP8 KV 缓存",
+        "删除 LMCache 支持"
+      ],
+      "correct": 0,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "什么时候应该选择 LMCache 而不是本机 CPU 卸载？",
+      "options": [
+        "当多个引擎跨租户、LoRA 变体或重复的 RAG 上下文共享前缀时，跨引擎重用会带来好处",
+        "当你想完全禁用 KV 缓存时",
+        "当单个引擎有 HBM 压力并且没有前缀共享时",
+        "当您仅在 CPU 上运行时"
+      ],
+      "correct": 0,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "当 KV 占用量远低于 HBM 时，LMCache 的优势会发生什么？",
+      "options": [
+        "LMCache 自动禁用",
+        "它仍然使吞吐量翻倍",
+        "配置与基线匹配，开销大约为 3-5%，没有真正的好处",
+        "发动机崩溃"
+      ],
+      "correct": 2,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "为什么 LMCache 采用分解服务（第 17·17 阶段）？",
+      "options": [
+        "因为LMCache取代了NIXL",
+        "从预填充传输到解码的 KV 位于 LMCache 中；稍后的查询可以从 LMCache 中提取并跳过预填充，因此缓存感知路由器可以选择本地或 LMCache 共享缓存匹配的引擎",
+        "因为 LMCache 与引擎运行在同一个 GPU 上",
+        "事实并非如此——它们是相互排斥的"
+      ],
+      "correct": 1,
+      "explanation": ""
+    }
+  ]
+}

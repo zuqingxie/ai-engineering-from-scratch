@@ -1,0 +1,546 @@
+{
+  "nodes": [
+    {
+      "id": "file:phases/10-llms-from-scratch/22-async-hogwild-inference/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/10-llms-from-scratch/22-async-hogwild-inference/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/10-llms-from-scratch/22-async-hogwild-inference/outputs/skill-parallel-inference-router.md",
+      "type": "document",
+      "name": "skill-parallel-inference-router.md",
+      "filePath": "phases/10-llms-from-scratch/22-async-hogwild-inference/outputs/skill-parallel-inference-router.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/10-llms-from-scratch/25-speculative-decoding/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/10-llms-from-scratch/25-speculative-decoding/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/10-llms-from-scratch/25-speculative-decoding/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/10-llms-from-scratch/25-speculative-decoding/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/10-llms-from-scratch/25-speculative-decoding/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/10-llms-from-scratch/25-speculative-decoding/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/10-llms-from-scratch/25-speculative-decoding/outputs/skill-speculative-tuning.md",
+      "type": "document",
+      "name": "skill-speculative-tuning.md",
+      "filePath": "phases/10-llms-from-scratch/25-speculative-decoding/outputs/skill-speculative-tuning.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "test",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/10-llms-from-scratch/34-gradient-checkpointing/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/10-llms-from-scratch/34-gradient-checkpointing/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/10-llms-from-scratch/34-gradient-checkpointing/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/10-llms-from-scratch/34-gradient-checkpointing/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/10-llms-from-scratch/34-gradient-checkpointing/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/10-llms-from-scratch/34-gradient-checkpointing/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/10-llms-from-scratch/34-gradient-checkpointing/outputs/skill-checkpointing-planner.md",
+      "type": "document",
+      "name": "skill-checkpointing-planner.md",
+      "filePath": "phases/10-llms-from-scratch/34-gradient-checkpointing/outputs/skill-checkpointing-planner.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/10-llms-from-scratch/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "phases/10-llms-from-scratch/README.md",
+      "summary": "项目文档文件，补充课程、贡献流程或仓库治理信息。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/11-llm-engineering/01-prompt-engineering/code/main.ts",
+      "type": "file",
+      "name": "main.ts",
+      "filePath": "phases/11-llm-engineering/01-prompt-engineering/code/main.ts",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "typescript"
+      ],
+      "language": "typescript"
+    },
+    {
+      "id": "file:phases/11-llm-engineering/01-prompt-engineering/code/prompt_engineering.py",
+      "type": "file",
+      "name": "prompt_engineering.py",
+      "filePath": "phases/11-llm-engineering/01-prompt-engineering/code/prompt_engineering.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/11-llm-engineering/01-prompt-engineering/docs/cn.cn.failed.md",
+      "type": "document",
+      "name": "cn.cn.failed.md",
+      "filePath": "phases/11-llm-engineering/01-prompt-engineering/docs/cn.cn.failed.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/11-llm-engineering/01-prompt-engineering/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/11-llm-engineering/01-prompt-engineering/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/11-llm-engineering/01-prompt-engineering/outputs/prompt-prompt-optimizer.md",
+      "type": "document",
+      "name": "prompt-prompt-optimizer.md",
+      "filePath": "phases/11-llm-engineering/01-prompt-engineering/outputs/prompt-prompt-optimizer.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/11-llm-engineering/01-prompt-engineering/outputs/skill-prompt-patterns.md",
+      "type": "document",
+      "name": "skill-prompt-patterns.md",
+      "filePath": "phases/11-llm-engineering/01-prompt-engineering/outputs/skill-prompt-patterns.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/11-llm-engineering/01-prompt-engineering/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/11-llm-engineering/01-prompt-engineering/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/11-llm-engineering/02-few-shot-cot/code/advanced_prompting.py",
+      "type": "file",
+      "name": "advanced_prompting.py",
+      "filePath": "phases/11-llm-engineering/02-few-shot-cot/code/advanced_prompting.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/11-llm-engineering/02-few-shot-cot/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/11-llm-engineering/02-few-shot-cot/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/11-llm-engineering/02-few-shot-cot/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/11-llm-engineering/02-few-shot-cot/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/11-llm-engineering/02-few-shot-cot/outputs/prompt-reasoning-chain.md",
+      "type": "document",
+      "name": "prompt-reasoning-chain.md",
+      "filePath": "phases/11-llm-engineering/02-few-shot-cot/outputs/prompt-reasoning-chain.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/11-llm-engineering/02-few-shot-cot/outputs/skill-cot-patterns.md",
+      "type": "document",
+      "name": "skill-cot-patterns.md",
+      "filePath": "phases/11-llm-engineering/02-few-shot-cot/outputs/skill-cot-patterns.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/11-llm-engineering/02-few-shot-cot/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/11-llm-engineering/02-few-shot-cot/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/11-llm-engineering/03-structured-outputs/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/11-llm-engineering/03-structured-outputs/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/10-llms-from-scratch/22-async-hogwild-inference/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/10-llms-from-scratch/22-async-hogwild-inference/outputs/skill-parallel-inference-router.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/10-llms-from-scratch/25-speculative-decoding/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/10-llms-from-scratch/25-speculative-decoding/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/10-llms-from-scratch/25-speculative-decoding/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/10-llms-from-scratch/25-speculative-decoding/outputs/skill-speculative-tuning.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/10-llms-from-scratch/34-gradient-checkpointing/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/10-llms-from-scratch/34-gradient-checkpointing/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/10-llms-from-scratch/34-gradient-checkpointing/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/10-llms-from-scratch/34-gradient-checkpointing/outputs/skill-checkpointing-planner.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/10-llms-from-scratch/README.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/11-llm-engineering/01-prompt-engineering/code/main.ts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/11-llm-engineering/01-prompt-engineering/code/prompt_engineering.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/11-llm-engineering/01-prompt-engineering/docs/cn.cn.failed.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/11-llm-engineering/01-prompt-engineering/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/11-llm-engineering/01-prompt-engineering/outputs/prompt-prompt-optimizer.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/11-llm-engineering/01-prompt-engineering/outputs/skill-prompt-patterns.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/11-llm-engineering/01-prompt-engineering/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/11-llm-engineering/02-few-shot-cot/code/advanced_prompting.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/11-llm-engineering/02-few-shot-cot/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/11-llm-engineering/02-few-shot-cot/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/11-llm-engineering/02-few-shot-cot/outputs/prompt-reasoning-chain.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/11-llm-engineering/02-few-shot-cot/outputs/skill-cot-patterns.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/11-llm-engineering/02-few-shot-cot/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/11-llm-engineering/03-structured-outputs/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

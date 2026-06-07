@@ -1,0 +1,78 @@
+{
+  "lesson": "phase-19/27-eval-harness-fixture-tasks",
+  "title": "Eval Harness with Fixture Tasks",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "在阅读本课之前：一个好的代理评估验证者最需要的属性是什么？",
+      "options": [
+        "速度在毫秒范围内。",
+        "跨运行的确定性。",
+        "对判决的自然语言解释。",
+        "覆盖候选人代码的每一行。"
+      ],
+      "correct": 1,
+      "explanation": "确定性使得回归可以被检测到。非确定性验证者将每一个红色都变成抛硬币。"
+    },
+    {
+      "stage": "check",
+      "question": "候选人在单个任务的 5 个样本中得分为 3 及格。本课程的 pass@5 公式返回什么值（四舍五入到小数点后两位）？",
+      "options": [
+        "0.60",
+        "0.99",
+        "0.75",
+        "1.00"
+      ],
+      "correct": 1,
+      "explanation": "pass@k = 1 - (1 - p)^k = 1 - (1 - 0.6)^5 = 1 - 0.4^5 = 1 - 0.01024 = 0.98976，四舍五入为 0.99。原始每样本率 (0.6) 是值选项 (a) 的名称，但公式会在 k 个样本中放大它。"
+    },
+    {
+      "stage": "check",
+      "question": "为什么课程在报告中同时包含 pass@1 和 pass@k？",
+      "options": [
+        "pass@1 是用户在仪表板中看到的值； pass@k 用于内部调试。",
+        "pass@k 可以隐藏许多样本中只有一个正确的模型，因此 pass@1 将结果锚定为首次尝试质量。",
+        "当 k > 1 时，pass@k 和 pass@1 在数学上是相同的。",
+        "pass@1 是验证者注册中心支持的版本； pass@k 是为未来的验证者保留的。"
+      ],
+      "correct": 1,
+      "explanation": "pass@k 使得在多次尝试中一次得到答案的模型看起来很强大； pass@1 是第一次尝试的楼层。报告两者可以防止过度索赔。"
+    },
+    {
+      "stage": "check",
+      "question": "线束在每个样本之前调用 _prepare_scratch。为什么这对于 pass@k > 1 很重要？",
+      "options": [
+        "它避免了共享临时目录上的竞争条件。",
+        "它确保每个样本从有缺陷的设置开始，而不是前一个样本的输出。",
+        "这纯粹是一种性能优化。",
+        "它仅与 shell 验证程序相关。"
+      ],
+      "correct": 1,
+      "explanation": "没有新的划痕，样本 N+1 从样本 N 的输出开始。该安全带将衡量“第二次尝试清理”而不是第一次尝试的成功。"
+    },
+    {
+      "stage": "post",
+      "question": "您添加一个新的验证程序“pytest_passes”，该验证程序在暂存目录中运行 pytest。您应该基于哪个现有验证器？",
+      "options": [
+        "file_equals，因为 pytest 写入结果文件。",
+        "regex_match，因为 pytest 输出包含单词“passed”。",
+        "shell_exit_zero，因为 pytest 信号通过退出代码 0 传递。",
+        "不可能将 pytest 表达为验证器。"
+      ],
+      "correct": 2,
+      "explanation": "pytest 在通过时退出 0，在失败时退出非零。 shell_exit_zero 是正确的原语。生产布线通过第 26 课中的沙箱路由呼叫。"
+    },
+    {
+      "stage": "post",
+      "question": "审阅者问：“这是模型中的回归还是线束中的回归？”哪个工件回答了这个问题？",
+      "options": [
+        "特工的思路记录。",
+        "每个任务、每个样本的 SampleResult 加上验证者详细消息。",
+        "验证器注册表源代码。",
+        "夹具 JSON 文件。"
+      ],
+      "correct": 1,
+      "explanation": "每个样本的延迟、验证器详细信息和通过/失败让您可以进行分类：相同的装置，不同的判决，因此模型发生了变化；相同的判决但不同的延迟，所以其他东西发生了变化。"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "lesson": "35-gpt-model-assembly",
+  "title": "GPT Model Assembly",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "本课重现的参考 GPT-2 小配置是什么？",
+      "options": [
+        "词汇 30000，上下文 512，d_model 512，6 个头，6 层",
+        "vocab 50257，上下文 1024，d_model 768，12 个头，12 层，参数近 1.24 亿",
+        "词汇 100000，上下文 2048，d_model 1024，16 个头，24 层",
+        "词汇 50000，上下文 4096，d_model 4096，32 个头，32 层"
+      ],
+      "correct": 1,
+      "explanation": "GPT-2小是124M参数配置；匹配确认接线正确。"
+    },
+    {
+      "stage": "check",
+      "question": "模型装配中的重量绑定意味着什么？",
+      "options": [
+        "token embedding 和 LM head 共享完全相同的参数张量；优化器更新一个同时服务于查找和输出投影的矩阵",
+        "两个具有相同形状的不同张量，每一步都会被复制",
+        "跨层共享的偏差项",
+        "对注意力头的限制"
+      ],
+      "correct": 0,
+      "explanation": "设置 lm_head.weight = tok_embed.weight 共享存储；复制则不然。保存词汇时间 d_model 参数。"
+    },
+    {
+      "stage": "check",
+      "question": "生成如何滑动其上下文窗口？",
+      "options": [
+        "每一步将上下文截断一半",
+        "每个步骤都采用运行序列的最后一个 context_length 标记（提示加上生成的）并将其提供给模型",
+        "用零填充到最大上下文",
+        "每一步都会根据提示重新启动"
+      ],
+      "correct": 1,
+      "explanation": "一旦运行序列溢出上下文长度，滑动窗口就会丢弃最旧的令牌。"
+    },
+    {
+      "stage": "check",
+      "question": "为什么要以比其余部分更小的标准初始化注意力输出投影和第二个 MLP 线性？",
+      "options": [
+        "它节省内存",
+        "两者都直接喂入残余添加物中。将它们的标准缩放到 2 倍 num_layers 的 sqrt 上的 1 倍，使剩余流在十二层中保持按比例缩放",
+        "数据集需要它",
+        "Top-k 采样需要较小的权重"
+      ],
+      "correct": 1,
+      "explanation": "如果没有缩放，残余流会随着深度而增长，并将最终的 LayerNorm 推入热状态。"
+    },
+    {
+      "stage": "post",
+      "question": "采样时温度有何作用？",
+      "options": [
+        "选择优化器学习率",
+        "在 softmax 之前除以 logits。 T 小于 1 使分布趋于贪婪，T 等于 1 保持自然模型分布，T 大于 1 使分布平坦",
+        "在头部添加 dropout",
+        "缩放嵌入"
+      ],
+      "correct": 1,
+      "explanation": "温度是最简单的旋钮；与 top-k 结合，它控制生成的探索性程度。"
+    },
+    {
+      "stage": "post",
+      "question": "采样前top-k过滤做了什么？",
+      "options": [
+        "选择最低的 k 个 logits",
+        "保持 k 个 logits 具有最高值，将其余的屏蔽为负无穷大，然后对幸存者进行 softmax，以便多项式采样仅看到前 k 个标记",
+        "删除所有低于零的逻辑",
+        "将 logits 限制在 k 处"
+      ],
+      "correct": 1,
+      "explanation": "Top-k在softmax之前截断长尾； top_k=1 是贪婪的，k 越大，保留的多样性就越多。"
+    }
+  ]
+}

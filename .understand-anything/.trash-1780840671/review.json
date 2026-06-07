@@ -1,0 +1,25 @@
+{
+  "issues": [],
+  "warnings": [
+    "Node 'module:assets' has no edges (orphan)"
+  ],
+  "stats": {
+    "totalNodes": 3073,
+    "totalEdges": 3227,
+    "totalLayers": 5,
+    "tourSteps": 5,
+    "nodeTypes": {
+      "module": 6,
+      "file": 1109,
+      "service": 2,
+      "pipeline": 1,
+      "config": 390,
+      "document": 1565
+    },
+    "edgeTypes": {
+      "contains": 3067,
+      "imports": 141,
+      "tested_by": 19
+    }
+  }
+}

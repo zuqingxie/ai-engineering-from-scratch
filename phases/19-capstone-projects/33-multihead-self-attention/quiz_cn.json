@@ -1,0 +1,78 @@
+{
+  "lesson": "33-multihead-self-attention",
+  "title": "Multi-Head Self-Attention",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "为什么高效的自注意力模块使用输出 3*D 特征的单个线性层？",
+      "options": [
+        "它强制 Q、K 和 V 之间的权重共享",
+        "它在数学上相当于三个 Linear(D, D) 层，并作为一个 matmul 运行",
+        "它避免了对因果面具的需要",
+        "它减少了模型参数数量"
+      ],
+      "correct": 1,
+      "explanation": "将三个 (D, D) 投影矩阵堆叠为一个 (3D, D) 矩阵会产生相同的输出，但前向传递是一个适合单个加速器的 matmul。"
+    },
+    {
+      "stage": "check",
+      "question": "d_model、n_heads 和 d_head 之间有什么关系？",
+      "options": [
+        "d_head = d_model * n_heads",
+        "d_head = d_model + n_heads",
+        "d_head = d_model // n_heads 和 d_model 必须能被 n_heads 整除",
+        "d_head 独立于 d_model"
+      ],
+      "correct": 2,
+      "explanation": "该块将 d_model 均匀地分割到各个头上。约束 d_model % n_heads == 0 在构造时强制执行。"
+    },
+    {
+      "stage": "check",
+      "question": "缩放点积注意力的缩放因子的值是多少？",
+      "options": [
+        "sqrt(d_模型)",
+        "sqrt(d_head)",
+        "sqrt(n_heads)",
+        "sqrt(seq_len)"
+      ],
+      "correct": 1,
+      "explanation": "分数除以 sqrt(d_head)，即 matmul 收缩的头部维度。这使得分数的方差随着 d_head 的增长而受到限制。"
+    },
+    {
+      "stage": "check",
+      "question": "因果掩码如何强制位置 t 无法关注位置 t+1？",
+      "options": [
+        "将未来位置的密钥乘以零",
+        "通过在 softmax 之前将对角线上方的分数条目设置为负无穷大",
+        "通过从输入中删除未来的标记",
+        "通过对未来使用不同的注意力头"
+      ],
+      "correct": 1,
+      "explanation": "将未来的条目设置为 -inf 会强制 softmax 赋予它们权重为零。过去和现在的位置保留有效的权重分布。"
+    },
+    {
+      "stage": "post",
+      "question": "为什么合并头后块会以 Linear(D, D) 输出投影结束？",
+      "options": [
+        "允许模型跨头混合信息",
+        "匹配模型的词汇量大小",
+        "将激活值标准化为零",
+        "autograd 需要跟踪梯度"
+      ],
+      "correct": 0,
+      "explanation": "如果没有输出投影，头部输出只会在后面的层中组合。投影为块提供了一个位置，可以在同一步骤中混合头部。"
+    },
+    {
+      "stage": "post",
+      "question": "(B, H, T, T) 形状的注意力权重矩阵告诉你什么？",
+      "options": [
+        "每个头有多少个参数",
+        "每个查询位置针对每个头、每个批次元素关注哪些关键位置",
+        "查询向量和值向量之间的余弦相似度",
+        "下一个标记的输出 logits"
+      ],
+      "correct": 1,
+      "explanation": "每个头矩阵的第 t 行是查询位置 t 使用的关键位置上的分布。检查它可以显示每个头的外观。"
+    }
+  ]
+}

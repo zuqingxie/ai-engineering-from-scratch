@@ -1,0 +1,71 @@
+{
+  "nodes": [
+    {
+      "id": "module:curriculum",
+      "type": "module",
+      "name": "课程内容",
+      "summary": "课程阶段、课程文档、示例代码、测验和可复用输出。",
+      "complexity": "moderate",
+      "tags": [
+        "课程结构",
+        "架构"
+      ]
+    },
+    {
+      "id": "module:site",
+      "type": "module",
+      "name": "静态站点",
+      "summary": "把 README、ROADMAP、glossary 和课程文件编译为可浏览网站的前端与构建脚本。",
+      "complexity": "moderate",
+      "tags": [
+        "站点",
+        "架构"
+      ]
+    },
+    {
+      "id": "module:automation",
+      "type": "module",
+      "name": "自动化脚本",
+      "summary": "用于课程审计、目录生成、链接检查和本地脚手架的维护脚本。",
+      "complexity": "moderate",
+      "tags": [
+        "自动化",
+        "架构"
+      ]
+    },
+    {
+      "id": "module:project-docs",
+      "type": "module",
+      "name": "项目文档",
+      "summary": "面向贡献者和学习者的仓库级说明、规范和治理文件。",
+      "complexity": "moderate",
+      "tags": [
+        "文档",
+        "架构"
+      ]
+    },
+    {
+      "id": "module:configuration",
+      "type": "module",
+      "name": "仓库配置",
+      "summary": "编辑器、部署、CI、依赖和工具配置文件。",
+      "complexity": "moderate",
+      "tags": [
+        "配置",
+        "架构"
+      ]
+    },
+    {
+      "id": "module:assets",
+      "type": "module",
+      "name": "静态资产",
+      "summary": "站点、品牌和展示所需的静态资源。",
+      "complexity": "moderate",
+      "tags": [
+        "资产",
+        "架构"
+      ]
+    }
+  ],
+  "edges": []
+}

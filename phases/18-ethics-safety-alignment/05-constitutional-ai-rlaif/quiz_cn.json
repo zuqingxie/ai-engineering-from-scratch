@@ -1,0 +1,78 @@
+{
+  "lesson": "05-constitutional-ai-rlaif",
+  "title": "Constitutional AI and RLAIF",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "宪法人工智能相对于标准 RLHF 的核心替代是什么？",
+      "options": [
+        "它用读取原则列表的人工智能标签器取代了人类偏好标签器",
+        "它用 DPO 取代 PPO",
+        "它使用合成提示而不是真实提示",
+        "它完全消除了奖励模型"
+      ],
+      "correct": 0,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "宪法人工智能的第一阶段（SFT）做什么？",
+      "options": [
+        "仅根据人工智能生成的偏好训练奖励模型",
+        "产生初步回应，根据抽样构成原则对其进行批评，然后进行修改并将修订后的内容用作 SFT 目标",
+        "通过对贴标者评论进行聚类来生成综合原则",
+        "执行 PPO 并获得宪法奖励"
+      ],
+      "correct": 1,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "第二阶段（RLAIF）有什么作用？",
+      "options": [
+        "跳过 PPO 并应用单一监督损失",
+        "是否由人类重新标记 SFT 输出",
+        "将宪法提炼到标记器中",
+        "根据反馈模型中 AI 生成的偏好训练奖励模型，并针对它运行 PPO"
+      ],
+      "correct": 3,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "Anthropic 2026 年 1 月的四级克劳德宪法中的等级顺序是什么？",
+      "options": [
+        "平台规则>避免灾难>有帮助>广泛的道德",
+        "广泛的道德>有帮助>平台规则>避免灾难",
+        "避免灾难性后果 > 遵循人择指南 > 广泛的道德 > 乐于助人且坦诚",
+        "有帮助>广泛的道德>平台规则>避免灾难"
+      ],
+      "correct": 2,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "哪种故障模式不一定可以通过从 RLHF 切换到 RLAIF 来修复？",
+      "options": [
+        "贴标者心理不一致",
+        "奖励黑客/古德哈特定律",
+        "贴标机成本",
+        "贴标机短缺"
+      ],
+      "correct": 1,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "宪法分类器 v1 和 v2 (2026) 之间的主要变化是什么？",
+      "options": [
+        "v2 将计算开销从 1% 增加到 23.7%",
+        "v2 删除了分类器并仅依赖于构成",
+        "v2 仅在输入上运行，而不在输出上运行",
+        "v2 将计算开销从 23.7% 降低到约 1%，成功攻击率较低"
+      ],
+      "correct": 3,
+      "explanation": ""
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+[
+  {
+    "order": 1,
+    "title": "项目入口与贡献规则",
+    "description": "先阅读 README、AGENTS 和 ROADMAP，理解这个仓库是课程产品而不是 SaaS 应用，以及课程数量、阶段结构和贡献约束。",
+    "nodeIds": [
+      "document:README.md",
+      "document:AGENTS.md",
+      "document:ROADMAP.md"
+    ],
+    "languageLesson": "把仓库级文档当作架构入口：这里定义了课程目录、lesson contract 和自动化边界。"
+  },
+  {
+    "order": 2,
+    "title": "课程内容骨架",
+    "description": "进入 phases/ 查看每个阶段与课程目录；每课通常包含 docs、code、quiz 和 outputs，形成 Build It / Use It 的重复结构。",
+    "nodeIds": [
+      "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/eval.ts",
+      "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/harness.ts",
+      "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/hooks.ts",
+      "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/index.ts",
+      "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/model.ts",
+      "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/plan.ts",
+      "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/repl.ts",
+      "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/tools.ts",
+      "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/types.ts",
+      "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/tests/harness.test.ts",
+      "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/tests/tools.test.ts",
+      "file:phases/19-capstone-projects/02-rag-over-codebase/code/ts/src/corpus.ts"
+    ],
+    "languageLesson": "课程目录本身就是领域模型：phase 表示学习阶段，lesson 表示可验证、可交付的学习单元。"
+  },
+  {
+    "order": 3,
+    "title": "自动化质量闸门",
+    "description": "查看 scripts/ 下的审计与生成脚本，理解仓库如何保持 lesson frontmatter、quiz schema、README counts 和目录数据一致。",
+    "nodeIds": [
+      "file:scripts/_lib.py",
+      "file:scripts/build_catalog.py",
+      "file:scripts/install_skills.py",
+      "file:scripts/audit_lessons.py",
+      "file:scripts/check_readme_counts.py",
+      "file:scripts/lesson_run.py",
+      "file:scripts/link_check.py",
+      "file:scripts/scaffold_workbench.py"
+    ],
+    "languageLesson": "课程仓库的可靠性主要来自脚本化不变量，而不是运行时服务。"
+  },
+  {
+    "order": 4,
+    "title": "静态站点发布面",
+    "description": "查看 site/ 下的构建脚本和前端文件，理解课程内容如何转化为可浏览的目录、课程页和术语表页面。",
+    "nodeIds": [
+      "file:site/catalog.html",
+      "file:site/glossary.html",
+      "file:site/index.html",
+      "file:site/lesson.html",
+      "file:site/prereqs.html",
+      "document:site/robots.txt",
+      "file:site/style.css",
+      "file:site/app.js"
+    ],
+    "languageLesson": "site/build.js 是内容仓库和用户可见网站之间的转换层。"
+  },
+  {
+    "order": 5,
+    "title": "术语与可复用产物",
+    "description": "最后查看 glossary 与 outputs，理解跨课程术语如何统一，以及课程产物如何被索引为 prompt、skill、agent 或 MCP server。",
+    "nodeIds": [
+      "document:glossary/terms.md",
+      "document:glossary/README.md",
+      "config:outputs/index.json"
+    ],
+    "languageLesson": "大型课程体系需要共享术语层，否则不同课程会漂移出不兼容的解释。"
+  }
+]

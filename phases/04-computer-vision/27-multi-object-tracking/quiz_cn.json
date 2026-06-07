@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "匈牙利算法在检测跟踪方面有何作用？",
+      "options": [
+        "它过滤掉低置信度检测",
+        "它解决了轨迹和检测之间的最小成本一对一分配（通常使用 1 - IoU 作为成本），以将每个轨迹最多匹配一个检测，反之亦然",
+        "它训练探测器",
+        "它预测未来的轨迹"
+      ],
+      "correct": 1,
+      "explanation": "每个检测跟踪帧都会执行一个分配问题：M 个跟踪，N 个检测，找到最佳的一对一匹配。匈牙利算法是对此的最佳多项式算法。 Cost is usually 1 - IoU (higher overlap = lower cost). scipy.optimize.linear_sum_assignment is the standard implementation. SORT, DeepSORT, ByteTrack, BoT-SORT all use it."
+    },
+    {
+      "stage": "pre",
+      "question": "ByteTrack的杰出贡献是什么？",
+      "options": [
+        "新的骨干",
+        "第二阶段关联，尝试将剩余轨迹与低置信度检测相匹配，恢复标准跟踪器因丢弃这些检测而丢失的短遮挡和 ID",
+        "新的卡尔曼滤波器",
+        "外观嵌入"
+      ],
+      "correct": 1,
+      "explanation": "大多数跟踪器会丢弃低于置信阈值（~0.5）的检测结果。 ByteTrack 保留它们并运行第二次匈牙利通行证，尝试将它们与与任何高置信度检测不匹配的轨道进行匹配。这可以恢复短暂的遮挡和交叉，在 MOT17 上显着提升 IDF1，而无需任何学习的外观特征。它的简单性使其成为 Ultralytics 和 Roboflow Supervision 中的默认设置。"
+    },
+    {
+      "stage": "post",
+      "question": "SAM 2 基于记忆的跟踪器如何避免显式的匈牙利式关联？",
+      "options": [
+        "它在内部运行 SORT",
+        "它将每个实例的时空特征存储在内存库中；在每个新帧上，内存和当前特征之间的交叉注意力直接产生同一实例的掩码，并且注意力操作中隐含着关联",
+        "它使用卡尔曼滤波器",
+        "每帧都需要手工标记 ID"
+      ],
+      "correct": 1,
+      "explanation": "SAM 2 用内存条件分段器取代了检测然后关联循环。内存库保存先前帧中的实例特征。在每个新帧中，解码器将新帧的特征与内存进行交叉处理，并且生成的掩码是相同的实例 - 无需外部分配步骤。 This handles long occlusions gracefully because the memory stays even when the instance disappears for many frames."
+    },
+    {
+      "stage": "post",
+      "question": "对于监控视频来说，保持每个人的 ID 一致是首要要求，您应该报告哪个指标？",
+      "options": [
+        "莫塔",
+        "IDF1 — ID 精度和召回率的调和平均值；衡量随着时间的推移身份保存而不是每帧检测的准确性",
+        "Top-1 准确度",
+        "火焰离子化检测器"
+      ],
+      "correct": 1,
+      "explanation": "MOTA 将检测错误和关联错误合并在一起，因此具有许多误报的跟踪器可以隐藏其 ID 失败。 IDF1 专为“随着时间的推移谁是谁”问题而设计：它将整个视频中的预测轨迹与全局真实轨迹进行匹配，并计算身份标签上的 F1。对于监控和人群分析，IDF1 是要报告的指标； HOTA 是更广泛的学术标准。"
+    },
+    {
+      "stage": "post",
+      "question": "SAM 3.1 对象多路复用（2026 年 3 月）在许多跟踪实例之间引入了共享内存。这能带来什么？",
+      "options": [
+        "精度较低",
+        "高效的多对象跟踪——一个具有每个实例查询令牌的共享内存库取代了 N 个独立的内存库，因此成本随实例数量呈次线性扩展，并且音乐会人群规模的场景变得易于处理",
+        "仅云推理",
+        "新的培训目标"
+      ],
+      "correct": 1,
+      "explanation": "Pre-Multiplex SAM 2 / SAM 3 使用自己的存储体跟踪每个对象；成本与实例数量成线性比例。 Multiplex（2026 年 3 月）引入了一种共享内存，其中每个实例的查询令牌可获取特定于实例的功能。借助基于内存的跟踪器，多对象跟踪（人群、交通、仓库工人）首次变得高效。"
+    }
+  ]
+}

@@ -126,15 +126,12 @@ def check_code_main(audit: Audit, lesson: Path) -> None:
     audit.add("L005", lesson, code_dir, "code/ is empty (no source or config files)")
 
 
-def check_quiz(audit: Audit, lesson: Path) -> None:
-    quiz = lesson / "quiz.json"
-    if not quiz.is_file():
-        return
+def check_quiz_file(audit: Audit, lesson: Path, quiz: Path) -> None:
     try:
         raw = quiz.read_text(encoding="utf-8")
         data = json.loads(raw)
     except (json.JSONDecodeError, UnicodeDecodeError) as exc:
-        audit.add("L006", lesson, quiz, f"quiz.json not valid JSON: {exc}")
+        audit.add("L006", lesson, quiz, f"{quiz.name} not valid JSON: {exc}")
         return
     if isinstance(data, list):
         questions = data
@@ -147,7 +144,7 @@ def check_quiz(audit: Audit, lesson: Path) -> None:
             "L006",
             lesson,
             quiz,
-            "quiz.json must be a non-empty array or a dict with non-empty questions[]",
+            f"{quiz.name} must be a non-empty array or a dict with non-empty questions[]",
         )
         return
     for idx, q in enumerate(questions):
@@ -191,6 +188,13 @@ def check_quiz(audit: Audit, lesson: Path) -> None:
                 quiz,
                 f"question[{idx}] correct={correct!r} not a valid index in options[0..{len(options) - 1}]",
             )
+
+
+def check_quiz(audit: Audit, lesson: Path) -> None:
+    for name in ("quiz_en.json", "quiz_cn.json", "quiz.json"):
+        quiz = lesson / name
+        if quiz.is_file():
+            check_quiz_file(audit, lesson, quiz)
 
 
 def check_internal_links(audit: Audit, lesson: Path, text: str) -> None:

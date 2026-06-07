@@ -1,0 +1,78 @@
+{
+  "lesson": "07-tensorrt-llm-blackwell",
+  "title": "TensorRT-LLM on Blackwell with FP8 and NVFP4",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "根据课程报告，在可比较的 120B 级工作负载上，Blackwell + TRT-LLM + Dynamo 和 H100 + vLLM 之间的每百万代币成本差距大致是多少？",
+      "options": [
+        "约 100 倍",
+        "约 7 倍",
+        "约 2 倍",
+        "约1.1倍"
+      ],
+      "correct": 1,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "为什么本课建议将 KV 缓存保留在 Blackwell 上的 FP8 而不是 NVFP4 中？",
+      "options": [
+        "任何引擎尚不支持 NVFP4 KV 缓存",
+        "FP8 是 NVLink 5 支持的唯一精度",
+        "KV缓存跨越较宽的动态范围； FP4 量化会导致注意力分数出现灾难性的准确性损失",
+        "FP8 使用的内存比 FP4 少"
+      ],
+      "correct": 2,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "TRT-LLM 利用 Blackwell 的哪个功能，以便无需训练后转换步骤即可加载模型？",
+      "options": [
+        "Day-0 模型提供商提供的 FP4 权重",
+        "通过位和字节进行 INT2 权重",
+        "FP64关注",
+        "BF16 KV缓存"
+      ],
+      "correct": 0,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "每节课选择 TRT-LLM 堆栈的主要权衡是什么？",
+      "options": [
+        "它无法为 MoE 模型提供服务",
+        "它需要完全自主的修复",
+        "它将您锁定在 NVIDIA 硬件上 — 没有 AMD、没有 Intel、没有 ARM",
+        "它只适用于小规模"
+      ],
+      "correct": 2,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "本课程将哪种精度组合描述为典型的 Blackwell 配置？",
+      "options": [
+        "权重FP4，KV缓存FP4，注意力在INT8",
+        "BF16的一切",
+        "权重 NVFP4、激活 NVFP4、KV 缓存 FP8、注意力累加器 FP32",
+        "权重 INT8，激活 FP32，KV 缓存 INT4"
+      ],
+      "correct": 2,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "对于推理繁重的工作负载，NVFP4 权重转换会使数学准确性下降几个点，本课程有何建议？",
+      "options": [
+        "切换至 AMD MI300X",
+        "禁用推测解码",
+        "验证每个模型的评估集的任务质量；团队经常使用 FP8 权重 + FP4 激活或始终使用 FP8 保持在 H200",
+        "无论如何都要交付 NVFP4，因为成本优势占主导地位"
+      ],
+      "correct": 2,
+      "explanation": ""
+    }
+  ]
+}

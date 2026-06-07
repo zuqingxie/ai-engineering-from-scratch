@@ -1,0 +1,102 @@
+{
+  "lesson": "03-word-embeddings-word2vec",
+  "title": "Word Embeddings — Word2Vec from Scratch",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "什么是分布假说？",
+      "options": [
+        "你应该知道它所拥有的公司的一个词",
+        "单词在文档中均匀分布",
+        "所有单词都可以嵌入300个维度",
+        "频繁出现的单词最有意义"
+      ],
+      "correct": 0,
+      "explanation": "Firth (1957) 的分布假设：相似的上下文意味着相似的含义。"
+    },
+    {
+      "stage": "pre",
+      "question": "为什么在 Word2Vec 中对词汇表进行简单的 softmax 不切实际？",
+      "options": [
+        "每个训练步骤计算超过 100k+ 词汇术语的 softmax 成本高昂",
+        "Softmax 无法对概率建模",
+        "Softmax没有梯度",
+        "它会导致梯度消失"
+      ],
+      "correct": 0,
+      "explanation": "全词汇量的softmax太贵了；负采样将其重新表述为二元分类。"
+    },
+    {
+      "stage": "check",
+      "question": "Skip-gram 和 CBOW 有什么区别？",
+      "options": [
+        "Skip-gram 使用二元组； CBOW 使用一元语法",
+        "Skip-gram 从中心预测上下文单词； CBOW 根据上下文预测中心",
+        "Skip-gram 根据上下文预测中心词； CBOW则相反",
+        "Skip-gram 训练深度网络； CBOW 很浅"
+      ],
+      "correct": 1,
+      "explanation": "Skip-gram：中心 -> 上下文。 CBOW：上下文 -> 中心。"
+    },
+    {
+      "stage": "check",
+      "question": "在负采样中，正对（中心、上下文）的目标是什么？",
+      "options": [
+        "最大化 sigmoid(W[center] dot W'[context]) 使其接近 1",
+        "强制它们正交",
+        "最小化他们的点积",
+        "向量去相关"
+      ],
+      "correct": 0,
+      "explanation": "正对在 1 附近训练 sigmoid；采样负数在 0 附近训练 sigmoid。"
+    },
+    {
+      "stage": "check",
+      "question": "训练完 Word2Vec 后，哪个权重矩阵成为词嵌入？",
+      "options": [
+        "单独的训练后预测",
+        "输入到隐藏的 W 矩阵（中心字表）",
+        "两者相乘",
+        "隐藏到输出 W' 矩阵"
+      ],
+      "correct": 1,
+      "explanation": "中心字表W是标准嵌入输出； W'经常被丢弃或平均。"
+    },
+    {
+      "stage": "post",
+      "question": "为什么 Word2Vec 在一词多义上失败（例如“银行”）？",
+      "options": [
+        "窗口尺寸太小",
+        "它忽略了罕见的单词",
+        "负采样丢弃了罕见的含义",
+        "它为每个单词分配一个静态向量，因此“riverbank”和“financialbank”共享相同的向量"
+      ],
+      "correct": 3,
+      "explanation": "静态嵌入不能消除意义的歧义；上下文嵌入（ELMo/BERT）解决了这个问题。"
+    },
+    {
+      "stage": "post",
+      "question": "到 2026 年，您什么时候还会使用 Word2Vec 而不是 Transformer？",
+      "options": [
+        "轻量级、设备上、特定于域的检索，其中单行查找就是延迟预算",
+        "当您需要消除上下文歧义时",
+        "当输入很长时",
+        "当对话质量很重要时"
+      ],
+      "correct": 0,
+      "explanation": "Word2Vec 凭借极小的延迟预算、设备上推理或快速的特定领域训练而获胜。"
+    },
+    {
+      "stage": "post",
+      "question": "是什么促成了著名的比喻“国王 - 男人 + 女人〜女王”？",
+      "options": [
+        "该模型将版税编码为标志位",
+        "Skip-gram 训练皇家词汇",
+        "向量算术捕获线性方向，例如跨性别传递的“皇家”",
+        "余弦相似度不随性别变化"
+      ],
+      "correct": 2,
+      "explanation": "嵌入空间中的方向编码关系特征，因此系统地进行加/减移动。"
+    }
+  ]
+}

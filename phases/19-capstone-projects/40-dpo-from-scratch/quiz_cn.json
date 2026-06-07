@@ -1,0 +1,78 @@
+{
+  "lesson": "phase-19/40-dpo-from-scratch",
+  "title": "Direct Preference Optimization from Scratch",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "在阅读之前：在 Bradley-Terry 偏好模型下，在给定提示 x 的情况下，人类更喜欢完成 y_w 而不是 y_l 的概率为 sigmoid(r(x, y_w) - r(x, y_l))。有何寓意？",
+      "options": [
+        "在训练策略之前，您必须拟合 r。",
+        "只有奖励的不同才重要；添加到 r(x, y_w) 和 r(x, y_l) 的任何函数都会取消。",
+        "Bradley-Terry 需要一个不会消失的归一化常数 Z(x)。",
+        "Sigmoid 与最大似然不相容。"
+      ],
+      "correct": 1,
+      "explanation": "布拉德利-特里偏好仅取决于奖励差异。两个完成的任何共同点都会取消。这就是 DPO 可以避免显式奖励模型的结构性原因：最优策略公式中的仅提示项取消。"
+    },
+    {
+      "stage": "check",
+      "question": "单个三元组的 DPO 损失为 -log sigmoid( beta * ( (logp_w_pol - logp_w_ref) - (logp_l_pol - logp_l_ref) ) )。如果 logp_w_pol = logp_w_ref 且 logp_l_pol = logp_l_ref，则损失等于？",
+      "options": [
+        "0。",
+        "日志（2）。",
+        "测试版。",
+        "-1。"
+      ],
+      "correct": 1,
+      "explanation": "两个差值均为零，因此 sigmoid 参数为零，sigmoid 值为 0.5，且 -log(0.5) = log(2)。这是政策完全没有偏离参考值时的损失。"
+    },
+    {
+      "stage": "check",
+      "question": "在 DPO 训练期间，参考模型下选择的对数概率在不同时期之间会发生变化，因为策略与其不同。是真是假？",
+      "options": [
+        "正确：参考随着政策的更新而变化。",
+        "False：引用被冻结；参考日志概率计算一次并重复使用。",
+        "仅当 beta 非零时为真。",
+        "除非使用 no_grad 显式禁用渐变，否则为 False。"
+      ],
+      "correct": 1,
+      "explanation": "该参考在整个 DPO 运行期间被冻结。它的参数永远不会更新。该实现要么对引用日志概率进行一次快照，要么将引用前向传递包装在 no_grad 中，并在其参数上设置 require_grad=False 。"
+    },
+    {
+      "stage": "check",
+      "question": "取 L_DPO 相对于 logp_w_pol（所选完成的策略的对数概率）的梯度，符号是？",
+      "options": [
+        "正（损失随着所选对数概率的增加而增加）。",
+        "负（损失随着所选对数概率的增加而减少）。",
+        "零（损失与策略日志概率无关）。",
+        "不确定（取决于参考）。"
+      ],
+      "correct": 1,
+      "explanation": "梯度为 -beta * (1 - sigmoid(z))，为非正数。增加所选的对数概率会减少损失，这正是我们想要的训练信号。"
+    },
+    {
+      "stage": "post",
+      "question": "在您的固定装置中，DPO 损失会减少，但保单开始全面偏好较短的完成时间，即使较短的完成情况会更糟。最可能的原因是？",
+      "options": [
+        "贝塔值太低。",
+        "长度偏差：较长的序列会积累更多的对数概率项（每个负数），因此对数概率之和会在结构上惩罚长度。",
+        "参考未正确冻结。",
+        "优化器使用了错误的学习率。"
+      ],
+      "correct": 1,
+      "explanation": "对数概率之和偏向于较短的序列，因为每个附加标记都会添加一个负对数概率项。标准修复是在训练和评估时通过完成长度对日志概率进行标准化。"
+    },
+    {
+      "stage": "post",
+      "question": "您想要用 IPO 变体 (z - 1)^2 替换 sigmoid + 对数损失。对训练动态有何实际影响？",
+      "options": [
+        "它不像 sigmoid 损失那样饱和，而 sigmoid 损失在嘈杂的偏好标签下表现得更好。",
+        "它在所有点上都是等价的。",
+        "它完全消除了对参考模型的需要。",
+        "它不需要 beta 参数。"
+      ],
+      "correct": 0,
+      "explanation": "IPO 的平方损失不会像 sigmoid 那样饱和，这在偏好标签有噪音或某些三元组被错误标记时会有所帮助。根据经验，它减少了对小偏好数据集的过度优化。"
+    }
+  ]
+}

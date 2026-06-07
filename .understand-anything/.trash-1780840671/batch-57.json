@@ -1,0 +1,538 @@
+{
+  "nodes": [
+    {
+      "id": "config:phases/05-nlp-foundations-to-advanced/17-chatbots-rule-to-neural/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/05-nlp-foundations-to-advanced/17-chatbots-rule-to-neural/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/05-nlp-foundations-to-advanced/18-multilingual-nlp/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/05-nlp-foundations-to-advanced/18-multilingual-nlp/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/05-nlp-foundations-to-advanced/18-multilingual-nlp/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/05-nlp-foundations-to-advanced/18-multilingual-nlp/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/05-nlp-foundations-to-advanced/18-multilingual-nlp/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/05-nlp-foundations-to-advanced/18-multilingual-nlp/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/05-nlp-foundations-to-advanced/18-multilingual-nlp/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/05-nlp-foundations-to-advanced/18-multilingual-nlp/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "file:phases/05-nlp-foundations-to-advanced/18-multilingual-nlp/outputs/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/05-nlp-foundations-to-advanced/18-multilingual-nlp/outputs/.gitkeep",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/05-nlp-foundations-to-advanced/18-multilingual-nlp/outputs/skill-multilingual-picker.md",
+      "type": "document",
+      "name": "skill-multilingual-picker.md",
+      "filePath": "phases/05-nlp-foundations-to-advanced/18-multilingual-nlp/outputs/skill-multilingual-picker.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/05-nlp-foundations-to-advanced/18-multilingual-nlp/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/05-nlp-foundations-to-advanced/18-multilingual-nlp/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/05-nlp-foundations-to-advanced/19-subword-tokenization/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/05-nlp-foundations-to-advanced/19-subword-tokenization/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:phases/05-nlp-foundations-to-advanced/19-subword-tokenization/code/main.ts",
+      "type": "file",
+      "name": "main.ts",
+      "filePath": "phases/05-nlp-foundations-to-advanced/19-subword-tokenization/code/main.ts",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "typescript"
+      ],
+      "language": "typescript"
+    },
+    {
+      "id": "document:phases/05-nlp-foundations-to-advanced/19-subword-tokenization/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/05-nlp-foundations-to-advanced/19-subword-tokenization/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/05-nlp-foundations-to-advanced/19-subword-tokenization/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/05-nlp-foundations-to-advanced/19-subword-tokenization/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/05-nlp-foundations-to-advanced/19-subword-tokenization/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/05-nlp-foundations-to-advanced/19-subword-tokenization/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/05-nlp-foundations-to-advanced/19-subword-tokenization/outputs/skill-bpe-vs-wordpiece.md",
+      "type": "document",
+      "name": "skill-bpe-vs-wordpiece.md",
+      "filePath": "phases/05-nlp-foundations-to-advanced/19-subword-tokenization/outputs/skill-bpe-vs-wordpiece.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/05-nlp-foundations-to-advanced/19-subword-tokenization/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/05-nlp-foundations-to-advanced/19-subword-tokenization/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/05-nlp-foundations-to-advanced/20-structured-outputs-constrained-decoding/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/05-nlp-foundations-to-advanced/20-structured-outputs-constrained-decoding/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/05-nlp-foundations-to-advanced/20-structured-outputs-constrained-decoding/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/05-nlp-foundations-to-advanced/20-structured-outputs-constrained-decoding/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/05-nlp-foundations-to-advanced/20-structured-outputs-constrained-decoding/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/05-nlp-foundations-to-advanced/20-structured-outputs-constrained-decoding/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/05-nlp-foundations-to-advanced/20-structured-outputs-constrained-decoding/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/05-nlp-foundations-to-advanced/20-structured-outputs-constrained-decoding/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/05-nlp-foundations-to-advanced/20-structured-outputs-constrained-decoding/outputs/skill-structured-output-picker.md",
+      "type": "document",
+      "name": "skill-structured-output-picker.md",
+      "filePath": "phases/05-nlp-foundations-to-advanced/20-structured-outputs-constrained-decoding/outputs/skill-structured-output-picker.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/05-nlp-foundations-to-advanced/20-structured-outputs-constrained-decoding/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/05-nlp-foundations-to-advanced/20-structured-outputs-constrained-decoding/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/05-nlp-foundations-to-advanced/21-nli-textual-entailment/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/05-nlp-foundations-to-advanced/21-nli-textual-entailment/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/05-nlp-foundations-to-advanced/21-nli-textual-entailment/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/05-nlp-foundations-to-advanced/21-nli-textual-entailment/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/05-nlp-foundations-to-advanced/21-nli-textual-entailment/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/05-nlp-foundations-to-advanced/21-nli-textual-entailment/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/05-nlp-foundations-to-advanced/21-nli-textual-entailment/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/05-nlp-foundations-to-advanced/21-nli-textual-entailment/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/05-nlp-foundations-to-advanced/17-chatbots-rule-to-neural/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/05-nlp-foundations-to-advanced/18-multilingual-nlp/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/05-nlp-foundations-to-advanced/18-multilingual-nlp/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/05-nlp-foundations-to-advanced/18-multilingual-nlp/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/05-nlp-foundations-to-advanced/18-multilingual-nlp/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/05-nlp-foundations-to-advanced/18-multilingual-nlp/outputs/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/05-nlp-foundations-to-advanced/18-multilingual-nlp/outputs/skill-multilingual-picker.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/05-nlp-foundations-to-advanced/18-multilingual-nlp/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/05-nlp-foundations-to-advanced/19-subword-tokenization/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/05-nlp-foundations-to-advanced/19-subword-tokenization/code/main.ts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/05-nlp-foundations-to-advanced/19-subword-tokenization/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/05-nlp-foundations-to-advanced/19-subword-tokenization/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/05-nlp-foundations-to-advanced/19-subword-tokenization/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/05-nlp-foundations-to-advanced/19-subword-tokenization/outputs/skill-bpe-vs-wordpiece.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/05-nlp-foundations-to-advanced/19-subword-tokenization/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/05-nlp-foundations-to-advanced/20-structured-outputs-constrained-decoding/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/05-nlp-foundations-to-advanced/20-structured-outputs-constrained-decoding/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/05-nlp-foundations-to-advanced/20-structured-outputs-constrained-decoding/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/05-nlp-foundations-to-advanced/20-structured-outputs-constrained-decoding/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/05-nlp-foundations-to-advanced/20-structured-outputs-constrained-decoding/outputs/skill-structured-output-picker.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/05-nlp-foundations-to-advanced/20-structured-outputs-constrained-decoding/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/05-nlp-foundations-to-advanced/21-nli-textual-entailment/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/05-nlp-foundations-to-advanced/21-nli-textual-entailment/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/05-nlp-foundations-to-advanced/21-nli-textual-entailment/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/05-nlp-foundations-to-advanced/21-nli-textual-entailment/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

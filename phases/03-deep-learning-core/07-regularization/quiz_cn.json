@@ -1,0 +1,62 @@
+[
+  {
+    "question": "神经网络中什么是过度拟合？",
+    "options": [
+      "模型太小，无法学习数据",
+      "该模型记住训练数据而不是学习可概括的模式，显示训练和测试准确性之间存在巨大差距",
+      "模型训练速度太慢",
+      "损失函数错误"
+    ],
+    "correct": 1,
+    "explanation": "当模型训练精度较高但测试精度较差时，就会发生过拟合。它记住了训练数据的噪音，而不是学习潜在的模式。",
+    "stage": "pre"
+  },
+  {
+    "question": "Dropout 如何规范神经网络？",
+    "options": [
+      "它永久地去除了表现最差的神经元",
+      "它在训练期间随机将神经元归零，迫使网络学习冗余表示",
+      "它降低了学习率",
+      "它从训练数据中删除异常值"
+    ],
+    "correct": 1,
+    "explanation": "在每次前向传递期间，dropout 以概率 p 随机将神经元输出设置为零。这可以防止共同适应（神经元依赖于特定的其他神经元），并且相当于训练 2^N 子网络的集合。",
+    "stage": "pre"
+  },
+  {
+    "question": "为什么 Transformer 使用 LayerNorm 而不是 BatchNorm？",
+    "options": [
+      "LayerNorm 计算速度更快",
+      "LayerNorm 对每个样本的特征进行标准化（与批次无关），适用于可变序列长度和小批量大小",
+      "BatchNorm导致梯度爆炸",
+      "LayerNorm 是最近发明的"
+    ],
+    "correct": 1,
+    "explanation": "BatchNorm 取决于批次统计信息，对于小批次来说，这些统计信息会产生噪音，而对于批次大小为 1 的情况来说，这些统计信息毫无意义（在生成过程中很常见）。 LayerNorm 对每个样本中的特征进行标准化，与批量大小无关。",
+    "stage": "post"
+  },
+  {
+    "question": "RMSNorm 和 LayerNorm 之间的主要区别是什么？",
+    "options": [
+      "RMSNorm 使用批量统计",
+      "RMSNorm 跳过均值减法，仅除以均方根，在同等精度的情况下提供约 10% 的加速",
+      "RMSNorm 添加了可学习参数",
+      "RMSNorm 仅适用于 CNN"
+    ],
+    "correct": 1,
+    "explanation": "RMSNorm 从 LayerNorm 中删除了均值减法步骤，这对精度贡献不大，但增加了计算量。 LLaMA、Mistral 和大多数现代法学硕士都使用 RMSNorm 来提高效率。",
+    "stage": "post"
+  },
+  {
+    "question": "为什么在 PyTorch 中运行推理之前调用 model.eval() 至关重要？",
+    "options": [
+      "它加快了计算速度",
+      "它禁用 dropout 并将 BatchNorm 切换为使用运行统计而不是批量统计，从而提供确定性输出",
+      "它释放 GPU 内存",
+      "它启用梯度计算"
+    ],
+    "correct": 1,
+    "explanation": "如果没有 model.eval()，dropout 在推理期间随机将神经元归零（导致随机输出变化），并且 BatchNorm 使用当前批次统计数据而不是训练期间积累的稳定运行平均值。",
+    "stage": "post"
+  }
+]

@@ -1,0 +1,544 @@
+{
+  "nodes": [
+    {
+      "id": "config:phases/00-setup-and-tooling/08-editor-setup/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/00-setup-and-tooling/08-editor-setup/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/00-setup-and-tooling/09-data-management/code/data_utils_learning.py",
+      "type": "file",
+      "name": "data_utils_learning.py",
+      "filePath": "phases/00-setup-and-tooling/09-data-management/code/data_utils_learning.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:phases/00-setup-and-tooling/09-data-management/code/data_utils.py",
+      "type": "file",
+      "name": "data_utils.py",
+      "filePath": "phases/00-setup-and-tooling/09-data-management/code/data_utils.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/00-setup-and-tooling/09-data-management/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/00-setup-and-tooling/09-data-management/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/00-setup-and-tooling/09-data-management/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/00-setup-and-tooling/09-data-management/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/00-setup-and-tooling/09-data-management/outputs/prompt-data-helper.md",
+      "type": "document",
+      "name": "prompt-data-helper.md",
+      "filePath": "phases/00-setup-and-tooling/09-data-management/outputs/prompt-data-helper.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/00-setup-and-tooling/09-data-management/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/00-setup-and-tooling/09-data-management/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/00-setup-and-tooling/10-terminal-and-shell/code/shell_aliases.sh",
+      "type": "file",
+      "name": "shell_aliases.sh",
+      "filePath": "phases/00-setup-and-tooling/10-terminal-and-shell/code/shell_aliases.sh",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "automation",
+        "shell"
+      ],
+      "language": "shell"
+    },
+    {
+      "id": "document:phases/00-setup-and-tooling/10-terminal-and-shell/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/00-setup-and-tooling/10-terminal-and-shell/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/00-setup-and-tooling/10-terminal-and-shell/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/00-setup-and-tooling/10-terminal-and-shell/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/00-setup-and-tooling/10-terminal-and-shell/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/00-setup-and-tooling/10-terminal-and-shell/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "document:phases/00-setup-and-tooling/11-linux-for-ai/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/00-setup-and-tooling/11-linux-for-ai/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/00-setup-and-tooling/11-linux-for-ai/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/00-setup-and-tooling/11-linux-for-ai/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/00-setup-and-tooling/11-linux-for-ai/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/00-setup-and-tooling/11-linux-for-ai/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/00-setup-and-tooling/12-debugging-and-profiling/code/debug_tools_learning.py",
+      "type": "file",
+      "name": "debug_tools_learning.py",
+      "filePath": "phases/00-setup-and-tooling/12-debugging-and-profiling/code/debug_tools_learning.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:phases/00-setup-and-tooling/12-debugging-and-profiling/code/debug_tools.py",
+      "type": "file",
+      "name": "debug_tools.py",
+      "filePath": "phases/00-setup-and-tooling/12-debugging-and-profiling/code/debug_tools.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/00-setup-and-tooling/12-debugging-and-profiling/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/00-setup-and-tooling/12-debugging-and-profiling/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/00-setup-and-tooling/12-debugging-and-profiling/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/00-setup-and-tooling/12-debugging-and-profiling/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/00-setup-and-tooling/12-debugging-and-profiling/outputs/prompt-debug-ai-code.md",
+      "type": "document",
+      "name": "prompt-debug-ai-code.md",
+      "filePath": "phases/00-setup-and-tooling/12-debugging-and-profiling/outputs/prompt-debug-ai-code.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/00-setup-and-tooling/12-debugging-and-profiling/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/00-setup-and-tooling/12-debugging-and-profiling/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "document:phases/00-setup-and-tooling/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "phases/00-setup-and-tooling/README.md",
+      "summary": "项目文档文件，补充课程、贡献流程或仓库治理信息。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/01-math-foundations/01-linear-algebra-intuition/code/vectors.jl",
+      "type": "file",
+      "name": "vectors.jl",
+      "filePath": "phases/01-math-foundations/01-linear-algebra-intuition/code/vectors.jl",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "示例代码",
+        "jl"
+      ],
+      "language": "jl"
+    },
+    {
+      "id": "file:phases/01-math-foundations/01-linear-algebra-intuition/code/vectors.py",
+      "type": "file",
+      "name": "vectors.py",
+      "filePath": "phases/01-math-foundations/01-linear-algebra-intuition/code/vectors.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/01-math-foundations/01-linear-algebra-intuition/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/01-math-foundations/01-linear-algebra-intuition/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/01-math-foundations/01-linear-algebra-intuition/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/01-math-foundations/01-linear-algebra-intuition/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/00-setup-and-tooling/08-editor-setup/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/00-setup-and-tooling/09-data-management/code/data_utils_learning.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/00-setup-and-tooling/09-data-management/code/data_utils.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/00-setup-and-tooling/09-data-management/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/00-setup-and-tooling/09-data-management/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/00-setup-and-tooling/09-data-management/outputs/prompt-data-helper.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/00-setup-and-tooling/09-data-management/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/00-setup-and-tooling/10-terminal-and-shell/code/shell_aliases.sh",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/00-setup-and-tooling/10-terminal-and-shell/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/00-setup-and-tooling/10-terminal-and-shell/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/00-setup-and-tooling/10-terminal-and-shell/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/00-setup-and-tooling/11-linux-for-ai/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/00-setup-and-tooling/11-linux-for-ai/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/00-setup-and-tooling/11-linux-for-ai/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/00-setup-and-tooling/12-debugging-and-profiling/code/debug_tools_learning.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/00-setup-and-tooling/12-debugging-and-profiling/code/debug_tools.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/00-setup-and-tooling/12-debugging-and-profiling/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/00-setup-and-tooling/12-debugging-and-profiling/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/00-setup-and-tooling/12-debugging-and-profiling/outputs/prompt-debug-ai-code.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/00-setup-and-tooling/12-debugging-and-profiling/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/00-setup-and-tooling/README.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/01-math-foundations/01-linear-algebra-intuition/code/vectors.jl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/01-math-foundations/01-linear-algebra-intuition/code/vectors.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/01-math-foundations/01-linear-algebra-intuition/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/01-math-foundations/01-linear-algebra-intuition/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

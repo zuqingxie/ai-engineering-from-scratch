@@ -1,0 +1,78 @@
+{
+  "lesson": "25-echoleak-cves-for-ai",
+  "title": "EchoLeak and the Emergence of CVEs for AI",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "哪个最能描述 EchoLeak (CVE-2025-32711)？",
+      "options": [
+        "通过长上下文镜头填充进行越狱",
+        "对 PyPI 的供应链攻击",
+        "NPU 中的硬件漏洞",
+        "Microsoft 365 Copilot 中的零点击 AI 命令注入缺陷（CVE-2025-32711、CVSS 9.3）导致未经授权的网络信息泄露，并通过 CSP 允许/受信任的 Microsoft 域进行渗漏"
+      ],
+      "correct": 3,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "是什么让 EchoLeak 成为“零点击”？",
+      "options": [
+        "受害者不必打开电子邮件； Copilot 在例行查询期间将其检索为 RAG 上下文，并执行注入的指令",
+        "它要求用户单击 Teams 聊天中的链接",
+        "它运行在操作系统内核中",
+        "需要点击三下，但无需打字"
+      ],
+      "correct": 0,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "Aim Labs 将 EchoLeak 定性为“违反法学硕士范围”。哪三个边界必须各自独立控制？",
+      "options": [
+        "检索、范围、输出",
+        "网络、磁盘、内存",
+        "输入、模型、GPU",
+        "提示、响应、日志"
+      ],
+      "correct": 0,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "Microsoft/GitHub 如何修复 CamoLeak（CVSS 9.6、GitHub Copilot Chat）？",
+      "options": [
+        "添加了 XPIA 提示注入过滤器",
+        "在 Copilot Chat 中完全禁用图像渲染（成本：可用性），因为替代攻击面无法限制",
+        "将模型切换为 Llama Guard",
+        "增加上下文大小"
+      ],
+      "correct": 1,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "EchoLeak 的披露揭示了何种严重性校准模式？",
+      "options": [
+        "供应商高估了最初的 CVSS 分数",
+        "供应商最初对 EchoLeak 的评级较低（信息泄露）； Aim Labs 的 MFA 代码渗透概念验证将评级提升至 9.3 — 防御者必须推动针对 AI 特定漏洞的全面 PoC",
+        "所有 AI CVE 均自动评级为 10.0",
+        "严重等级仅由 OWASP 决定"
+      ],
+      "correct": 1,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "截至 2024/2025 年，NIST 和 OWASP 对提示注入的排名如何？",
+      "options": [
+        "NIST AI SPD 2024 将即时注入视为生成式 AI 的主要信息安全风险； OWASP 2025 将其评为 LLM01（顶级应用程序层威胁）",
+        "NIST：超出范围； OWASP：未列出",
+        "NIST：轻微； OWASP：列表底部",
+        "两者都称其为二级风险"
+      ],
+      "correct": 0,
+      "explanation": ""
+    }
+  ]
+}

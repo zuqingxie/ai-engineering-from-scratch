@@ -1,0 +1,539 @@
+{
+  "nodes": [
+    {
+      "id": "document:phases/05-nlp-foundations-to-advanced/21-nli-textual-entailment/outputs/skill-nli-picker.md",
+      "type": "document",
+      "name": "skill-nli-picker.md",
+      "filePath": "phases/05-nlp-foundations-to-advanced/21-nli-textual-entailment/outputs/skill-nli-picker.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/05-nlp-foundations-to-advanced/21-nli-textual-entailment/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/05-nlp-foundations-to-advanced/21-nli-textual-entailment/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/05-nlp-foundations-to-advanced/22-embedding-models-deep-dive/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/05-nlp-foundations-to-advanced/22-embedding-models-deep-dive/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/05-nlp-foundations-to-advanced/22-embedding-models-deep-dive/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/05-nlp-foundations-to-advanced/22-embedding-models-deep-dive/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/05-nlp-foundations-to-advanced/22-embedding-models-deep-dive/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/05-nlp-foundations-to-advanced/22-embedding-models-deep-dive/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/05-nlp-foundations-to-advanced/22-embedding-models-deep-dive/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/05-nlp-foundations-to-advanced/22-embedding-models-deep-dive/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/05-nlp-foundations-to-advanced/22-embedding-models-deep-dive/outputs/skill-embedding-picker.md",
+      "type": "document",
+      "name": "skill-embedding-picker.md",
+      "filePath": "phases/05-nlp-foundations-to-advanced/22-embedding-models-deep-dive/outputs/skill-embedding-picker.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/05-nlp-foundations-to-advanced/22-embedding-models-deep-dive/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/05-nlp-foundations-to-advanced/22-embedding-models-deep-dive/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/05-nlp-foundations-to-advanced/23-chunking-strategies-rag/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/05-nlp-foundations-to-advanced/23-chunking-strategies-rag/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:phases/05-nlp-foundations-to-advanced/23-chunking-strategies-rag/code/main.ts",
+      "type": "file",
+      "name": "main.ts",
+      "filePath": "phases/05-nlp-foundations-to-advanced/23-chunking-strategies-rag/code/main.ts",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "typescript"
+      ],
+      "language": "typescript"
+    },
+    {
+      "id": "document:phases/05-nlp-foundations-to-advanced/23-chunking-strategies-rag/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/05-nlp-foundations-to-advanced/23-chunking-strategies-rag/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/05-nlp-foundations-to-advanced/23-chunking-strategies-rag/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/05-nlp-foundations-to-advanced/23-chunking-strategies-rag/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/05-nlp-foundations-to-advanced/23-chunking-strategies-rag/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/05-nlp-foundations-to-advanced/23-chunking-strategies-rag/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/05-nlp-foundations-to-advanced/23-chunking-strategies-rag/outputs/skill-chunker.md",
+      "type": "document",
+      "name": "skill-chunker.md",
+      "filePath": "phases/05-nlp-foundations-to-advanced/23-chunking-strategies-rag/outputs/skill-chunker.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/05-nlp-foundations-to-advanced/23-chunking-strategies-rag/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/05-nlp-foundations-to-advanced/23-chunking-strategies-rag/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/05-nlp-foundations-to-advanced/24-coreference-resolution/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/05-nlp-foundations-to-advanced/24-coreference-resolution/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/05-nlp-foundations-to-advanced/24-coreference-resolution/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/05-nlp-foundations-to-advanced/24-coreference-resolution/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/05-nlp-foundations-to-advanced/24-coreference-resolution/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/05-nlp-foundations-to-advanced/24-coreference-resolution/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/05-nlp-foundations-to-advanced/24-coreference-resolution/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/05-nlp-foundations-to-advanced/24-coreference-resolution/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/05-nlp-foundations-to-advanced/24-coreference-resolution/outputs/skill-coref-picker.md",
+      "type": "document",
+      "name": "skill-coref-picker.md",
+      "filePath": "phases/05-nlp-foundations-to-advanced/24-coreference-resolution/outputs/skill-coref-picker.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/05-nlp-foundations-to-advanced/24-coreference-resolution/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/05-nlp-foundations-to-advanced/24-coreference-resolution/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/05-nlp-foundations-to-advanced/25-entity-linking/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/05-nlp-foundations-to-advanced/25-entity-linking/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/05-nlp-foundations-to-advanced/25-entity-linking/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/05-nlp-foundations-to-advanced/25-entity-linking/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/05-nlp-foundations-to-advanced/25-entity-linking/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/05-nlp-foundations-to-advanced/25-entity-linking/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/05-nlp-foundations-to-advanced/25-entity-linking/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/05-nlp-foundations-to-advanced/25-entity-linking/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/05-nlp-foundations-to-advanced/21-nli-textual-entailment/outputs/skill-nli-picker.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/05-nlp-foundations-to-advanced/21-nli-textual-entailment/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/05-nlp-foundations-to-advanced/22-embedding-models-deep-dive/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/05-nlp-foundations-to-advanced/22-embedding-models-deep-dive/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/05-nlp-foundations-to-advanced/22-embedding-models-deep-dive/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/05-nlp-foundations-to-advanced/22-embedding-models-deep-dive/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/05-nlp-foundations-to-advanced/22-embedding-models-deep-dive/outputs/skill-embedding-picker.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/05-nlp-foundations-to-advanced/22-embedding-models-deep-dive/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/05-nlp-foundations-to-advanced/23-chunking-strategies-rag/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/05-nlp-foundations-to-advanced/23-chunking-strategies-rag/code/main.ts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/05-nlp-foundations-to-advanced/23-chunking-strategies-rag/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/05-nlp-foundations-to-advanced/23-chunking-strategies-rag/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/05-nlp-foundations-to-advanced/23-chunking-strategies-rag/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/05-nlp-foundations-to-advanced/23-chunking-strategies-rag/outputs/skill-chunker.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/05-nlp-foundations-to-advanced/23-chunking-strategies-rag/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/05-nlp-foundations-to-advanced/24-coreference-resolution/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/05-nlp-foundations-to-advanced/24-coreference-resolution/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/05-nlp-foundations-to-advanced/24-coreference-resolution/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/05-nlp-foundations-to-advanced/24-coreference-resolution/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/05-nlp-foundations-to-advanced/24-coreference-resolution/outputs/skill-coref-picker.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/05-nlp-foundations-to-advanced/24-coreference-resolution/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/05-nlp-foundations-to-advanced/25-entity-linking/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/05-nlp-foundations-to-advanced/25-entity-linking/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/05-nlp-foundations-to-advanced/25-entity-linking/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/05-nlp-foundations-to-advanced/25-entity-linking/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

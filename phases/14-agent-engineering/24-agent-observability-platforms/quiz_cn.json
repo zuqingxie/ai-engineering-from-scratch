@@ -1,0 +1,90 @@
+{
+  "lesson": "24-agent-observability-platforms",
+  "title": "Agent Observability: Langfuse, Phoenix, Opik",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "2025 年 6 月开源以前的商业模块后，Langfuse 依据什么许可证进行发布？",
+      "options": [
+        "GPLv3",
+        "麻省理工学院",
+        "弹性许可证2.0",
+        "阿帕奇2.0"
+      ],
+      "correct": 1,
+      "explanation": "Langfuse 是 MIT 的，包括 LLM-as-a-judge、注释队列、提示实验和 2025 年 6 月后的 Playground。"
+    },
+    {
+      "stage": "pre",
+      "question": "根据课程，Arize Phoenix 最强的是什么？",
+      "options": [
+        "提示版本控制",
+        "深度特定于代理的评估：跟踪聚类、异常检测、RAG 检索相关性、OpenInference 自动检测",
+        "自动优化循环",
+        "代码静态分析"
+      ],
+      "correct": 1,
+      "explanation": "Phoenix 专注于使用 OpenInference 自动检测的行为漂移和 RAG 评估。"
+    },
+    {
+      "stage": "check",
+      "question": "哪个平台将自动提示优化与护栏（PII 编辑、主题约束）和法学硕士法官幻觉检测结合起来？",
+      "options": [
+        "朗福斯",
+        "凤凰城",
+        "奥皮克",
+        "耶格"
+      ],
+      "correct": 2,
+      "explanation": "Opik以优化+护栏循环为中心。"
+    },
+    {
+      "stage": "check",
+      "question": "本课程推荐使用哪个平台来实现快速管理的一体化？",
+      "options": [
+        "朗福斯",
+        "凤凰城",
+        "奥皮克",
+        "数据狗APM"
+      ],
+      "correct": 0,
+      "explanation": "Langfuse 涵盖跟踪+提示管理+评估+端到端会话重放。"
+    },
+    {
+      "stage": "check",
+      "question": "本课对供应商发布的平台基准有何看法？",
+      "options": [
+        "它们是确定的",
+        "以它们为方向；衡量你自己的语料库",
+        "它们被 OpenTelemetry 禁止",
+        "只有Opik的才是可靠的"
+      ],
+      "correct": 1,
+      "explanation": "即使是所引用的 Opik 和 Langfuse 之间 14 倍的差距，也应该在做出决定之前根据您自己的数据进行测量。"
+    },
+    {
+      "stage": "post",
+      "question": "为什么没有评估的跟踪被认为是昂贵的日志记录？",
+      "options": [
+        "磁盘成本高于CPU",
+        "您可以看到跑动，但无法对其进行评分，因此回归是不可见的，二分是不可能的",
+        "提供商按跨度收费",
+        "跨度无法重播"
+      ],
+      "correct": 1,
+      "explanation": "评估将痕迹转化为可操作的质量信号。"
+    },
+    {
+      "stage": "post",
+      "question": "本课对自行担任法学硕士法官的警告是什么？",
+      "options": [
+        "它们被 Apache 2.0 禁止",
+        "CRITIC 适用：法官需要外部接地来进行事实验证，否则他们就会橡皮图章",
+        "它们仅适用于 TypeScript",
+        "它们必须在 GPU 上运行"
+      ],
+      "correct": 1,
+      "explanation": "如果没有基于外部工具的验证，法学硕士法官就会倾向于橡皮图章（CRITIC，第 5 课）。"
+    }
+  ]
+}

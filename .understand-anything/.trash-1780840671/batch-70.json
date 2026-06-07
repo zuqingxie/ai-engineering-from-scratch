@@ -1,0 +1,541 @@
+{
+  "nodes": [
+    {
+      "id": "document:phases/09-reinforcement-learning/01-mdps-states-actions-rewards/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/09-reinforcement-learning/01-mdps-states-actions-rewards/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/09-reinforcement-learning/01-mdps-states-actions-rewards/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/09-reinforcement-learning/01-mdps-states-actions-rewards/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/09-reinforcement-learning/01-mdps-states-actions-rewards/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/09-reinforcement-learning/01-mdps-states-actions-rewards/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/09-reinforcement-learning/01-mdps-states-actions-rewards/outputs/skill-mdp-modeler.md",
+      "type": "document",
+      "name": "skill-mdp-modeler.md",
+      "filePath": "phases/09-reinforcement-learning/01-mdps-states-actions-rewards/outputs/skill-mdp-modeler.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/09-reinforcement-learning/02-dynamic-programming/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/09-reinforcement-learning/02-dynamic-programming/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/09-reinforcement-learning/02-dynamic-programming/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/09-reinforcement-learning/02-dynamic-programming/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/09-reinforcement-learning/02-dynamic-programming/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/09-reinforcement-learning/02-dynamic-programming/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/09-reinforcement-learning/02-dynamic-programming/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/09-reinforcement-learning/02-dynamic-programming/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/09-reinforcement-learning/02-dynamic-programming/outputs/skill-dp-solver.md",
+      "type": "document",
+      "name": "skill-dp-solver.md",
+      "filePath": "phases/09-reinforcement-learning/02-dynamic-programming/outputs/skill-dp-solver.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/09-reinforcement-learning/03-monte-carlo-methods/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/09-reinforcement-learning/03-monte-carlo-methods/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/09-reinforcement-learning/03-monte-carlo-methods/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/09-reinforcement-learning/03-monte-carlo-methods/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/09-reinforcement-learning/03-monte-carlo-methods/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/09-reinforcement-learning/03-monte-carlo-methods/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/09-reinforcement-learning/03-monte-carlo-methods/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/09-reinforcement-learning/03-monte-carlo-methods/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/09-reinforcement-learning/03-monte-carlo-methods/outputs/skill-mc-evaluator.md",
+      "type": "document",
+      "name": "skill-mc-evaluator.md",
+      "filePath": "phases/09-reinforcement-learning/03-monte-carlo-methods/outputs/skill-mc-evaluator.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/09-reinforcement-learning/04-q-learning-sarsa/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/09-reinforcement-learning/04-q-learning-sarsa/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/09-reinforcement-learning/04-q-learning-sarsa/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/09-reinforcement-learning/04-q-learning-sarsa/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/09-reinforcement-learning/04-q-learning-sarsa/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/09-reinforcement-learning/04-q-learning-sarsa/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/09-reinforcement-learning/04-q-learning-sarsa/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/09-reinforcement-learning/04-q-learning-sarsa/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/09-reinforcement-learning/04-q-learning-sarsa/outputs/skill-td-agent.md",
+      "type": "document",
+      "name": "skill-td-agent.md",
+      "filePath": "phases/09-reinforcement-learning/04-q-learning-sarsa/outputs/skill-td-agent.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/09-reinforcement-learning/05-dqn/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/09-reinforcement-learning/05-dqn/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/09-reinforcement-learning/05-dqn/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/09-reinforcement-learning/05-dqn/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/09-reinforcement-learning/05-dqn/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/09-reinforcement-learning/05-dqn/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/09-reinforcement-learning/05-dqn/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/09-reinforcement-learning/05-dqn/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/09-reinforcement-learning/05-dqn/outputs/skill-dqn-trainer.md",
+      "type": "document",
+      "name": "skill-dqn-trainer.md",
+      "filePath": "phases/09-reinforcement-learning/05-dqn/outputs/skill-dqn-trainer.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/09-reinforcement-learning/06-policy-gradients-reinforce/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/09-reinforcement-learning/06-policy-gradients-reinforce/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/09-reinforcement-learning/01-mdps-states-actions-rewards/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/09-reinforcement-learning/01-mdps-states-actions-rewards/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/09-reinforcement-learning/01-mdps-states-actions-rewards/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/09-reinforcement-learning/01-mdps-states-actions-rewards/outputs/skill-mdp-modeler.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/09-reinforcement-learning/02-dynamic-programming/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/09-reinforcement-learning/02-dynamic-programming/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/09-reinforcement-learning/02-dynamic-programming/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/09-reinforcement-learning/02-dynamic-programming/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/09-reinforcement-learning/02-dynamic-programming/outputs/skill-dp-solver.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/09-reinforcement-learning/03-monte-carlo-methods/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/09-reinforcement-learning/03-monte-carlo-methods/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/09-reinforcement-learning/03-monte-carlo-methods/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/09-reinforcement-learning/03-monte-carlo-methods/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/09-reinforcement-learning/03-monte-carlo-methods/outputs/skill-mc-evaluator.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/09-reinforcement-learning/04-q-learning-sarsa/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/09-reinforcement-learning/04-q-learning-sarsa/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/09-reinforcement-learning/04-q-learning-sarsa/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/09-reinforcement-learning/04-q-learning-sarsa/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/09-reinforcement-learning/04-q-learning-sarsa/outputs/skill-td-agent.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/09-reinforcement-learning/05-dqn/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/09-reinforcement-learning/05-dqn/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/09-reinforcement-learning/05-dqn/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/09-reinforcement-learning/05-dqn/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/09-reinforcement-learning/05-dqn/outputs/skill-dqn-trainer.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/09-reinforcement-learning/06-policy-gradients-reinforce/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

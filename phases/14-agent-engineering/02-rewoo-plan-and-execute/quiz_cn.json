@@ -1,0 +1,90 @@
+{
+  "lesson": "02-rewoo-plan-and-execute",
+  "title": "ReWOO and Plan-and-Execute: Decoupled Planning",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "为什么 ReAct 的提示随深度呈二次方增长？",
+      "options": [
+        "该模型在每一步都会重新标记自己",
+        "每个步骤都带有完整的先前背景，包括之前的每一个想法和观察",
+        "每次调用都会重复工具架构",
+        "提供商按字节收费，而不是按令牌收费"
+      ],
+      "correct": 1,
+      "explanation": "ReAct 重新包含了每个步骤之前的想法和观察，使总提示长度随着深度的平方而增长。"
+    },
+    {
+      "stage": "pre",
+      "question": "定义 ReWOO 的三角色划分是什么？",
+      "options": [
+        "读者、作家、评论家",
+        "计划员、工人、求解员",
+        "演员、评价者、反思者",
+        "生成器、批评者、优化器"
+      ],
+      "correct": 1,
+      "explanation": "ReWOO 将发出 DAG 的 Planner、获取证据的 Workers 和组成最终答案的 Solver 分开。"
+    },
+    {
+      "stage": "check",
+      "question": "该论文在 HotpotQA 上报道了 ReWOO 与 ReAct 的哪些标题数据？",
+      "options": [
+        "令牌数量减少约 5 倍，绝对准确度 +4",
+        "令牌数量增加约 2 倍，准确度 +10",
+        "相同的标记和 +1 准确度",
+        "令牌数减少 10 倍，准确度为 -2"
+      ],
+      "correct": 0,
+      "explanation": "ReWOO 报告称，与 ReAct 相比，HotpotQA 的代币减少了 5 倍，绝对准确度增加了 4 倍。"
+    },
+    {
+      "stage": "check",
+      "question": "ReWOO 计划节点内的 #E1 等占位符意味着什么？",
+      "options": [
+        "Worker 1返回的错误码",
+        "在调度时用较早工作节点的输出替换的引用",
+        "用于获取证据的重试计数器",
+        "规划器版本标识符"
+      ],
+      "correct": 1,
+      "explanation": "计划节点使用诸如 #E1、#E2 之类的证据引用，执行器将其替换为上游工作人员的输出。"
+    },
+    {
+      "stage": "check",
+      "question": "为什么 ReWOO 比 ReAct 更好地定位故障？",
+      "options": [
+        "工作人员因任何错误而导致运行崩溃",
+        "工作线程中的错误会变成解算器在原始计划旁边看到的字符串，因此降级是按节点而不是按步骤进行的",
+        "ReWOO 重试每个失败的呼叫最多十次",
+        "Planner 在每次错误后重新发出新的 DAG"
+      ],
+      "correct": 1,
+      "explanation": "上下文中原始计划的每个节点故障使求解器可以优雅地降级，而不是在中途推理出错误。"
+    },
+    {
+      "stage": "post",
+      "question": "与普通的 ReWOO 相比，哪种任务形状最适合“计划与行动”？",
+      "options": [
+        "两步事实查询",
+        "40步网络或移动导航轨迹",
+        "单圈分类",
+        "一道纯算术题"
+      ],
+      "correct": 1,
+      "explanation": "Plan-and-Act 专为长视野（超过 30 个步骤）网络和移动代理而构建，在这些代理中，单个 ReAct 轨迹会失去连贯性。"
+    },
+    {
+      "stage": "post",
+      "question": "ReWOO的计划蒸馏结果对生产代理商意味着什么？",
+      "options": [
+        "每一步都必须使用前沿模型",
+        "一个小的规划者（7B左右）可以与一个大的老师相匹配，因为规划者永远不会看到观察结果",
+        "规划质量降至 7B 参数以下",
+        "蒸馏需要基于梯度的 RL 数据"
+      ],
+      "correct": 1,
+      "explanation": "因为规划器看不到观察结果，所以规划痕迹从大型教师清晰地转移到小型微调规划器。"
+    }
+  ]
+}

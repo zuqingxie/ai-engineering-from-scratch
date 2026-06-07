@@ -1,0 +1,393 @@
+{
+  "nodes": [
+    {
+      "id": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/eval.ts",
+      "type": "file",
+      "name": "eval.ts",
+      "filePath": "phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/eval.ts",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "示例代码",
+        "typescript"
+      ],
+      "language": "typescript"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/harness.ts",
+      "type": "file",
+      "name": "harness.ts",
+      "filePath": "phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/harness.ts",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "typescript"
+      ],
+      "language": "typescript"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/hooks.ts",
+      "type": "file",
+      "name": "hooks.ts",
+      "filePath": "phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/hooks.ts",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "typescript"
+      ],
+      "language": "typescript"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/index.ts",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "typescript"
+      ],
+      "language": "typescript"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/model.ts",
+      "type": "file",
+      "name": "model.ts",
+      "filePath": "phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/model.ts",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "typescript"
+      ],
+      "language": "typescript"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/plan.ts",
+      "type": "file",
+      "name": "plan.ts",
+      "filePath": "phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/plan.ts",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "typescript"
+      ],
+      "language": "typescript"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/repl.ts",
+      "type": "file",
+      "name": "repl.ts",
+      "filePath": "phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/repl.ts",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "typescript"
+      ],
+      "language": "typescript"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/tools.ts",
+      "type": "file",
+      "name": "tools.ts",
+      "filePath": "phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/tools.ts",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "示例代码",
+        "typescript"
+      ],
+      "language": "typescript"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/types.ts",
+      "type": "file",
+      "name": "types.ts",
+      "filePath": "phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/types.ts",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "示例代码",
+        "typescript"
+      ],
+      "language": "typescript"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/tests/harness.test.ts",
+      "type": "file",
+      "name": "harness.test.ts",
+      "filePath": "phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/tests/harness.test.ts",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "test",
+        "typescript"
+      ],
+      "language": "typescript"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/tests/tools.test.ts",
+      "type": "file",
+      "name": "tools.test.ts",
+      "filePath": "phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/tests/tools.test.ts",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "示例代码",
+        "test",
+        "typescript"
+      ],
+      "language": "typescript"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/eval.ts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/eval.ts",
+      "target": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/harness.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/harness.ts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/harness.ts",
+      "target": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/hooks.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/harness.ts",
+      "target": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/model.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/harness.ts",
+      "target": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/plan.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/harness.ts",
+      "target": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/tools.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/harness.ts",
+      "target": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/hooks.ts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/hooks.ts",
+      "target": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/index.ts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/index.ts",
+      "target": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/eval.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/index.ts",
+      "target": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/harness.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/index.ts",
+      "target": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/repl.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/model.ts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/model.ts",
+      "target": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/plan.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/model.ts",
+      "target": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/plan.ts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/plan.ts",
+      "target": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/repl.ts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/repl.ts",
+      "target": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/eval.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/repl.ts",
+      "target": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/harness.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/tools.ts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/tools.ts",
+      "target": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/types.ts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/tests/harness.test.ts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/tests/harness.test.ts",
+      "target": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/eval.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/tests/harness.test.ts",
+      "target": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/harness.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/tests/harness.test.ts",
+      "target": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/hooks.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/tests/harness.test.ts",
+      "target": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/plan.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/tests/harness.test.ts",
+      "target": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/repl.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/tests/tools.test.ts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/tests/tools.test.ts",
+      "target": "file:phases/19-capstone-projects/01-terminal-native-coding-agent/code/ts/src/tools.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

@@ -1,0 +1,519 @@
+{
+  "nodes": [
+    {
+      "id": "document:.claude/skills/check-understanding/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": ".claude/skills/check-understanding/SKILL.md",
+      "summary": "项目文档文件，补充课程、贡献流程或仓库治理信息。",
+      "complexity": "moderate",
+      "tags": [
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:.claude/skills/find-your-level/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": ".claude/skills/find-your-level/SKILL.md",
+      "summary": "项目文档文件，补充课程、贡献流程或仓库治理信息。",
+      "complexity": "complex",
+      "tags": [
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:.github/FUNDING.yml",
+      "type": "config",
+      "name": "FUNDING.yml",
+      "filePath": ".github/FUNDING.yml",
+      "summary": "GitHub 仓库自动化配置，用于 PR 模板、资助信息或 CI 工作流。",
+      "complexity": "simple",
+      "tags": [
+        "configuration",
+        "yaml"
+      ],
+      "language": "yaml"
+    },
+    {
+      "id": "document:.github/ISSUE_TEMPLATE/bug_report.md",
+      "type": "document",
+      "name": "bug_report.md",
+      "filePath": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "summary": "GitHub 仓库自动化配置，用于 PR 模板、资助信息或 CI 工作流。",
+      "complexity": "simple",
+      "tags": [
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:.github/ISSUE_TEMPLATE/new_lesson_proposal.md",
+      "type": "document",
+      "name": "new_lesson_proposal.md",
+      "filePath": ".github/ISSUE_TEMPLATE/new_lesson_proposal.md",
+      "summary": "GitHub 仓库自动化配置，用于 PR 模板、资助信息或 CI 工作流。",
+      "complexity": "simple",
+      "tags": [
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:.github/PULL_REQUEST_TEMPLATE.md",
+      "type": "document",
+      "name": "PULL_REQUEST_TEMPLATE.md",
+      "filePath": ".github/PULL_REQUEST_TEMPLATE.md",
+      "summary": "GitHub 仓库自动化配置，用于 PR 模板、资助信息或 CI 工作流。",
+      "complexity": "simple",
+      "tags": [
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:.understand-anything/.understandignore",
+      "type": "file",
+      "name": ".understandignore",
+      "filePath": ".understand-anything/.understandignore",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "moderate",
+      "tags": [
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "config:.understand-anything/config.json",
+      "type": "config",
+      "name": "config.json",
+      "filePath": ".understand-anything/config.json",
+      "summary": "项目配置文件，控制仓库工具、部署、编辑器或运行时行为。",
+      "complexity": "simple",
+      "tags": [
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:outputs/agents/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "outputs/agents/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "config:outputs/index.json",
+      "type": "config",
+      "name": "index.json",
+      "filePath": "outputs/index.json",
+      "summary": "项目配置文件，控制仓库工具、部署、编辑器或运行时行为。",
+      "complexity": "simple",
+      "tags": [
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:outputs/mcp-servers/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "outputs/mcp-servers/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "file:outputs/prompts/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "outputs/prompts/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "file:outputs/skills/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "outputs/skills/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "file:phases/00-setup-and-tooling/01-dev-environment/code/main.rs",
+      "type": "file",
+      "name": "main.rs",
+      "filePath": "phases/00-setup-and-tooling/01-dev-environment/code/main.rs",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "rust"
+      ],
+      "language": "rust"
+    },
+    {
+      "id": "file:phases/00-setup-and-tooling/01-dev-environment/code/verify.py",
+      "type": "file",
+      "name": "verify.py",
+      "filePath": "phases/00-setup-and-tooling/01-dev-environment/code/verify.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:phases/00-setup-and-tooling/01-dev-environment/code/verify.ts",
+      "type": "file",
+      "name": "verify.ts",
+      "filePath": "phases/00-setup-and-tooling/01-dev-environment/code/verify.ts",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "typescript"
+      ],
+      "language": "typescript"
+    },
+    {
+      "id": "document:phases/00-setup-and-tooling/01-dev-environment/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/00-setup-and-tooling/01-dev-environment/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/00-setup-and-tooling/01-dev-environment/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/00-setup-and-tooling/01-dev-environment/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/00-setup-and-tooling/01-dev-environment/outputs/prompt-env-check.md",
+      "type": "document",
+      "name": "prompt-env-check.md",
+      "filePath": "phases/00-setup-and-tooling/01-dev-environment/outputs/prompt-env-check.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/00-setup-and-tooling/01-dev-environment/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/00-setup-and-tooling/01-dev-environment/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "document:phases/00-setup-and-tooling/02-git-and-collaboration/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/00-setup-and-tooling/02-git-and-collaboration/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/00-setup-and-tooling/02-git-and-collaboration/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/00-setup-and-tooling/02-git-and-collaboration/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/00-setup-and-tooling/02-git-and-collaboration/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/00-setup-and-tooling/02-git-and-collaboration/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/00-setup-and-tooling/03-gpu-setup-and-cloud/code/gpu_check.py",
+      "type": "file",
+      "name": "gpu_check.py",
+      "filePath": "phases/00-setup-and-tooling/03-gpu-setup-and-cloud/code/gpu_check.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/00-setup-and-tooling/03-gpu-setup-and-cloud/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/00-setup-and-tooling/03-gpu-setup-and-cloud/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:project-docs",
+      "target": "document:.claude/skills/check-understanding/SKILL.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:project-docs",
+      "target": "document:.claude/skills/find-your-level/SKILL.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:configuration",
+      "target": "config:.github/FUNDING.yml",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:configuration",
+      "target": "document:.github/ISSUE_TEMPLATE/bug_report.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:configuration",
+      "target": "document:.github/ISSUE_TEMPLATE/new_lesson_proposal.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:configuration",
+      "target": "document:.github/PULL_REQUEST_TEMPLATE.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:configuration",
+      "target": "file:.understand-anything/.understandignore",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:configuration",
+      "target": "config:.understand-anything/config.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:configuration",
+      "target": "file:outputs/agents/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:configuration",
+      "target": "config:outputs/index.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:configuration",
+      "target": "file:outputs/mcp-servers/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:configuration",
+      "target": "file:outputs/prompts/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:configuration",
+      "target": "file:outputs/skills/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/00-setup-and-tooling/01-dev-environment/code/main.rs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/00-setup-and-tooling/01-dev-environment/code/verify.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/00-setup-and-tooling/01-dev-environment/code/verify.ts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/00-setup-and-tooling/01-dev-environment/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/00-setup-and-tooling/01-dev-environment/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/00-setup-and-tooling/01-dev-environment/outputs/prompt-env-check.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/00-setup-and-tooling/01-dev-environment/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/00-setup-and-tooling/02-git-and-collaboration/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/00-setup-and-tooling/02-git-and-collaboration/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/00-setup-and-tooling/02-git-and-collaboration/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/00-setup-and-tooling/03-gpu-setup-and-cloud/code/gpu_check.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/00-setup-and-tooling/03-gpu-setup-and-cloud/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,549 @@
+{
+  "nodes": [
+    {
+      "id": "document:phases/04-computer-vision/07-semantic-segmentation-unet/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/04-computer-vision/07-semantic-segmentation-unet/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/04-computer-vision/07-semantic-segmentation-unet/outputs/prompt-segmentation-task-picker.md",
+      "type": "document",
+      "name": "prompt-segmentation-task-picker.md",
+      "filePath": "phases/04-computer-vision/07-semantic-segmentation-unet/outputs/prompt-segmentation-task-picker.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/04-computer-vision/07-semantic-segmentation-unet/outputs/skill-segmentation-mask-inspector.md",
+      "type": "document",
+      "name": "skill-segmentation-mask-inspector.md",
+      "filePath": "phases/04-computer-vision/07-semantic-segmentation-unet/outputs/skill-segmentation-mask-inspector.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "test",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/04-computer-vision/07-semantic-segmentation-unet/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/04-computer-vision/07-semantic-segmentation-unet/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/04-computer-vision/08-instance-segmentation-mask-rcnn/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/04-computer-vision/08-instance-segmentation-mask-rcnn/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/04-computer-vision/08-instance-segmentation-mask-rcnn/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/04-computer-vision/08-instance-segmentation-mask-rcnn/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/04-computer-vision/08-instance-segmentation-mask-rcnn/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/04-computer-vision/08-instance-segmentation-mask-rcnn/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/04-computer-vision/08-instance-segmentation-mask-rcnn/outputs/prompt-instance-vs-semantic-router.md",
+      "type": "document",
+      "name": "prompt-instance-vs-semantic-router.md",
+      "filePath": "phases/04-computer-vision/08-instance-segmentation-mask-rcnn/outputs/prompt-instance-vs-semantic-router.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/04-computer-vision/08-instance-segmentation-mask-rcnn/outputs/skill-mask-rcnn-head-swapper.md",
+      "type": "document",
+      "name": "skill-mask-rcnn-head-swapper.md",
+      "filePath": "phases/04-computer-vision/08-instance-segmentation-mask-rcnn/outputs/skill-mask-rcnn-head-swapper.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/04-computer-vision/08-instance-segmentation-mask-rcnn/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/04-computer-vision/08-instance-segmentation-mask-rcnn/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/04-computer-vision/09-image-generation-gans/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/04-computer-vision/09-image-generation-gans/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/04-computer-vision/09-image-generation-gans/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/04-computer-vision/09-image-generation-gans/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/04-computer-vision/09-image-generation-gans/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/04-computer-vision/09-image-generation-gans/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/04-computer-vision/09-image-generation-gans/outputs/prompt-gan-training-triage.md",
+      "type": "document",
+      "name": "prompt-gan-training-triage.md",
+      "filePath": "phases/04-computer-vision/09-image-generation-gans/outputs/prompt-gan-training-triage.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/04-computer-vision/09-image-generation-gans/outputs/skill-dcgan-scaffold.md",
+      "type": "document",
+      "name": "skill-dcgan-scaffold.md",
+      "filePath": "phases/04-computer-vision/09-image-generation-gans/outputs/skill-dcgan-scaffold.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/04-computer-vision/09-image-generation-gans/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/04-computer-vision/09-image-generation-gans/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/04-computer-vision/10-image-generation-diffusion/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/04-computer-vision/10-image-generation-diffusion/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/04-computer-vision/10-image-generation-diffusion/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/04-computer-vision/10-image-generation-diffusion/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/04-computer-vision/10-image-generation-diffusion/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/04-computer-vision/10-image-generation-diffusion/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/04-computer-vision/10-image-generation-diffusion/outputs/prompt-diffusion-sampler-picker.md",
+      "type": "document",
+      "name": "prompt-diffusion-sampler-picker.md",
+      "filePath": "phases/04-computer-vision/10-image-generation-diffusion/outputs/prompt-diffusion-sampler-picker.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/04-computer-vision/10-image-generation-diffusion/outputs/skill-noise-schedule-designer.md",
+      "type": "document",
+      "name": "skill-noise-schedule-designer.md",
+      "filePath": "phases/04-computer-vision/10-image-generation-diffusion/outputs/skill-noise-schedule-designer.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/04-computer-vision/10-image-generation-diffusion/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/04-computer-vision/10-image-generation-diffusion/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/04-computer-vision/11-stable-diffusion/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/04-computer-vision/11-stable-diffusion/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/04-computer-vision/11-stable-diffusion/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/04-computer-vision/11-stable-diffusion/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/04-computer-vision/11-stable-diffusion/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/04-computer-vision/11-stable-diffusion/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/07-semantic-segmentation-unet/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/07-semantic-segmentation-unet/outputs/prompt-segmentation-task-picker.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/07-semantic-segmentation-unet/outputs/skill-segmentation-mask-inspector.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/04-computer-vision/07-semantic-segmentation-unet/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/04-computer-vision/08-instance-segmentation-mask-rcnn/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/08-instance-segmentation-mask-rcnn/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/08-instance-segmentation-mask-rcnn/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/08-instance-segmentation-mask-rcnn/outputs/prompt-instance-vs-semantic-router.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/08-instance-segmentation-mask-rcnn/outputs/skill-mask-rcnn-head-swapper.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/04-computer-vision/08-instance-segmentation-mask-rcnn/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/04-computer-vision/09-image-generation-gans/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/09-image-generation-gans/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/09-image-generation-gans/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/09-image-generation-gans/outputs/prompt-gan-training-triage.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/09-image-generation-gans/outputs/skill-dcgan-scaffold.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/04-computer-vision/09-image-generation-gans/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/04-computer-vision/10-image-generation-diffusion/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/10-image-generation-diffusion/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/10-image-generation-diffusion/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/10-image-generation-diffusion/outputs/prompt-diffusion-sampler-picker.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/10-image-generation-diffusion/outputs/skill-noise-schedule-designer.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/04-computer-vision/10-image-generation-diffusion/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/04-computer-vision/11-stable-diffusion/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/11-stable-diffusion/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/11-stable-diffusion/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

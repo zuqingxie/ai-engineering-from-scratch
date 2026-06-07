@@ -1,0 +1,78 @@
+{
+  "lesson": "21-fairness-criteria-group-individual-counterfactual",
+  "title": "Fairness Criteria - Group, Individual, Counterfactual",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "哪一个最符合群体 A=a 和 A=a' 的人口统计均等定义？",
+      "options": [
+        "各组的真阳性率和假阳性率相等",
+        "各组之间的预测价值相同",
+        "各组之间的 Lipschitz 常数相等",
+        "同等录取率：P(Y=1 | A=a) = P(Y=1 | A=a')"
+      ],
+      "correct": 3,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "Chouldechova / Kleinberg-Mullainathan-Raghavan 2017 年不可能结果说明了什么？",
+      "options": [
+        "群体公平总是可以通过重新加权来实现",
+        "在不平等的基本比率下，人口均等、均等赔率和条件使用准确性平等不能同时成立",
+        "反事实公平意味着人口平等",
+        "个体公平意味着任何 DAG 的反事实公平"
+      ],
+      "correct": 1,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "德沃克等人。 2012 年通过以下方式定义个人公平：",
+      "options": [
+        "个人层面的人口平等",
+        "受保护群体的准确性相同",
+        "决策图上的 Lipschitz 条件相对于特定于任务的相似性度量，因此相似的个体会得到相似的决策",
+        "具有敏感属性干预的因果 DAG"
+      ],
+      "correct": 2,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "反事实公平（Kusner et al. 2017）要求：",
+      "options": [
+        "没有因果假设",
+        "所有组的 Lipschitz 常数相等",
+        "仅限组级统计",
+        "因果 DAG；当个人的敏感属性发生反事实改变时，决策不会改变"
+      ],
+      "correct": 3,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "为什么回溯反事实 (arXiv:2401.13935) 对于法律合规性很重要？",
+      "options": [
+        "他们没有干预受保护的属性（这在法律上是有问题的），而是询问哪种实际特征组合会产生反事实的结果",
+        "它们消除了对任何因果模型的需要",
+        "它们取代了基于嵌入的偏差指标",
+        "他们证明了不可能定理是错误的"
+      ],
+      "correct": 0,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "ICLR 博客文章 2024 年哲学和解论点是什么？",
+      "options": [
+        "不可能性定理通过重新加权解决",
+        "通过明确的因果图，满足某些群体公平措施需要反事实公平，因此家庭之间明显的对立在一定程度上是隐含因果模型的人为因素",
+        "群体公平性与反事实公平性无关",
+        "只有个人的公平才是合理的"
+      ],
+      "correct": 1,
+      "explanation": ""
+    }
+  ]
+}

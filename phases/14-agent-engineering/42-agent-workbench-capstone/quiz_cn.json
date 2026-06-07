@@ -1,0 +1,90 @@
+{
+  "lesson": "42-agent-workbench-capstone",
+  "title": "Capstone: Ship a Reusable Agent Workbench Pack",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "顶峰会产生什么？",
+      "options": [
+        "一篇研究论文",
+        "版本化的插入目录（agent-workbench-pack/），包含七个表面以及一个以幂等方式放置它们的 bin/install.sh",
+        "新的法学硕士",
+        "监控仪表板"
+      ],
+      "correct": 1,
+      "explanation": "包装就是配方；每次安装都是一份。"
+    },
+    {
+      "stage": "pre",
+      "question": "哪一个不是包布局的一部分？",
+      "options": [
+        "代理.md + 文档/",
+        "模式/",
+        "脚本/",
+        "供应商专有权重/"
+      ],
+      "correct": 3,
+      "explanation": "包布局为 AGENTS.md、docs/、schemas/、scripts/、bin/、README.md。该包与框架和供应商无关。"
+    },
+    {
+      "stage": "check",
+      "question": "为什么包中带有 VERSION 文件？",
+      "options": [
+        "对于搜索引擎优化",
+        "需要迁移的架构/脚本更改的重大障碍；次要补充；仅用于文档的补丁；目标存储库记录了安装的版本",
+        "追踪座席智商",
+        "在黑客新闻上做广告"
+      ],
+      "correct": 1,
+      "explanation": "与 npm、Cargo、pyproject.toml 形状相同； VERSION 是合同，而不是营销。"
+    },
+    {
+      "stage": "check",
+      "question": "这个包中的跨工具分发是什么样的？",
+      "options": [
+        "硬编码每个工具的路径",
+        "一个带有符号链接的源文件（ln -s AGENTS.md CLAUDE.md、.cursor/rules/、.github/copilot-instructions.md），因此相同的源文件扇出到每个编码代理",
+        "每个工具手动复制",
+        "每个工具都有一个供应商锁"
+      ],
+      "correct": 1,
+      "explanation": "Nx的nx ai-setup为参考；该包的安装程序对符号链接执行相同的操作。"
+    },
+    {
+      "stage": "check",
+      "question": "本课程建议卸载程序如何运行？",
+      "options": [
+        "删除所有内容，包括状态",
+        "拒绝非平凡的状态；切勿删除用户agent_state.json、task_board.json或outputs/；仅删除架构、脚本、文档和 AGENTS.md（可选择退出）",
+        "仅删除文档",
+        "禁用git"
+      ],
+      "correct": 1,
+      "explanation": "状态属于用户；该包不拥有它。"
+    },
+    {
+      "stage": "post",
+      "question": "哪些内容不在包装中？",
+      "options": [
+        "模式",
+        "项目特定的任务、供应商 SDK 调用、团队入职流程 - 该包与框架无关，位于入职旁边，而不是内部",
+        "脚本",
+        "安装程序"
+      ],
+      "correct": 1,
+      "explanation": "任务属于目标仓库的面板，而不是包；供应商 SDK 调用会将包锁定到一个框架。"
+    },
+    {
+      "stage": "post",
+      "question": "包裹通过什么渠道同时运送给多个编码代理商？",
+      "options": [
+        "手抄本",
+        "SkillKit 风格的分发（skillkit install agent-workbench-pack）将其放置在来自单一来源的 32 个 AI 代理中",
+        "电子邮件附件",
+        "仅 GitHub 发行说明"
+      ],
+      "correct": 1,
+      "explanation": "Pack repo 是事实的来源； SkillKit 是分销渠道；供应商锁定崩溃。"
+    }
+  ]
+}

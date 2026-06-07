@@ -1,0 +1,90 @@
+{
+  "lesson": "20-agent-harness-loop-contract",
+  "title": "Agent Harness Loop Contract",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "为什么将线束循环建模为显式状态机而不是带有标志的 while 循环？",
+      "options": [
+        "它让线束在一处拒绝非法转换并从事件日志中重播会话",
+        "在 CPython 上速度更快",
+        "它避免了测试的需要",
+        "这是模型可以调用的唯一形状"
+      ],
+      "correct": 0,
+      "explanation": "状态机将合法性规则放入一个转换函数中。相同的输入序列会再现相同的状态，这使得会话重放成为可能。"
+    },
+    {
+      "stage": "pre",
+      "question": "循环中的拉点代表什么？",
+      "options": [
+        "循环产生控制并等待调用者提供输入的点",
+        "返回工具名称的模型调用",
+        "每 N 秒触发一次的计时器",
+        "改变有效负载的钩子订阅者"
+      ],
+      "correct": 0,
+      "explanation": "拉点是回报，不是例外。调用者获取线束请求的内容并调用resume()。"
+    },
+    {
+      "stage": "check",
+      "question": "哪个状态是工具调用的唯一合法拉点？",
+      "options": [
+        "执行",
+        "等待工具",
+        "反思",
+        "规划"
+      ],
+      "correct": 1,
+      "explanation": "只有 AWAITING_TOOL 才会产生工具拉点。当某个步骤需要工具时，EXECUTING 就会转换到此状态。"
+    },
+    {
+      "stage": "check",
+      "question": "当钩子在 before_tool_call 中引发 HookAbort 时会发生什么？",
+      "options": [
+        "会话立即转换为 DONE",
+        "工具调用被跳过，on_error 触发，循环移至 REFLECTING",
+        "钩子未注册",
+        "预算已重置"
+      ],
+      "correct": 1,
+      "explanation": "HookAbort 取消运行中的工具调度，触发带有中止原因的 on_error，然后继续。"
+    },
+    {
+      "stage": "check",
+      "question": "为什么挂钩和事件作为单独的关注点保存？",
+      "options": [
+        "因为事件类型是字节，而钩子是字符串",
+        "Hook 是必需的，并且可能会发生变异或中止。事件是观察性的且仅限追加。",
+        "因为审核脚本禁止订阅者",
+        "因为事件日志无法存储字典"
+      ],
+      "correct": 1,
+      "explanation": "钩子改变行为。事件描述行为。将它们混合在一起会产生策略和遥测，这是我们要避免的错误。"
+    },
+    {
+      "stage": "post",
+      "question": "当超出挂钟预算时，下一个状态是什么？",
+      "options": [
+        "DONE — 会话终止",
+        "EXECUTING — 循环重试",
+        "IDLE — 返回拉点并带有预算超出原因",
+        "规划——起草新计划"
+      ],
+      "correct": 2,
+      "explanation": "预算耗尽就是一种收益。线束转换为 IDLE，触发 on_budget_exceeded，并返回 PullRequest，以便调用者可以决定是延长还是关闭。"
+    },
+    {
+      "stage": "post",
+      "question": "为什么本课要取消规划器而不是调用模型？",
+      "options": [
+        "因为模型本地调用速度慢",
+        "在绑定任何模型之前保持循环契约的可测试性和确定性",
+        "因为模型无法返回工具调用",
+        "保存令牌"
+      ],
+      "correct": 1,
+      "explanation": "首先固定循环合约可以让后面的课程在真实的规划器、注册表和调度程序中交换，而无需重新协商状态机。"
+    }
+  ]
+}

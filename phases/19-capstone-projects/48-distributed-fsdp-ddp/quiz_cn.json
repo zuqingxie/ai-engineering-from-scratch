@@ -1,0 +1,78 @@
+{
+  "lesson": "48-distributed-fsdp-ddp",
+  "title": "Distributed Data Parallel and FSDP from Scratch",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "哪两个集体操作是从头开始的 DDP 包装器的核心？",
+      "options": [
+        "发送和接收",
+        "在构造时广播，因此每个等级都从相同的参数开始，并在向后之后进行 all_reduce，因此每个等级以平均梯度结束",
+        "仅减少分散",
+        "屏障与屏障"
+      ],
+      "correct": 1,
+      "explanation": "init 处的广播使排名在第 0 步保持同步。向后进行全归约使它们在接下来的每一步中保持同步。"
+    },
+    {
+      "stage": "pre",
+      "question": "为什么本课程可以在没有 CUDA 的 CPU 上运行？",
+      "options": [
+        "这是一个存根",
+        "torch.distributed 提供了一个 gloo 后端，该后端在普通套接字上运行集体，因此 CPU 上的 torch.multiprocessing 工作人员形成了一个真正的进程组；仅 GPU 盒上的设备标签发生变化",
+        "它使用模拟张量",
+        "它根本不使用 torch.distributed"
+      ],
+      "correct": 1,
+      "explanation": "Gloo 是 CPU 集体后端。相同的调用站点在 GPU 上的 nccl 上工作； API 表面是相同的。"
+    },
+    {
+      "stage": "check",
+      "question": "Manual_all_reduce_matches_single_process 测试证明了什么？",
+      "options": [
+        "什么都没有",
+        "将每个等级的梯度相加并除以 world_size 可以恢复单个进程在浮点噪声内对串联输入计算的梯度",
+        "优化器收敛",
+        "CUDA 是不必要的"
+      ],
+      "correct": 1,
+      "explanation": "全批次的交叉熵平均减少量等于每个等级平均值的平均值。和除法是正确的运算；测试使这一点显而易见。"
+    },
+    {
+      "stage": "check",
+      "question": "本课中的 FSDP 草图在每次前向传播中对每个参数执行什么操作？",
+      "options": [
+        "什么都没有",
+        "将 flat 参数填充为 world_size、slices、all_gathers 每个等级上的切片的倍数，丢弃填充，并验证重建是否与原始数据匹配",
+        "重新初始化参数",
+        "计算哈希值"
+      ],
+      "correct": 1,
+      "explanation": "每个等级拥有每个参数的 1/world_size。收集重建完整的张量以进行计算；生产 FSDP 与前一层的工作重叠。"
+    },
+    {
+      "stage": "check",
+      "question": "为什么即使参数长度不能被 world_size 整除，gloo all_gather 的大小也与 world_size 大小相等的分片相同？",
+      "options": [
+        "Gloo 的 all_gather 要求每个等级的输出张量大小相等，因此在切片之前将 flat 参数右填充到 world_size 的倍数，并在聚集后删除填充",
+        "这是一个错误",
+        "它加快了网络速度",
+        "随机选择"
+      ],
+      "correct": 0,
+      "explanation": "Gloo（和 nccl）all_gather 期望相同大小的输出。填充是最便宜的修复方法；草图将结果修剪回原始长度。"
+    },
+    {
+      "stage": "post",
+      "question": "阅读演示输出，各个等级的 param_sum_spread 接近于零，这告诉您什么？",
+      "options": [
+        "说明损失低",
+        "每个等级都以相同的参数值结束运行，这意味着构造时的广播和每次向后的全归约都起作用；如果其中任何一个被打破，价差就会逐步扩大",
+        "说明网络速度很快",
+        "没什么意义"
+      ],
+      "correct": 1,
+      "explanation": "DDP 的不变性是跨等级的参数奇偶性。传播就是审计；该演示声称其保持在 1e-3 以下。"
+    }
+  ]
+}

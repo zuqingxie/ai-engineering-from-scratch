@@ -1,0 +1,77 @@
+{
+  "nodes": [
+    {
+      "id": "file:scripts/_lib.py",
+      "type": "file",
+      "name": "_lib.py",
+      "filePath": "scripts/_lib.py",
+      "summary": "仓库维护脚本，用于审计课程结构、生成目录、检查链接或创建课程脚手架。",
+      "complexity": "moderate",
+      "tags": [
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:scripts/build_catalog.py",
+      "type": "file",
+      "name": "build_catalog.py",
+      "filePath": "scripts/build_catalog.py",
+      "summary": "仓库维护脚本，用于审计课程结构、生成目录、检查链接或创建课程脚手架。",
+      "complexity": "complex",
+      "tags": [
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:scripts/install_skills.py",
+      "type": "file",
+      "name": "install_skills.py",
+      "filePath": "scripts/install_skills.py",
+      "summary": "仓库维护脚本，用于审计课程结构、生成目录、检查链接或创建课程脚手架。",
+      "complexity": "complex",
+      "tags": [
+        "python"
+      ],
+      "language": "python"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:automation",
+      "target": "file:scripts/_lib.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:automation",
+      "target": "file:scripts/build_catalog.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/build_catalog.py",
+      "target": "file:scripts/_lib.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "module:automation",
+      "target": "file:scripts/install_skills.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:scripts/install_skills.py",
+      "target": "file:scripts/_lib.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

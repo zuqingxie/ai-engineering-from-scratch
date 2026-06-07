@@ -1,0 +1,90 @@
+{
+  "lesson": "08-memory-blocks-sleep-time-compute",
+  "title": "Memory Blocks and Sleep-Time Compute (Letta)",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "Letta 的三个内存层是什么？",
+      "options": [
+        "缓存、KV、归档",
+        "核心、召回、归档",
+        "RAM、交换区、磁盘",
+        "工作式、情景式、语义式"
+      ],
+      "correct": 1,
+      "explanation": "Letta 使用核心（始终可见）、召回（对话历史记录）和存档（外部）层。"
+    },
+    {
+      "stage": "pre",
+      "question": "睡眠时间计算的目标是哪个生产问题？",
+      "options": [
+        "在关键路径上进行内存整合导致的尾部延迟",
+        "数学问题的准确性更高",
+        "更低的嵌入成本",
+        "更快的 JSON 解析"
+      ],
+      "correct": 0,
+      "explanation": "睡眠时间会从面向用户的路径中删除/总结/协调，因此主要响应保持快速。"
+    },
+    {
+      "stage": "check",
+      "question": "哪个属性不是 Letta 中的内存块字段？",
+      "options": [
+        "标签",
+        "价值",
+        "限制",
+        "嵌入模型版本"
+      ],
+      "correct": 3,
+      "explanation": "块携带id、label、value、limit、description；嵌入模型版本不是块模式的一部分。"
+    },
+    {
+      "stage": "check",
+      "question": "为什么睡眠时间代理可以运行比主代理更强的模型？",
+      "options": [
+        "它接收一个私有 API 密钥",
+        "它不在关键路径上，因此不受延迟限制",
+        "不受费率限制",
+        "内存操作花费一半的代币"
+      ],
+      "correct": 1,
+      "explanation": "由于它不会阻止用户响应，因此睡眠时间代理可能会更慢且更昂贵。"
+    },
+    {
+      "stage": "check",
+      "question": "Human 和 Persona 块概括为什么模式？",
+      "options": [
+        "向量嵌入",
+        "任意用户定义的类型化可编辑块（任务、项目、安全......）",
+        "JSON-RPC 通道",
+        "操作系统进程"
+      ],
+      "correct": 1,
+      "explanation": "Letta 将两个 MemGPT 块概括为任何带有 id、标签、值、限制、描述的用户定义块。"
+    },
+    {
+      "stage": "post",
+      "question": "这种模式中的无声漂移是什么？",
+      "options": [
+        "主代理从未发现睡眠时间代理重写了其下方的块；通过版本控制和可见差异进行修复",
+        "磁盘写入速度慢",
+        "嵌入模型升级",
+        "速率限制抖动"
+      ],
+      "correct": 0,
+      "explanation": "版本控制块和跟踪中的表面差异使睡眠时间重写对主循环可见。"
+    },
+    {
+      "stage": "post",
+      "question": "Letta V1 中什么取代了内联 `Thought:` 标记和 send_message/heartbeat 模式？",
+      "options": [
+        "本机推理在单独的通道上发出并轮流传递",
+        "第二个致力于思想的法学硕士",
+        "更大的系统提示",
+        "手动用户输入的想法"
+      ],
+      "correct": 0,
+      "explanation": "Letta V1 (letta_v1_agent) 使用提供者级别的本机推理，而不是提示形状的想法。"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "lesson": "15-crewai-role-based-crews",
+  "title": "CrewAI: Role-Based Crews and Flows",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "CrewAI 的四个原语是什么？",
+      "options": [
+        "代理、任务、人员、流程",
+        "节点、边缘、Reducer、检查点",
+        "演员、消息、收件箱、运行时",
+        "工具、提示、模型、内存"
+      ],
+      "correct": 0,
+      "explanation": "Agent、Task、Crew 和 Process 是四个原语。"
+    },
+    {
+      "stage": "pre",
+      "question": "CrewAI 文档建议的生产起点是什么？",
+      "options": [
+        "船员",
+        "流量",
+        "顺序过程",
+        "分层流程"
+      ],
+      "correct": 1,
+      "explanation": "文档说使用 Flows 启动生产应用程序；当自主权产生成本时，将 Crews 作为子步骤纳入其中。"
+    },
+    {
+      "stage": "check",
+      "question": "Crew 和 Flow 有什么区别？",
+      "options": [
+        "船员有酬，流程免费",
+        "Crew 是自主的，由法学硕士驱动；流程是事件驱动的、代码拥有的、确定性的和可测试的",
+        "Crew 仅在 GPU 上运行",
+        "Flow没有代理"
+      ],
+      "correct": 1,
+      "explanation": "船员自主第一；流程是决定论第一的。"
+    },
+    {
+      "stage": "check",
+      "question": "以下哪一项不是 CrewAI 提供的四种内存类型之一？",
+      "options": [
+        "短期",
+        "长期",
+        "实体",
+        "量化"
+      ],
+      "correct": 3,
+      "explanation": "短期、长期、实体和情境是四个。量化内存不是 CrewAI 的概念。"
+    },
+    {
+      "stage": "check",
+      "question": "什么是背景故事膨胀以及本课程建议如何处理它？",
+      "options": [
+        "储存过多的人员；归档旧的",
+        "2000字的特工背景故事超出了背景预算；保持紧绷",
+        "工具太多；删除一些",
+        "基岩呼叫缓慢；切换区域"
+      ],
+      "correct": 1,
+      "explanation": "背景故事会影响语气和判断力，但如果篇幅过大，就会影响背景故事。"
+    },
+    {
+      "stage": "post",
+      "question": "什么时候值得选择分层流程而不是顺序流程？",
+      "options": [
+        "总是",
+        "当您有 4 名以上的专家需要经理代理在他们之间进行路由时",
+        "当你有一项任务时",
+        "当你没有任何工具时"
+      ],
+      "correct": 1,
+      "explanation": "分层增加了一个管理器Agent；仅当多个专家需要动态路由时才值得。"
+    },
+    {
+      "stage": "post",
+      "question": "为什么本课程警告不要在制作中使用自由形式的 Crew？",
+      "options": [
+        "船员不受支持",
+        "输出变化很大，如果没有 Flow 包装器，调试会很痛苦",
+        "人员成本高于流程",
+        "船员缺乏记忆"
+      ],
+      "correct": 1,
+      "explanation": "人员自治使得产品重播和审核变得痛苦；运输时用 Flow 包裹。"
+    }
+  ]
+}

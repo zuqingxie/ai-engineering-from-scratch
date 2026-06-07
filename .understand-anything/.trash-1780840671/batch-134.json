@@ -1,0 +1,556 @@
+{
+  "nodes": [
+    {
+      "id": "file:phases/19-capstone-projects/25-verification-gates-observation-budget/code/tests/test_main.py",
+      "type": "file",
+      "name": "test_main.py",
+      "filePath": "phases/19-capstone-projects/25-verification-gates-observation-budget/code/tests/test_main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "test",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/19-capstone-projects/25-verification-gates-observation-budget/docs/cn.cn.failed.md",
+      "type": "document",
+      "name": "cn.cn.failed.md",
+      "filePath": "phases/19-capstone-projects/25-verification-gates-observation-budget/docs/cn.cn.failed.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/19-capstone-projects/25-verification-gates-observation-budget/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/19-capstone-projects/25-verification-gates-observation-budget/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/19-capstone-projects/25-verification-gates-observation-budget/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/19-capstone-projects/25-verification-gates-observation-budget/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/26-sandbox-runner-denylist/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/19-capstone-projects/26-sandbox-runner-denylist/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/26-sandbox-runner-denylist/code/tests/test_main.py",
+      "type": "file",
+      "name": "test_main.py",
+      "filePath": "phases/19-capstone-projects/26-sandbox-runner-denylist/code/tests/test_main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "test",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/19-capstone-projects/26-sandbox-runner-denylist/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/19-capstone-projects/26-sandbox-runner-denylist/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/19-capstone-projects/26-sandbox-runner-denylist/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/19-capstone-projects/26-sandbox-runner-denylist/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/19-capstone-projects/26-sandbox-runner-denylist/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/19-capstone-projects/26-sandbox-runner-denylist/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/27-eval-harness-fixture-tasks/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/19-capstone-projects/27-eval-harness-fixture-tasks/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/27-eval-harness-fixture-tasks/code/tasks/task_001_fizzbuzz_offbyone/buggy/fizzbuzz.py",
+      "type": "file",
+      "name": "fizzbuzz.py",
+      "filePath": "phases/19-capstone-projects/27-eval-harness-fixture-tasks/code/tasks/task_001_fizzbuzz_offbyone/buggy/fizzbuzz.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/27-eval-harness-fixture-tasks/code/tasks/task_001_fizzbuzz_offbyone/expected/fizzbuzz.py",
+      "type": "file",
+      "name": "fizzbuzz.py",
+      "filePath": "phases/19-capstone-projects/27-eval-harness-fixture-tasks/code/tasks/task_001_fizzbuzz_offbyone/expected/fizzbuzz.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "config:phases/19-capstone-projects/27-eval-harness-fixture-tasks/code/tasks/task_001_fizzbuzz_offbyone/task.json",
+      "type": "config",
+      "name": "task.json",
+      "filePath": "phases/19-capstone-projects/27-eval-harness-fixture-tasks/code/tasks/task_001_fizzbuzz_offbyone/task.json",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "示例代码",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/27-eval-harness-fixture-tasks/code/tasks/task_002_factorial_missing_return/buggy/factorial.py",
+      "type": "file",
+      "name": "factorial.py",
+      "filePath": "phases/19-capstone-projects/27-eval-harness-fixture-tasks/code/tasks/task_002_factorial_missing_return/buggy/factorial.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/27-eval-harness-fixture-tasks/code/tasks/task_002_factorial_missing_return/expected/factorial.py",
+      "type": "file",
+      "name": "factorial.py",
+      "filePath": "phases/19-capstone-projects/27-eval-harness-fixture-tasks/code/tasks/task_002_factorial_missing_return/expected/factorial.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "config:phases/19-capstone-projects/27-eval-harness-fixture-tasks/code/tasks/task_002_factorial_missing_return/task.json",
+      "type": "config",
+      "name": "task.json",
+      "filePath": "phases/19-capstone-projects/27-eval-harness-fixture-tasks/code/tasks/task_002_factorial_missing_return/task.json",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "示例代码",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/27-eval-harness-fixture-tasks/code/tasks/task_003_error_message_typo/buggy/errors.py",
+      "type": "file",
+      "name": "errors.py",
+      "filePath": "phases/19-capstone-projects/27-eval-harness-fixture-tasks/code/tasks/task_003_error_message_typo/buggy/errors.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/27-eval-harness-fixture-tasks/code/tasks/task_003_error_message_typo/expected/errors.py",
+      "type": "file",
+      "name": "errors.py",
+      "filePath": "phases/19-capstone-projects/27-eval-harness-fixture-tasks/code/tasks/task_003_error_message_typo/expected/errors.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "config:phases/19-capstone-projects/27-eval-harness-fixture-tasks/code/tasks/task_003_error_message_typo/task.json",
+      "type": "config",
+      "name": "task.json",
+      "filePath": "phases/19-capstone-projects/27-eval-harness-fixture-tasks/code/tasks/task_003_error_message_typo/task.json",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "示例代码",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/27-eval-harness-fixture-tasks/code/tasks/task_004_empty_reverse/buggy/reverse.py",
+      "type": "file",
+      "name": "reverse.py",
+      "filePath": "phases/19-capstone-projects/27-eval-harness-fixture-tasks/code/tasks/task_004_empty_reverse/buggy/reverse.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/27-eval-harness-fixture-tasks/code/tasks/task_004_empty_reverse/expected/reverse.py",
+      "type": "file",
+      "name": "reverse.py",
+      "filePath": "phases/19-capstone-projects/27-eval-harness-fixture-tasks/code/tasks/task_004_empty_reverse/expected/reverse.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "config:phases/19-capstone-projects/27-eval-harness-fixture-tasks/code/tasks/task_004_empty_reverse/task.json",
+      "type": "config",
+      "name": "task.json",
+      "filePath": "phases/19-capstone-projects/27-eval-harness-fixture-tasks/code/tasks/task_004_empty_reverse/task.json",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "示例代码",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/27-eval-harness-fixture-tasks/code/tasks/task_005_linked_list_traversal/buggy/linked_list.py",
+      "type": "file",
+      "name": "linked_list.py",
+      "filePath": "phases/19-capstone-projects/27-eval-harness-fixture-tasks/code/tasks/task_005_linked_list_traversal/buggy/linked_list.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/27-eval-harness-fixture-tasks/code/tasks/task_005_linked_list_traversal/expected/linked_list.py",
+      "type": "file",
+      "name": "linked_list.py",
+      "filePath": "phases/19-capstone-projects/27-eval-harness-fixture-tasks/code/tasks/task_005_linked_list_traversal/expected/linked_list.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "config:phases/19-capstone-projects/27-eval-harness-fixture-tasks/code/tasks/task_005_linked_list_traversal/task.json",
+      "type": "config",
+      "name": "task.json",
+      "filePath": "phases/19-capstone-projects/27-eval-harness-fixture-tasks/code/tasks/task_005_linked_list_traversal/task.json",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "示例代码",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/25-verification-gates-observation-budget/code/tests/test_main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:phases/19-capstone-projects/25-verification-gates-observation-budget/code/tests/test_main.py",
+      "target": "file:phases/19-capstone-projects/25-verification-gates-observation-budget/code/main.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/19-capstone-projects/25-verification-gates-observation-budget/docs/cn.cn.failed.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/19-capstone-projects/25-verification-gates-observation-budget/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/19-capstone-projects/25-verification-gates-observation-budget/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/26-sandbox-runner-denylist/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/26-sandbox-runner-denylist/code/tests/test_main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:phases/19-capstone-projects/26-sandbox-runner-denylist/code/tests/test_main.py",
+      "target": "file:phases/19-capstone-projects/26-sandbox-runner-denylist/code/main.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/19-capstone-projects/26-sandbox-runner-denylist/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/19-capstone-projects/26-sandbox-runner-denylist/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/19-capstone-projects/26-sandbox-runner-denylist/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/27-eval-harness-fixture-tasks/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/27-eval-harness-fixture-tasks/code/tasks/task_001_fizzbuzz_offbyone/buggy/fizzbuzz.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/27-eval-harness-fixture-tasks/code/tasks/task_001_fizzbuzz_offbyone/expected/fizzbuzz.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/19-capstone-projects/27-eval-harness-fixture-tasks/code/tasks/task_001_fizzbuzz_offbyone/task.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/27-eval-harness-fixture-tasks/code/tasks/task_002_factorial_missing_return/buggy/factorial.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/27-eval-harness-fixture-tasks/code/tasks/task_002_factorial_missing_return/expected/factorial.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/19-capstone-projects/27-eval-harness-fixture-tasks/code/tasks/task_002_factorial_missing_return/task.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/27-eval-harness-fixture-tasks/code/tasks/task_003_error_message_typo/buggy/errors.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/27-eval-harness-fixture-tasks/code/tasks/task_003_error_message_typo/expected/errors.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/19-capstone-projects/27-eval-harness-fixture-tasks/code/tasks/task_003_error_message_typo/task.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/27-eval-harness-fixture-tasks/code/tasks/task_004_empty_reverse/buggy/reverse.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/27-eval-harness-fixture-tasks/code/tasks/task_004_empty_reverse/expected/reverse.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/19-capstone-projects/27-eval-harness-fixture-tasks/code/tasks/task_004_empty_reverse/task.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/27-eval-harness-fixture-tasks/code/tasks/task_005_linked_list_traversal/buggy/linked_list.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/27-eval-harness-fixture-tasks/code/tasks/task_005_linked_list_traversal/expected/linked_list.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/19-capstone-projects/27-eval-harness-fixture-tasks/code/tasks/task_005_linked_list_traversal/task.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

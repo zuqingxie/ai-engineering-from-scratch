@@ -1,0 +1,78 @@
+{
+  "lesson": "phase-19/25-verification-gates-observation-budget",
+  "title": "Verification Gates and the Observation Budget",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "在阅读本课程之前：以下哪一项是安全带需要确定性门链而不是模型作为判断器的最有力原因？",
+      "options": [
+        "模型太慢，无法在生产中充当法官。",
+        "确定性使得拒绝原因可审计且链条可重放。",
+        "作为法官的模型总是会做出幻觉的允许决定。",
+        "门链让模型编写自己的策略。"
+      ],
+      "correct": 1,
+      "explanation": "审计跟踪和可重复性是实际的胜利。也可以连接判断模型，但结构门需要是确定性的，以便可以重现和审查决策。"
+    },
+    {
+      "stage": "check",
+      "question": "为什么本课程在链中先于 BudgetGate 运行 WhitelistGate？",
+      "options": [
+        "白名单拒绝的成本较低，因此短路它们可以避免昂贵的账本金额。",
+        "在至少调用一个工具之前，BudgetGate 无法运行。",
+        "按照惯例，白名单必须始终是最后一道门。",
+        "顺序并不重要，因为 GateChain 随机化评估顺序。"
+      ],
+      "correct": 0,
+      "explanation": "廉价的否认首先发生。 WhitelistGate 是 O(1) 哈希查找。 BudgetGate 必须对分类账进行求和。当调用在结构上非法时，白名单上的短路可以避免这项工作。"
+    },
+    {
+      "stage": "check",
+      "question": "ObservationLedger 已记录来自 read_file 的 60 个令牌的观察。然后安全带拒绝后续呼叫。账本上记录了哪些有关拒绝的信息？",
+      "options": [
+        "标记为拒绝的零令牌观察行。",
+        "什么也没有。账本仅记录成功的观察结果。",
+        "代表拒绝成本的负标记观察行。",
+        "拒绝将作为综合观察附上拒绝者的姓名。"
+      ],
+      "correct": 1,
+      "explanation": "分类账记录了模型所看到的观察结果。拒绝会产生 GateDecision，而不是 Observation。拒绝计数与账本一起存在，而不是在账本内部。"
+    },
+    {
+      "stage": "check",
+      "question": "RecencyGate.window 设置为 3。账本的latest_turn 为 5。新的 ToolCall 在第 10 轮到达。会发生什么？",
+      "options": [
+        "门允许：呼叫在最后一个回合。",
+        "门否认：5的差距超过3的窗口。",
+        "门允许：窗口适用于账本尺寸，而不是转弯间隙。",
+        "由于账本已过时，门会引发异常。"
+      ],
+      "correct": 1,
+      "explanation": "RecencyGate 将 (call.turn - ledger.latest_turn) 与窗口进行比较。 10 - 5 = 5，大于3，所以门拒绝。"
+    },
+    {
+      "stage": "post",
+      "question": "您想要添加每次调用的输出上限（单个观察不得超过 8000 个令牌）。这个门在逻辑上属于链中的哪个位置？",
+      "options": [
+        "在 WhitelistGate 之前，因为 size 是最便宜的检查属性。",
+        "在 BudgetGate 之后，由于累积预算始终占主导地位。",
+        "它不可能是浇口，因为只有在工具运行后才能知道其尺寸。",
+        "在 BudgetGate 内部，因此限制构成。"
+      ],
+      "correct": 2,
+      "explanation": "门评估时输出大小未知。工具运行后，线束会在模型看到观察结果之前截断观察结果，从而应用上限。门评估输入，而不是输出。"
+    },
+    {
+      "stage": "post",
+      "question": "审阅者要求您证明代理在会话期间从未触发过被拒绝的工具调用。您将他们指向哪件文物？",
+      "options": [
+        "ObservationLedger 快照，仅包含成功的观察。",
+        "ChainOutcome 记录列表，其中包含每个调用决策以及拒绝原因。",
+        "pytest 输出，记录测试通过/失败。",
+        "该模特的聊天记录，其中包含其自己的自我报告。"
+      ],
+      "correct": 1,
+      "explanation": "ChainOutcome 记录包含每次调用的决策和拒绝原因。账本和笔录可以支持该主张，但可审计的工件是链决策。"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "lesson": "10-attention-mechanism",
+  "title": "Attention Mechanism — The Breakthrough",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "Bahdanau注意力解决了seq2seq中的什么问题？",
+      "options": [
+        "标记化不匹配",
+        "固定大小的上下文向量瓶颈，解码器只能看到编码器的最终状态",
+        "编码器中梯度消失",
+        "波束搜索延迟"
+      ],
+      "correct": 1,
+      "explanation": "注意力机制可以让解码器查询每个编码器状态，而不仅仅是最后一个状态。"
+    },
+    {
+      "stage": "pre",
+      "question": "解码器步骤 t 的注意力上下文向量是多少？",
+      "options": [
+        "解码器的输入嵌入",
+        "编码器隐藏状态的加权平均值，其中权重来自查询键分数",
+        "编码器的最终隐藏状态",
+        "随机投影"
+      ],
+      "correct": 1,
+      "explanation": "上下文 = alpha_i * h_i 之和，编码器状态的步相关加权平均值。"
+    },
+    {
+      "stage": "check",
+      "question": "在 Bahdanau（加性）注意力中，向量 v_a 扮演什么角色？",
+      "options": [
+        "它控制辍学",
+        "投影将注意力暗淡的隐藏组合转换为每个编码器位置的标量分数",
+        "它对位置进行编码",
+        "它使 softmax 产生偏差"
+      ],
+      "correct": 1,
+      "explanation": "v_a 与 tanh(W_a s + U_a h) 进行点积，将 d_attn 向量折叠为标量分数。"
+    },
+    {
+      "stage": "check",
+      "question": "在 Luong 的“点”注意力变体中，必须满足什么约束？",
+      "options": [
+        "解码器状态和编码器状态必须共享相同的维度（d_s == d_h）",
+        "编码器必须是双向的",
+        "Softmax 必须是对数空间",
+        "需要波束搜索"
+      ],
+      "correct": 0,
+      "explanation": "dot 使用 s^T h 且没有投影，因此尺寸必须完全匹配。"
+    },
+    {
+      "stage": "check",
+      "question": "哪个 Q/K/V 映射描述了经典（Bahdanau/Luong）注意力？",
+      "options": [
+        "Q、K、V 是源的三个独立学习投影",
+        "Q 是随机的，K 和 V 是学习的",
+        "Q 来自编码器，K 和 V 来自解码器",
+        "Q = 解码器状态； K 和 V = 编码器状态（相同张量）"
+      ],
+      "correct": 3,
+      "explanation": "在经典注意力中，键和值都是编码器状态； Transformer 通过学习的投影来分割 K 和 V。"
+    },
+    {
+      "stage": "post",
+      "question": "为什么将原始注意力权重报告为“解释”被认为是脆弱的？",
+      "options": [
+        "注意重量泄漏标签",
+        "它们太小而无法绘制",
+        "研究（例如 Jain 和 Wallace，2019）表明，可以在不改变对某些任务的预测的情况下改变注意力分布",
+        "注意力权重不可微"
+      ],
+      "correct": 2,
+      "explanation": "注意力权重与预测相关，但在没有消融/反事实检查的情况下与忠实的解释相关。"
+    },
+    {
+      "stage": "post",
+      "question": "哪一步将 Bahdanau 注意力与变压器自注意力连接起来？",
+      "options": [
+        "落射束搜索",
+        "添加更多 RNN 层",
+        "用 sigmoid 替换 softmax",
+        "使用单独学习的 Q、K 和 V 投影查询序列自身，在并行头中运行"
+      ],
+      "correct": 3,
+      "explanation": "自注意力查询相同的序列，具有分离的 K 和 V 投影，跨头并行。"
+    },
+    {
+      "stage": "post",
+      "question": "掩盖注意力的一个实际用例是什么？",
+      "options": [
+        "更换辍学",
+        "将填充标记的注意力权重设置为零，这样它们就不会影响上下文向量",
+        "编码位置",
+        "减小模型尺寸"
+      ],
+      "correct": 1,
+      "explanation": "屏蔽填充（或解码器中的未来标记）可防止 softmax 将权重分散到无效位置。"
+    }
+  ]
+}

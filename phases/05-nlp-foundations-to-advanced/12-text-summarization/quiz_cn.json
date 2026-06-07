@@ -1,0 +1,102 @@
+{
+  "lesson": "12-text-summarization",
+  "title": "Text Summarization",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "提取性总结和抽象性总结之间的主要行为区别是什么？",
+      "options": [
+        "提取使用TF-IDF；抽象使用 Word2Vec",
+        "Extractive 从源中逐字返回句子；抽象产生新的文本并且可以产生幻觉",
+        "提取仅限多语言",
+        "提取比抽象慢"
+      ],
+      "correct": 1,
+      "explanation": "提取逐字提升句子；抽象重写并有产生幻觉的风险。"
+    },
+    {
+      "stage": "pre",
+      "question": "ROUGE 测量什么？",
+      "options": [
+        "嵌入相似度",
+        "系统和参考摘要之间的 N 元语法和最长公共子序列重叠",
+        "阅读时间",
+        "代币级别的困惑"
+      ],
+      "correct": 1,
+      "explanation": "ROUGE-1/2/L 测量一元语法、二元语法和 LCS 与参考文献的重叠。"
+    },
+    {
+      "stage": "check",
+      "question": "TextRank 如何对提取摘要中的句子进行评分？",
+      "options": [
+        "按原始字数计算",
+        "通过与参考摘要进行比较",
+        "通过在图上运行 PageRank 式迭代，其中边是句子相似性权重",
+        "通过将余弦嵌入到问题中"
+      ],
+      "correct": 2,
+      "explanation": "TextRank 在句子相似度图上使用 PageRank；高度连接的句子得分最高。"
+    },
+    {
+      "stage": "check",
+      "question": "为什么在计算 ROUGE 时启用词干提取？",
+      "options": [
+        "如果没有词干，“running”和“run”会被视为不同的标记，并且 ROUGE 会低估真正的重叠",
+        "加速 ROUGE",
+        "词干标准化案例",
+        "rouge-score 包需要词干分析"
+      ],
+      "correct": 0,
+      "explanation": "词干合并了形态变体，因此 ROUGE 相信语义上等效的形式。"
+    },
+    {
+      "stage": "check",
+      "question": "哪个 2026 年指标是专门为通过 NLI 蕴含检测摘要幻觉而构建的？",
+      "options": [
+        "蓝线",
+        "胭脂-L",
+        "在来源声明和摘要声明之间使用 NLI 进行忠实性检查（例如 FactCC 或 RAGAS 忠实性）",
+        "chrF"
+      ],
+      "correct": 2,
+      "explanation": "基于 NLI 的忠实度评分会标记摘要中未包含来源的声明。"
+    },
+    {
+      "stage": "post",
+      "question": "为什么与合规性相关的内容首选提取摘要？",
+      "options": [
+        "输出从源头逐字提取，消除了抽象幻觉类",
+        "速度更快",
+        "Extractive 支持更长的输出",
+        "ROUGE分数更高"
+      ],
+      "correct": 0,
+      "explanation": "逐字提取不能发明内容，这在事实性受到监管的情况下很重要。"
+    },
+    {
+      "stage": "post",
+      "question": "其中哪一种是需要监测的抽象幻觉类型？",
+      "options": [
+        "标点漂移",
+        "停用词删除",
+        "长句子",
+        "实体交换（例如“约翰·史密斯”呈现为“约翰·布朗”）、数字漂移、极性翻转或事实发明"
+      ],
+      "correct": 3,
+      "explanation": "实体交换、数字漂移、极性翻转和虚构事实是典型的抽象故障模式。"
+    },
+    {
+      "stage": "post",
+      "question": "您什么时候会通过 BART-large-CNN 到达 Pegasus 检查站？",
+      "options": [
+        "评估 BLEU 时",
+        "当输入短路时",
+        "当您需要提取输出时",
+        "对于科学摘要等领域，Pegasus 的间隙句子预训练目标更适合"
+      ],
+      "correct": 3,
+      "explanation": "Pegasus 的间隙句子目标擅长长格式领域摘要（例如 pubmed）。"
+    }
+  ]
+}

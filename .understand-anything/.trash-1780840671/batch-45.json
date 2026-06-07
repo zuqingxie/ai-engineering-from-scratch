@@ -1,0 +1,548 @@
+{
+  "nodes": [
+    {
+      "id": "document:phases/03-deep-learning-core/12-intro-to-jax/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/03-deep-learning-core/12-intro-to-jax/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/03-deep-learning-core/12-intro-to-jax/outputs/prompt-jax-optimizer.md",
+      "type": "document",
+      "name": "prompt-jax-optimizer.md",
+      "filePath": "phases/03-deep-learning-core/12-intro-to-jax/outputs/prompt-jax-optimizer.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/03-deep-learning-core/12-intro-to-jax/outputs/skill-jax-patterns.md",
+      "type": "document",
+      "name": "skill-jax-patterns.md",
+      "filePath": "phases/03-deep-learning-core/12-intro-to-jax/outputs/skill-jax-patterns.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/03-deep-learning-core/12-intro-to-jax/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/03-deep-learning-core/12-intro-to-jax/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/03-deep-learning-core/13-debugging-neural-networks/code/debug_neural_nets.py",
+      "type": "file",
+      "name": "debug_neural_nets.py",
+      "filePath": "phases/03-deep-learning-core/13-debugging-neural-networks/code/debug_neural_nets.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/03-deep-learning-core/13-debugging-neural-networks/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/03-deep-learning-core/13-debugging-neural-networks/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/03-deep-learning-core/13-debugging-neural-networks/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/03-deep-learning-core/13-debugging-neural-networks/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/03-deep-learning-core/13-debugging-neural-networks/outputs/prompt-nn-debugger.md",
+      "type": "document",
+      "name": "prompt-nn-debugger.md",
+      "filePath": "phases/03-deep-learning-core/13-debugging-neural-networks/outputs/prompt-nn-debugger.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/03-deep-learning-core/13-debugging-neural-networks/outputs/skill-debug-checklist.md",
+      "type": "document",
+      "name": "skill-debug-checklist.md",
+      "filePath": "phases/03-deep-learning-core/13-debugging-neural-networks/outputs/skill-debug-checklist.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/03-deep-learning-core/13-debugging-neural-networks/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/03-deep-learning-core/13-debugging-neural-networks/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "document:phases/03-deep-learning-core/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "phases/03-deep-learning-core/README.md",
+      "summary": "项目文档文件，补充课程、贡献流程或仓库治理信息。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/04-computer-vision/01-image-fundamentals/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/04-computer-vision/01-image-fundamentals/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/04-computer-vision/01-image-fundamentals/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/04-computer-vision/01-image-fundamentals/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/04-computer-vision/01-image-fundamentals/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/04-computer-vision/01-image-fundamentals/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/04-computer-vision/01-image-fundamentals/outputs/prompt-vision-preprocessing-audit.md",
+      "type": "document",
+      "name": "prompt-vision-preprocessing-audit.md",
+      "filePath": "phases/04-computer-vision/01-image-fundamentals/outputs/prompt-vision-preprocessing-audit.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/04-computer-vision/01-image-fundamentals/outputs/skill-image-tensor-inspector.md",
+      "type": "document",
+      "name": "skill-image-tensor-inspector.md",
+      "filePath": "phases/04-computer-vision/01-image-fundamentals/outputs/skill-image-tensor-inspector.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "test",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/04-computer-vision/01-image-fundamentals/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/04-computer-vision/01-image-fundamentals/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/04-computer-vision/02-convolutions-from-scratch/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/04-computer-vision/02-convolutions-from-scratch/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/04-computer-vision/02-convolutions-from-scratch/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/04-computer-vision/02-convolutions-from-scratch/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/04-computer-vision/02-convolutions-from-scratch/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/04-computer-vision/02-convolutions-from-scratch/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/04-computer-vision/02-convolutions-from-scratch/outputs/prompt-cnn-architect.md",
+      "type": "document",
+      "name": "prompt-cnn-architect.md",
+      "filePath": "phases/04-computer-vision/02-convolutions-from-scratch/outputs/prompt-cnn-architect.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/04-computer-vision/02-convolutions-from-scratch/outputs/skill-conv-shape-calculator.md",
+      "type": "document",
+      "name": "skill-conv-shape-calculator.md",
+      "filePath": "phases/04-computer-vision/02-convolutions-from-scratch/outputs/skill-conv-shape-calculator.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/04-computer-vision/02-convolutions-from-scratch/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/04-computer-vision/02-convolutions-from-scratch/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/04-computer-vision/03-cnns-lenet-to-resnet/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/04-computer-vision/03-cnns-lenet-to-resnet/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/04-computer-vision/03-cnns-lenet-to-resnet/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/04-computer-vision/03-cnns-lenet-to-resnet/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/03-deep-learning-core/12-intro-to-jax/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/03-deep-learning-core/12-intro-to-jax/outputs/prompt-jax-optimizer.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/03-deep-learning-core/12-intro-to-jax/outputs/skill-jax-patterns.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/03-deep-learning-core/12-intro-to-jax/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/03-deep-learning-core/13-debugging-neural-networks/code/debug_neural_nets.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/03-deep-learning-core/13-debugging-neural-networks/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/03-deep-learning-core/13-debugging-neural-networks/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/03-deep-learning-core/13-debugging-neural-networks/outputs/prompt-nn-debugger.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/03-deep-learning-core/13-debugging-neural-networks/outputs/skill-debug-checklist.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/03-deep-learning-core/13-debugging-neural-networks/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/03-deep-learning-core/README.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/04-computer-vision/01-image-fundamentals/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/01-image-fundamentals/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/01-image-fundamentals/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/01-image-fundamentals/outputs/prompt-vision-preprocessing-audit.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/01-image-fundamentals/outputs/skill-image-tensor-inspector.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/04-computer-vision/01-image-fundamentals/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/04-computer-vision/02-convolutions-from-scratch/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/02-convolutions-from-scratch/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/02-convolutions-from-scratch/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/02-convolutions-from-scratch/outputs/prompt-cnn-architect.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/02-convolutions-from-scratch/outputs/skill-conv-shape-calculator.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/04-computer-vision/02-convolutions-from-scratch/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/04-computer-vision/03-cnns-lenet-to-resnet/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/03-cnns-lenet-to-resnet/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "lesson": "36-training-loop-eval",
+  "title": "Training Loop and Evaluation",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "为什么目标张量必须是输入张量移动一位？",
+      "options": [
+        "交叉熵需要相同的张量",
+        "下一个标记预测是训练目标：在每个位置，模型都会预测下一个标记；忘记转变会训练模型进行自我预测，但模型不会学到任何有用的东西",
+        "它加快了优化器的速度",
+        "这是 AdamW 所要求的"
+      ],
+      "correct": 1,
+      "explanation": "输入是令牌0..T-1；目标是代币 1..T；损失是在展平的 (batch*seq, vocab) 和 (batch*seq,) 形状上计算的。"
+    },
+    {
+      "stage": "pre",
+      "question": "evaluate_model 做了哪些训练步骤没有做的事情？",
+      "options": [
+        "它运行优化器",
+        "它在 no_grad 下运行固定数量的验证批次并禁用 dropout，返回可重现的平均损失",
+        "它改变了模型权重",
+        "它计算梯度两次"
+      ],
+      "correct": 1,
+      "explanation": "保留评估不需要梯度，不需要丢失，并且需要固定的验证数据片段才能在运行中重现。"
+    },
+    {
+      "stage": "check",
+      "question": "哪些 AdamW 参数会出现权重衰减？",
+      "options": [
+        "各参数均等",
+        "矩阵形张量（线性权重、嵌入表）接收权重衰减；尺度、平移和偏置张量接收零衰减",
+        "仅LM头",
+        "仅 LayerNorm 缩放"
+      ],
+      "correct": 1,
+      "explanation": "对 LayerNorm 尺度进行衰减会将尺度降至零并破坏标准化；分割是一种标准的生产模式。"
+    },
+    {
+      "stage": "check",
+      "question": "从步骤 0 到最后一步，热身加余弦时间表会呈现什么形状？",
+      "options": [
+        "常数",
+        "在 Warmup_steps 上从零到最大值的线性斜坡，然后在剩余步骤上从 max 到 min_lr 的余弦衰减",
+        "指数增长",
+        "步进功能"
+      ],
+      "correct": 1,
+      "explanation": "预热填充优化器状态；余弦衰减会逐渐减小步长，因此最终阶段会微调权重。"
+    },
+    {
+      "stage": "check",
+      "question": "为什么要在optimizer.step()之前裁剪梯度范数？",
+      "options": [
+        "它加速了 matmul",
+        "糟糕的批次可能会产生巨大的梯度，从而浪费数小时的训练时间；裁剪到 max_norm=1.0 使优化器保持在安全范围内，而不会扭曲正常更新",
+        "它减少了内存使用",
+        "它消除了预热要求"
+      ],
+      "correct": 1,
+      "explanation": "梯度裁剪是防止发散的最便宜的保险；一种是在大多数设置中都可以使用的默认设置。"
+    },
+    {
+      "stage": "post",
+      "question": "为什么将每个步骤记录记录为 JSONL 而不是 pickled 状态？",
+      "options": [
+        "优化器需要 JSONL",
+        "JSONL 记录在重构中具有持久性，可 grepable，可在 30 行内绘制，并且可以在崩溃后幸存下来； pickled 状态将您与生成它的模块布局联系起来",
+        "JSONL 训练速度更快",
+        "JSONL 使用更少的 GPU 内存"
+      ],
+      "correct": 1,
+      "explanation": "任何崩溃都会留下可读的痕迹；恢复读取最后一步；顶部的工具是微不足道的。"
+    }
+  ]
+}

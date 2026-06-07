@@ -1,0 +1,90 @@
+{
+  "lesson": "13-langgraph-stateful-graphs",
+  "title": "LangGraph: Stateful Graphs and Durable Execution",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "LangGraph将什么视为agent的核心单元？",
+      "options": [
+        "自由形式的 LLM 电话",
+        "具有类型化状态、函数节点和条件边的状态机",
+        "单一工具注册表",
+        "向量索引"
+      ],
+      "correct": 1,
+      "explanation": "LangGraph 将代理建模为状态图：节点是纯函数，边是转换，状态是类型化且不可变的。"
+    },
+    {
+      "stage": "pre",
+      "question": "持久执行解决了什么问题？",
+      "options": [
+        "降低推理成本",
+        "当失败时从步骤 38 恢复 40 步运行，并具有准确的状态，而不是重新开始",
+        "更快地生成嵌入",
+        "提供商之间的翻译"
+      ],
+      "correct": 1,
+      "explanation": "每个节点后面的检查点让运行时从上一个成功的步骤恢复。"
+    },
+    {
+      "stage": "check",
+      "question": "LangGraph 支持的三种拓扑结构中，哪一个不是其中之一？",
+      "options": [
+        "主管",
+        "群（点对点）",
+        "分层（嵌套子图）",
+        "渐变环"
+      ],
+      "correct": 3,
+      "explanation": "拓扑有监督式、集群式和分层式。梯度环不是 LangGraph 拓扑。"
+    },
+    {
+      "stage": "check",
+      "question": "为什么节点必须具有确定性才能干净地恢复工作？",
+      "options": [
+        "提供商需要确定性",
+        "恢复假设相同的输入产生相同的状态更新；必须捕获随机种子、挂钟和外部 API",
+        "确定性降低了代币成本",
+        "GIL 要求"
+      ],
+      "correct": 1,
+      "explanation": "如果节点依赖于未捕获的不确定性，则恢复无法重建后步状态。"
+    },
+    {
+      "stage": "check",
+      "question": "什么是条件边？",
+      "options": [
+        "通过训练损失加权的边缘",
+        "由状态函数选择的边，用于对图进行分支",
+        "仅在 GPU 上运行的边缘",
+        "具有 TTL 的边缘"
+      ],
+      "correct": 1,
+      "explanation": "基于状态的条件边分支；过度使用它们会使图表难以推理。"
+    },
+    {
+      "stage": "post",
+      "question": "当检查点太小时会出现什么问题？",
+      "options": [
+        "工具状态和内存写入不可恢复；完整状态必须序列化",
+        "磁盘已满",
+        "图表无法到达END",
+        "该模型产生更短的答案"
+      ],
+      "correct": 0,
+      "explanation": "只有检查点对话轮次才会使工具状态和内存写入超出简历的范围。"
+    },
+    {
+      "stage": "post",
+      "question": "人机交互在 LangGraph 的设计中处于什么位置？",
+      "options": [
+        "它需要运行时的分叉",
+        "在关键节点之前暂停，向人类展示序列化状态，接受修改，恢复；检查点使这变得便宜",
+        "仅在开始和结束时",
+        "通过单独的提供商 API"
+      ],
+      "correct": 1,
+      "explanation": "由于状态已经在节点之间序列化，因此人工审查和编辑是一种自然的暂停和恢复模式。"
+    }
+  ]
+}

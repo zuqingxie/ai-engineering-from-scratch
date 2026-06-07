@@ -1,0 +1,90 @@
+{
+  "lesson": "01-managed-llm-platforms",
+  "title": "Managed LLM Platforms — Bedrock, Vertex AI, Azure OpenAI",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "在本课之前，如果客户需要 Claude、Llama 和 Cohere 在一个 API 后面，您会首先使用哪个平台？",
+      "options": [
+        "顶点人工智能",
+        "AWS 基岩",
+        "Azure OpenAI 服务",
+        "直接人择 API"
+      ],
+      "correct": 1,
+      "explanation": ""
+    },
+    {
+      "stage": "pre",
+      "question": "哪家超大规模企业的赌注被描述为独家合作伙伴关系而不是市场？",
+      "options": [
+        "Azure 开放人工智能",
+        "顶点人工智能",
+        "AWS 基岩",
+        "OCI 生成式人工智能"
+      ],
+      "correct": 0,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "Azure OpenAI（带 PTU）和 Llama 3.1 405B 等效项上的 Bedrock 点播之间测得的 TTFT 中值差距大致是多少？",
+      "options": [
+        "~100 毫秒",
+        "〜5毫秒",
+        "约 250 毫秒",
+        "约 25 毫秒"
+      ],
+      "correct": 3,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "哪个 Bedrock 2025 功能在 CloudWatch 中提供了最清晰的每个产品成本归属？",
+      "options": [
+        "基岩知识库",
+        "应用程序推理配置文件",
+        "基岩护栏",
+        "基岩特工"
+      ],
+      "correct": 1,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "Azure PTU 通常在什么持续利用率范围内与按需实现收支平衡？",
+      "options": [
+        "5-10%",
+        "80-95%",
+        "20-30%",
+        "40-60%"
+      ],
+      "correct": 3,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "为什么本课程建议的 2026 年政策对于产品关键型 LLM 呼叫至少有两个提供商？",
+      "options": [
+        "SOC 2 Type II 要求",
+        "前沿模型领导层每月轮换一次，因此单一供应商锁定会将您排除在三分之二的前沿之外",
+        "超大规模企业拒绝签署 BAA，除非您也使用竞争对手",
+        "单一供应商定价总是更贵"
+      ],
+      "correct": 1,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "哪种说法最能描述这三个平台的 FinOps 表面？",
+      "options": [
+        "天蓝色是最干净的原生，基岩是不透明的",
+        "顶点根本没有归因面",
+        "所有三个都公开相同的每个请求归因",
+        "Bedrock 是最干净的原生，Vertex 通过 BigQuery 最为灵活，Azure 在没有仪器的情况下是最不透明的"
+      ],
+      "correct": 3,
+      "explanation": ""
+    }
+  ]
+}

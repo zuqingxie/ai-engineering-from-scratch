@@ -1,0 +1,357 @@
+{
+  "nodes": [
+    {
+      "id": "document:phases/19-capstone-projects/87-end-to-end-safety-gate/outputs/skill-end-to-end-safety-gate.md",
+      "type": "document",
+      "name": "skill-end-to-end-safety-gate.md",
+      "filePath": "phases/19-capstone-projects/87-end-to-end-safety-gate/outputs/skill-end-to-end-safety-gate.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/19-capstone-projects/87-end-to-end-safety-gate/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/19-capstone-projects/87-end-to-end-safety-gate/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "document:phases/19-capstone-projects/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "phases/19-capstone-projects/README.md",
+      "summary": "项目文档文件，补充课程、贡献流程或仓库治理信息。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:projects/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "projects/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "file:scripts/audit_lessons.py",
+      "type": "file",
+      "name": "audit_lessons.py",
+      "filePath": "scripts/audit_lessons.py",
+      "summary": "仓库维护脚本，用于审计课程结构、生成目录、检查链接或创建课程脚手架。",
+      "complexity": "complex",
+      "tags": [
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:scripts/check_readme_counts.py",
+      "type": "file",
+      "name": "check_readme_counts.py",
+      "filePath": "scripts/check_readme_counts.py",
+      "summary": "仓库维护脚本，用于审计课程结构、生成目录、检查链接或创建课程脚手架。",
+      "complexity": "complex",
+      "tags": [
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:scripts/lesson_run.py",
+      "type": "file",
+      "name": "lesson_run.py",
+      "filePath": "scripts/lesson_run.py",
+      "summary": "仓库维护脚本，用于审计课程结构、生成目录、检查链接或创建课程脚手架。",
+      "complexity": "complex",
+      "tags": [
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:scripts/link_check.py",
+      "type": "file",
+      "name": "link_check.py",
+      "filePath": "scripts/link_check.py",
+      "summary": "仓库维护脚本，用于审计课程结构、生成目录、检查链接或创建课程脚手架。",
+      "complexity": "complex",
+      "tags": [
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:scripts/scaffold_workbench.py",
+      "type": "file",
+      "name": "scaffold_workbench.py",
+      "filePath": "scripts/scaffold_workbench.py",
+      "summary": "仓库维护脚本，用于审计课程结构、生成目录、检查链接或创建课程脚手架。",
+      "complexity": "complex",
+      "tags": [
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:scripts/scaffold-lesson.sh",
+      "type": "file",
+      "name": "scaffold-lesson.sh",
+      "filePath": "scripts/scaffold-lesson.sh",
+      "summary": "仓库维护脚本，用于审计课程结构、生成目录、检查链接或创建课程脚手架。",
+      "complexity": "moderate",
+      "tags": [
+        "automation",
+        "shell"
+      ],
+      "language": "shell"
+    },
+    {
+      "id": "file:site/app.js",
+      "type": "file",
+      "name": "app.js",
+      "filePath": "site/app.js",
+      "summary": "静态课程网站的一部分，用于渲染目录、课程页、搜索或站点交互。",
+      "complexity": "complex",
+      "tags": [
+        "javascript"
+      ],
+      "language": "javascript"
+    },
+    {
+      "id": "document:site/assets/figures/INDEX.md",
+      "type": "document",
+      "name": "INDEX.md",
+      "filePath": "site/assets/figures/INDEX.md",
+      "summary": "静态课程网站的一部分，用于渲染目录、课程页、搜索或站点交互。",
+      "complexity": "simple",
+      "tags": [
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:site/build.js",
+      "type": "file",
+      "name": "build.js",
+      "filePath": "site/build.js",
+      "summary": "静态课程网站的一部分，用于渲染目录、课程页、搜索或站点交互。",
+      "complexity": "complex",
+      "tags": [
+        "javascript"
+      ],
+      "language": "javascript"
+    },
+    {
+      "id": "file:site/cmdpalette.js",
+      "type": "file",
+      "name": "cmdpalette.js",
+      "filePath": "site/cmdpalette.js",
+      "summary": "静态课程网站的一部分，用于渲染目录、课程页、搜索或站点交互。",
+      "complexity": "complex",
+      "tags": [
+        "javascript"
+      ],
+      "language": "javascript"
+    },
+    {
+      "id": "file:site/data.js",
+      "type": "file",
+      "name": "data.js",
+      "filePath": "site/data.js",
+      "summary": "静态课程网站的一部分，用于渲染目录、课程页、搜索或站点交互。",
+      "complexity": "complex",
+      "tags": [
+        "javascript"
+      ],
+      "language": "javascript"
+    },
+    {
+      "id": "file:site/header.js",
+      "type": "file",
+      "name": "header.js",
+      "filePath": "site/header.js",
+      "summary": "静态课程网站的一部分，用于渲染目录、课程页、搜索或站点交互。",
+      "complexity": "moderate",
+      "tags": [
+        "javascript"
+      ],
+      "language": "javascript"
+    },
+    {
+      "id": "file:site/progress.js",
+      "type": "file",
+      "name": "progress.js",
+      "filePath": "site/progress.js",
+      "summary": "静态课程网站的一部分，用于渲染目录、课程页、搜索或站点交互。",
+      "complexity": "moderate",
+      "tags": [
+        "javascript"
+      ],
+      "language": "javascript"
+    },
+    {
+      "id": "file:web/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "web/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "unknown"
+      ],
+      "language": "unknown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/19-capstone-projects/87-end-to-end-safety-gate/outputs/skill-end-to-end-safety-gate.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/19-capstone-projects/87-end-to-end-safety-gate/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/19-capstone-projects/README.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:configuration",
+      "target": "file:projects/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:automation",
+      "target": "file:scripts/audit_lessons.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:automation",
+      "target": "file:scripts/check_readme_counts.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:automation",
+      "target": "file:scripts/lesson_run.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:automation",
+      "target": "file:scripts/link_check.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:automation",
+      "target": "file:scripts/scaffold_workbench.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:automation",
+      "target": "file:scripts/scaffold-lesson.sh",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:site",
+      "target": "file:site/app.js",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:site",
+      "target": "document:site/assets/figures/INDEX.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:site",
+      "target": "file:site/build.js",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:site",
+      "target": "file:site/cmdpalette.js",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:site",
+      "target": "file:site/data.js",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:site",
+      "target": "file:site/header.js",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:site",
+      "target": "file:site/progress.js",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:configuration",
+      "target": "file:web/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

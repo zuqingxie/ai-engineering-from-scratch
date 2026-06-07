@@ -1,0 +1,90 @@
+{
+  "lesson": "11-planning-htn-and-evolutionary",
+  "title": "Planning with HTN and Evolutionary Search",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "HTN 与自由形式的 LLM 计划相比增加了什么？",
+      "options": [
+        "执行运算符前提条件和效果时可证明正确性",
+        "更便宜的推理",
+        "较短的提示",
+        "更好的嵌入"
+      ],
+      "correct": 0,
+      "explanation": "HTN 的符号算子具有前提条件和效果，通过构造保证了健全性。"
+    },
+    {
+      "stage": "pre",
+      "question": "AlphaEvolve 是为哪个问题类别构建的？",
+      "options": [
+        "自由散文的生成",
+        "使用机器可检查的确定性适应度函数进行优化",
+        "多回合聊天记忆",
+        "矢量搜索排名"
+      ],
+      "correct": 1,
+      "explanation": "进化搜索需要一个确定性的评估器； AlphaEvolve 的目标领域是存在的领域。"
+    },
+    {
+      "stage": "check",
+      "question": "ChatHTN 如何在使用法学硕士的同时保持计划的健全性？",
+      "options": [
+        "事实并非如此；健全是尽力而为",
+        "LLM 建议仅作为候选分解输入，并根据操作员模式进行验证；符号层拥有正确性",
+        "它对 HTN 轨迹上的 LLM 进行微调",
+        "它使用矢量数据库"
+      ],
+      "correct": 1,
+      "explanation": "LLM扩展了方法库，但无法绕过算子前提条件和效果。"
+    },
+    {
+      "stage": "check",
+      "question": "本课程引用了哪个 AlphaEvolve 结果？",
+      "options": [
+        "56 年来首次对 Strassen 进行 4x4 复数矩阵乘法改进",
+        "Gemini 上的推理速度提高了 10 倍",
+        "在 HumanEval 上击败 GPT-4",
+        "P=NP的第一个证明"
+      ],
+      "correct": 0,
+      "explanation": "AlphaEvolve 发现了 4x4 复杂 matmul 的 48 个标量乘法，这是 56 年来对 Strassen 的首次改进。"
+    },
+    {
+      "stage": "check",
+      "question": "HTN 的哪个元素是具有先决条件和效果的原始可直接执行操作？",
+      "options": [
+        "任务",
+        "方法",
+        "操作员",
+        "状态"
+      ],
+      "correct": 2,
+      "explanation": "运算符是原语；方法分解复合任务；状态是一组事实。"
+    },
+    {
+      "stage": "post",
+      "question": "在没有真正评估者的情况下，本课关于 AlphaEvolve 的警告是什么？",
+      "options": [
+        "很慢",
+        "询问 LLM 代码是否更好并不是一个适应度函数；评估器必须具有确定性且快速",
+        "它违反了 Apache 2.0",
+        "它无法在 GPU 上运行"
+      ],
+      "correct": 1,
+      "explanation": "如果没有确定性评估器，搜索就没有信号可以收敛。"
+    },
+    {
+      "stage": "post",
+      "question": "什么时候应该使用 ReAct 或 ReWOO 而不是 HTN 或 AlphaEvolve？",
+      "options": [
+        "从来没有； HTN 绝对更好",
+        "当您不需要正式的健康状况或机器可检查的健康状况时；大多数代理任务都落在此处",
+        "当您有可用的 GPU 集群时",
+        "当延迟低于 100 毫秒时"
+      ],
+      "correct": 1,
+      "explanation": "该课程明确警告不要过度设计：大多数任务不需要正式的规划或进化搜索。"
+    }
+  ]
+}

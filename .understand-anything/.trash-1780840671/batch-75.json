@@ -1,0 +1,542 @@
+{
+  "nodes": [
+    {
+      "id": "document:phases/10-llms-from-scratch/12-inference-optimization/outputs/skill-inference-optimization.md",
+      "type": "document",
+      "name": "skill-inference-optimization.md",
+      "filePath": "phases/10-llms-from-scratch/12-inference-optimization/outputs/skill-inference-optimization.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/10-llms-from-scratch/12-inference-optimization/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/10-llms-from-scratch/12-inference-optimization/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/10-llms-from-scratch/13-building-complete-llm-pipeline/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/10-llms-from-scratch/13-building-complete-llm-pipeline/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/10-llms-from-scratch/13-building-complete-llm-pipeline/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/10-llms-from-scratch/13-building-complete-llm-pipeline/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/10-llms-from-scratch/13-building-complete-llm-pipeline/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/10-llms-from-scratch/13-building-complete-llm-pipeline/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/10-llms-from-scratch/13-building-complete-llm-pipeline/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/10-llms-from-scratch/13-building-complete-llm-pipeline/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/10-llms-from-scratch/13-building-complete-llm-pipeline/outputs/skill-llm-pipeline-reviewer.md",
+      "type": "document",
+      "name": "skill-llm-pipeline-reviewer.md",
+      "filePath": "phases/10-llms-from-scratch/13-building-complete-llm-pipeline/outputs/skill-llm-pipeline-reviewer.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/10-llms-from-scratch/14-open-models-architecture-walkthroughs/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/10-llms-from-scratch/14-open-models-architecture-walkthroughs/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/10-llms-from-scratch/14-open-models-architecture-walkthroughs/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/10-llms-from-scratch/14-open-models-architecture-walkthroughs/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/10-llms-from-scratch/14-open-models-architecture-walkthroughs/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/10-llms-from-scratch/14-open-models-architecture-walkthroughs/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/10-llms-from-scratch/14-open-models-architecture-walkthroughs/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/10-llms-from-scratch/14-open-models-architecture-walkthroughs/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/10-llms-from-scratch/14-open-models-architecture-walkthroughs/outputs/skill-open-model-picker.md",
+      "type": "document",
+      "name": "skill-open-model-picker.md",
+      "filePath": "phases/10-llms-from-scratch/14-open-models-architecture-walkthroughs/outputs/skill-open-model-picker.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/10-llms-from-scratch/15-speculative-decoding-eagle3/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/10-llms-from-scratch/15-speculative-decoding-eagle3/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/10-llms-from-scratch/15-speculative-decoding-eagle3/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/10-llms-from-scratch/15-speculative-decoding-eagle3/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/10-llms-from-scratch/15-speculative-decoding-eagle3/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/10-llms-from-scratch/15-speculative-decoding-eagle3/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/10-llms-from-scratch/15-speculative-decoding-eagle3/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/10-llms-from-scratch/15-speculative-decoding-eagle3/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/10-llms-from-scratch/15-speculative-decoding-eagle3/outputs/skill-eagle3-tuner.md",
+      "type": "document",
+      "name": "skill-eagle3-tuner.md",
+      "filePath": "phases/10-llms-from-scratch/15-speculative-decoding-eagle3/outputs/skill-eagle3-tuner.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/10-llms-from-scratch/16-differential-attention-v2/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/10-llms-from-scratch/16-differential-attention-v2/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/10-llms-from-scratch/16-differential-attention-v2/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/10-llms-from-scratch/16-differential-attention-v2/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/10-llms-from-scratch/16-differential-attention-v2/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/10-llms-from-scratch/16-differential-attention-v2/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/10-llms-from-scratch/16-differential-attention-v2/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/10-llms-from-scratch/16-differential-attention-v2/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/10-llms-from-scratch/16-differential-attention-v2/outputs/skill-diff-attention-integrator.md",
+      "type": "document",
+      "name": "skill-diff-attention-integrator.md",
+      "filePath": "phases/10-llms-from-scratch/16-differential-attention-v2/outputs/skill-diff-attention-integrator.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/10-llms-from-scratch/17-native-sparse-attention/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/10-llms-from-scratch/17-native-sparse-attention/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/10-llms-from-scratch/17-native-sparse-attention/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/10-llms-from-scratch/17-native-sparse-attention/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/10-llms-from-scratch/17-native-sparse-attention/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/10-llms-from-scratch/17-native-sparse-attention/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/10-llms-from-scratch/12-inference-optimization/outputs/skill-inference-optimization.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/10-llms-from-scratch/12-inference-optimization/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/10-llms-from-scratch/13-building-complete-llm-pipeline/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/10-llms-from-scratch/13-building-complete-llm-pipeline/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/10-llms-from-scratch/13-building-complete-llm-pipeline/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/10-llms-from-scratch/13-building-complete-llm-pipeline/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/10-llms-from-scratch/13-building-complete-llm-pipeline/outputs/skill-llm-pipeline-reviewer.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/10-llms-from-scratch/14-open-models-architecture-walkthroughs/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/10-llms-from-scratch/14-open-models-architecture-walkthroughs/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/10-llms-from-scratch/14-open-models-architecture-walkthroughs/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/10-llms-from-scratch/14-open-models-architecture-walkthroughs/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/10-llms-from-scratch/14-open-models-architecture-walkthroughs/outputs/skill-open-model-picker.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/10-llms-from-scratch/15-speculative-decoding-eagle3/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/10-llms-from-scratch/15-speculative-decoding-eagle3/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/10-llms-from-scratch/15-speculative-decoding-eagle3/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/10-llms-from-scratch/15-speculative-decoding-eagle3/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/10-llms-from-scratch/15-speculative-decoding-eagle3/outputs/skill-eagle3-tuner.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/10-llms-from-scratch/16-differential-attention-v2/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/10-llms-from-scratch/16-differential-attention-v2/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/10-llms-from-scratch/16-differential-attention-v2/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/10-llms-from-scratch/16-differential-attention-v2/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/10-llms-from-scratch/16-differential-attention-v2/outputs/skill-diff-attention-integrator.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/10-llms-from-scratch/17-native-sparse-attention/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/10-llms-from-scratch/17-native-sparse-attention/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/10-llms-from-scratch/17-native-sparse-attention/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

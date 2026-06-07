@@ -1,0 +1,547 @@
+{
+  "nodes": [
+    {
+      "id": "document:phases/02-ml-fundamentals/07-unsupervised-learning/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/02-ml-fundamentals/07-unsupervised-learning/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/02-ml-fundamentals/07-unsupervised-learning/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/02-ml-fundamentals/07-unsupervised-learning/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/02-ml-fundamentals/07-unsupervised-learning/outputs/skill-clustering-guide.md",
+      "type": "document",
+      "name": "skill-clustering-guide.md",
+      "filePath": "phases/02-ml-fundamentals/07-unsupervised-learning/outputs/skill-clustering-guide.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/02-ml-fundamentals/07-unsupervised-learning/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/02-ml-fundamentals/07-unsupervised-learning/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/02-ml-fundamentals/08-feature-engineering/code/features.py",
+      "type": "file",
+      "name": "features.py",
+      "filePath": "phases/02-ml-fundamentals/08-feature-engineering/code/features.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/02-ml-fundamentals/08-feature-engineering/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/02-ml-fundamentals/08-feature-engineering/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/02-ml-fundamentals/08-feature-engineering/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/02-ml-fundamentals/08-feature-engineering/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/02-ml-fundamentals/08-feature-engineering/outputs/prompt-feature-engineer.md",
+      "type": "document",
+      "name": "prompt-feature-engineer.md",
+      "filePath": "phases/02-ml-fundamentals/08-feature-engineering/outputs/prompt-feature-engineer.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/02-ml-fundamentals/08-feature-engineering/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/02-ml-fundamentals/08-feature-engineering/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/02-ml-fundamentals/09-model-evaluation/code/evaluation.py",
+      "type": "file",
+      "name": "evaluation.py",
+      "filePath": "phases/02-ml-fundamentals/09-model-evaluation/code/evaluation.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:phases/02-ml-fundamentals/09-model-evaluation/code/main.jl",
+      "type": "file",
+      "name": "main.jl",
+      "filePath": "phases/02-ml-fundamentals/09-model-evaluation/code/main.jl",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "jl"
+      ],
+      "language": "jl"
+    },
+    {
+      "id": "document:phases/02-ml-fundamentals/09-model-evaluation/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/02-ml-fundamentals/09-model-evaluation/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/02-ml-fundamentals/09-model-evaluation/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/02-ml-fundamentals/09-model-evaluation/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/02-ml-fundamentals/09-model-evaluation/outputs/skill-evaluation.md",
+      "type": "document",
+      "name": "skill-evaluation.md",
+      "filePath": "phases/02-ml-fundamentals/09-model-evaluation/outputs/skill-evaluation.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/02-ml-fundamentals/09-model-evaluation/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/02-ml-fundamentals/09-model-evaluation/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/02-ml-fundamentals/10-bias-variance/code/bias_variance.py",
+      "type": "file",
+      "name": "bias_variance.py",
+      "filePath": "phases/02-ml-fundamentals/10-bias-variance/code/bias_variance.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/02-ml-fundamentals/10-bias-variance/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/02-ml-fundamentals/10-bias-variance/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/02-ml-fundamentals/10-bias-variance/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/02-ml-fundamentals/10-bias-variance/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/02-ml-fundamentals/10-bias-variance/outputs/prompt-model-diagnostics.md",
+      "type": "document",
+      "name": "prompt-model-diagnostics.md",
+      "filePath": "phases/02-ml-fundamentals/10-bias-variance/outputs/prompt-model-diagnostics.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/02-ml-fundamentals/10-bias-variance/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/02-ml-fundamentals/10-bias-variance/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/02-ml-fundamentals/11-ensemble-methods/code/ensembles.py",
+      "type": "file",
+      "name": "ensembles.py",
+      "filePath": "phases/02-ml-fundamentals/11-ensemble-methods/code/ensembles.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/02-ml-fundamentals/11-ensemble-methods/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/02-ml-fundamentals/11-ensemble-methods/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/02-ml-fundamentals/11-ensemble-methods/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/02-ml-fundamentals/11-ensemble-methods/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/02-ml-fundamentals/11-ensemble-methods/outputs/prompt-ensemble-selector.md",
+      "type": "document",
+      "name": "prompt-ensemble-selector.md",
+      "filePath": "phases/02-ml-fundamentals/11-ensemble-methods/outputs/prompt-ensemble-selector.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/02-ml-fundamentals/11-ensemble-methods/outputs/skill-ensemble-builder.md",
+      "type": "document",
+      "name": "skill-ensemble-builder.md",
+      "filePath": "phases/02-ml-fundamentals/11-ensemble-methods/outputs/skill-ensemble-builder.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/02-ml-fundamentals/07-unsupervised-learning/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/02-ml-fundamentals/07-unsupervised-learning/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/02-ml-fundamentals/07-unsupervised-learning/outputs/skill-clustering-guide.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/02-ml-fundamentals/07-unsupervised-learning/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/02-ml-fundamentals/08-feature-engineering/code/features.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/02-ml-fundamentals/08-feature-engineering/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/02-ml-fundamentals/08-feature-engineering/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/02-ml-fundamentals/08-feature-engineering/outputs/prompt-feature-engineer.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/02-ml-fundamentals/08-feature-engineering/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/02-ml-fundamentals/09-model-evaluation/code/evaluation.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/02-ml-fundamentals/09-model-evaluation/code/main.jl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/02-ml-fundamentals/09-model-evaluation/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/02-ml-fundamentals/09-model-evaluation/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/02-ml-fundamentals/09-model-evaluation/outputs/skill-evaluation.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/02-ml-fundamentals/09-model-evaluation/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/02-ml-fundamentals/10-bias-variance/code/bias_variance.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/02-ml-fundamentals/10-bias-variance/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/02-ml-fundamentals/10-bias-variance/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/02-ml-fundamentals/10-bias-variance/outputs/prompt-model-diagnostics.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/02-ml-fundamentals/10-bias-variance/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/02-ml-fundamentals/11-ensemble-methods/code/ensembles.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/02-ml-fundamentals/11-ensemble-methods/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/02-ml-fundamentals/11-ensemble-methods/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/02-ml-fundamentals/11-ensemble-methods/outputs/prompt-ensemble-selector.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/02-ml-fundamentals/11-ensemble-methods/outputs/skill-ensemble-builder.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

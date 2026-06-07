@@ -1,0 +1,540 @@
+{
+  "nodes": [
+    {
+      "id": "document:phases/12-multimodal-ai/22-document-diagram-understanding/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/12-multimodal-ai/22-document-diagram-understanding/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/12-multimodal-ai/22-document-diagram-understanding/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/12-multimodal-ai/22-document-diagram-understanding/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/12-multimodal-ai/22-document-diagram-understanding/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/12-multimodal-ai/22-document-diagram-understanding/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/12-multimodal-ai/22-document-diagram-understanding/outputs/skill-document-ai-stack-picker.md",
+      "type": "document",
+      "name": "skill-document-ai-stack-picker.md",
+      "filePath": "phases/12-multimodal-ai/22-document-diagram-understanding/outputs/skill-document-ai-stack-picker.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/12-multimodal-ai/23-colpali-vision-native-rag/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/12-multimodal-ai/23-colpali-vision-native-rag/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/12-multimodal-ai/23-colpali-vision-native-rag/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/12-multimodal-ai/23-colpali-vision-native-rag/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/12-multimodal-ai/23-colpali-vision-native-rag/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/12-multimodal-ai/23-colpali-vision-native-rag/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/12-multimodal-ai/23-colpali-vision-native-rag/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/12-multimodal-ai/23-colpali-vision-native-rag/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/12-multimodal-ai/23-colpali-vision-native-rag/outputs/skill-vision-rag-designer.md",
+      "type": "document",
+      "name": "skill-vision-rag-designer.md",
+      "filePath": "phases/12-multimodal-ai/23-colpali-vision-native-rag/outputs/skill-vision-rag-designer.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/12-multimodal-ai/24-multimodal-rag-cross-modal/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/12-multimodal-ai/24-multimodal-rag-cross-modal/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/12-multimodal-ai/24-multimodal-rag-cross-modal/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/12-multimodal-ai/24-multimodal-rag-cross-modal/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/12-multimodal-ai/24-multimodal-rag-cross-modal/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/12-multimodal-ai/24-multimodal-rag-cross-modal/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/12-multimodal-ai/24-multimodal-rag-cross-modal/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/12-multimodal-ai/24-multimodal-rag-cross-modal/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/12-multimodal-ai/24-multimodal-rag-cross-modal/outputs/skill-multimodal-rag-designer.md",
+      "type": "document",
+      "name": "skill-multimodal-rag-designer.md",
+      "filePath": "phases/12-multimodal-ai/24-multimodal-rag-cross-modal/outputs/skill-multimodal-rag-designer.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/12-multimodal-ai/25-multimodal-agents-computer-use/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/12-multimodal-ai/25-multimodal-agents-computer-use/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/12-multimodal-ai/25-multimodal-agents-computer-use/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/12-multimodal-ai/25-multimodal-agents-computer-use/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/12-multimodal-ai/25-multimodal-agents-computer-use/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/12-multimodal-ai/25-multimodal-agents-computer-use/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/12-multimodal-ai/25-multimodal-agents-computer-use/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/12-multimodal-ai/25-multimodal-agents-computer-use/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/12-multimodal-ai/25-multimodal-agents-computer-use/outputs/skill-multimodal-agent-designer.md",
+      "type": "document",
+      "name": "skill-multimodal-agent-designer.md",
+      "filePath": "phases/12-multimodal-ai/25-multimodal-agents-computer-use/outputs/skill-multimodal-agent-designer.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/12-multimodal-ai/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "phases/12-multimodal-ai/README.md",
+      "summary": "项目文档文件，补充课程、贡献流程或仓库治理信息。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/13-tools-and-protocols/01-the-tool-interface/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/13-tools-and-protocols/01-the-tool-interface/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:phases/13-tools-and-protocols/01-the-tool-interface/code/main.ts",
+      "type": "file",
+      "name": "main.ts",
+      "filePath": "phases/13-tools-and-protocols/01-the-tool-interface/code/main.ts",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "typescript"
+      ],
+      "language": "typescript"
+    },
+    {
+      "id": "document:phases/13-tools-and-protocols/01-the-tool-interface/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/13-tools-and-protocols/01-the-tool-interface/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/13-tools-and-protocols/01-the-tool-interface/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/13-tools-and-protocols/01-the-tool-interface/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/13-tools-and-protocols/01-the-tool-interface/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/13-tools-and-protocols/01-the-tool-interface/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/12-multimodal-ai/22-document-diagram-understanding/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/12-multimodal-ai/22-document-diagram-understanding/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/12-multimodal-ai/22-document-diagram-understanding/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/12-multimodal-ai/22-document-diagram-understanding/outputs/skill-document-ai-stack-picker.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/12-multimodal-ai/23-colpali-vision-native-rag/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/12-multimodal-ai/23-colpali-vision-native-rag/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/12-multimodal-ai/23-colpali-vision-native-rag/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/12-multimodal-ai/23-colpali-vision-native-rag/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/12-multimodal-ai/23-colpali-vision-native-rag/outputs/skill-vision-rag-designer.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/12-multimodal-ai/24-multimodal-rag-cross-modal/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/12-multimodal-ai/24-multimodal-rag-cross-modal/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/12-multimodal-ai/24-multimodal-rag-cross-modal/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/12-multimodal-ai/24-multimodal-rag-cross-modal/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/12-multimodal-ai/24-multimodal-rag-cross-modal/outputs/skill-multimodal-rag-designer.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/12-multimodal-ai/25-multimodal-agents-computer-use/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/12-multimodal-ai/25-multimodal-agents-computer-use/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/12-multimodal-ai/25-multimodal-agents-computer-use/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/12-multimodal-ai/25-multimodal-agents-computer-use/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/12-multimodal-ai/25-multimodal-agents-computer-use/outputs/skill-multimodal-agent-designer.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/12-multimodal-ai/README.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/13-tools-and-protocols/01-the-tool-interface/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/13-tools-and-protocols/01-the-tool-interface/code/main.ts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/13-tools-and-protocols/01-the-tool-interface/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/13-tools-and-protocols/01-the-tool-interface/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/13-tools-and-protocols/01-the-tool-interface/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

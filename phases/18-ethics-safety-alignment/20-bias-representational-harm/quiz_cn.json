@@ -1,0 +1,78 @@
+{
+  "lesson": "20-bias-representational-harm",
+  "title": "Bias and Representational Harm in LLMs",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "本课如何区分代表性损害和分配性损害？",
+      "options": [
+        "代表性伤害仅对视觉模型重要",
+        "代表性伤害是刻板印象/消除/贬低性的描绘；分配伤害是指群体的物质结果不平等",
+        "Representational is computational; allocational is statistical",
+        "Allocational harm only occurs offline"
+      ],
+      "correct": 1,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "其中哪一个是 Gallegos 等人提出的三个评估指标类别。 2024 年？",
+      "options": [
+        "Pre-RLHF, mid-RLHF, post-RLHF",
+        "视觉、音频、文字",
+        "浅色、蓝色、红色",
+        "基于嵌入、基于概率、基于生成文本"
+      ],
+      "correct": 3,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "为什么除了单轴评估之外还需要交叉公平评估？",
+      "options": [
+        "交叉性与交叉验证相同",
+        "Single-axis measures are computationally cheaper",
+        "单轴是唯一合法允许的方法",
+        "仅在交叉点出现的偏见（例如，性别 x 种族）会被一次查看一个轴的评估所忽略"
+      ],
+      "correct": 3,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "WinoIdentity (COLM 2025) 介绍了什么？",
+      "options": [
+        "An adversarial attack on demographic classifiers",
+        "A new tokenizer for identity terms",
+        "嵌入空间中 WEAT 的替代品",
+        "基于不确定性的交叉公平性评估，比较模型对交叉身份元组结果的不确定性，而不仅仅是点预测"
+      ],
+      "correct": 3,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "以下哪一项是针对偏见的机械可解释方法？",
+      "options": [
+        "从 PPO 切换到 DPO",
+        "识别 MLP 层中的性别神经元，使用 SAE 来显示种族相关特征，或操纵特定的注意力头 (UniBias)",
+        "添加更多 KL 正则化",
+        "Re-labeling the training set"
+      ],
+      "correct": 1,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "十年元批评 (arXiv:2508.11067) 对偏见文献有何看法？",
+      "options": [
+        "它过分关注二元性别偏见，忽视了可能因忽视而伤害边缘群体的其他轴心（残疾、宗教、移民身份、多语言身份）",
+        "它避免了定量方法",
+        "它过分强调交叉性",
+        "它在所有身份轴上保持平衡"
+      ],
+      "correct": 0,
+      "explanation": ""
+    }
+  ]
+}

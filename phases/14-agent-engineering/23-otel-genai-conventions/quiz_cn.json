@@ -1,0 +1,90 @@
+{
+  "lesson": "23-otel-genai-conventions",
+  "title": "OpenTelemetry GenAI Semantic Conventions",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "哪个跨度名称代表在 GenAI 约定中运行的代理？",
+      "options": [
+        "代理.启动",
+        "invoke_agent（可选后缀为 gen_ai.agent.name）",
+        "运行链",
+        "代理循环"
+      ],
+      "correct": 1,
+      "explanation": "invoke_agent 是规范名称；设置后，代理的名称属性将显示在跨度名称中。"
+    },
+    {
+      "stage": "pre",
+      "question": "GenAI SIG 定义了哪三个跨度类别？",
+      "options": [
+        "模型/客户、代理人、工具",
+        "前端、后端、数据库",
+        "读、写、执行",
+        "延迟、错误、吞吐量"
+      ],
+      "correct": 0,
+      "explanation": "模型/客户端（LLM 调用）、代理（创建/调用）、工具（每次调用）是类别。"
+    },
+    {
+      "stage": "check",
+      "question": "invoke_agent 范围何时使用 CLIENT 类型和 INTERNAL 类型？",
+      "options": [
+        "始终是内部的",
+        "用于远程代理服务的客户端（OpenAI Assistants、Bedrock Agents）； INTERNAL 用于进程内框架（LangChain、CrewAI、本地 ReAct）",
+        "仅适用于 HTTPS 的客户端",
+        "始终是客户"
+      ],
+      "correct": 1,
+      "explanation": "远程代理呼叫是CLIENT；进程内代理运行是内部的。"
+    },
+    {
+      "stage": "check",
+      "question": "内容捕获（输入和输出）的默认规则是什么？",
+      "options": [
+        "默认捕获所有内容",
+        "默认情况下，仪器不应捕获；捕获是通过 gen_ai.* 属性选择加入的",
+        "仅捕获输出，从不捕获输入",
+        "仅捕获错误"
+      ],
+      "correct": 1,
+      "explanation": "默认关闭内容捕获可保护 PII 和机密；选择加入是明确的。"
+    },
+    {
+      "stage": "check",
+      "question": "哪个属性标识检索时参考的语料库或存储？",
+      "options": [
+        "gen_ai.provider.name",
+        "gen_ai.request.model",
+        "gen_ai.data_source.id",
+        "gen_ai.agent.name"
+      ],
+      "correct": 2,
+      "explanation": "gen_ai.data_source.id 标记 RAG 语料库或检索命中的存储。"
+    },
+    {
+      "stage": "post",
+      "question": "本课程建议如何在生产中存储提示内容？",
+      "options": [
+        "以纯文本形式捕获每个跨度的完整提示",
+        "在外部存储内容（S3、日志存储）并在跨度上记录引用 ID",
+        "绝不存储任何内容",
+        "加密 span 属性中的提示"
+      ],
+      "correct": 1,
+      "explanation": "具有指针 ID 的外部存储可避免 PII 泄漏到操作员可以读取的跟踪中。"
+    },
+    {
+      "stage": "post",
+      "question": "您如何选择加入 GenAI 约定的实验性稳定预览版？",
+      "options": [
+        "编辑 OTel 收集器配置",
+        "设置 OTEL_SEMCONV_STABILITY_OPT_IN=gen_ai_latest_experimental",
+        "从源代码重建 SDK",
+        "支付许可证费用"
+      ],
+      "correct": 1,
+      "explanation": "环境变量固定实验约定，因此属性不会被静默重命名。"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "lesson": "09-production-quantization",
+  "title": "Production Quantization — AWQ, GPTQ, GGUF K-quants, FP8, MXFP4/NVFP4",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "本课程将哪种量化格式称为 CPU 和边缘服务的生产默认值？",
+      "options": [
+        "FP8",
+        "GGUF Q4_K_M / Q5_K_M",
+        "AWQ INT4",
+        "NVFP4"
+      ],
+      "correct": 1,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "当 vLLM 中需要多 LoRA 时，本课程选择哪种格式用于数据中心 GPU 服务？",
+      "options": [
+        "GGUF Q4_K_M",
+        "加权平均质量",
+        "带有 Marlin 内核的 GPTQ",
+        "NVFP4"
+      ],
+      "correct": 2,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "AWQ 的“我的模型现在是 4 GB”陷阱是什么？",
+      "options": [
+        "AWQ 与 vLLM 不兼容",
+        "AWQ 需要 INT8 KV 缓存",
+        "AWQ实际上并没有减少体重",
+        "AWQ只是缩小权重； KV 缓存和激活是分开的，并且可以按生产批量大小添加 30-50 GB"
+      ],
+      "correct": 3,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "为什么在通用 Web 文本上校准 AWQ 会损害域模型？",
+      "options": [
+        "它禁用 Marlin 内核",
+        "该算法在保护哪些权重方面做出了错误的决定，从而降低了域准确性（例如 HumanEval 上的几个 Pass@1 点）",
+        "它仅适用于 AMD GPU",
+        "它增加了模型尺寸"
+      ],
+      "correct": 1,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "对于质量不容妥协的推理繁重工作量，课程默认建议哪种精度？",
+      "options": [
+        "GPTQ INT4",
+        "INT2 GGUF",
+        "NVFP4 权重",
+        "FP8 权重"
+      ],
+      "correct": 3,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "本课程在 2026 年初对 NVFP4 提出了哪些 2026 量化限制？",
+      "options": [
+        "尚无 LoRA 支持",
+        "H100 不支持",
+        "仅在CPU上运行",
+        "无法与 FP8 KV 缓存结合使用"
+      ],
+      "correct": 0,
+      "explanation": ""
+    }
+  ]
+}

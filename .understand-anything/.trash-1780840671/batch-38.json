@@ -1,0 +1,546 @@
+{
+  "nodes": [
+    {
+      "id": "file:phases/01-math-foundations/20-fourier-transform/code/fourier.py",
+      "type": "file",
+      "name": "fourier.py",
+      "filePath": "phases/01-math-foundations/20-fourier-transform/code/fourier.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/01-math-foundations/20-fourier-transform/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/01-math-foundations/20-fourier-transform/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/01-math-foundations/20-fourier-transform/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/01-math-foundations/20-fourier-transform/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/01-math-foundations/20-fourier-transform/outputs/prompt-spectral-analyzer.md",
+      "type": "document",
+      "name": "prompt-spectral-analyzer.md",
+      "filePath": "phases/01-math-foundations/20-fourier-transform/outputs/prompt-spectral-analyzer.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "test",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/01-math-foundations/20-fourier-transform/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/01-math-foundations/20-fourier-transform/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/01-math-foundations/21-graph-theory/code/graph_theory.py",
+      "type": "file",
+      "name": "graph_theory.py",
+      "filePath": "phases/01-math-foundations/21-graph-theory/code/graph_theory.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/01-math-foundations/21-graph-theory/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/01-math-foundations/21-graph-theory/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/01-math-foundations/21-graph-theory/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/01-math-foundations/21-graph-theory/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/01-math-foundations/21-graph-theory/outputs/skill-graph-analysis.md",
+      "type": "document",
+      "name": "skill-graph-analysis.md",
+      "filePath": "phases/01-math-foundations/21-graph-theory/outputs/skill-graph-analysis.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/01-math-foundations/21-graph-theory/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/01-math-foundations/21-graph-theory/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/01-math-foundations/22-stochastic-processes/code/stochastic.py",
+      "type": "file",
+      "name": "stochastic.py",
+      "filePath": "phases/01-math-foundations/22-stochastic-processes/code/stochastic.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/01-math-foundations/22-stochastic-processes/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/01-math-foundations/22-stochastic-processes/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/01-math-foundations/22-stochastic-processes/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/01-math-foundations/22-stochastic-processes/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/01-math-foundations/22-stochastic-processes/outputs/prompt-stochastic-process-advisor.md",
+      "type": "document",
+      "name": "prompt-stochastic-process-advisor.md",
+      "filePath": "phases/01-math-foundations/22-stochastic-processes/outputs/prompt-stochastic-process-advisor.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/01-math-foundations/22-stochastic-processes/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/01-math-foundations/22-stochastic-processes/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "document:phases/01-math-foundations/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "phases/01-math-foundations/README.md",
+      "summary": "项目文档文件，补充课程、贡献流程或仓库治理信息。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/02-ml-fundamentals/01-what-is-machine-learning/code/ml_intro.py",
+      "type": "file",
+      "name": "ml_intro.py",
+      "filePath": "phases/02-ml-fundamentals/01-what-is-machine-learning/code/ml_intro.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/02-ml-fundamentals/01-what-is-machine-learning/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/02-ml-fundamentals/01-what-is-machine-learning/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/02-ml-fundamentals/01-what-is-machine-learning/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/02-ml-fundamentals/01-what-is-machine-learning/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/02-ml-fundamentals/01-what-is-machine-learning/outputs/prompt-ml-problem-framer.md",
+      "type": "document",
+      "name": "prompt-ml-problem-framer.md",
+      "filePath": "phases/02-ml-fundamentals/01-what-is-machine-learning/outputs/prompt-ml-problem-framer.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/02-ml-fundamentals/01-what-is-machine-learning/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/02-ml-fundamentals/01-what-is-machine-learning/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/02-ml-fundamentals/02-linear-regression/code/linear_regression.py",
+      "type": "file",
+      "name": "linear_regression.py",
+      "filePath": "phases/02-ml-fundamentals/02-linear-regression/code/linear_regression.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:phases/02-ml-fundamentals/02-linear-regression/code/main.jl",
+      "type": "file",
+      "name": "main.jl",
+      "filePath": "phases/02-ml-fundamentals/02-linear-regression/code/main.jl",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "jl"
+      ],
+      "language": "jl"
+    },
+    {
+      "id": "document:phases/02-ml-fundamentals/02-linear-regression/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/02-ml-fundamentals/02-linear-regression/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/02-ml-fundamentals/02-linear-regression/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/02-ml-fundamentals/02-linear-regression/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/01-math-foundations/20-fourier-transform/code/fourier.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/01-math-foundations/20-fourier-transform/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/01-math-foundations/20-fourier-transform/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/01-math-foundations/20-fourier-transform/outputs/prompt-spectral-analyzer.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/01-math-foundations/20-fourier-transform/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/01-math-foundations/21-graph-theory/code/graph_theory.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/01-math-foundations/21-graph-theory/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/01-math-foundations/21-graph-theory/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/01-math-foundations/21-graph-theory/outputs/skill-graph-analysis.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/01-math-foundations/21-graph-theory/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/01-math-foundations/22-stochastic-processes/code/stochastic.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/01-math-foundations/22-stochastic-processes/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/01-math-foundations/22-stochastic-processes/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/01-math-foundations/22-stochastic-processes/outputs/prompt-stochastic-process-advisor.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/01-math-foundations/22-stochastic-processes/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/01-math-foundations/README.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/02-ml-fundamentals/01-what-is-machine-learning/code/ml_intro.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/02-ml-fundamentals/01-what-is-machine-learning/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/02-ml-fundamentals/01-what-is-machine-learning/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/02-ml-fundamentals/01-what-is-machine-learning/outputs/prompt-ml-problem-framer.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/02-ml-fundamentals/01-what-is-machine-learning/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/02-ml-fundamentals/02-linear-regression/code/linear_regression.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/02-ml-fundamentals/02-linear-regression/code/main.jl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/02-ml-fundamentals/02-linear-regression/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/02-ml-fundamentals/02-linear-regression/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,539 @@
+{
+  "nodes": [
+    {
+      "id": "document:phases/17-infrastructure-and-production/26-compliance-frameworks/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/17-infrastructure-and-production/26-compliance-frameworks/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/17-infrastructure-and-production/26-compliance-frameworks/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/17-infrastructure-and-production/26-compliance-frameworks/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/17-infrastructure-and-production/26-compliance-frameworks/outputs/skill-compliance-matrix.md",
+      "type": "document",
+      "name": "skill-compliance-matrix.md",
+      "filePath": "phases/17-infrastructure-and-production/26-compliance-frameworks/outputs/skill-compliance-matrix.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/17-infrastructure-and-production/26-compliance-frameworks/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/17-infrastructure-and-production/26-compliance-frameworks/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/17-infrastructure-and-production/27-finops-llms/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/17-infrastructure-and-production/27-finops-llms/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/17-infrastructure-and-production/27-finops-llms/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/17-infrastructure-and-production/27-finops-llms/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/17-infrastructure-and-production/27-finops-llms/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/17-infrastructure-and-production/27-finops-llms/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/17-infrastructure-and-production/27-finops-llms/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/17-infrastructure-and-production/27-finops-llms/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/17-infrastructure-and-production/27-finops-llms/outputs/skill-finops-plan.md",
+      "type": "document",
+      "name": "skill-finops-plan.md",
+      "filePath": "phases/17-infrastructure-and-production/27-finops-llms/outputs/skill-finops-plan.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/17-infrastructure-and-production/27-finops-llms/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/17-infrastructure-and-production/27-finops-llms/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/17-infrastructure-and-production/28-self-hosted-serving-selection/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/17-infrastructure-and-production/28-self-hosted-serving-selection/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/17-infrastructure-and-production/28-self-hosted-serving-selection/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/17-infrastructure-and-production/28-self-hosted-serving-selection/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/17-infrastructure-and-production/28-self-hosted-serving-selection/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/17-infrastructure-and-production/28-self-hosted-serving-selection/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/17-infrastructure-and-production/28-self-hosted-serving-selection/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/17-infrastructure-and-production/28-self-hosted-serving-selection/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/17-infrastructure-and-production/28-self-hosted-serving-selection/outputs/skill-engine-picker.md",
+      "type": "document",
+      "name": "skill-engine-picker.md",
+      "filePath": "phases/17-infrastructure-and-production/28-self-hosted-serving-selection/outputs/skill-engine-picker.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/17-infrastructure-and-production/28-self-hosted-serving-selection/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/17-infrastructure-and-production/28-self-hosted-serving-selection/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "document:phases/17-infrastructure-and-production/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "phases/17-infrastructure-and-production/README.md",
+      "summary": "项目文档文件，补充课程、贡献流程或仓库治理信息。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/18-ethics-safety-alignment/01-instruction-following-alignment-signal/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/18-ethics-safety-alignment/01-instruction-following-alignment-signal/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/18-ethics-safety-alignment/01-instruction-following-alignment-signal/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/18-ethics-safety-alignment/01-instruction-following-alignment-signal/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/18-ethics-safety-alignment/01-instruction-following-alignment-signal/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/18-ethics-safety-alignment/01-instruction-following-alignment-signal/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/18-ethics-safety-alignment/01-instruction-following-alignment-signal/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/18-ethics-safety-alignment/01-instruction-following-alignment-signal/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/18-ethics-safety-alignment/01-instruction-following-alignment-signal/outputs/skill-instructgpt-explainer.md",
+      "type": "document",
+      "name": "skill-instructgpt-explainer.md",
+      "filePath": "phases/18-ethics-safety-alignment/01-instruction-following-alignment-signal/outputs/skill-instructgpt-explainer.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/18-ethics-safety-alignment/01-instruction-following-alignment-signal/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/18-ethics-safety-alignment/01-instruction-following-alignment-signal/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/18-ethics-safety-alignment/02-reward-hacking-goodhart/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/18-ethics-safety-alignment/02-reward-hacking-goodhart/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/18-ethics-safety-alignment/02-reward-hacking-goodhart/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/18-ethics-safety-alignment/02-reward-hacking-goodhart/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/17-infrastructure-and-production/26-compliance-frameworks/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/17-infrastructure-and-production/26-compliance-frameworks/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/17-infrastructure-and-production/26-compliance-frameworks/outputs/skill-compliance-matrix.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/17-infrastructure-and-production/26-compliance-frameworks/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/17-infrastructure-and-production/27-finops-llms/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/17-infrastructure-and-production/27-finops-llms/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/17-infrastructure-and-production/27-finops-llms/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/17-infrastructure-and-production/27-finops-llms/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/17-infrastructure-and-production/27-finops-llms/outputs/skill-finops-plan.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/17-infrastructure-and-production/27-finops-llms/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/17-infrastructure-and-production/28-self-hosted-serving-selection/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/17-infrastructure-and-production/28-self-hosted-serving-selection/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/17-infrastructure-and-production/28-self-hosted-serving-selection/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/17-infrastructure-and-production/28-self-hosted-serving-selection/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/17-infrastructure-and-production/28-self-hosted-serving-selection/outputs/skill-engine-picker.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/17-infrastructure-and-production/28-self-hosted-serving-selection/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/17-infrastructure-and-production/README.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/18-ethics-safety-alignment/01-instruction-following-alignment-signal/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/18-ethics-safety-alignment/01-instruction-following-alignment-signal/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/18-ethics-safety-alignment/01-instruction-following-alignment-signal/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/18-ethics-safety-alignment/01-instruction-following-alignment-signal/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/18-ethics-safety-alignment/01-instruction-following-alignment-signal/outputs/skill-instructgpt-explainer.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/18-ethics-safety-alignment/01-instruction-following-alignment-signal/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/18-ethics-safety-alignment/02-reward-hacking-goodhart/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/18-ethics-safety-alignment/02-reward-hacking-goodhart/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

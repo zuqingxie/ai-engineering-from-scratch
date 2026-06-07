@@ -1,0 +1,547 @@
+{
+  "nodes": [
+    {
+      "id": "config:phases/04-computer-vision/23-diffusion-transformers-rectified-flow/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/04-computer-vision/23-diffusion-transformers-rectified-flow/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/04-computer-vision/24-sam3-open-vocab-segmentation/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/04-computer-vision/24-sam3-open-vocab-segmentation/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/04-computer-vision/24-sam3-open-vocab-segmentation/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/04-computer-vision/24-sam3-open-vocab-segmentation/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/04-computer-vision/24-sam3-open-vocab-segmentation/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/04-computer-vision/24-sam3-open-vocab-segmentation/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/04-computer-vision/24-sam3-open-vocab-segmentation/outputs/prompt-open-vocab-stack-picker.md",
+      "type": "document",
+      "name": "prompt-open-vocab-stack-picker.md",
+      "filePath": "phases/04-computer-vision/24-sam3-open-vocab-segmentation/outputs/prompt-open-vocab-stack-picker.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/04-computer-vision/24-sam3-open-vocab-segmentation/outputs/skill-concept-prompt-designer.md",
+      "type": "document",
+      "name": "skill-concept-prompt-designer.md",
+      "filePath": "phases/04-computer-vision/24-sam3-open-vocab-segmentation/outputs/skill-concept-prompt-designer.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/04-computer-vision/24-sam3-open-vocab-segmentation/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/04-computer-vision/24-sam3-open-vocab-segmentation/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/04-computer-vision/25-vision-language-models/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/04-computer-vision/25-vision-language-models/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/04-computer-vision/25-vision-language-models/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/04-computer-vision/25-vision-language-models/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/04-computer-vision/25-vision-language-models/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/04-computer-vision/25-vision-language-models/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/04-computer-vision/25-vision-language-models/outputs/prompt-vlm-selector.md",
+      "type": "document",
+      "name": "prompt-vlm-selector.md",
+      "filePath": "phases/04-computer-vision/25-vision-language-models/outputs/prompt-vlm-selector.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/04-computer-vision/25-vision-language-models/outputs/skill-cmer-monitor.md",
+      "type": "document",
+      "name": "skill-cmer-monitor.md",
+      "filePath": "phases/04-computer-vision/25-vision-language-models/outputs/skill-cmer-monitor.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/04-computer-vision/25-vision-language-models/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/04-computer-vision/25-vision-language-models/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/04-computer-vision/26-monocular-depth/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/04-computer-vision/26-monocular-depth/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/04-computer-vision/26-monocular-depth/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/04-computer-vision/26-monocular-depth/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/04-computer-vision/26-monocular-depth/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/04-computer-vision/26-monocular-depth/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/04-computer-vision/26-monocular-depth/outputs/prompt-depth-model-picker.md",
+      "type": "document",
+      "name": "prompt-depth-model-picker.md",
+      "filePath": "phases/04-computer-vision/26-monocular-depth/outputs/prompt-depth-model-picker.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/04-computer-vision/26-monocular-depth/outputs/skill-depth-to-pointcloud.md",
+      "type": "document",
+      "name": "skill-depth-to-pointcloud.md",
+      "filePath": "phases/04-computer-vision/26-monocular-depth/outputs/skill-depth-to-pointcloud.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/04-computer-vision/26-monocular-depth/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/04-computer-vision/26-monocular-depth/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/04-computer-vision/27-multi-object-tracking/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/04-computer-vision/27-multi-object-tracking/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/04-computer-vision/27-multi-object-tracking/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/04-computer-vision/27-multi-object-tracking/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/04-computer-vision/27-multi-object-tracking/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/04-computer-vision/27-multi-object-tracking/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/04-computer-vision/27-multi-object-tracking/outputs/prompt-tracker-picker.md",
+      "type": "document",
+      "name": "prompt-tracker-picker.md",
+      "filePath": "phases/04-computer-vision/27-multi-object-tracking/outputs/prompt-tracker-picker.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/04-computer-vision/27-multi-object-tracking/outputs/skill-mot-evaluator.md",
+      "type": "document",
+      "name": "skill-mot-evaluator.md",
+      "filePath": "phases/04-computer-vision/27-multi-object-tracking/outputs/skill-mot-evaluator.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/04-computer-vision/27-multi-object-tracking/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/04-computer-vision/27-multi-object-tracking/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/04-computer-vision/23-diffusion-transformers-rectified-flow/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/04-computer-vision/24-sam3-open-vocab-segmentation/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/24-sam3-open-vocab-segmentation/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/24-sam3-open-vocab-segmentation/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/24-sam3-open-vocab-segmentation/outputs/prompt-open-vocab-stack-picker.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/24-sam3-open-vocab-segmentation/outputs/skill-concept-prompt-designer.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/04-computer-vision/24-sam3-open-vocab-segmentation/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/04-computer-vision/25-vision-language-models/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/25-vision-language-models/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/25-vision-language-models/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/25-vision-language-models/outputs/prompt-vlm-selector.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/25-vision-language-models/outputs/skill-cmer-monitor.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/04-computer-vision/25-vision-language-models/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/04-computer-vision/26-monocular-depth/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/26-monocular-depth/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/26-monocular-depth/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/26-monocular-depth/outputs/prompt-depth-model-picker.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/26-monocular-depth/outputs/skill-depth-to-pointcloud.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/04-computer-vision/26-monocular-depth/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/04-computer-vision/27-multi-object-tracking/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/27-multi-object-tracking/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/27-multi-object-tracking/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/27-multi-object-tracking/outputs/prompt-tracker-picker.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/04-computer-vision/27-multi-object-tracking/outputs/skill-mot-evaluator.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/04-computer-vision/27-multi-object-tracking/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

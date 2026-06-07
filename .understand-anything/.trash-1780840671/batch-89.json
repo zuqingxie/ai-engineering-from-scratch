@@ -1,0 +1,542 @@
+{
+  "nodes": [
+    {
+      "id": "file:phases/13-tools-and-protocols/11-mcp-sampling/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/13-tools-and-protocols/11-mcp-sampling/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/13-tools-and-protocols/11-mcp-sampling/outputs/skill-sampling-loop-designer.md",
+      "type": "document",
+      "name": "skill-sampling-loop-designer.md",
+      "filePath": "phases/13-tools-and-protocols/11-mcp-sampling/outputs/skill-sampling-loop-designer.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/13-tools-and-protocols/12-mcp-roots-and-elicitation/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/13-tools-and-protocols/12-mcp-roots-and-elicitation/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/13-tools-and-protocols/12-mcp-roots-and-elicitation/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/13-tools-and-protocols/12-mcp-roots-and-elicitation/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/13-tools-and-protocols/12-mcp-roots-and-elicitation/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/13-tools-and-protocols/12-mcp-roots-and-elicitation/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/13-tools-and-protocols/12-mcp-roots-and-elicitation/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/13-tools-and-protocols/12-mcp-roots-and-elicitation/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/13-tools-and-protocols/12-mcp-roots-and-elicitation/outputs/skill-elicitation-form-designer.md",
+      "type": "document",
+      "name": "skill-elicitation-form-designer.md",
+      "filePath": "phases/13-tools-and-protocols/12-mcp-roots-and-elicitation/outputs/skill-elicitation-form-designer.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/13-tools-and-protocols/13-mcp-async-tasks/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/13-tools-and-protocols/13-mcp-async-tasks/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/13-tools-and-protocols/13-mcp-async-tasks/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/13-tools-and-protocols/13-mcp-async-tasks/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/13-tools-and-protocols/13-mcp-async-tasks/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/13-tools-and-protocols/13-mcp-async-tasks/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/13-tools-and-protocols/13-mcp-async-tasks/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/13-tools-and-protocols/13-mcp-async-tasks/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/13-tools-and-protocols/13-mcp-async-tasks/outputs/skill-task-store-designer.md",
+      "type": "document",
+      "name": "skill-task-store-designer.md",
+      "filePath": "phases/13-tools-and-protocols/13-mcp-async-tasks/outputs/skill-task-store-designer.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/13-tools-and-protocols/14-mcp-apps/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/13-tools-and-protocols/14-mcp-apps/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/13-tools-and-protocols/14-mcp-apps/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/13-tools-and-protocols/14-mcp-apps/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/13-tools-and-protocols/14-mcp-apps/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/13-tools-and-protocols/14-mcp-apps/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/13-tools-and-protocols/14-mcp-apps/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/13-tools-and-protocols/14-mcp-apps/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/13-tools-and-protocols/14-mcp-apps/outputs/skill-mcp-apps-spec.md",
+      "type": "document",
+      "name": "skill-mcp-apps-spec.md",
+      "filePath": "phases/13-tools-and-protocols/14-mcp-apps/outputs/skill-mcp-apps-spec.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "test",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/13-tools-and-protocols/15-mcp-security-tool-poisoning/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/13-tools-and-protocols/15-mcp-security-tool-poisoning/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/13-tools-and-protocols/15-mcp-security-tool-poisoning/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/13-tools-and-protocols/15-mcp-security-tool-poisoning/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/13-tools-and-protocols/15-mcp-security-tool-poisoning/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/13-tools-and-protocols/15-mcp-security-tool-poisoning/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/13-tools-and-protocols/15-mcp-security-tool-poisoning/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/13-tools-and-protocols/15-mcp-security-tool-poisoning/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/13-tools-and-protocols/15-mcp-security-tool-poisoning/outputs/skill-mcp-threat-model.md",
+      "type": "document",
+      "name": "skill-mcp-threat-model.md",
+      "filePath": "phases/13-tools-and-protocols/15-mcp-security-tool-poisoning/outputs/skill-mcp-threat-model.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/13-tools-and-protocols/16-mcp-security-oauth-2-1/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/13-tools-and-protocols/16-mcp-security-oauth-2-1/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/13-tools-and-protocols/16-mcp-security-oauth-2-1/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/13-tools-and-protocols/16-mcp-security-oauth-2-1/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/13-tools-and-protocols/16-mcp-security-oauth-2-1/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/13-tools-and-protocols/16-mcp-security-oauth-2-1/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/13-tools-and-protocols/11-mcp-sampling/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/13-tools-and-protocols/11-mcp-sampling/outputs/skill-sampling-loop-designer.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/13-tools-and-protocols/12-mcp-roots-and-elicitation/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/13-tools-and-protocols/12-mcp-roots-and-elicitation/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/13-tools-and-protocols/12-mcp-roots-and-elicitation/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/13-tools-and-protocols/12-mcp-roots-and-elicitation/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/13-tools-and-protocols/12-mcp-roots-and-elicitation/outputs/skill-elicitation-form-designer.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/13-tools-and-protocols/13-mcp-async-tasks/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/13-tools-and-protocols/13-mcp-async-tasks/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/13-tools-and-protocols/13-mcp-async-tasks/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/13-tools-and-protocols/13-mcp-async-tasks/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/13-tools-and-protocols/13-mcp-async-tasks/outputs/skill-task-store-designer.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/13-tools-and-protocols/14-mcp-apps/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/13-tools-and-protocols/14-mcp-apps/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/13-tools-and-protocols/14-mcp-apps/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/13-tools-and-protocols/14-mcp-apps/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/13-tools-and-protocols/14-mcp-apps/outputs/skill-mcp-apps-spec.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/13-tools-and-protocols/15-mcp-security-tool-poisoning/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/13-tools-and-protocols/15-mcp-security-tool-poisoning/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/13-tools-and-protocols/15-mcp-security-tool-poisoning/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/13-tools-and-protocols/15-mcp-security-tool-poisoning/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/13-tools-and-protocols/15-mcp-security-tool-poisoning/outputs/skill-mcp-threat-model.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/13-tools-and-protocols/16-mcp-security-oauth-2-1/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/13-tools-and-protocols/16-mcp-security-oauth-2-1/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/13-tools-and-protocols/16-mcp-security-oauth-2-1/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

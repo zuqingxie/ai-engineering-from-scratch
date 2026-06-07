@@ -1,0 +1,539 @@
+{
+  "nodes": [
+    {
+      "id": "file:phases/18-ethics-safety-alignment/19-model-welfare-research/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/18-ethics-safety-alignment/19-model-welfare-research/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/18-ethics-safety-alignment/19-model-welfare-research/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/18-ethics-safety-alignment/19-model-welfare-research/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/18-ethics-safety-alignment/19-model-welfare-research/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/18-ethics-safety-alignment/19-model-welfare-research/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/18-ethics-safety-alignment/19-model-welfare-research/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/18-ethics-safety-alignment/19-model-welfare-research/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/18-ethics-safety-alignment/19-model-welfare-research/outputs/skill-welfare-assessment.md",
+      "type": "document",
+      "name": "skill-welfare-assessment.md",
+      "filePath": "phases/18-ethics-safety-alignment/19-model-welfare-research/outputs/skill-welfare-assessment.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/18-ethics-safety-alignment/19-model-welfare-research/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/18-ethics-safety-alignment/19-model-welfare-research/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/18-ethics-safety-alignment/20-bias-representational-harm/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/18-ethics-safety-alignment/20-bias-representational-harm/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/18-ethics-safety-alignment/20-bias-representational-harm/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/18-ethics-safety-alignment/20-bias-representational-harm/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/18-ethics-safety-alignment/20-bias-representational-harm/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/18-ethics-safety-alignment/20-bias-representational-harm/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/18-ethics-safety-alignment/20-bias-representational-harm/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/18-ethics-safety-alignment/20-bias-representational-harm/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/18-ethics-safety-alignment/20-bias-representational-harm/outputs/skill-bias-eval.md",
+      "type": "document",
+      "name": "skill-bias-eval.md",
+      "filePath": "phases/18-ethics-safety-alignment/20-bias-representational-harm/outputs/skill-bias-eval.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/18-ethics-safety-alignment/20-bias-representational-harm/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/18-ethics-safety-alignment/20-bias-representational-harm/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/18-ethics-safety-alignment/21-fairness-criteria-group-individual-counterfactual/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/18-ethics-safety-alignment/21-fairness-criteria-group-individual-counterfactual/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/18-ethics-safety-alignment/21-fairness-criteria-group-individual-counterfactual/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/18-ethics-safety-alignment/21-fairness-criteria-group-individual-counterfactual/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/18-ethics-safety-alignment/21-fairness-criteria-group-individual-counterfactual/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/18-ethics-safety-alignment/21-fairness-criteria-group-individual-counterfactual/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/18-ethics-safety-alignment/21-fairness-criteria-group-individual-counterfactual/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/18-ethics-safety-alignment/21-fairness-criteria-group-individual-counterfactual/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/18-ethics-safety-alignment/21-fairness-criteria-group-individual-counterfactual/outputs/skill-fairness-criterion.md",
+      "type": "document",
+      "name": "skill-fairness-criterion.md",
+      "filePath": "phases/18-ethics-safety-alignment/21-fairness-criteria-group-individual-counterfactual/outputs/skill-fairness-criterion.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/18-ethics-safety-alignment/21-fairness-criteria-group-individual-counterfactual/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/18-ethics-safety-alignment/21-fairness-criteria-group-individual-counterfactual/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/18-ethics-safety-alignment/22-differential-privacy-for-llms/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/18-ethics-safety-alignment/22-differential-privacy-for-llms/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/18-ethics-safety-alignment/22-differential-privacy-for-llms/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/18-ethics-safety-alignment/22-differential-privacy-for-llms/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/18-ethics-safety-alignment/22-differential-privacy-for-llms/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/18-ethics-safety-alignment/22-differential-privacy-for-llms/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/18-ethics-safety-alignment/22-differential-privacy-for-llms/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/18-ethics-safety-alignment/22-differential-privacy-for-llms/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/18-ethics-safety-alignment/22-differential-privacy-for-llms/outputs/skill-dp-audit.md",
+      "type": "document",
+      "name": "skill-dp-audit.md",
+      "filePath": "phases/18-ethics-safety-alignment/22-differential-privacy-for-llms/outputs/skill-dp-audit.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/18-ethics-safety-alignment/22-differential-privacy-for-llms/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/18-ethics-safety-alignment/22-differential-privacy-for-llms/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/18-ethics-safety-alignment/23-watermarking-synthid-stable-signature-c2pa/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/18-ethics-safety-alignment/23-watermarking-synthid-stable-signature-c2pa/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/18-ethics-safety-alignment/19-model-welfare-research/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/18-ethics-safety-alignment/19-model-welfare-research/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/18-ethics-safety-alignment/19-model-welfare-research/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/18-ethics-safety-alignment/19-model-welfare-research/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/18-ethics-safety-alignment/19-model-welfare-research/outputs/skill-welfare-assessment.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/18-ethics-safety-alignment/19-model-welfare-research/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/18-ethics-safety-alignment/20-bias-representational-harm/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/18-ethics-safety-alignment/20-bias-representational-harm/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/18-ethics-safety-alignment/20-bias-representational-harm/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/18-ethics-safety-alignment/20-bias-representational-harm/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/18-ethics-safety-alignment/20-bias-representational-harm/outputs/skill-bias-eval.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/18-ethics-safety-alignment/20-bias-representational-harm/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/18-ethics-safety-alignment/21-fairness-criteria-group-individual-counterfactual/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/18-ethics-safety-alignment/21-fairness-criteria-group-individual-counterfactual/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/18-ethics-safety-alignment/21-fairness-criteria-group-individual-counterfactual/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/18-ethics-safety-alignment/21-fairness-criteria-group-individual-counterfactual/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/18-ethics-safety-alignment/21-fairness-criteria-group-individual-counterfactual/outputs/skill-fairness-criterion.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/18-ethics-safety-alignment/21-fairness-criteria-group-individual-counterfactual/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/18-ethics-safety-alignment/22-differential-privacy-for-llms/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/18-ethics-safety-alignment/22-differential-privacy-for-llms/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/18-ethics-safety-alignment/22-differential-privacy-for-llms/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/18-ethics-safety-alignment/22-differential-privacy-for-llms/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/18-ethics-safety-alignment/22-differential-privacy-for-llms/outputs/skill-dp-audit.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/18-ethics-safety-alignment/22-differential-privacy-for-llms/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/18-ethics-safety-alignment/23-watermarking-synthid-stable-signature-c2pa/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

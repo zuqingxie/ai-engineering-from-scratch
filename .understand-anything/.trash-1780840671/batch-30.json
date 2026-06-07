@@ -1,0 +1,146 @@
+{
+  "nodes": [
+    {
+      "id": "file:site/catalog.html",
+      "type": "file",
+      "name": "catalog.html",
+      "filePath": "site/catalog.html",
+      "summary": "静态课程网站的一部分，用于渲染目录、课程页、搜索或站点交互。",
+      "complexity": "complex",
+      "tags": [
+        "frontend",
+        "html"
+      ],
+      "language": "html"
+    },
+    {
+      "id": "file:site/glossary.html",
+      "type": "file",
+      "name": "glossary.html",
+      "filePath": "site/glossary.html",
+      "summary": "静态课程网站的一部分，用于渲染目录、课程页、搜索或站点交互。",
+      "complexity": "complex",
+      "tags": [
+        "frontend",
+        "html"
+      ],
+      "language": "html"
+    },
+    {
+      "id": "file:site/index.html",
+      "type": "file",
+      "name": "index.html",
+      "filePath": "site/index.html",
+      "summary": "静态课程网站的一部分，用于渲染目录、课程页、搜索或站点交互。",
+      "complexity": "complex",
+      "tags": [
+        "frontend",
+        "html"
+      ],
+      "language": "html"
+    },
+    {
+      "id": "file:site/lesson.html",
+      "type": "file",
+      "name": "lesson.html",
+      "filePath": "site/lesson.html",
+      "summary": "静态课程网站的一部分，用于渲染目录、课程页、搜索或站点交互。",
+      "complexity": "complex",
+      "tags": [
+        "frontend",
+        "html"
+      ],
+      "language": "html"
+    },
+    {
+      "id": "file:site/prereqs.html",
+      "type": "file",
+      "name": "prereqs.html",
+      "filePath": "site/prereqs.html",
+      "summary": "静态课程网站的一部分，用于渲染目录、课程页、搜索或站点交互。",
+      "complexity": "complex",
+      "tags": [
+        "frontend",
+        "html"
+      ],
+      "language": "html"
+    },
+    {
+      "id": "document:site/robots.txt",
+      "type": "document",
+      "name": "robots.txt",
+      "filePath": "site/robots.txt",
+      "summary": "静态课程网站的一部分，用于渲染目录、课程页、搜索或站点交互。",
+      "complexity": "moderate",
+      "tags": [
+        "documentation",
+        "txt"
+      ],
+      "language": "txt"
+    },
+    {
+      "id": "file:site/style.css",
+      "type": "file",
+      "name": "style.css",
+      "filePath": "site/style.css",
+      "summary": "静态课程网站的一部分，用于渲染目录、课程页、搜索或站点交互。",
+      "complexity": "complex",
+      "tags": [
+        "frontend",
+        "css"
+      ],
+      "language": "css"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:site",
+      "target": "file:site/catalog.html",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:site",
+      "target": "file:site/glossary.html",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:site",
+      "target": "file:site/index.html",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:site",
+      "target": "file:site/lesson.html",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:site",
+      "target": "file:site/prereqs.html",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:site",
+      "target": "document:site/robots.txt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:site",
+      "target": "file:site/style.css",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

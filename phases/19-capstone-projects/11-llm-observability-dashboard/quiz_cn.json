@@ -1,0 +1,90 @@
+{
+  "lesson": "11-llm-observability-dashboard",
+  "title": "Capstone 11 — LLM Observability & Eval Dashboard",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "Langfuse、Phoenix 和 OpenLLMetry 收敛于哪种摄取模式？",
+      "options": [
+        "每个供应商专有的 JSON",
+        "普罗米修斯展览格式",
+        "基于 OTLP HTTP 的 OpenTelemetry GenAI 语义约定",
+        "纯 CSV 日志文件"
+      ],
+      "correct": 2,
+      "explanation": ""
+    },
+    {
+      "stage": "pre",
+      "question": "为什么在存储层中将 ClickHouse 和 Postgres 分开？",
+      "options": [
+        "它们可以互换，并且随机选择一个",
+        "Postgres 的跨度摄取速度更快",
+        "ClickHouse无法存储字符串",
+        "ClickHouse 处理跨跨度的柱状分析，而 Postgres 保存用户、会话和应用程序元数据"
+      ],
+      "correct": 3,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "OpenTelemetry Collector 中的尾部采样处理器有什么作用？",
+      "options": [
+        "决定是否在完成后保留跟踪，使用保留错误加上样本成功等规则",
+        "将旧痕迹重播到 Postgres 中",
+        "无条件传输每个字节",
+        "截断时间跨度低于 100 毫秒"
+      ],
+      "correct": 0,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "仪表板如何检测几周内的偏差？",
+      "options": [
+        "计算汇总提示嵌入的 PSI 或 KL 散度并观察评估分数趋势",
+        "手动目视仪表板",
+        "读取最新的部署时间戳",
+        "计算唯一跟踪 ID"
+      ],
+      "correct": 0,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "对于注入的 PII 泄漏回归，可交付成果的 MTTR 目标是什么？",
+      "options": [
+        "1小时以内",
+        "24小时内",
+        "在下一个值班班次内",
+        "从错误部署到 Slack 警报不到 5 分钟"
+      ],
+      "correct": 3,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "哪些 SDK 系列必须生成规范的 GenAI 范围才能满足跟踪覆盖范围？",
+      "options": [
+        "仅vLLM",
+        "至少六种：OpenAI、Anthropic、Google GenAI、LangChain、LlamaIndex 和 vLLM",
+        "任何一个 SDK 就足够了",
+        "仅限 OpenAI 和 Anthropic"
+      ],
+      "correct": 1,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "评估结果如何链接回最初的法学硕士课程？",
+      "options": [
+        "作为每晚通过电子邮件发送的 CSV",
+        "仅作为 Slack 消息",
+        "作为没有跟踪 ID 的单独 Postgres 表",
+        "由于 eval 跨度在 ClickHouse 中写为父跟踪的子级"
+      ],
+      "correct": 3,
+      "explanation": ""
+    }
+  ]
+}

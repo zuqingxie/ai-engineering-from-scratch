@@ -1,0 +1,541 @@
+{
+  "nodes": [
+    {
+      "id": "file:phases/06-speech-and-audio/05-whisper-architecture-finetuning/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/06-speech-and-audio/05-whisper-architecture-finetuning/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/06-speech-and-audio/05-whisper-architecture-finetuning/outputs/skill-whisper-tuner.md",
+      "type": "document",
+      "name": "skill-whisper-tuner.md",
+      "filePath": "phases/06-speech-and-audio/05-whisper-architecture-finetuning/outputs/skill-whisper-tuner.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/06-speech-and-audio/06-speaker-recognition-verification/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/06-speech-and-audio/06-speaker-recognition-verification/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/06-speech-and-audio/06-speaker-recognition-verification/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/06-speech-and-audio/06-speaker-recognition-verification/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/06-speech-and-audio/06-speaker-recognition-verification/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/06-speech-and-audio/06-speaker-recognition-verification/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/06-speech-and-audio/06-speaker-recognition-verification/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/06-speech-and-audio/06-speaker-recognition-verification/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/06-speech-and-audio/06-speaker-recognition-verification/outputs/skill-speaker-verifier.md",
+      "type": "document",
+      "name": "skill-speaker-verifier.md",
+      "filePath": "phases/06-speech-and-audio/06-speaker-recognition-verification/outputs/skill-speaker-verifier.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/06-speech-and-audio/07-text-to-speech/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/06-speech-and-audio/07-text-to-speech/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/06-speech-and-audio/07-text-to-speech/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/06-speech-and-audio/07-text-to-speech/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/06-speech-and-audio/07-text-to-speech/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/06-speech-and-audio/07-text-to-speech/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/06-speech-and-audio/07-text-to-speech/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/06-speech-and-audio/07-text-to-speech/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/06-speech-and-audio/07-text-to-speech/outputs/skill-tts-designer.md",
+      "type": "document",
+      "name": "skill-tts-designer.md",
+      "filePath": "phases/06-speech-and-audio/07-text-to-speech/outputs/skill-tts-designer.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/06-speech-and-audio/08-voice-cloning-conversion/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/06-speech-and-audio/08-voice-cloning-conversion/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/06-speech-and-audio/08-voice-cloning-conversion/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/06-speech-and-audio/08-voice-cloning-conversion/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/06-speech-and-audio/08-voice-cloning-conversion/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/06-speech-and-audio/08-voice-cloning-conversion/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/06-speech-and-audio/08-voice-cloning-conversion/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/06-speech-and-audio/08-voice-cloning-conversion/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/06-speech-and-audio/08-voice-cloning-conversion/outputs/skill-voice-cloner.md",
+      "type": "document",
+      "name": "skill-voice-cloner.md",
+      "filePath": "phases/06-speech-and-audio/08-voice-cloning-conversion/outputs/skill-voice-cloner.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/06-speech-and-audio/09-music-generation/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/06-speech-and-audio/09-music-generation/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/06-speech-and-audio/09-music-generation/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/06-speech-and-audio/09-music-generation/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/06-speech-and-audio/09-music-generation/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/06-speech-and-audio/09-music-generation/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/06-speech-and-audio/09-music-generation/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/06-speech-and-audio/09-music-generation/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/06-speech-and-audio/09-music-generation/outputs/skill-music-designer.md",
+      "type": "document",
+      "name": "skill-music-designer.md",
+      "filePath": "phases/06-speech-and-audio/09-music-generation/outputs/skill-music-designer.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/06-speech-and-audio/10-audio-language-models/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/06-speech-and-audio/10-audio-language-models/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/06-speech-and-audio/10-audio-language-models/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/06-speech-and-audio/10-audio-language-models/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/06-speech-and-audio/10-audio-language-models/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/06-speech-and-audio/10-audio-language-models/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/06-speech-and-audio/05-whisper-architecture-finetuning/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/06-speech-and-audio/05-whisper-architecture-finetuning/outputs/skill-whisper-tuner.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/06-speech-and-audio/06-speaker-recognition-verification/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/06-speech-and-audio/06-speaker-recognition-verification/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/06-speech-and-audio/06-speaker-recognition-verification/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/06-speech-and-audio/06-speaker-recognition-verification/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/06-speech-and-audio/06-speaker-recognition-verification/outputs/skill-speaker-verifier.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/06-speech-and-audio/07-text-to-speech/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/06-speech-and-audio/07-text-to-speech/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/06-speech-and-audio/07-text-to-speech/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/06-speech-and-audio/07-text-to-speech/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/06-speech-and-audio/07-text-to-speech/outputs/skill-tts-designer.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/06-speech-and-audio/08-voice-cloning-conversion/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/06-speech-and-audio/08-voice-cloning-conversion/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/06-speech-and-audio/08-voice-cloning-conversion/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/06-speech-and-audio/08-voice-cloning-conversion/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/06-speech-and-audio/08-voice-cloning-conversion/outputs/skill-voice-cloner.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/06-speech-and-audio/09-music-generation/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/06-speech-and-audio/09-music-generation/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/06-speech-and-audio/09-music-generation/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/06-speech-and-audio/09-music-generation/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/06-speech-and-audio/09-music-generation/outputs/skill-music-designer.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/06-speech-and-audio/10-audio-language-models/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/06-speech-and-audio/10-audio-language-models/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/06-speech-and-audio/10-audio-language-models/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

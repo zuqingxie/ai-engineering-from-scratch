@@ -1,0 +1,542 @@
+{
+  "nodes": [
+    {
+      "id": "document:phases/13-tools-and-protocols/06-mcp-fundamentals/outputs/skill-mcp-handshake-tracer.md",
+      "type": "document",
+      "name": "skill-mcp-handshake-tracer.md",
+      "filePath": "phases/13-tools-and-protocols/06-mcp-fundamentals/outputs/skill-mcp-handshake-tracer.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/13-tools-and-protocols/07-building-an-mcp-server/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/13-tools-and-protocols/07-building-an-mcp-server/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:phases/13-tools-and-protocols/07-building-an-mcp-server/code/main.ts",
+      "type": "file",
+      "name": "main.ts",
+      "filePath": "phases/13-tools-and-protocols/07-building-an-mcp-server/code/main.ts",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "typescript"
+      ],
+      "language": "typescript"
+    },
+    {
+      "id": "document:phases/13-tools-and-protocols/07-building-an-mcp-server/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/13-tools-and-protocols/07-building-an-mcp-server/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/13-tools-and-protocols/07-building-an-mcp-server/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/13-tools-and-protocols/07-building-an-mcp-server/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/13-tools-and-protocols/07-building-an-mcp-server/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/13-tools-and-protocols/07-building-an-mcp-server/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/13-tools-and-protocols/07-building-an-mcp-server/outputs/skill-mcp-server-scaffolder.md",
+      "type": "document",
+      "name": "skill-mcp-server-scaffolder.md",
+      "filePath": "phases/13-tools-and-protocols/07-building-an-mcp-server/outputs/skill-mcp-server-scaffolder.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/13-tools-and-protocols/08-building-an-mcp-client/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/13-tools-and-protocols/08-building-an-mcp-client/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/13-tools-and-protocols/08-building-an-mcp-client/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/13-tools-and-protocols/08-building-an-mcp-client/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/13-tools-and-protocols/08-building-an-mcp-client/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/13-tools-and-protocols/08-building-an-mcp-client/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/13-tools-and-protocols/08-building-an-mcp-client/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/13-tools-and-protocols/08-building-an-mcp-client/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/13-tools-and-protocols/08-building-an-mcp-client/outputs/skill-mcp-client-harness.md",
+      "type": "document",
+      "name": "skill-mcp-client-harness.md",
+      "filePath": "phases/13-tools-and-protocols/08-building-an-mcp-client/outputs/skill-mcp-client-harness.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/13-tools-and-protocols/09-mcp-transports/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/13-tools-and-protocols/09-mcp-transports/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/13-tools-and-protocols/09-mcp-transports/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/13-tools-and-protocols/09-mcp-transports/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/13-tools-and-protocols/09-mcp-transports/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/13-tools-and-protocols/09-mcp-transports/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/13-tools-and-protocols/09-mcp-transports/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/13-tools-and-protocols/09-mcp-transports/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/13-tools-and-protocols/09-mcp-transports/outputs/skill-mcp-transport-migrator.md",
+      "type": "document",
+      "name": "skill-mcp-transport-migrator.md",
+      "filePath": "phases/13-tools-and-protocols/09-mcp-transports/outputs/skill-mcp-transport-migrator.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/13-tools-and-protocols/10-mcp-resources-and-prompts/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/13-tools-and-protocols/10-mcp-resources-and-prompts/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/13-tools-and-protocols/10-mcp-resources-and-prompts/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/13-tools-and-protocols/10-mcp-resources-and-prompts/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/13-tools-and-protocols/10-mcp-resources-and-prompts/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/13-tools-and-protocols/10-mcp-resources-and-prompts/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/13-tools-and-protocols/10-mcp-resources-and-prompts/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/13-tools-and-protocols/10-mcp-resources-and-prompts/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/13-tools-and-protocols/10-mcp-resources-and-prompts/outputs/skill-primitive-splitter.md",
+      "type": "document",
+      "name": "skill-primitive-splitter.md",
+      "filePath": "phases/13-tools-and-protocols/10-mcp-resources-and-prompts/outputs/skill-primitive-splitter.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/13-tools-and-protocols/11-mcp-sampling/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/13-tools-and-protocols/11-mcp-sampling/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/13-tools-and-protocols/11-mcp-sampling/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/13-tools-and-protocols/11-mcp-sampling/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/13-tools-and-protocols/11-mcp-sampling/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/13-tools-and-protocols/11-mcp-sampling/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/13-tools-and-protocols/06-mcp-fundamentals/outputs/skill-mcp-handshake-tracer.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/13-tools-and-protocols/07-building-an-mcp-server/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/13-tools-and-protocols/07-building-an-mcp-server/code/main.ts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/13-tools-and-protocols/07-building-an-mcp-server/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/13-tools-and-protocols/07-building-an-mcp-server/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/13-tools-and-protocols/07-building-an-mcp-server/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/13-tools-and-protocols/07-building-an-mcp-server/outputs/skill-mcp-server-scaffolder.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/13-tools-and-protocols/08-building-an-mcp-client/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/13-tools-and-protocols/08-building-an-mcp-client/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/13-tools-and-protocols/08-building-an-mcp-client/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/13-tools-and-protocols/08-building-an-mcp-client/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/13-tools-and-protocols/08-building-an-mcp-client/outputs/skill-mcp-client-harness.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/13-tools-and-protocols/09-mcp-transports/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/13-tools-and-protocols/09-mcp-transports/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/13-tools-and-protocols/09-mcp-transports/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/13-tools-and-protocols/09-mcp-transports/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/13-tools-and-protocols/09-mcp-transports/outputs/skill-mcp-transport-migrator.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/13-tools-and-protocols/10-mcp-resources-and-prompts/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/13-tools-and-protocols/10-mcp-resources-and-prompts/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/13-tools-and-protocols/10-mcp-resources-and-prompts/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/13-tools-and-protocols/10-mcp-resources-and-prompts/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/13-tools-and-protocols/10-mcp-resources-and-prompts/outputs/skill-primitive-splitter.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/13-tools-and-protocols/11-mcp-sampling/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/13-tools-and-protocols/11-mcp-sampling/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/13-tools-and-protocols/11-mcp-sampling/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

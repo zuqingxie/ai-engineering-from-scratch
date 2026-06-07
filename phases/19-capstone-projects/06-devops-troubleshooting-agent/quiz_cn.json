@@ -1,0 +1,90 @@
+{
+  "lesson": "06-devops-troubleshooting-agent",
+  "title": "Capstone 06 — DevOps Troubleshooting Agent for Kubernetes",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "故障排除代理的 RBAC 表面的默认权限状态是什么？",
+      "options": [
+        "默认情况下只读，破坏性动词位于单独的服务器和人工批准后面",
+        "仅受影响命名空间中的命名空间管理",
+        "相当于on-call工程师",
+        "集群管理，以便它可以自我修复"
+      ],
+      "correct": 0,
+      "explanation": ""
+    },
+    {
+      "stage": "pre",
+      "question": "根本原因分析期间，代理所走的知识图谱是什么？",
+      "options": [
+        "节点是 K8s 对象加上遥测源；边编码所有权、调度和观察",
+        "最近重新启动的 Pod 的简单列表",
+        "按团队组织的 Prometheus 指标名称",
+        "GitHub 提交和 PR 评论图表"
+      ],
+      "correct": 0,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "Slack 简报的根本原因假设如何排名？",
+      "options": [
+        "通过结合新近度、特异性、图形路径长度和引用计数的证据评分",
+        "仅通过模型对数概率",
+        "按字母顺序排列的警报名称",
+        "按它们生成的顺序"
+      ],
+      "correct": 0,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "为什么审核日志记录代理考虑的命令以及执行的命令？",
+      "options": [
+        "审阅者可以发现代理差点运行破坏性命令的情况",
+        "ArgoCD 只接受经过考虑的命令",
+        "Slack API 需要两者来进行交付",
+        "重放攻击需要两个列表"
+      ],
+      "correct": 0,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "哪种机制可以防止代理在错误部署时单方面回滚？",
+      "options": [
+        "破坏性工具位于 Slack 卡批准令牌后面的单独 MCP 服务器上",
+        "第二位法学硕士法官对撤销进行投票",
+        "GitOps 存储库上的分支保护",
+        "PagerDuty 自动暂停部署"
+      ],
+      "correct": 0,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "标题衡量的 p50 假设时间目标是多少？",
+      "options": [
+        "在下一个待命轮班下",
+        "1小时以内",
+        "从警报到 Slack 简报不到 5 分钟",
+        "30秒以下"
+      ],
+      "correct": 2,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "用于对 RCA 准确性进行评分的综合事件套件有多大？",
+      "options": [
+        "1 个脚本演示事件",
+        "5种场景",
+        "100 个随机抽样的生产警报",
+        "20 个场景，涵盖 OOMKill、DNS 抖动、HPA 抖动、PVC 填充等"
+      ],
+      "correct": 3,
+      "explanation": ""
+    }
+  ]
+}

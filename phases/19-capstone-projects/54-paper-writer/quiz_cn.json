@@ -1,0 +1,78 @@
+{
+  "lesson": "54-paper-writer",
+  "title": "Paper Writer",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "为什么作者在撰写散文之前将章节、图表和引文声明为数据？",
+      "options": [
+        "因为 LaTeX 需要前向声明",
+        "因为结构就是契约：工具可以在散文生成之前验证完整性",
+        "因为模型需要系统提示",
+        "因为 BibTeX 无法解析前向引用"
+      ],
+      "correct": 1,
+      "explanation": "结构优先让工具在调用散文生成器之前验证唯一性、引文覆盖率和图形覆盖率。框架就是契约。"
+    },
+    {
+      "stage": "pre",
+      "question": "图形注入步骤从实验清单中产生什么？",
+      "options": [
+        "从工件编译的 PDF",
+        "具有稳定 ID 和标准化为论文目录的路径的图形记录列表",
+        "带有图形描述的模型提示",
+        "参考书目存根"
+      ],
+      "correct": 1,
+      "explanation": "read_experiment_manifest 返回图记录。 ID 是确定性的，路径是标准化的，标题来自清单。"
+    },
+    {
+      "stage": "check",
+      "question": "在写入任何文件之前，哪种验证失败会引发 PaperValidationError？",
+      "options": [
+        "作者数量奇数",
+        "引用参考书目中未声明的关键部分",
+        "超过200字的摘要",
+        "磁盘上不存在的图形路径"
+      ],
+      "correct": 1,
+      "explanation": "缺少参考书目键、重复的图形 ID、空标题、空摘要和未知的图形引用都会引发 PaperValidationError。不强制存在于磁盘上，因为 LaTeX 编译器稍后会强制执行。"
+    },
+    {
+      "stage": "check",
+      "question": "为什么散文生成器是注入到 PaperWriter 中的可调用函数而不是其上的方法？",
+      "options": [
+        "因为 Python 不允许方法将 Paper 作为参数",
+        "因为测试可以将确定性 MockProseGenerator 替换为模型调用，而无需接触编写器",
+        "因为 LaTeX 需要回调",
+        "因为数据类无法保存状态"
+      ],
+      "correct": 1,
+      "explanation": "作者将散文生成器视为依赖项。该测试替代了 MockProseGenerator。生产替代了模型调用。作者没变。"
+    },
+    {
+      "stage": "post",
+      "question": "PaperWriter.write 成功时会发出哪三个文件？",
+      "options": [
+        "paper.tex、paper.pdf、references.bib",
+        "paper.tex、references.bib、manifest.json",
+        "大纲.json、paper.tex、figures.tar",
+        "清单.json、散文.txt、论文.pdf"
+      ],
+      "correct": 1,
+      "explanation": "paper.tex 是 LaTeX 源。 References.bib 是参考书目。 manifest.json 是批评者循环接下来读取的结构化工件。"
+    },
+    {
+      "stage": "post",
+      "question": "为什么是作者合同的清单部分而不仅仅是 LaTeX 文件？",
+      "options": [
+        "因为LaTeX太大而无法解析",
+        "因为下游工具（评论家、仪表板）读取结构化清单，而不是 LaTeX",
+        "因为manifest.json是BibTeX唯一接受的文件",
+        "因为 LaTeX 编译器拒绝无类型部分"
+      ],
+      "correct": 1,
+      "explanation": "清单是下游阶段的稳定接口。批评者和仪表板检查manifest.json。 LaTeX 是人类可读的工件，而不是机器界面。"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "lesson": "20-shadow-canary-progressive",
+  "title": "Shadow Traffic, Canary Rollout, and Progressive Deployment for LLMs",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "为 LLM 部署订购影子、金丝雀和 A/B 测试的正确方法是什么？",
+      "options": [
+        "影子（零影响比较），然后是金丝雀（带门的实时流量渐进），一旦确认稳定性，然后是 A/B 不同的替代方案",
+        "完全跳过阴影",
+        "首先是金丝雀，然后是影子，然后是 A/B",
+        "首先是 A/B，然后是影子，然后是金丝雀"
+      ],
+      "correct": 0,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "课程门金丝雀进展基于哪一组五个指标？",
+      "options": [
+        "GPU 温度、风扇速度、队列深度、成本、延迟",
+        "仅离线评估的准确性",
+        "延迟百分位、每个请求的成本、错误/拒绝率、输出长度分布、用户反馈率",
+        "只是吞吐量"
+      ],
+      "correct": 2,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "对于法学硕士的相同输入，本课程引用的运行准确度差异大约有多少？",
+      "options": [
+        "0.1%以下",
+        "各次运行的输出相同",
+        "始终为 50%",
+        "由于 GPU FP 非关联性加上批量大小差异，高达约 15%"
+      ],
+      "correct": 3,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "在课程的框架中，阴影模式有什么用？",
+      "options": [
+        "替换回滚",
+        "替代评估的完整质量测试",
+        "最终生产推出步骤",
+        "冒烟测试发现成本爆炸、长度回归、拒绝更改和硬错误 - 不是质量保证"
+      ],
+      "correct": 3,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "每节课的正确回滚设计是什么？",
+      "options": [
+        "等待下一个发布窗口",
+        "使用新模型摘要重新部署，需要几个小时",
+        "翻转策略标志并在几秒钟内恢复固定的模型摘要 - 无需重新部署",
+        "手动 SSH 到每个 pod"
+      ],
+      "correct": 2,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "为什么成本与延迟和质量一起被列为门槛？",
+      "options": [
+        "改进 20% 的模型每次调用的成本可能会高出 3 倍；没有成本门的运输破坏了单位经济效益",
+        "每个提供商自动设定成本上限",
+        "成本是一个虚荣指标",
+        "不同提供商的成本相同"
+      ],
+      "correct": 0,
+      "explanation": ""
+    }
+  ]
+}

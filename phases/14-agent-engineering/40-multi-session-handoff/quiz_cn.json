@@ -1,0 +1,90 @@
+{
+  "lesson": "40-multi-session-handoff",
+  "title": "Multi-Session Handoff",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "切换报文中哪个字段是承载的？",
+      "options": [
+        "总结",
+        "next_action（没有它，文档是状态报告，而不是交接）",
+        "命令运行",
+        "判决指针"
+      ],
+      "correct": 1,
+      "explanation": "除 next_action 之外的所有内容的切换都是状态报告；下一个具体步骤将使下一次会议富有成效。"
+    },
+    {
+      "stage": "pre",
+      "question": "为什么切换是生成的，而不是写入的？",
+      "options": [
+        "发电机速度更快",
+        "在艰难的一天里，手写的交接会被跳过；生成器读取工作台工件并发出数据包，因此代理只需将工作台保持在生成器可以总结的状态",
+        "生成器加密得更好",
+        "Apache 2.0 需要它"
+      ],
+      "correct": 1,
+      "explanation": "自动化缩小了意图和一致性之间的差距。"
+    },
+    {
+      "stage": "check",
+      "question": "包裹以哪两种形式运送？",
+      "options": [
+        "PDF 和 PNG",
+        "handoff.md（人类可读）和 handoff.json（机器可读，均来自同一源工件；JSON 在分歧上获胜）",
+        "电子邮件和 Slack",
+        "YAML 和 TOML"
+      ],
+      "correct": 1,
+      "explanation": "Markdown 适合人类，JSON 适合下一个智能体；两者都来自同一台发电机。"
+    },
+    {
+      "stage": "check",
+      "question": "本课如何区分压缩和切换？",
+      "options": [
+        "他们是一样的",
+        "压缩延长了会话；切换干净地关闭一个并在新的上下文中开始下一个。数据包使得这种转变变得便宜",
+        "压缩是付费的，交接是免费的",
+        "切换需要 GPU"
+      ],
+      "correct": 1,
+      "explanation": "Hermes 问题 20372 框架：在就地压缩降低质量之前编写紧凑的切换，然后在新会话中恢复。"
+    },
+    {
+      "stage": "check",
+      "question": "本课程对何时结束课程有何建议？",
+      "options": [
+        "在 100% 上下文中，然后恐慌",
+        "在 50-75% 上下文预算之前，且上下文完好无损；在压缩工件污染状态之前编写成本低廉",
+        "仅在午夜时分",
+        "仅在合并后"
+      ],
+      "correct": 1,
+      "explanation": "尽早结束可以保持发电机的输入干净。"
+    },
+    {
+      "stage": "post",
+      "question": "本课建议将数据包中的反馈日志修剪成什么？",
+      "options": [
+        "仅前 K 个条目",
+        "最后 K 个条目加上每个具有非零退出的条目，因此数据包保持较小，而故障历史记录仍然存在",
+        "随机 N 个条目",
+        "仅最新条目"
+      ],
+      "correct": 1,
+      "explanation": "不对称装饰：失败必须生存；保留在尾部的琐事很便宜。"
+    },
+    {
+      "stage": "post",
+      "question": "哪些元数据可以使多代理会话之间的协调发挥作用？",
+      "options": [
+        "绝密加密",
+        "分支、last_known_good_commit 和状态（活动 | 被取代 | 已存档）；每个分支和主题只有一次主动切换",
+        "共享 Slack 频道",
+        "中央队列"
+      ],
+      "correct": 1,
+      "explanation": "过时的切换是多代理失败的主要原因； status + Branch + LKG 保持活动集较小。"
+    }
+  ]
+}

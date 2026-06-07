@@ -1,0 +1,90 @@
+{
+  "lesson": "18-agno-and-mastra-runtimes",
+  "title": "Agno and Mastra: Production Runtimes",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "本课程为每个运行时推荐哪种语言配对？",
+      "options": [
+        "Agno 用于 TypeScript，Mastra 用于 Python",
+        "Agno 用于 Python，Mastra 用于 TypeScript",
+        "两者都是 Rust-first",
+        "两者都是 Go-first"
+      ],
+      "correct": 1,
+      "explanation": "Agno 是 Python（FastAPI 型）； Mastra 是 TypeScript（Vercel AI SDK 形式）。"
+    },
+    {
+      "stage": "pre",
+      "question": "Agno 推荐的生产部署形态是什么？",
+      "options": [
+        "一个长寿命的有状态守护进程",
+        "无状态会话范围的 FastAPI 后端；每个请求都会启动一个新的代理，并且会话状态存在于数据库中",
+        "仅限无服务器 cron 工作人员",
+        "仅 WebSocket 服务器"
+      ],
+      "correct": 1,
+      "explanation": "每个请求无状态 FastAPI；会话状态外部化到数据库。"
+    },
+    {
+      "stage": "check",
+      "question": "马斯特拉的三个原语是什么？",
+      "options": [
+        "代理、工具、工作流程",
+        "演员、消息、收件箱",
+        "计划、工作者、求解器",
+        "节点、边缘、状态"
+      ],
+      "correct": 0,
+      "explanation": "代理（LLM + 角色）、工具（Zod 类型）和工作流程是 Mastra 的三个原语。"
+    },
+    {
+      "stage": "check",
+      "question": "Agno 根据其文档大致确定代理实例化成本是多少？",
+      "options": [
+        "每个代理大约 2 微秒，大约 3.75 KiB",
+        "每个代理大约 200 毫秒和 100 MiB",
+        "每个代理大约 1 秒和 1 GiB",
+        "每个代理大约 10 分钟和 4 GiB"
+      ],
+      "correct": 0,
+      "explanation": "Agno 的文档引用了每个代理大约 2 微秒和大约 3.75 KiB。"
+    },
+    {
+      "stage": "check",
+      "question": "Mastra 的统一模型路由器提供什么？",
+      "options": [
+        "单个客户端界面适用于许多提供商的数千个模型",
+        "工具调用队列",
+        "矢量 DB 层",
+        "图形检查点"
+      ],
+      "correct": 0,
+      "explanation": "Mastra 的统一模型路由器引用了 94 个提供商的 3,300 多个模型。"
+    },
+    {
+      "stage": "post",
+      "question": "什么时候为了性能而选择 Agno 是错误的理由？",
+      "options": [
+        "当工作负载是每个请求一个缓慢的代理调用并且开销不是瓶颈时",
+        "使用Python 3.13时",
+        "部署到 AWS 时",
+        "使用Langfuse时"
+      ],
+      "correct": 0,
+      "explanation": "对于聊天扇入规模而言，2 微秒很重要，但对于每个请求的单个缓慢调用而言，这并不重要。"
+    },
+    {
+      "stage": "post",
+      "question": "在分叉 Mastra 之前，您应该仔细阅读哪些许可表面？",
+      "options": [
+        "没有许可证文件",
+        "ee/ 目录是可用源代码而不是 Apache 2.0，并且限制商业用途",
+        "Mastra 的全部内容都是 GPL",
+        "Mastra 需要 CLA，但无需许可证审查"
+      ],
+      "correct": 1,
+      "explanation": "Mastra 是 Apache 2.0，除了 ee/ 之外，它是可用的源代码；在分叉之前检查限制。"
+    }
+  ]
+}

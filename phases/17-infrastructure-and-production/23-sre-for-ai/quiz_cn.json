@@ -1,0 +1,78 @@
+{
+  "lesson": "23-sre-for-ai",
+  "title": "SRE for AI — Multi-Agent Incident Response, Runbooks, Predictive Detection",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "本课程为 AI SRE 推荐哪种多智能体形状？",
+      "options": [
+        "随机选择三个代理之一",
+        "两个特工串联，没有主管",
+        "一个单一代理拥有一切",
+        "主管代理将事件分解为专用日志、指标和运行手册代理的子查询，然后综合并呈现给人类"
+      ],
+      "correct": 3,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "本课程认为哪种自动修复集是安全的？",
+      "options": [
+        "重新架构服务拓扑",
+        "改变数据库",
+        "修改 IAM 策略",
+        "重新启动 Pod、恢复特定部署、在预先批准的范围内扩展池、启用预先批准的功能标志"
+      ],
+      "correct": 3,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "NeuBird Hawkeye 如何使用对抗性评估来过滤幻觉的根本原因？",
+      "options": [
+        "两个模型独立分析同一事件；同意 = 高置信度，不同意 = 将两种假设升级为人类",
+        "使用 GAN 式训练",
+        "始终选择置信度较高的模型的答案",
+        "在相同的输入上运行相同的模型两次"
+      ],
+      "correct": 0,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "AI SRE 中的运算内存解决了什么问题？",
+      "options": [
+        "推理 Pod 的冷启动",
+        "网络出口过滤",
+        "当团队轮换时，部落知识会丢失——操作手册和事后分析存在于矢量数据库中，代理在每次事件时都会检索该数据库",
+        "代币成本归因"
+      ],
+      "correct": 2,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "本课程引用了 MIT 2025 年的哪些结果来进行事前预测？",
+      "options": [
+        "100% 预测，领先 1 秒",
+        "使用日志 + GPU 温度 + API 错误模式提前 10-15 分钟预测 89% 的中断",
+        "预测仍未解决",
+        "10% 无提前期"
+      ],
+      "correct": 1,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "本课程强调预测性检测的哪些操作限制？",
+      "options": [
+        "预测取代操作手册",
+        "预测永远不应该与行动挂钩",
+        "没有驱动的预测只是仪表板——操作问题是预测触发什么操作（预排水、页面、自动缩放）",
+        "预测总是准确的"
+      ],
+      "correct": 2,
+      "explanation": ""
+    }
+  ]
+}

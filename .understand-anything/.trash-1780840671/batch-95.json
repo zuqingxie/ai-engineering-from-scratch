@@ -1,0 +1,539 @@
+{
+  "nodes": [
+    {
+      "id": "config:phases/14-agent-engineering/14-autogen-actor-model/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/14-agent-engineering/14-autogen-actor-model/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/14-agent-engineering/15-crewai-role-based-crews/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/14-agent-engineering/15-crewai-role-based-crews/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/14-agent-engineering/15-crewai-role-based-crews/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/14-agent-engineering/15-crewai-role-based-crews/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/14-agent-engineering/15-crewai-role-based-crews/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/14-agent-engineering/15-crewai-role-based-crews/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/14-agent-engineering/15-crewai-role-based-crews/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/14-agent-engineering/15-crewai-role-based-crews/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/14-agent-engineering/15-crewai-role-based-crews/outputs/skill-crew-or-flow.md",
+      "type": "document",
+      "name": "skill-crew-or-flow.md",
+      "filePath": "phases/14-agent-engineering/15-crewai-role-based-crews/outputs/skill-crew-or-flow.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/14-agent-engineering/15-crewai-role-based-crews/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/14-agent-engineering/15-crewai-role-based-crews/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/14-agent-engineering/16-openai-agents-sdk/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/14-agent-engineering/16-openai-agents-sdk/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/14-agent-engineering/16-openai-agents-sdk/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/14-agent-engineering/16-openai-agents-sdk/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/14-agent-engineering/16-openai-agents-sdk/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/14-agent-engineering/16-openai-agents-sdk/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/14-agent-engineering/16-openai-agents-sdk/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/14-agent-engineering/16-openai-agents-sdk/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/14-agent-engineering/16-openai-agents-sdk/outputs/skill-agents-sdk-scaffold.md",
+      "type": "document",
+      "name": "skill-agents-sdk-scaffold.md",
+      "filePath": "phases/14-agent-engineering/16-openai-agents-sdk/outputs/skill-agents-sdk-scaffold.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/14-agent-engineering/16-openai-agents-sdk/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/14-agent-engineering/16-openai-agents-sdk/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/14-agent-engineering/17-claude-agent-sdk/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/14-agent-engineering/17-claude-agent-sdk/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/14-agent-engineering/17-claude-agent-sdk/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/14-agent-engineering/17-claude-agent-sdk/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/14-agent-engineering/17-claude-agent-sdk/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/14-agent-engineering/17-claude-agent-sdk/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/14-agent-engineering/17-claude-agent-sdk/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/14-agent-engineering/17-claude-agent-sdk/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/14-agent-engineering/17-claude-agent-sdk/outputs/skill-claude-agent-scaffold.md",
+      "type": "document",
+      "name": "skill-claude-agent-scaffold.md",
+      "filePath": "phases/14-agent-engineering/17-claude-agent-sdk/outputs/skill-claude-agent-scaffold.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/14-agent-engineering/17-claude-agent-sdk/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/14-agent-engineering/17-claude-agent-sdk/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/14-agent-engineering/18-agno-and-mastra-runtimes/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/14-agent-engineering/18-agno-and-mastra-runtimes/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:phases/14-agent-engineering/18-agno-and-mastra-runtimes/code/main.ts",
+      "type": "file",
+      "name": "main.ts",
+      "filePath": "phases/14-agent-engineering/18-agno-and-mastra-runtimes/code/main.ts",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "typescript"
+      ],
+      "language": "typescript"
+    },
+    {
+      "id": "document:phases/14-agent-engineering/18-agno-and-mastra-runtimes/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/14-agent-engineering/18-agno-and-mastra-runtimes/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/14-agent-engineering/18-agno-and-mastra-runtimes/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/14-agent-engineering/18-agno-and-mastra-runtimes/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/14-agent-engineering/18-agno-and-mastra-runtimes/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/14-agent-engineering/18-agno-and-mastra-runtimes/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/14-agent-engineering/18-agno-and-mastra-runtimes/outputs/skill-runtime-picker.md",
+      "type": "document",
+      "name": "skill-runtime-picker.md",
+      "filePath": "phases/14-agent-engineering/18-agno-and-mastra-runtimes/outputs/skill-runtime-picker.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/14-agent-engineering/14-autogen-actor-model/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/14-agent-engineering/15-crewai-role-based-crews/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/14-agent-engineering/15-crewai-role-based-crews/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/14-agent-engineering/15-crewai-role-based-crews/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/14-agent-engineering/15-crewai-role-based-crews/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/14-agent-engineering/15-crewai-role-based-crews/outputs/skill-crew-or-flow.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/14-agent-engineering/15-crewai-role-based-crews/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/14-agent-engineering/16-openai-agents-sdk/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/14-agent-engineering/16-openai-agents-sdk/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/14-agent-engineering/16-openai-agents-sdk/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/14-agent-engineering/16-openai-agents-sdk/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/14-agent-engineering/16-openai-agents-sdk/outputs/skill-agents-sdk-scaffold.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/14-agent-engineering/16-openai-agents-sdk/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/14-agent-engineering/17-claude-agent-sdk/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/14-agent-engineering/17-claude-agent-sdk/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/14-agent-engineering/17-claude-agent-sdk/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/14-agent-engineering/17-claude-agent-sdk/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/14-agent-engineering/17-claude-agent-sdk/outputs/skill-claude-agent-scaffold.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/14-agent-engineering/17-claude-agent-sdk/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/14-agent-engineering/18-agno-and-mastra-runtimes/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/14-agent-engineering/18-agno-and-mastra-runtimes/code/main.ts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/14-agent-engineering/18-agno-and-mastra-runtimes/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/14-agent-engineering/18-agno-and-mastra-runtimes/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/14-agent-engineering/18-agno-and-mastra-runtimes/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/14-agent-engineering/18-agno-and-mastra-runtimes/outputs/skill-runtime-picker.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

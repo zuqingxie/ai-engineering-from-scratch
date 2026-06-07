@@ -1,0 +1,90 @@
+{
+  "lesson": "23-function-call-dispatcher",
+  "title": "Function Call Dispatcher",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "为什么非幂等工具的超时默认为不重试？",
+      "options": [
+        "因为调度程序无法测量非幂等调用",
+        "因为该工具可能已部分提交；重试可以重复效果",
+        "因为非幂等处理程序运行速度更快",
+        "因为幂等键很慢"
+      ],
+      "correct": 1,
+      "explanation": "重试在 4.9 秒超时的 db.write 可以产生第二次写入。调度员会拒绝，除非处理程序告诉它可以安全地重复呼叫。"
+    },
+    {
+      "stage": "pre",
+      "question": "幂等密钥重复数据删除可以防止什么？",
+      "options": [
+        "网络速度慢",
+        "当原始调用仍在进行时触发的重试",
+        "架构验证错误",
+        "进程重新启动"
+      ],
+      "correct": 1,
+      "explanation": "如果没有重复数据删除，则以 5 秒的速度重试会导致慢速原始数据仍处于等待状态。缓存将两者合并为一个处理程序调用。"
+    },
+    {
+      "stage": "check",
+      "question": "哪些错误类型可以在此调度程序中重试？",
+      "options": [
+        "架构和 not_found",
+        "内部和预算超出",
+        "超时（如果幂等）和瞬态",
+        "他们全部"
+      ],
+      "correct": 2,
+      "explanation": "Schema 和 not_found 是确定性的。内部掩盖了未知的处理程序错误。超出预算就是收益。仅幂等超时和显式 TransientError 重试。"
+    },
+    {
+      "stage": "check",
+      "question": "_run_with_retries 周围的信号量保护什么？",
+      "options": [
+        "处理程序本身",
+        "后端因同时调用过多而被 Gather() 扇形散开",
+        "验证器",
+        "重试计数器"
+      ],
+      "correct": 1,
+      "explanation": "四十个调用的集合将打开四十个并发调度，没有限制。信号量限制了波浪。"
+    },
+    {
+      "stage": "check",
+      "question": "为什么幂等密钥是由调用者而不是调度程序派生的？",
+      "options": [
+        "因为Python哈希不稳定",
+        "因为仅从 args 派生会使两个语义不同的调用发生冲突（如果它们碰巧共享 args）",
+        "因为注册表没有密钥",
+        "因为缓存不能存储字符串"
+      ],
+      "correct": 1,
+      "explanation": "调用者知道步骤 ID、计划者意图和用户。仅参数不足以安全地进行重复数据删除。"
+    },
+    {
+      "stage": "post",
+      "question": "哪个 JSON-RPC 错误代码映射到调度时的架构故障？",
+      "options": [
+        "-32601",
+        "-32602",
+        "-32603",
+        "-32700"
+      ],
+      "correct": 1,
+      "explanation": "-32602 无效参数。调度程序在任何处理程序运行之前返回它。"
+    },
+    {
+      "stage": "post",
+      "question": "在幂等工具上超时达到 max_attempts 后，返回什么？",
+      "options": [
+        "引发异常",
+        "调度确定但没有结果",
+        "DispatchError 带有 kind=timeout 和 attempts==max_attempts",
+        "带有 kind=internal 的 DispatchError"
+      ],
+      "correct": 2,
+      "explanation": "调度程序返回一个类型错误信封。种类反映了最后一次失败模式，尝试次数反映了它进行了多少次尝试。"
+    }
+  ]
+}

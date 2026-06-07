@@ -1,0 +1,90 @@
+{
+  "lesson": "36-scope-contracts",
+  "title": "Scope Contracts and Task Boundaries",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "为什么范围蔓延被称为最受监控的故障模式？",
+      "options": [
+        "它让代理大声崩溃",
+        "每一次触摸在当时都有一个合理的理由；它们一起形成了与审查不同的变化",
+        "监控太少见",
+        "测试会自动捕获它"
+      ],
+      "correct": 1,
+      "explanation": "代理人善意地叙述每一步；沉默的总体是令人毛骨悚然的。"
+    },
+    {
+      "stage": "pre",
+      "question": "本课将哪个合同字段称为“半合同”？",
+      "options": [
+        "目标",
+        "forbidden_files（负空间）",
+        "任务ID",
+        "需要批准"
+      ],
+      "correct": 1,
+      "explanation": "没有forbidden_files的合约是不完整的；负空间是合同的一半。"
+    },
+    {
+      "stage": "check",
+      "question": "为什么允许/禁止固定全局路径而不是原始路径？",
+      "options": [
+        "全局速度更快",
+        "真正的存储库移动文件； glob 在会话之间的重构中幸存下来",
+        "Glob 加密效果更好",
+        "原始路径不可 JSON 序列化"
+      ],
+      "correct": 1,
+      "explanation": "Globs (app/**/*.py) 通过重构保持合约有效。"
+    },
+    {
+      "stage": "check",
+      "question": "“违反预算”模式有什么作用？",
+      "options": [
+        "为代理设置每月预算",
+        "允许预算范围内出现较小的范围偏差作为警告；只有过量才会触发合并拒绝——发送的门和被禁用的门之间的区别",
+        "限制模型调用",
+        "每次违规收费"
+      ],
+      "correct": 1,
+      "explanation": "agent-guardrails 使用 ViolationBudget，因此该门可在日常流程中使用。"
+    },
+    {
+      "stage": "check",
+      "question": "规格最大化从业者报告了什么？",
+      "options": [
+        "延迟下降 90%",
+        "不更换药剂，三周内兔洞率从52%下降至21%；合同完成了工作，而不是模型",
+        "成本上涨 5 倍",
+        "测试速度减慢"
+      ],
+      "correct": 1,
+      "explanation": "在调用代理之前，YAML 中的范围合同将兔子洞率减半，而无需更改模型。"
+    },
+    {
+      "stage": "post",
+      "question": "什么是多合约合并语义（最小权限）？",
+      "options": [
+        "最后一份合同获胜",
+        "相交 allowed_files；联合禁止文件；最短时间预算；累积批准；拒绝所有棍棒； None 的合并推迟到另一边",
+        "第一份合同获胜",
+        "随机抢七"
+      ],
+      "correct": 1,
+      "explanation": "最小权限合并：允许交集、禁止并集、最限制时间、累积批准。"
+    },
+    {
+      "stage": "post",
+      "question": "为什么时间和网络预算也包含在合同中？",
+      "options": [
+        "挂钟和外部主机访问是范围维度；仅文件 glob 是必要的，但还不够",
+        "提供商需要他们",
+        "他们使 JSON 更小",
+        "Apache 2.0 需要它们"
+      ],
+      "correct": 0,
+      "explanation": "time_budget_minutes 和 network_egress 允许列表是文件全局之上的范围维度。"
+    }
+  ]
+}

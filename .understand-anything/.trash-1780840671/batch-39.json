@@ -1,0 +1,544 @@
+{
+  "nodes": [
+    {
+      "id": "document:phases/02-ml-fundamentals/02-linear-regression/outputs/skill-regression.md",
+      "type": "document",
+      "name": "skill-regression.md",
+      "filePath": "phases/02-ml-fundamentals/02-linear-regression/outputs/skill-regression.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/02-ml-fundamentals/02-linear-regression/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/02-ml-fundamentals/02-linear-regression/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/02-ml-fundamentals/03-logistic-regression/code/logistic_regression.py",
+      "type": "file",
+      "name": "logistic_regression.py",
+      "filePath": "phases/02-ml-fundamentals/03-logistic-regression/code/logistic_regression.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:phases/02-ml-fundamentals/03-logistic-regression/code/main.jl",
+      "type": "file",
+      "name": "main.jl",
+      "filePath": "phases/02-ml-fundamentals/03-logistic-regression/code/main.jl",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "jl"
+      ],
+      "language": "jl"
+    },
+    {
+      "id": "document:phases/02-ml-fundamentals/03-logistic-regression/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/02-ml-fundamentals/03-logistic-regression/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/02-ml-fundamentals/03-logistic-regression/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/02-ml-fundamentals/03-logistic-regression/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/02-ml-fundamentals/03-logistic-regression/outputs/skill-classification-baseline.md",
+      "type": "document",
+      "name": "skill-classification-baseline.md",
+      "filePath": "phases/02-ml-fundamentals/03-logistic-regression/outputs/skill-classification-baseline.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/02-ml-fundamentals/03-logistic-regression/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/02-ml-fundamentals/03-logistic-regression/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/02-ml-fundamentals/04-decision-trees/code/trees.py",
+      "type": "file",
+      "name": "trees.py",
+      "filePath": "phases/02-ml-fundamentals/04-decision-trees/code/trees.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/02-ml-fundamentals/04-decision-trees/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/02-ml-fundamentals/04-decision-trees/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/02-ml-fundamentals/04-decision-trees/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/02-ml-fundamentals/04-decision-trees/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/02-ml-fundamentals/04-decision-trees/outputs/prompt-tree-interpreter.md",
+      "type": "document",
+      "name": "prompt-tree-interpreter.md",
+      "filePath": "phases/02-ml-fundamentals/04-decision-trees/outputs/prompt-tree-interpreter.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/02-ml-fundamentals/04-decision-trees/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/02-ml-fundamentals/04-decision-trees/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/02-ml-fundamentals/05-support-vector-machines/code/main.jl",
+      "type": "file",
+      "name": "main.jl",
+      "filePath": "phases/02-ml-fundamentals/05-support-vector-machines/code/main.jl",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "jl"
+      ],
+      "language": "jl"
+    },
+    {
+      "id": "file:phases/02-ml-fundamentals/05-support-vector-machines/code/svm.py",
+      "type": "file",
+      "name": "svm.py",
+      "filePath": "phases/02-ml-fundamentals/05-support-vector-machines/code/svm.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/02-ml-fundamentals/05-support-vector-machines/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/02-ml-fundamentals/05-support-vector-machines/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/02-ml-fundamentals/05-support-vector-machines/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/02-ml-fundamentals/05-support-vector-machines/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/02-ml-fundamentals/05-support-vector-machines/outputs/skill-svm-kernel-chooser.md",
+      "type": "document",
+      "name": "skill-svm-kernel-chooser.md",
+      "filePath": "phases/02-ml-fundamentals/05-support-vector-machines/outputs/skill-svm-kernel-chooser.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/02-ml-fundamentals/05-support-vector-machines/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/02-ml-fundamentals/05-support-vector-machines/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/02-ml-fundamentals/06-knn-and-distances/code/knn.py",
+      "type": "file",
+      "name": "knn.py",
+      "filePath": "phases/02-ml-fundamentals/06-knn-and-distances/code/knn.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/02-ml-fundamentals/06-knn-and-distances/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/02-ml-fundamentals/06-knn-and-distances/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/02-ml-fundamentals/06-knn-and-distances/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/02-ml-fundamentals/06-knn-and-distances/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/02-ml-fundamentals/06-knn-and-distances/outputs/prompt-distance-metric-advisor.md",
+      "type": "document",
+      "name": "prompt-distance-metric-advisor.md",
+      "filePath": "phases/02-ml-fundamentals/06-knn-and-distances/outputs/prompt-distance-metric-advisor.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/02-ml-fundamentals/06-knn-and-distances/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/02-ml-fundamentals/06-knn-and-distances/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/02-ml-fundamentals/07-unsupervised-learning/code/clustering.py",
+      "type": "file",
+      "name": "clustering.py",
+      "filePath": "phases/02-ml-fundamentals/07-unsupervised-learning/code/clustering.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/02-ml-fundamentals/02-linear-regression/outputs/skill-regression.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/02-ml-fundamentals/02-linear-regression/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/02-ml-fundamentals/03-logistic-regression/code/logistic_regression.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/02-ml-fundamentals/03-logistic-regression/code/main.jl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/02-ml-fundamentals/03-logistic-regression/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/02-ml-fundamentals/03-logistic-regression/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/02-ml-fundamentals/03-logistic-regression/outputs/skill-classification-baseline.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/02-ml-fundamentals/03-logistic-regression/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/02-ml-fundamentals/04-decision-trees/code/trees.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/02-ml-fundamentals/04-decision-trees/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/02-ml-fundamentals/04-decision-trees/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/02-ml-fundamentals/04-decision-trees/outputs/prompt-tree-interpreter.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/02-ml-fundamentals/04-decision-trees/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/02-ml-fundamentals/05-support-vector-machines/code/main.jl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/02-ml-fundamentals/05-support-vector-machines/code/svm.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/02-ml-fundamentals/05-support-vector-machines/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/02-ml-fundamentals/05-support-vector-machines/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/02-ml-fundamentals/05-support-vector-machines/outputs/skill-svm-kernel-chooser.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/02-ml-fundamentals/05-support-vector-machines/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/02-ml-fundamentals/06-knn-and-distances/code/knn.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/02-ml-fundamentals/06-knn-and-distances/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/02-ml-fundamentals/06-knn-and-distances/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/02-ml-fundamentals/06-knn-and-distances/outputs/prompt-distance-metric-advisor.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/02-ml-fundamentals/06-knn-and-distances/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/02-ml-fundamentals/07-unsupervised-learning/code/clustering.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

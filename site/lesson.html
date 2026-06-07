@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lesson - AI Engineering from Scratch</title>
+  <title>Lesson - AI Engineering from Scratch 从零开始学AI</title>
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' fill='%23fafaf5'/><rect x='2' y='2' width='28' height='28' fill='none' stroke='%233553ff' stroke-width='1.2'/><text x='6' y='22' font-size='14' font-family='monospace' fill='%233553ff'>AI</text></svg>">
   <meta name="description" content="A lesson from the AI Engineering from Scratch curriculum. 503 lessons across 20 phases, four languages, every algorithm built from raw math.">
   <meta property="og:title" content="AI Engineering from Scratch · Lesson">
@@ -18,6 +18,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=VT323&family=Source+Serif+4:ital,opsz,wght@0,8..60,400..700;1,8..60,400..700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
   <link rel="stylesheet" href="style.css?v=20260525a">
   <style>
     .scroll-progress {
@@ -458,10 +459,17 @@
       z-index: 2;
     }
 
-    .code-copy {
+    .code-actions {
       position: absolute;
       top: 6px;
       right: 8px;
+      display: flex;
+      gap: 6px;
+      z-index: 2;
+    }
+
+    .code-copy,
+    .code-run {
       background: transparent;
       border: 1px solid var(--rule-soft);
       padding: 3px 10px;
@@ -471,13 +479,59 @@
       text-transform: uppercase;
       color: var(--ink-soft);
       cursor: pointer;
-      z-index: 2;
       transition: color 0.15s, border-color 0.15s;
     }
 
-    .code-copy:hover {
+    .code-run {
+      display: none;
+    }
+
+    body.runner-available .code-run {
+      display: inline-flex;
+      align-items: center;
+    }
+
+    .code-copy:hover,
+    .code-run:hover {
       color: var(--blueprint);
       border-color: var(--blueprint);
+    }
+
+    .code-run:disabled {
+      cursor: wait;
+      opacity: 0.65;
+    }
+
+    .code-output {
+      display: none;
+      margin: -12px 0 20px;
+      border: 1px solid var(--rule-soft);
+      border-top: none;
+      background: color-mix(in srgb, var(--code-bg) 82%, var(--bg));
+      color: var(--ink);
+      font-family: var(--font-mono);
+      font-size: 0.78rem;
+      line-height: 1.55;
+      white-space: pre-wrap;
+      overflow-x: auto;
+      padding: 12px 16px;
+    }
+
+    .code-output.is-visible {
+      display: block;
+    }
+
+    .code-output.is-error {
+      color: #ff9f9f;
+    }
+
+    .code-output-label {
+      display: block;
+      margin-bottom: 6px;
+      color: var(--ink-mute);
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      font-size: 0.66rem;
     }
 
     .syn-keyword { color: var(--blueprint); font-weight: 500; }
@@ -915,6 +969,16 @@
     .lesson-article .mermaid-container svg {
       max-width: 100%;
       height: auto;
+    }
+
+    .lesson-article .katex-display {
+      overflow-x: auto;
+      overflow-y: hidden;
+      padding: 0.25rem 0;
+    }
+
+    .lesson-article .katex-display > .katex {
+      max-width: 100%;
     }
 
     :where(
@@ -1563,7 +1627,7 @@
 </head>
 <body>
 
-  <a href="#main" class="skip-link">Skip to content</a>
+  <a href="#main" class="skip-link" data-i18n="skip.content">Skip to content</a>
 
   <div class="scroll-progress" id="scrollProgress"></div>
 
@@ -1573,10 +1637,10 @@
         <span class="logo-icon" aria-hidden="true"></span> AI / FROM SCRATCH
       </a>
       <nav class="header-nav">
-        <a href="index.html#contents">Contents</a>
-        <a href="catalog.html">Catalog</a>
-        <a href="prereqs.html">Roadmap</a>
-        <a href="glossary.html">Glossary</a>
+        <a href="index.html#contents" data-i18n="nav.contents">Contents</a>
+        <a href="catalog.html" data-i18n="nav.catalog">Catalog</a>
+        <a href="prereqs.html" data-i18n="nav.roadmap">Roadmap</a>
+        <a href="glossary.html" data-i18n="nav.glossary">Glossary</a>
         <a href="https://github.com/rohitg00/ai-engineering-from-scratch" target="_blank" rel="noopener" class="header-github">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.4 3-.405 1.02.005 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
           <svg class="star-icon" width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279L12 19.896l-7.416 3.517 1.48-8.279L0 9.306l8.332-1.151z"/></svg>
@@ -1584,7 +1648,7 @@
         </a>
       </nav>
       <button class="search-toggle" type="button" data-cmd-palette
-        aria-label="Search (⌘K)" title="Search (⌘K)">
+        aria-label="Search (⌘K)" title="Search (⌘K)" data-i18n-label="search.label">
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none"
           stroke="currentColor" stroke-width="2.5"
           stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -1592,7 +1656,11 @@
           <line x1="21" y1="21" x2="16.65" y2="16.65"/>
         </svg>
       </button>
-      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme" type="button">
+      <select class="language-select" id="languageSelect" aria-label="Language">
+        <option value="en">English</option>
+        <option value="zh">中文</option>
+      </select>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme" data-i18n-label="theme.toggle" type="button">
         <span class="theme-icon" id="themeIcon">N</span>
       </button>
     </div>
@@ -1618,7 +1686,7 @@
       <div class="lesson-content" id="lessonContent">
         <div class="lesson-loading" id="lessonLoading">
           <div class="spinner"></div>
-          <div class="lesson-loading-text">Loading lesson...</div>
+          <div class="lesson-loading-text" data-i18n="lesson.loading">Loading lesson...</div>
         </div>
       </div>
     </main>
@@ -1629,6 +1697,8 @@
   <script src="progress.js?v=20260525a"></script>
   <script src="header.js?v=20260525a" defer></script>
   <script src="cmdpalette.js?v=20260525a" defer></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
   <script type="module">
     import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
     mermaid.initialize({
@@ -1700,6 +1770,7 @@
       var currentPhaseIndex = -1;
       var currentLessonIndex = -1;
       var flatLessons = [];
+      var activeLang = (window.AIFSI18N && window.AIFSI18N.currentLang) ? window.AIFSI18N.currentLang() : (localStorage.getItem('site:lang') || 'en');
 
       if (typeof PHASES !== 'undefined') {
         for (var i = 0; i < PHASES.length; i++) {
@@ -1735,6 +1806,10 @@
       initSidebarToggle();
       initScrollProgress();
       fetchLesson(lessonPath);
+      window.addEventListener('aifs:languagechange', function (event) {
+        activeLang = event.detail && event.detail.lang ? event.detail.lang : 'en';
+        fetchLesson(lessonPath);
+      });
 
       function extractPhaseSlug(phase, index) {
         if (phase.url) {
@@ -1754,6 +1829,40 @@
           if (m) return m[1].replace(/\/$/, '');
         }
         return String(index + 1).padStart(2, '0') + '-' + lesson.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+      }
+
+      function tr(key, vars) {
+        if (window.AIFSI18N) return window.AIFSI18N.t(key, vars);
+        var zh = (localStorage.getItem('site:lang') || '') === 'zh';
+        var fallback = {
+          'lesson.previous': zh ? '← 上一课' : '← Previous',
+          'lesson.next': zh ? '下一课 →' : 'Next →',
+          'lesson.copy': zh ? '复制' : 'Copy',
+          'lesson.copied': zh ? '已复制' : 'Copied!',
+          'lesson.run': zh ? '运行' : 'Run',
+          'lesson.running': zh ? '运行中' : 'Running',
+          'lesson.output': zh ? '输出' : 'Output',
+          'lesson.noOutput': zh ? '（执行完成，无输出）' : '(completed with no output)',
+          'lesson.timedOut': zh ? '执行超时。' : 'Timed out.',
+          'lesson.runnerFailed': zh ? 'Runner 请求失败。' : 'Runner request failed.',
+          'lesson.exitCode': zh ? '退出码：{code}' : 'exit code: {code}',
+          'lesson.shipsTitle': zh ? '本课交付内容' : 'What This Lesson Ships',
+          'lesson.shipsSubtitle': zh ? '你现在就能使用的 prompts、skills 和 artifacts' : 'Prompts, skills, and artifacts you can use right now',
+          'lesson.outputsLoading': zh ? '正在加载产物...' : 'Loading outputs...',
+          'lesson.descLoading': zh ? '正在加载说明...' : 'Loading description...',
+          'lesson.codeTitle': zh ? '运行代码' : 'Run the Code',
+          'lesson.codeSubtitle': zh ? '本课包含的可执行文件' : 'Executable files from this lesson',
+          'lesson.codeLoading': zh ? '正在加载代码文件...' : 'Loading code files...',
+          'lesson.viewGithub': zh ? '在 GitHub 查看' : 'View on GitHub',
+          'lesson.copyCommand': zh ? '复制命令' : 'Copy command'
+        };
+        var value = fallback[key] || key;
+        if (vars) {
+          Object.keys(vars).forEach(function (name) {
+            value = value.replace(new RegExp('\\{' + name + '\\}', 'g'), vars[name]);
+          });
+        }
+        return value;
       }
 
       function buildSidebar() {
@@ -1835,10 +1944,19 @@
       }
 
       function fetchLesson(path) {
-        var rawUrl = 'https://raw.githubusercontent.com/rohitg00/ai-engineering-from-scratch/main/' + path + '/docs/en.md';
-        var quizUrl = 'https://raw.githubusercontent.com/rohitg00/ai-engineering-from-scratch/main/' + path + '/quiz.json';
+        showLessonLoading();
+        var docLang = activeLang === 'zh' ? 'cn' : 'en';
+        var rawUrl = lessonFileUrl(path + '/docs/' + docLang + '.md');
+        var fallbackRawUrl = lessonFileUrl(path + '/docs/en.md');
 
-        fetch(rawUrl)
+        fetch(rawUrl, { cache: 'no-store' })
+          .then(function (res) {
+            if (!res.ok) {
+              if (docLang !== 'en') return fetch(fallbackRawUrl, { cache: 'no-store' });
+              throw new Error('fetch-failed');
+            }
+            return res;
+          })
           .then(function (res) {
             if (!res.ok) throw new Error('fetch-failed');
             return res.text();
@@ -1851,9 +1969,7 @@
               showError('Render error', 'Loaded the lesson markdown but failed to render it. Details in the browser console.');
               return;
             }
-            fetch(quizUrl)
-              .then(function (res) { return res.ok ? res.json() : null; })
-              .catch(function () { return null; })
+            fetchQuiz(path)
               .then(function (data) {
                 if (!data) return;
                 try { renderQuiz(data); }
@@ -1865,9 +1981,44 @@
           });
       }
 
-      function showError(title, msg) {
+      function fetchQuiz(path) {
+        var files = activeLang === 'zh'
+          ? ['quiz_cn.json', 'quiz_en.json']
+          : ['quiz_en.json'];
+
+        function tryFile(index) {
+          if (index >= files.length) return Promise.resolve(null);
+          return fetch(lessonFileUrl(path + '/' + files[index]), { cache: 'no-store' })
+            .then(function (res) {
+              if (res.ok) return res.json();
+              return tryFile(index + 1);
+            })
+            .catch(function () {
+              return tryFile(index + 1);
+            });
+        }
+
+        return tryFile(0);
+      }
+
+      function lessonFileUrl(path) {
+        if (/^(localhost|127\.0\.0\.1)$/.test(window.location.hostname)) {
+          return '/repo/' + path;
+        }
+        return 'https://raw.githubusercontent.com/rohitg00/ai-engineering-from-scratch/main/' + path;
+      }
+
+      function showLessonLoading() {
         var el = document.getElementById('lessonContent');
-        el.innerHTML = '<div class="lesson-error"><h2>' + title + '</h2><p>' + msg + '</p><a href="index.html" class="btn btn-primary">Back to Home</a></div>';
+        if (!el) return;
+        var i18n = window.AIFSI18N;
+        el.innerHTML = '<div class="lesson-loading" id="lessonLoading"><div class="spinner"></div><div class="lesson-loading-text">' + escapeHtml(i18n ? i18n.t('lesson.loading') : 'Loading lesson...') + '</div></div>';
+      }
+
+      function showError(title, msg) {
+        var i18n = window.AIFSI18N;
+        var el = document.getElementById('lessonContent');
+        el.innerHTML = '<div class="lesson-error"><h2>' + title + '</h2><p>' + msg + '</p><a href="index.html" class="btn btn-primary">' + escapeHtml(i18n ? i18n.t('lesson.backHome') : 'Back to Home') + '</a></div>';
       }
 
       function renderLesson(md) {
@@ -1877,9 +2028,12 @@
         html = addBottomNav(html);
         el.innerHTML = '<article class="lesson-article">' + html + '</article>';
 
+        renderMath();
+
         document.title = extractTitle(md) + ' - AI Engineering from Scratch';
 
         initCodeCopy();
+        initSnippetRunner();
         renderMermaidBlocks();
         renderAIPanels();
         buildTOC();
@@ -1894,6 +2048,26 @@
             }
           });
         });
+      }
+
+      function renderMath() {
+        var article = document.querySelector('.lesson-article');
+        if (!article || typeof window.renderMathInElement !== 'function') return;
+        try {
+          window.renderMathInElement(article, {
+            delimiters: [
+              { left: '$$', right: '$$', display: true },
+              { left: '\\[', right: '\\]', display: true },
+              { left: '\\(', right: '\\)', display: false }
+            ],
+            throwOnError: false,
+            trust: false,
+            strict: 'warn',
+            ignoredTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+          });
+        } catch (err) {
+          console.warn('KaTeX render failed', err);
+        }
       }
 
       function buildTOC() {
@@ -1936,7 +2110,7 @@
             candidate = base + '-' + n;
             n++;
           }
-          
+
           used[candidate] = true;
           heading.id = candidate;
           return candidate;
@@ -2413,7 +2587,14 @@
       function renderCodeBlock(code, lang) {
         var highlighted = highlightSyntax(escapeHtml(code), lang);
         var langLabel = lang ? '<span class="code-lang">' + escapeHtml(lang) + '</span>' : '';
-        return '<pre>' + langLabel + '<button class="code-copy" data-code="' + escapeAttr(code) + '">Copy</button><code>' + highlighted + '</code></pre>';
+        var canRun = isRunnableLang(lang);
+        var runBtn = canRun ? '<button class="code-run" data-lang="' + escapeAttr(lang) + '" data-code="' + escapeAttr(code) + '">' + escapeHtml(tr('lesson.run')) + '</button>' : '';
+        return '<pre>' + langLabel + '<div class="code-actions">' + runBtn + '<button class="code-copy" data-code="' + escapeAttr(code) + '">' + escapeHtml(tr('lesson.copy')) + '</button></div><code>' + highlighted + '</code></pre>' + (canRun ? '<div class="code-output" aria-live="polite"></div>' : '');
+      }
+
+      function isRunnableLang(lang) {
+        lang = (lang || '').toLowerCase();
+        return lang === 'python' || lang === 'py' || lang === 'javascript' || lang === 'js';
       }
 
       function highlightSyntax(code, lang) {
@@ -2461,11 +2642,85 @@
           btn.addEventListener('click', function () {
             var code = btn.getAttribute('data-code');
             navigator.clipboard.writeText(code).then(function () {
-              btn.textContent = 'Copied!';
-              setTimeout(function () { btn.textContent = 'Copy'; }, 1500);
+              btn.textContent = tr('lesson.copied');
+              setTimeout(function () { btn.textContent = tr('lesson.copy'); }, 1500);
             });
           });
         });
+      }
+
+      function initSnippetRunner() {
+        var runButtons = document.querySelectorAll('.code-run');
+        if (!runButtons.length) return;
+
+        fetch('/api/runner', { cache: 'no-store' })
+          .then(function (res) {
+            if (!res.ok) throw new Error('runner unavailable');
+            return res.json();
+          })
+          .then(function (data) {
+            if (!data || !data.available) return;
+            document.body.classList.add('runner-available');
+          })
+          .catch(function () {
+            document.body.classList.remove('runner-available');
+          });
+
+        runButtons.forEach(function (btn) {
+          btn.addEventListener('click', function () {
+            var output = btn.closest('pre').nextElementSibling;
+            var originalText = btn.textContent;
+            btn.disabled = true;
+            btn.textContent = tr('lesson.running');
+            showRunOutput(output, tr('lesson.running') + '...', false);
+
+            fetch('/api/run-snippet', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({
+                language: btn.getAttribute('data-lang') || '',
+                code: btn.getAttribute('data-code') || ''
+              })
+            })
+              .then(function (res) {
+                return res.json().then(function (data) {
+                  if (!res.ok) throw data;
+                  return data;
+                });
+              })
+              .then(function (data) {
+                var text = formatRunResult(data);
+                var isError = data.timedOut || data.exitCode !== 0;
+                showRunOutput(output, text, isError);
+              })
+              .catch(function (err) {
+                showRunOutput(output, (err && err.error) ? err.error : tr('lesson.runnerFailed'), true);
+              })
+              .finally(function () {
+                btn.disabled = false;
+                btn.textContent = originalText;
+              });
+          });
+        });
+      }
+
+      function formatRunResult(data) {
+        var parts = [];
+        if (data.stdout) parts.push(data.stdout.trimEnd());
+        if (data.stderr) parts.push(data.stderr.trimEnd());
+        if (!parts.length && data.exitCode === 0) parts.push(tr('lesson.noOutput'));
+        if (data.timedOut) parts.push(tr('lesson.timedOut'));
+        if (data.exitCode !== null && typeof data.exitCode !== 'undefined') {
+          parts.push(tr('lesson.exitCode', { code: data.exitCode }));
+        }
+        return parts.join('\n');
+      }
+
+      function showRunOutput(output, text, isError) {
+        if (!output || !output.classList || !output.classList.contains('code-output')) return;
+        output.classList.add('is-visible');
+        output.classList.toggle('is-error', !!isError);
+        output.innerHTML = '<span class="code-output-label">' + escapeHtml(tr('lesson.output')) + '</span>' + escapeHtml(text);
       }
 
       function renderMermaidBlocks() {
@@ -2721,20 +2976,22 @@
         var article = document.querySelector('.lesson-article');
         if (!article) return;
 
-        var conceptH2 = article.querySelector('#the-concept, #concept');
-        var buildH2 = article.querySelector('#build-it, #build');
-        var keyTermsH2 = article.querySelector('#key-terms');
+        var conceptH2 = findLessonHeading(article, '#the-concept, #concept', ['The Concept', 'Concept', '概念']);
+        var buildH2 = findLessonHeading(article, '#build-it, #build', ['Build It', 'Build', '构建它']);
+        var keyTermsH2 = findLessonHeading(article, '#key-terms', ['Key Terms', '关键术语']);
+        var panelsEl = article.querySelector('#aiPanels');
 
-        var preQuizHtml = buildQuizHtml(questions.filter(function (q) { return q.stage === 'pre'; }), 'pre', 'Pre-Lesson Check');
-        var checkQuizHtml = buildQuizHtml(questions.filter(function (q) { return q.stage === 'check'; }), 'check', 'Mid-Lesson Check');
-        var postQuizHtml = buildQuizHtml(questions.filter(function (q) { return q.stage === 'post'; }), 'post', 'Post-Lesson Quiz');
+        var labels = quizLabels();
+        var preQuizHtml = buildQuizHtml(questions.filter(function (q) { return q.stage === 'pre'; }), 'pre', labels.pre);
+        var checkQuizHtml = buildQuizHtml(questions.filter(function (q) { return q.stage === 'check'; }), 'check', labels.check);
+        var postQuizHtml = buildQuizHtml(questions.filter(function (q) { return q.stage === 'post'; }), 'post', labels.post);
 
         if (!preQuizHtml && !checkQuizHtml && !postQuizHtml) {
-          var allHtml = buildQuizHtml(questions, 'all', 'Quiz');
+          var allHtml = buildQuizHtml(questions, 'all', labels.all);
           if (allHtml && keyTermsH2) {
             keyTermsH2.insertAdjacentHTML('beforebegin', allHtml);
           } else if (allHtml) {
-            article.insertAdjacentHTML('beforeend', allHtml);
+            insertBeforePanelsOrEnd(article, panelsEl, allHtml);
           }
           restoreQuizAnswers();
           return;
@@ -2744,12 +3001,14 @@
           conceptH2.insertAdjacentHTML('beforebegin', preQuizHtml);
         } else if (preQuizHtml && buildH2) {
           buildH2.insertAdjacentHTML('beforebegin', preQuizHtml);
+        } else if (preQuizHtml) {
+          insertBeforePanelsOrEnd(article, panelsEl, preQuizHtml);
         }
 
         // Mid-lesson check: land between Build It and Use It if possible,
         // otherwise fall back to before Use It / Ship It / Key Terms.
-        var useH2 = article.querySelector('#use-it, #use');
-        var shipH2 = article.querySelector('#ship-it, #ship');
+        var useH2 = findLessonHeading(article, '#use-it, #use', ['Use It', 'Use', '使用它']);
+        var shipH2 = findLessonHeading(article, '#ship-it, #ship', ['Ship It', 'Ship', '交付它']);
         if (checkQuizHtml && useH2) {
           useH2.insertAdjacentHTML('beforebegin', checkQuizHtml);
         } else if (checkQuizHtml && shipH2) {
@@ -2757,16 +3016,35 @@
         } else if (checkQuizHtml && keyTermsH2) {
           keyTermsH2.insertAdjacentHTML('beforebegin', checkQuizHtml);
         } else if (checkQuizHtml) {
-          article.insertAdjacentHTML('beforeend', checkQuizHtml);
+          insertBeforePanelsOrEnd(article, panelsEl, checkQuizHtml);
         }
 
         if (postQuizHtml && keyTermsH2) {
           keyTermsH2.insertAdjacentHTML('beforebegin', postQuizHtml);
         } else if (postQuizHtml) {
-          article.insertAdjacentHTML('beforeend', postQuizHtml);
+          insertBeforePanelsOrEnd(article, panelsEl, postQuizHtml);
         }
 
         restoreQuizAnswers();
+      }
+
+      function findLessonHeading(article, selector, labels) {
+        var byId = selector ? article.querySelector(selector) : null;
+        if (byId) return byId;
+        var headings = article.querySelectorAll('h2, h3');
+        for (var i = 0; i < headings.length; i++) {
+          var text = (headings[i].textContent || '').toLowerCase();
+          for (var j = 0; j < labels.length; j++) {
+            var label = String(labels[j]).toLowerCase();
+            if (text === label || text.indexOf(label) >= 0) return headings[i];
+          }
+        }
+        return null;
+      }
+
+      function insertBeforePanelsOrEnd(article, panelsEl, html) {
+        if (panelsEl) panelsEl.insertAdjacentHTML('beforebegin', html);
+        else article.insertAdjacentHTML('beforeend', html);
       }
 
       function buildQuizHtml(questions, id, title) {
@@ -2794,6 +3072,25 @@
         html += '<div class="quiz-score" id="quiz-' + id + '-score"></div>';
         html += '</div>';
         return html;
+      }
+
+      function quizLabels() {
+        if (activeLang === 'zh') {
+          return {
+            pre: '课前检查',
+            check: '课中检查',
+            post: '课后小测',
+            all: '小测',
+            correct: '正确'
+          };
+        }
+        return {
+          pre: 'Pre-Lesson Check',
+          check: 'Mid-Lesson Check',
+          post: 'Post-Lesson Quiz',
+          all: 'Quiz',
+          correct: 'correct'
+        };
       }
 
       window.handleQuizClick = function (el) {
@@ -2848,7 +3145,7 @@
         }
         var scoreEl = section.querySelector('.quiz-score');
         if (scoreEl) {
-          scoreEl.textContent = correctCount + '/' + allQs.length + ' correct';
+          scoreEl.textContent = correctCount + '/' + allQs.length + ' ' + quizLabels().correct;
           scoreEl.style.display = 'block';
         }
       }
@@ -2893,7 +3190,7 @@
         var nav = '<div class="lesson-nav-bottom">';
         if (prev) {
           nav += '<a class="lesson-nav-btn prev" href="lesson.html?path=' + prev.path + '">';
-          nav += '<span class="nav-label">&larr; Previous</span>';
+          nav += '<span class="nav-label">' + escapeHtml(tr('lesson.previous')) + '</span>';
           nav += '<span class="nav-title">' + escapeHtml(prev.lessonName) + '</span>';
           nav += '</a>';
         } else {
@@ -2901,7 +3198,7 @@
         }
         if (next) {
           nav += '<a class="lesson-nav-btn next" href="lesson.html?path=' + next.path + '">';
-          nav += '<span class="nav-label">Next &rarr;</span>';
+          nav += '<span class="nav-label">' + escapeHtml(tr('lesson.next')) + '</span>';
           nav += '<span class="nav-title">' + escapeHtml(next.lessonName) + '</span>';
           nav += '</a>';
         }
@@ -2979,13 +3276,13 @@
       function renderOutputsPanel(container) {
         var panel = document.createElement('div');
         panel.className = 'ai-panel';
-        panel.innerHTML = '<div class="ai-panel-header"><div class="ai-panel-icon">O</div><div class="ai-panel-title">What This Lesson Ships</div></div><div class="ai-panel-subtitle">Prompts, skills, and artifacts you can use right now</div><div id="outputsContent" class="panel-loading">Loading outputs...</div>';
+        panel.innerHTML = '<div class="ai-panel-header"><div class="ai-panel-icon">O</div><div class="ai-panel-title">' + escapeHtml(tr('lesson.shipsTitle')) + '</div></div><div class="ai-panel-subtitle">' + escapeHtml(tr('lesson.shipsSubtitle')) + '</div><div id="outputsContent" class="panel-loading">' + escapeHtml(tr('lesson.outputsLoading')) + '</div>';
         container.appendChild(panel);
 
         ghApiFetch(lessonPath + '/outputs', function (err, data) {
           var el = document.getElementById('outputsContent');
           if (err || !data || !Array.isArray(data) || data.length === 0) {
-            el.innerHTML = '<div class="panel-fallback"><a href="https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/' + lessonPath + '" target="_blank" rel="noopener">View lesson on GitHub</a></div>';
+            el.innerHTML = '<div class="panel-fallback"><a href="https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/' + lessonPath + '" target="_blank" rel="noopener">' + escapeHtml(tr('lesson.viewGithub')) + '</a></div>';
             return;
           }
 
@@ -3006,9 +3303,9 @@
             html += '<div class="output-card">';
             html += '<div class="output-badge ' + badgeClass + '">' + badgeText + '</div>';
             html += '<div class="output-card-name">' + escapeHtml(file.name) + '</div>';
-            html += '<div class="output-desc" id="desc-' + idx + '">Loading description...</div>';
+            html += '<div class="output-desc" id="desc-' + idx + '">' + escapeHtml(tr('lesson.descLoading')) + '</div>';
             html += '<div class="output-actions">';
-            html += '<a class="output-btn" href="' + file.html_url + '" target="_blank" rel="noopener">View on GitHub</a>';
+            html += '<a class="output-btn" href="' + file.html_url + '" target="_blank" rel="noopener">' + escapeHtml(tr('lesson.viewGithub')) + '</a>';
             if (installHint) {
               html += '<button class="output-btn" onclick="var h=document.getElementById(\'' + installId + '\');h.classList.toggle(\'visible\')">Install</button>';
             }
@@ -3037,13 +3334,13 @@
       function renderCodePanel(container) {
         var panel = document.createElement('div');
         panel.className = 'ai-panel';
-        panel.innerHTML = '<div class="ai-panel-header"><div class="ai-panel-icon">C</div><div class="ai-panel-title">Run the Code</div></div><div class="ai-panel-subtitle">Executable files from this lesson</div><div id="codeContent" class="panel-loading">Loading code files...</div>';
+        panel.innerHTML = '<div class="ai-panel-header"><div class="ai-panel-icon">C</div><div class="ai-panel-title">' + escapeHtml(tr('lesson.codeTitle')) + '</div></div><div class="ai-panel-subtitle">' + escapeHtml(tr('lesson.codeSubtitle')) + '</div><div id="codeContent" class="panel-loading">' + escapeHtml(tr('lesson.codeLoading')) + '</div>';
         container.appendChild(panel);
 
         ghApiFetch(lessonPath + '/code', function (err, data) {
           var el = document.getElementById('codeContent');
           if (err || !data || !Array.isArray(data) || data.length === 0) {
-            el.innerHTML = '<div class="panel-fallback"><a href="https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/' + lessonPath + '" target="_blank" rel="noopener">View lesson on GitHub</a></div>';
+            el.innerHTML = '<div class="panel-fallback"><a href="https://github.com/rohitg00/ai-engineering-from-scratch/tree/main/' + lessonPath + '" target="_blank" rel="noopener">' + escapeHtml(tr('lesson.viewGithub')) + '</a></div>';
             return;
           }
 
@@ -3057,8 +3354,8 @@
             html += '<div class="code-card-size">' + formatSize(file.size) + '</div>';
             html += '<div class="code-card-run">' + escapeHtml(runCmd) + '</div>';
             html += '<div class="code-card-actions">';
-            html += '<a class="code-card-btn" href="' + file.html_url + '" target="_blank" rel="noopener">View on GitHub</a>';
-            html += '<button class="code-card-btn code-card-copy" data-command="' + escapeAttr(runCmd) + '">Copy command</button>';
+            html += '<a class="code-card-btn" href="' + file.html_url + '" target="_blank" rel="noopener">' + escapeHtml(tr('lesson.viewGithub')) + '</a>';
+            html += '<button class="code-card-btn code-card-copy" data-command="' + escapeAttr(runCmd) + '">' + escapeHtml(tr('lesson.copyCommand')) + '</button>';
             html += '</div>';
             html += '</div>';
           });
@@ -3068,8 +3365,8 @@
             btn.addEventListener('click', function () {
               var command = btn.getAttribute('data-command');
               navigator.clipboard.writeText(command).then(function () {
-                btn.textContent = 'Copied!';
-                setTimeout(function () { btn.textContent = 'Copy command'; }, 1500);
+                btn.textContent = tr('lesson.copied');
+                setTimeout(function () { btn.textContent = tr('lesson.copyCommand'); }, 1500);
               });
             });
           });

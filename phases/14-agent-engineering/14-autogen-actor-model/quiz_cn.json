@@ -1,0 +1,90 @@
+{
+  "lesson": "14-autogen-actor-model",
+  "title": "AutoGen v0.4: Actor Model and Agent Framework",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "AutoGen v0.4 中参与者交互的唯一合法方式是什么？",
+      "options": [
+        "直接访问共享字典",
+        "通过收件箱交换异步消息；没有共享内存",
+        "共享 SQL 事务",
+        "改变彼此的提示"
+      ],
+      "correct": 1,
+      "explanation": "演员有私人状态和收件箱；消息是唯一的交互。"
+    },
+    {
+      "stage": "pre",
+      "question": "AutoGen v0.4 的三个 API 层是什么？",
+      "options": [
+        "核心、AgentChat、扩展",
+        "前端、后端、数据库",
+        "工具、模型、内存",
+        "计划、行动、反思"
+      ],
+      "correct": 0,
+      "explanation": "核心是低级参与者框架，AgentChat 是任务驱动的高级 API，扩展是集成。"
+    },
+    {
+      "stage": "check",
+      "question": "为什么将交付与处理分离可以实现故障隔离？",
+      "options": [
+        "运行时捕获 B 中的处理程序失败，而不会导致 A 崩溃； A的send()立即返回并且从未被阻塞",
+        "每个演员在单独的机器上运行",
+        "运行时在失败时重新启动操作系统",
+        "处理程序是纯函数"
+      ],
+      "correct": 0,
+      "explanation": "send() 将消息放入收件人的收件箱并返回；处理程序崩溃是该参与者本地的。"
+    },
+    {
+      "stage": "check",
+      "question": "哪种 AgentChat 拓扑以固定顺序轮换代理？",
+      "options": [
+        "选择器群聊",
+        "循环群聊",
+        "磁力一号",
+        "主管"
+      ],
+      "correct": 1,
+      "explanation": "RoundRobinGroupChat 是固定轮换； SelectorGroupChat 使用选择器来选择下一个。"
+    },
+    {
+      "stage": "check",
+      "question": "本课中的 Magentic-One 是什么？",
+      "options": [
+        "新的LLM模式",
+        "一个参考多代理团队，用于基于 AgentChat 构建的网页浏览、代码执行和文件处理",
+        "序列化格式",
+        "OTel 出口商"
+      ],
+      "correct": 1,
+      "explanation": "Magentic-One 是 Microsoft 的参考团队，负责演示 AgentChat API。"
+    },
+    {
+      "stage": "post",
+      "question": "本课程所述 AutoGen v0.4 在 2026 年初的状态如何？",
+      "options": [
+        "已弃用并删除",
+        "稳定但处于维护模式； Microsoft Agent Framework 是前进的道路",
+        "刚刚宣布",
+        "被 LangGraph 取代"
+      ],
+      "correct": 1,
+      "explanation": "AutoGen v0.7.x 对于研究来说是稳定的；积极的开发已转向 Microsoft Agent Framework。"
+    },
+    {
+      "stage": "post",
+      "question": "AutoGen v0.4 默认发出哪种可观测性标准？",
+      "options": [
+        "仅 Prometheus 指标",
+        "OpenTelemetry 跨越 gen_ai.* 属性，符合 OTel GenAI 语义约定",
+        "统计D",
+        "数据狗APM"
+      ],
+      "correct": 1,
+      "explanation": "每条消息都会发出一个跨度；工具调用根据 OTel GenAI 约定携带 gen_ai.* 属性。"
+    }
+  ]
+}

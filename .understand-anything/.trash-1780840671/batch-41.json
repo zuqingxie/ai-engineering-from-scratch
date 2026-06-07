@@ -1,0 +1,546 @@
+{
+  "nodes": [
+    {
+      "id": "config:phases/02-ml-fundamentals/11-ensemble-methods/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/02-ml-fundamentals/11-ensemble-methods/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/02-ml-fundamentals/12-hyperparameter-tuning/code/tuning.py",
+      "type": "file",
+      "name": "tuning.py",
+      "filePath": "phases/02-ml-fundamentals/12-hyperparameter-tuning/code/tuning.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/02-ml-fundamentals/12-hyperparameter-tuning/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/02-ml-fundamentals/12-hyperparameter-tuning/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/02-ml-fundamentals/12-hyperparameter-tuning/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/02-ml-fundamentals/12-hyperparameter-tuning/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/02-ml-fundamentals/12-hyperparameter-tuning/outputs/prompt-tuning-strategy.md",
+      "type": "document",
+      "name": "prompt-tuning-strategy.md",
+      "filePath": "phases/02-ml-fundamentals/12-hyperparameter-tuning/outputs/prompt-tuning-strategy.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/02-ml-fundamentals/12-hyperparameter-tuning/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/02-ml-fundamentals/12-hyperparameter-tuning/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/02-ml-fundamentals/13-ml-pipelines/code/pipeline.py",
+      "type": "file",
+      "name": "pipeline.py",
+      "filePath": "phases/02-ml-fundamentals/13-ml-pipelines/code/pipeline.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/02-ml-fundamentals/13-ml-pipelines/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/02-ml-fundamentals/13-ml-pipelines/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/02-ml-fundamentals/13-ml-pipelines/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/02-ml-fundamentals/13-ml-pipelines/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/02-ml-fundamentals/13-ml-pipelines/outputs/prompt-ml-pipeline.md",
+      "type": "document",
+      "name": "prompt-ml-pipeline.md",
+      "filePath": "phases/02-ml-fundamentals/13-ml-pipelines/outputs/prompt-ml-pipeline.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/02-ml-fundamentals/13-ml-pipelines/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/02-ml-fundamentals/13-ml-pipelines/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/02-ml-fundamentals/14-naive-bayes/code/naive_bayes.py",
+      "type": "file",
+      "name": "naive_bayes.py",
+      "filePath": "phases/02-ml-fundamentals/14-naive-bayes/code/naive_bayes.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/02-ml-fundamentals/14-naive-bayes/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/02-ml-fundamentals/14-naive-bayes/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/02-ml-fundamentals/14-naive-bayes/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/02-ml-fundamentals/14-naive-bayes/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/02-ml-fundamentals/14-naive-bayes/outputs/skill-naive-bayes-chooser.md",
+      "type": "document",
+      "name": "skill-naive-bayes-chooser.md",
+      "filePath": "phases/02-ml-fundamentals/14-naive-bayes/outputs/skill-naive-bayes-chooser.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/02-ml-fundamentals/14-naive-bayes/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/02-ml-fundamentals/14-naive-bayes/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/02-ml-fundamentals/15-time-series/code/time_series.py",
+      "type": "file",
+      "name": "time_series.py",
+      "filePath": "phases/02-ml-fundamentals/15-time-series/code/time_series.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/02-ml-fundamentals/15-time-series/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/02-ml-fundamentals/15-time-series/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/02-ml-fundamentals/15-time-series/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/02-ml-fundamentals/15-time-series/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/02-ml-fundamentals/15-time-series/outputs/prompt-time-series-advisor.md",
+      "type": "document",
+      "name": "prompt-time-series-advisor.md",
+      "filePath": "phases/02-ml-fundamentals/15-time-series/outputs/prompt-time-series-advisor.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/02-ml-fundamentals/15-time-series/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/02-ml-fundamentals/15-time-series/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/02-ml-fundamentals/16-anomaly-detection/code/anomaly_detection.py",
+      "type": "file",
+      "name": "anomaly_detection.py",
+      "filePath": "phases/02-ml-fundamentals/16-anomaly-detection/code/anomaly_detection.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/02-ml-fundamentals/16-anomaly-detection/docs/cn.cn.failed.md",
+      "type": "document",
+      "name": "cn.cn.failed.md",
+      "filePath": "phases/02-ml-fundamentals/16-anomaly-detection/docs/cn.cn.failed.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/02-ml-fundamentals/16-anomaly-detection/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/02-ml-fundamentals/16-anomaly-detection/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/02-ml-fundamentals/16-anomaly-detection/outputs/skill-anomaly-detector.md",
+      "type": "document",
+      "name": "skill-anomaly-detector.md",
+      "filePath": "phases/02-ml-fundamentals/16-anomaly-detection/outputs/skill-anomaly-detector.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/02-ml-fundamentals/11-ensemble-methods/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/02-ml-fundamentals/12-hyperparameter-tuning/code/tuning.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/02-ml-fundamentals/12-hyperparameter-tuning/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/02-ml-fundamentals/12-hyperparameter-tuning/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/02-ml-fundamentals/12-hyperparameter-tuning/outputs/prompt-tuning-strategy.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/02-ml-fundamentals/12-hyperparameter-tuning/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/02-ml-fundamentals/13-ml-pipelines/code/pipeline.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/02-ml-fundamentals/13-ml-pipelines/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/02-ml-fundamentals/13-ml-pipelines/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/02-ml-fundamentals/13-ml-pipelines/outputs/prompt-ml-pipeline.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/02-ml-fundamentals/13-ml-pipelines/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/02-ml-fundamentals/14-naive-bayes/code/naive_bayes.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/02-ml-fundamentals/14-naive-bayes/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/02-ml-fundamentals/14-naive-bayes/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/02-ml-fundamentals/14-naive-bayes/outputs/skill-naive-bayes-chooser.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/02-ml-fundamentals/14-naive-bayes/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/02-ml-fundamentals/15-time-series/code/time_series.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/02-ml-fundamentals/15-time-series/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/02-ml-fundamentals/15-time-series/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/02-ml-fundamentals/15-time-series/outputs/prompt-time-series-advisor.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/02-ml-fundamentals/15-time-series/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/02-ml-fundamentals/16-anomaly-detection/code/anomaly_detection.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/02-ml-fundamentals/16-anomaly-detection/docs/cn.cn.failed.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/02-ml-fundamentals/16-anomaly-detection/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/02-ml-fundamentals/16-anomaly-detection/outputs/skill-anomaly-detector.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

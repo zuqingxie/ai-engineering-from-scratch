@@ -103,7 +103,7 @@ class Matrix:
             for i in range(self.rows)
         ])
 
-    def __matmul__(self, other):
+    def __matmul__(self, other): # 这里使用了 Python 3.5+ 的矩阵乘法运算符 @
         return self.matmul(other)
 
     def transpose(self):
@@ -116,7 +116,7 @@ class Matrix:
     def T(self):
         return self.transpose()
 
-    def determinant(self):
+    def determinant(self): # 这里计算的值是行列式的值，而不是矩阵的逆。我们在后面实现了 2x2 矩阵的逆。
         if self.rows != self.cols:
             raise ValueError("Determinant only defined for square matrices")
         if self.shape == (1, 1):
@@ -132,7 +132,7 @@ class Matrix:
             det += ((-1) ** j) * self.data[0][j] * minor.determinant()
         return det
 
-    def inverse_2x2(self):
+    def inverse_2x2(self): # 这里我们只实现了 2x2 矩阵的逆
         if self.shape != (2, 2):
             raise ValueError("This method only works for 2x2 matrices")
         det = self.determinant()
@@ -198,7 +198,7 @@ def demo_basic_operations():
     print(A.T)
 
 
-def demo_determinant_inverse():
+def demo_determinant_inverse(): # 这里我们只实现了 2x2 矩阵的逆，所以演示也限制在 2x2 矩阵上
     print("\n" + "=" * 60)
     print("DETERMINANT AND INVERSE")
     print("=" * 60)
@@ -220,7 +220,7 @@ def demo_determinant_inverse():
     print(I)
 
 
-def demo_broadcasting():
+def demo_broadcasting(): # 这里我们演示了矩阵加法中的广播机制，允许我们将一个行向量加到一个矩阵的每一行上
     print("\n" + "=" * 60)
     print("BROADCASTING")
     print("=" * 60)
@@ -292,7 +292,7 @@ def demo_vectors():
     print(f"|v normalized| = {v.normalize().magnitude()}")
 
 
-def demo_weight_matrix_intuition():
+def demo_weight_matrix_intuition(): # 这里我们通过一个简单的例子来展示权重矩阵如何从输入特征中提取模式，帮助读者建立直观理解
     print("\n" + "=" * 60)
     print("WEIGHT MATRIX INTUITION")
     print("=" * 60)

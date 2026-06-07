@@ -1,0 +1,566 @@
+{
+  "nodes": [
+    {
+      "id": "document:phases/10-llms-from-scratch/03-data-pipelines/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/10-llms-from-scratch/03-data-pipelines/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/10-llms-from-scratch/03-data-pipelines/outputs/prompt-data-quality-checker.md",
+      "type": "document",
+      "name": "prompt-data-quality-checker.md",
+      "filePath": "phases/10-llms-from-scratch/03-data-pipelines/outputs/prompt-data-quality-checker.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/10-llms-from-scratch/03-data-pipelines/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/10-llms-from-scratch/03-data-pipelines/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/10-llms-from-scratch/04-pre-training-mini-gpt/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/10-llms-from-scratch/04-pre-training-mini-gpt/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:phases/10-llms-from-scratch/04-pre-training-mini-gpt/code/main.rs",
+      "type": "file",
+      "name": "main.rs",
+      "filePath": "phases/10-llms-from-scratch/04-pre-training-mini-gpt/code/main.rs",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "rust"
+      ],
+      "language": "rust"
+    },
+    {
+      "id": "document:phases/10-llms-from-scratch/04-pre-training-mini-gpt/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/10-llms-from-scratch/04-pre-training-mini-gpt/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/10-llms-from-scratch/04-pre-training-mini-gpt/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/10-llms-from-scratch/04-pre-training-mini-gpt/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/10-llms-from-scratch/04-pre-training-mini-gpt/outputs/prompt-gpt-architecture-analyzer.md",
+      "type": "document",
+      "name": "prompt-gpt-architecture-analyzer.md",
+      "filePath": "phases/10-llms-from-scratch/04-pre-training-mini-gpt/outputs/prompt-gpt-architecture-analyzer.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/10-llms-from-scratch/04-pre-training-mini-gpt/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/10-llms-from-scratch/04-pre-training-mini-gpt/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/10-llms-from-scratch/05-scaling-distributed/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/10-llms-from-scratch/05-scaling-distributed/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/10-llms-from-scratch/05-scaling-distributed/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/10-llms-from-scratch/05-scaling-distributed/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/10-llms-from-scratch/05-scaling-distributed/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/10-llms-from-scratch/05-scaling-distributed/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/10-llms-from-scratch/05-scaling-distributed/outputs/prompt-distributed-training-planner.md",
+      "type": "document",
+      "name": "prompt-distributed-training-planner.md",
+      "filePath": "phases/10-llms-from-scratch/05-scaling-distributed/outputs/prompt-distributed-training-planner.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/10-llms-from-scratch/05-scaling-distributed/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/10-llms-from-scratch/05-scaling-distributed/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/10-llms-from-scratch/06-instruction-tuning-sft/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/10-llms-from-scratch/06-instruction-tuning-sft/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/10-llms-from-scratch/06-instruction-tuning-sft/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/10-llms-from-scratch/06-instruction-tuning-sft/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/10-llms-from-scratch/06-instruction-tuning-sft/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/10-llms-from-scratch/06-instruction-tuning-sft/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/10-llms-from-scratch/06-instruction-tuning-sft/outputs/prompt-sft-data-curator.md",
+      "type": "document",
+      "name": "prompt-sft-data-curator.md",
+      "filePath": "phases/10-llms-from-scratch/06-instruction-tuning-sft/outputs/prompt-sft-data-curator.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/10-llms-from-scratch/06-instruction-tuning-sft/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/10-llms-from-scratch/06-instruction-tuning-sft/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/10-llms-from-scratch/07-rlhf/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/10-llms-from-scratch/07-rlhf/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/10-llms-from-scratch/07-rlhf/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/10-llms-from-scratch/07-rlhf/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/10-llms-from-scratch/07-rlhf/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/10-llms-from-scratch/07-rlhf/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/10-llms-from-scratch/07-rlhf/outputs/prompt-reward-model-designer.md",
+      "type": "document",
+      "name": "prompt-reward-model-designer.md",
+      "filePath": "phases/10-llms-from-scratch/07-rlhf/outputs/prompt-reward-model-designer.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/10-llms-from-scratch/07-rlhf/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/10-llms-from-scratch/07-rlhf/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/10-llms-from-scratch/08-dpo/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/10-llms-from-scratch/08-dpo/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/10-llms-from-scratch/03-data-pipelines/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/10-llms-from-scratch/03-data-pipelines/outputs/prompt-data-quality-checker.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/10-llms-from-scratch/03-data-pipelines/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/10-llms-from-scratch/04-pre-training-mini-gpt/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/10-llms-from-scratch/04-pre-training-mini-gpt/code/main.rs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/10-llms-from-scratch/04-pre-training-mini-gpt/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/10-llms-from-scratch/04-pre-training-mini-gpt/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/10-llms-from-scratch/04-pre-training-mini-gpt/outputs/prompt-gpt-architecture-analyzer.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/10-llms-from-scratch/04-pre-training-mini-gpt/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/10-llms-from-scratch/05-scaling-distributed/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/10-llms-from-scratch/05-scaling-distributed/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/10-llms-from-scratch/05-scaling-distributed/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/10-llms-from-scratch/05-scaling-distributed/outputs/prompt-distributed-training-planner.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/10-llms-from-scratch/05-scaling-distributed/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/10-llms-from-scratch/06-instruction-tuning-sft/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:phases/10-llms-from-scratch/06-instruction-tuning-sft/code/main.py",
+      "target": "file:phases/10-llms-from-scratch/06-instruction-tuning-sft/code/main.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/10-llms-from-scratch/06-instruction-tuning-sft/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/10-llms-from-scratch/06-instruction-tuning-sft/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/10-llms-from-scratch/06-instruction-tuning-sft/outputs/prompt-sft-data-curator.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/10-llms-from-scratch/06-instruction-tuning-sft/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/10-llms-from-scratch/07-rlhf/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:phases/10-llms-from-scratch/07-rlhf/code/main.py",
+      "target": "file:phases/10-llms-from-scratch/07-rlhf/code/main.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/10-llms-from-scratch/07-rlhf/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/10-llms-from-scratch/07-rlhf/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/10-llms-from-scratch/07-rlhf/outputs/prompt-reward-model-designer.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/10-llms-from-scratch/07-rlhf/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/10-llms-from-scratch/08-dpo/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:phases/10-llms-from-scratch/08-dpo/code/main.py",
+      "target": "file:phases/10-llms-from-scratch/08-dpo/code/main.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

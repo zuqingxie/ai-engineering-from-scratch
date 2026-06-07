@@ -1,0 +1,90 @@
+{
+  "lesson": "09-code-migration-agent",
+  "title": "Capstone 09 — Code Migration Agent (Repo-Level Language / Runtime Upgrade)",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "为什么管道将确定性基底与代理层结合在一起，而不是只使用一个？",
+      "options": [
+        "OpenRewrite 或 libcst 安全且廉价地处理 70-80% 的机械重写，将代理留给模糊的长尾",
+        "单独使用代理比菜谱更快",
+        "确定性食谱比法学硕士慢",
+        "仅构建系统需要确定性"
+      ],
+      "correct": 0,
+      "explanation": ""
+    },
+    {
+      "stage": "pre",
+      "question": "管道使用什么信号作为成功迁移的基本事实？",
+      "options": [
+        "座席在评分标准上进行自我评分",
+        "审稿人对 PR 的批准",
+        "差异大小低于硬限制",
+        "沙盒中的绿色 CI，覆盖率回归不超过小阈值"
+      ],
+      "correct": 3,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "代理循环对每个存储库强制执行哪些预算上限？",
+      "options": [
+        "时间和费用不受限制；仅在出现错误时中止",
+        "无回合限制，上限为 100 美元",
+        "1 小时挂钟和 100 圈",
+        "30 分钟挂钟，8 美元费用，20 次代理轮流"
+      ],
+      "correct": 3,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "当迁移后覆盖率下降超过 2% 左右时，什么门会触发？",
+      "options": [
+        "审稿人被绕过",
+        "该存储库会在coverage_regression失败类下归档，而不是打开一个干净的PR",
+        "确定性基质重播其配方",
+        "代理自动强制推送修复"
+      ],
+      "correct": 1,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "为什么失败分类被视为可交付成果而不是副产品？",
+      "options": [
+        "它取代了测试套件",
+        "它按类别对失败的存储库进行分组，以便未来的配方作者可以针对最常见的故障模式",
+        "这是 GitHub 分支保护所必需的",
+        "它满足合规性检查表"
+      ],
+      "correct": 1,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "Java 8 到 17 迁移的 Capstone 目标是哪个公共基准？",
+      "options": [
+        "来自亚马逊的 MigrationBench",
+        "SWE 工作台 Pro",
+        "MMLU-专业版",
+        "维多雷 v3"
+      ],
+      "correct": 0,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "代理集成标准衡量修复分布的哪些内容？",
+      "options": [
+        "源文件的标记化速度",
+        "每个存储库的强制推送数量",
+        "固定的依赖项数量",
+        "由 OpenRewrite 处理的修复与由代理层编写的修复所占的比例"
+      ],
+      "correct": 3,
+      "explanation": ""
+    }
+  ]
+}

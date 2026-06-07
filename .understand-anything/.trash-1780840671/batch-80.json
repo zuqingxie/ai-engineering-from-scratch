@@ -1,0 +1,545 @@
+{
+  "nodes": [
+    {
+      "id": "document:phases/11-llm-engineering/10-evaluation/outputs/skill-eval-patterns.md",
+      "type": "document",
+      "name": "skill-eval-patterns.md",
+      "filePath": "phases/11-llm-engineering/10-evaluation/outputs/skill-eval-patterns.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/11-llm-engineering/10-evaluation/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/11-llm-engineering/10-evaluation/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/11-llm-engineering/11-caching-cost/code/caching_cost.py",
+      "type": "file",
+      "name": "caching_cost.py",
+      "filePath": "phases/11-llm-engineering/11-caching-cost/code/caching_cost.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/11-llm-engineering/11-caching-cost/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/11-llm-engineering/11-caching-cost/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/11-llm-engineering/11-caching-cost/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/11-llm-engineering/11-caching-cost/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/11-llm-engineering/11-caching-cost/outputs/prompt-cost-optimizer.md",
+      "type": "document",
+      "name": "prompt-cost-optimizer.md",
+      "filePath": "phases/11-llm-engineering/11-caching-cost/outputs/prompt-cost-optimizer.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/11-llm-engineering/11-caching-cost/outputs/skill-cost-patterns.md",
+      "type": "document",
+      "name": "skill-cost-patterns.md",
+      "filePath": "phases/11-llm-engineering/11-caching-cost/outputs/skill-cost-patterns.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/11-llm-engineering/11-caching-cost/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/11-llm-engineering/11-caching-cost/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/11-llm-engineering/12-guardrails/code/guardrails.py",
+      "type": "file",
+      "name": "guardrails.py",
+      "filePath": "phases/11-llm-engineering/12-guardrails/code/guardrails.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:phases/11-llm-engineering/12-guardrails/code/main.ts",
+      "type": "file",
+      "name": "main.ts",
+      "filePath": "phases/11-llm-engineering/12-guardrails/code/main.ts",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "typescript"
+      ],
+      "language": "typescript"
+    },
+    {
+      "id": "document:phases/11-llm-engineering/12-guardrails/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/11-llm-engineering/12-guardrails/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/11-llm-engineering/12-guardrails/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/11-llm-engineering/12-guardrails/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/11-llm-engineering/12-guardrails/outputs/prompt-safety-auditor.md",
+      "type": "document",
+      "name": "prompt-safety-auditor.md",
+      "filePath": "phases/11-llm-engineering/12-guardrails/outputs/prompt-safety-auditor.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/11-llm-engineering/12-guardrails/outputs/skill-guardrail-patterns.md",
+      "type": "document",
+      "name": "skill-guardrail-patterns.md",
+      "filePath": "phases/11-llm-engineering/12-guardrails/outputs/skill-guardrail-patterns.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/11-llm-engineering/12-guardrails/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/11-llm-engineering/12-guardrails/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/11-llm-engineering/13-production-app/code/production_app.py",
+      "type": "file",
+      "name": "production_app.py",
+      "filePath": "phases/11-llm-engineering/13-production-app/code/production_app.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/11-llm-engineering/13-production-app/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/11-llm-engineering/13-production-app/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/11-llm-engineering/13-production-app/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/11-llm-engineering/13-production-app/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/11-llm-engineering/13-production-app/outputs/prompt-architecture-reviewer.md",
+      "type": "document",
+      "name": "prompt-architecture-reviewer.md",
+      "filePath": "phases/11-llm-engineering/13-production-app/outputs/prompt-architecture-reviewer.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/11-llm-engineering/13-production-app/outputs/skill-production-checklist.md",
+      "type": "document",
+      "name": "skill-production-checklist.md",
+      "filePath": "phases/11-llm-engineering/13-production-app/outputs/skill-production-checklist.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/11-llm-engineering/13-production-app/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/11-llm-engineering/13-production-app/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/11-llm-engineering/14-model-context-protocol/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/11-llm-engineering/14-model-context-protocol/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/11-llm-engineering/14-model-context-protocol/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/11-llm-engineering/14-model-context-protocol/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/11-llm-engineering/14-model-context-protocol/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/11-llm-engineering/14-model-context-protocol/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/11-llm-engineering/14-model-context-protocol/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/11-llm-engineering/14-model-context-protocol/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/11-llm-engineering/10-evaluation/outputs/skill-eval-patterns.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/11-llm-engineering/10-evaluation/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/11-llm-engineering/11-caching-cost/code/caching_cost.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/11-llm-engineering/11-caching-cost/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/11-llm-engineering/11-caching-cost/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/11-llm-engineering/11-caching-cost/outputs/prompt-cost-optimizer.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/11-llm-engineering/11-caching-cost/outputs/skill-cost-patterns.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/11-llm-engineering/11-caching-cost/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/11-llm-engineering/12-guardrails/code/guardrails.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/11-llm-engineering/12-guardrails/code/main.ts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/11-llm-engineering/12-guardrails/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/11-llm-engineering/12-guardrails/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/11-llm-engineering/12-guardrails/outputs/prompt-safety-auditor.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/11-llm-engineering/12-guardrails/outputs/skill-guardrail-patterns.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/11-llm-engineering/12-guardrails/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/11-llm-engineering/13-production-app/code/production_app.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/11-llm-engineering/13-production-app/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/11-llm-engineering/13-production-app/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/11-llm-engineering/13-production-app/outputs/prompt-architecture-reviewer.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/11-llm-engineering/13-production-app/outputs/skill-production-checklist.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/11-llm-engineering/13-production-app/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/11-llm-engineering/14-model-context-protocol/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/11-llm-engineering/14-model-context-protocol/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/11-llm-engineering/14-model-context-protocol/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/11-llm-engineering/14-model-context-protocol/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "lesson": "11-machine-translation",
+  "title": "Machine Translation",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "BLEU 测量什么？",
+      "options": [
+        "语言识别准确率",
+        "假设和参考之间的 N 元语法精度（通常为 1-4），但有简洁性损失",
+        "角色级 F 分数",
+        "嵌入余弦相似度"
+      ],
+      "correct": 1,
+      "explanation": "BLEU 是相对于参考文献的 1-4 克精度的几何平均值，加上简洁性损失。"
+    },
+    {
+      "stage": "pre",
+      "question": "为什么使用 sacrebleu 而不是自己开发 BLEU？",
+      "options": [
+        "更准确",
+        "它在 GPU 上运行",
+        "它标准化了标记化，因此论文和运行之间的分数具有可比性",
+        "它支持流媒体"
+      ],
+      "correct": 2,
+      "explanation": "sacrebleu 冻结标记化，消除了无与伦比的 BLEU 数字的共同来源。"
+    },
+    {
+      "stage": "check",
+      "question": "哪个 NLLB 特定设置在解码过程中控制目标语言？",
+      "options": [
+        "长度惩罚",
+        "forced_bos_token_id 设置为目标语言代码的令牌 id",
+        "梁数",
+        "源语言"
+      ],
+      "correct": 1,
+      "explanation": "NLLB 通过forced_bos_token_id 将第一个解码的令牌强制转换为目标语言代码。"
+    },
+    {
+      "stage": "check",
+      "question": "哪个指标系列是 2026 年存在标记数据的生产 MT 质量的默认指标？",
+      "options": [
+        "单独使用 BLEU",
+        "标记编辑距离",
+        "基于人类判断训练的学习指标，例如 COMET（和 BERTScore/BLEURT）",
+        "延迟"
+      ],
+      "correct": 2,
+      "explanation": "像 COMET 这样的学习指标比单独的 BLEU/chrF 与人类判断的相关性更强。"
+    },
+    {
+      "stage": "check",
+      "question": "什么时候 chrF 往往比 BLEU 提供更多信息？",
+      "options": [
+        "对于形态丰富的语言，其中字符级匹配捕获 BLEU 未命中的屈折变体",
+        "使用集束搜索时",
+        "对于很短的句子",
+        "每当存在引用时"
+      ],
+      "correct": 0,
+      "explanation": "字符 F 分数捕获单词级 BLEU 低估的部分形态匹配。"
+    },
+    {
+      "stage": "post",
+      "question": "什么是多语言机器翻译中的脱靶生成？",
+      "options": [
+        "删除命名实体的输出",
+        "输出缺少标点符号",
+        "模型解码为错误的目标语言（例如，当请求法语时，NLLB 输出西班牙语）",
+        "输出太短"
+      ],
+      "correct": 2,
+      "explanation": "脱靶生成在稀有语言对上很常见；翻译后语言 ID 检查可以捕获它。"
+    },
+    {
+      "stage": "post",
+      "question": "为什么对几千个高质量域对进行微调通常会击败更大的嘈杂网络数据？",
+      "options": [
+        "较大的数据溢出 GPU 内存",
+        "较小的数据集训练速度更快",
+        "网络数据的使用是非法的",
+        "质量和领域匹配主导数量；嘈杂的并行数据会引入漂移和幻觉"
+      ],
+      "correct": 3,
+      "explanation": "干净的领域对齐对是最大的生产杠杆；嘈杂的数据会降低适应性。"
+    },
+    {
+      "stage": "post",
+      "question": "到 2026 年，LLM（例如 GPT-4）何时可能优于专门的 MT 模型？",
+      "options": [
+        "最高吞吐量批量翻译",
+        "延迟关键的浏览器翻译",
+        "惯用内容、长上下文、通过提示进行风格调整或需要语气控制的内容",
+        "具有数百万个平行句子的小语言对"
+      ],
+      "correct": 2,
+      "explanation": "法学硕士凭借惯用语、长上下文或风格控制的翻译而获胜；专业的 MT 在吞吐量和延迟方面获胜。"
+    }
+  ]
+}

@@ -1,0 +1,546 @@
+{
+  "nodes": [
+    {
+      "id": "document:phases/03-deep-learning-core/03-backpropagation/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/03-deep-learning-core/03-backpropagation/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/03-deep-learning-core/03-backpropagation/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/03-deep-learning-core/03-backpropagation/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/03-deep-learning-core/03-backpropagation/outputs/prompt-gradient-debugger.md",
+      "type": "document",
+      "name": "prompt-gradient-debugger.md",
+      "filePath": "phases/03-deep-learning-core/03-backpropagation/outputs/prompt-gradient-debugger.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/03-deep-learning-core/03-backpropagation/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/03-deep-learning-core/03-backpropagation/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/03-deep-learning-core/04-activation-functions/code/main.jl",
+      "type": "file",
+      "name": "main.jl",
+      "filePath": "phases/03-deep-learning-core/04-activation-functions/code/main.jl",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "jl"
+      ],
+      "language": "jl"
+    },
+    {
+      "id": "file:phases/03-deep-learning-core/04-activation-functions/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/03-deep-learning-core/04-activation-functions/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/03-deep-learning-core/04-activation-functions/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/03-deep-learning-core/04-activation-functions/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/03-deep-learning-core/04-activation-functions/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/03-deep-learning-core/04-activation-functions/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/03-deep-learning-core/04-activation-functions/outputs/prompt-activation-selector.md",
+      "type": "document",
+      "name": "prompt-activation-selector.md",
+      "filePath": "phases/03-deep-learning-core/04-activation-functions/outputs/prompt-activation-selector.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/03-deep-learning-core/04-activation-functions/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/03-deep-learning-core/04-activation-functions/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/03-deep-learning-core/05-loss-functions/code/main.jl",
+      "type": "file",
+      "name": "main.jl",
+      "filePath": "phases/03-deep-learning-core/05-loss-functions/code/main.jl",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "jl"
+      ],
+      "language": "jl"
+    },
+    {
+      "id": "file:phases/03-deep-learning-core/05-loss-functions/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/03-deep-learning-core/05-loss-functions/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/03-deep-learning-core/05-loss-functions/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/03-deep-learning-core/05-loss-functions/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/03-deep-learning-core/05-loss-functions/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/03-deep-learning-core/05-loss-functions/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/03-deep-learning-core/05-loss-functions/outputs/prompt-loss-debugger.md",
+      "type": "document",
+      "name": "prompt-loss-debugger.md",
+      "filePath": "phases/03-deep-learning-core/05-loss-functions/outputs/prompt-loss-debugger.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/03-deep-learning-core/05-loss-functions/outputs/prompt-loss-function-selector.md",
+      "type": "document",
+      "name": "prompt-loss-function-selector.md",
+      "filePath": "phases/03-deep-learning-core/05-loss-functions/outputs/prompt-loss-function-selector.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/03-deep-learning-core/05-loss-functions/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/03-deep-learning-core/05-loss-functions/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/03-deep-learning-core/06-optimizers/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/03-deep-learning-core/06-optimizers/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/03-deep-learning-core/06-optimizers/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/03-deep-learning-core/06-optimizers/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/03-deep-learning-core/06-optimizers/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/03-deep-learning-core/06-optimizers/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/03-deep-learning-core/06-optimizers/outputs/prompt-optimizer-selector.md",
+      "type": "document",
+      "name": "prompt-optimizer-selector.md",
+      "filePath": "phases/03-deep-learning-core/06-optimizers/outputs/prompt-optimizer-selector.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/03-deep-learning-core/06-optimizers/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/03-deep-learning-core/06-optimizers/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/03-deep-learning-core/07-regularization/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/03-deep-learning-core/07-regularization/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/03-deep-learning-core/07-regularization/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/03-deep-learning-core/07-regularization/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/03-deep-learning-core/07-regularization/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/03-deep-learning-core/07-regularization/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/03-deep-learning-core/03-backpropagation/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/03-deep-learning-core/03-backpropagation/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/03-deep-learning-core/03-backpropagation/outputs/prompt-gradient-debugger.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/03-deep-learning-core/03-backpropagation/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/03-deep-learning-core/04-activation-functions/code/main.jl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/03-deep-learning-core/04-activation-functions/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/03-deep-learning-core/04-activation-functions/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/03-deep-learning-core/04-activation-functions/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/03-deep-learning-core/04-activation-functions/outputs/prompt-activation-selector.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/03-deep-learning-core/04-activation-functions/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/03-deep-learning-core/05-loss-functions/code/main.jl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/03-deep-learning-core/05-loss-functions/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/03-deep-learning-core/05-loss-functions/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/03-deep-learning-core/05-loss-functions/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/03-deep-learning-core/05-loss-functions/outputs/prompt-loss-debugger.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/03-deep-learning-core/05-loss-functions/outputs/prompt-loss-function-selector.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/03-deep-learning-core/05-loss-functions/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/03-deep-learning-core/06-optimizers/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/03-deep-learning-core/06-optimizers/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/03-deep-learning-core/06-optimizers/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/03-deep-learning-core/06-optimizers/outputs/prompt-optimizer-selector.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/03-deep-learning-core/06-optimizers/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/03-deep-learning-core/07-regularization/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/03-deep-learning-core/07-regularization/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/03-deep-learning-core/07-regularization/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

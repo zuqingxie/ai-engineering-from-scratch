@@ -1,0 +1,90 @@
+{
+  "lesson": "24-plan-execute-control-flow",
+  "title": "Plan-Execute Control Flow",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "规划者在计划执行代理中的职责是什么？",
+      "options": [
+        "在每个步骤中呼叫调度员",
+        "为了生成执行器将运行的键入步骤的有序列表",
+        "强制超时",
+        "处理 JSON-RPC 传输"
+      ],
+      "correct": 1,
+      "explanation": "规划器发出结构化计划。执行者运行它们。将两者混合在一起是本课要摆脱的思维链陷阱。"
+    },
+    {
+      "stage": "pre",
+      "question": "即使执行器没有检查，为什么预期结果是步骤形状的一部分？",
+      "options": [
+        "因为调度程序使用它作为缓存键",
+        "因为它为重新规划器和跟踪器提供了一个明确的成功条件来读取",
+        "因为注册表需要它",
+        "因为模型是在它上面训练的"
+      ],
+      "correct": 1,
+      "explanation": "重新规划者在修改时会读取它。跟踪器将其呈现在时间轴上。这是一个人类可读的台阶合同。"
+    },
+    {
+      "stage": "check",
+      "question": "当步骤失败并且重新规划器返回新计划时，执行器会在事件流上发出什么？",
+      "options": [
+        "没什么——重新计划悄无声息",
+        "session.complete 状态=失败",
+        "plan.diff 已删除/添加/修订步骤 ID",
+        "tool.error 后跟 session.start"
+      ],
+      "correct": 2,
+      "explanation": "plan.diff 使修订可见。无声重写是我们要避免的错误。"
+    },
+    {
+      "stage": "check",
+      "question": "为什么将 max_steps 和 max_replans 作为单独的预算？",
+      "options": [
+        "因为他们测量的单位不同。步骤限制总执行次数；重新计划限制了调用计划器的次数。",
+        "因为 asyncio 需要两者",
+        "因为调度员拒绝无界计划",
+        "因为注册表会计算重新计划"
+      ],
+      "correct": 0,
+      "explanation": "max_replans 捕获一个不断返回相同损坏计划的计划器。 max_steps 捕捉到一个不断增长的失控计划。"
+    },
+    {
+      "stage": "check",
+      "question": "当规划器在第一次调用时返回空列表时，会返回什么原因？",
+      "options": [
+        "步骤_预算",
+        "重新计划预算",
+        "达到目标",
+        "无计划"
+      ],
+      "correct": 3,
+      "explanation": "没有计划，就没有执行力。会话以 Reason=no_plan 和 status=failed 结束。"
+    },
+    {
+      "stage": "post",
+      "question": "PlanDiff.revised 中有什么？",
+      "options": [
+        "旧计划中存在但新计划中不存在的步骤 ID",
+        "新计划中旧计划中没有的步骤 ID",
+        "tool_name 或 args 在修订之间发生更改的步骤 ID",
+        "计划者要求跳过的步骤 ID"
+      ],
+      "correct": 2,
+      "explanation": "revision 是其 (tool_name, args) 签名在修订版中发生更改的 id 集合。"
+    },
+    {
+      "stage": "post",
+      "question": "当执行器耗尽 max_replans 时，产生的 SessionResult.reason 是什么？",
+      "options": [
+        "达到目标",
+        "步骤_预算",
+        "重新计划预算",
+        "无计划"
+      ],
+      "correct": 2,
+      "explanation": "重新计划预算。状态为失败。历史记录了每一步的运行，包括触发重新计划的失败。"
+    }
+  ]
+}

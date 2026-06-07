@@ -1,0 +1,78 @@
+{
+  "lesson": "25-security-secrets-audit",
+  "title": "Security — Secrets, API Key Rotation, Audit Logs, Guardrails",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "2026年LLM服务证书的标准模式是什么？",
+      "options": [
+        "将密钥存储在 Slack 通道中",
+        "AI 网关在运行时通过 IAM 角色拉取集中式保管库；在保管库中旋转，所有应用程序在几分钟内即可启动",
+        "通过电子邮件将密钥发送给每位工程师",
+        "在配置文件中硬编码 API 密钥以提高速度"
+      ],
+      "correct": 1,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "本课程建议 API 密钥、保管库根令牌和 CI/CD 凭证采用什么轮换节奏？",
+      "options": [
+        "90 天内，尽可能自动化，手动时记录和跟踪",
+        "每5年一次",
+        "仅当泄露时",
+        "从来没有"
+      ],
+      "correct": 0,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "为什么一致标记化（网格方法）用于 PII 清理？",
+      "options": [
+        "它比正则表达式使用更少的内存",
+        "它对模型的提示进行加密",
+        "ISO 27001 要求",
+        "相同的源值映射到相同的占位符，因此 LLM 在整个提示中保留代码和关系语义"
+      ],
+      "correct": 3,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "本课程建议 LLM 服务子网采取什么出口姿势？",
+      "options": [
+        "使用仅限白名单的 DNS 解析器将一小组域名（api.openai.com、api.anthropic.com、vector DB、vault）列入白名单并删除其他所有内容",
+        "阻止所有出口，包括提供商",
+        "允许 DNS 但阻止 HTTP",
+        "允许所有出站流量"
+      ],
+      "correct": 0,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "2026 年 Vercel 供应链事件对 CI/CD 证书有何启发？",
+      "options": [
+        "CI/CD 凭证与产品等效 — 存储在保险库中、范围狭窄、积极轮换",
+        "CI/CD 秘密无法被窃取",
+        "CI/CD 凭证风险较低，可以保留在 env 文件中",
+        "维塞尔未受影响"
+      ],
+      "correct": 0,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "本课程建议为每次 LLM 通话保留哪些审核日志字段？",
+      "options": [
+        "只是原始提示",
+        "仅有回应",
+        "时间戳、用户/租户、提示哈希（非原始）、模型 + 版本、令牌计数、成本、响应哈希、任何护栏行程",
+        "仅成本"
+      ],
+      "correct": 2,
+      "explanation": ""
+    }
+  ]
+}

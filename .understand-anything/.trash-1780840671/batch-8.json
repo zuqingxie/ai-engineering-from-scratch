@@ -1,0 +1,91 @@
+{
+  "nodes": [
+    {
+      "id": "file:phases/19-capstone-projects/85-content-classifier-integration/code/classifiers.py",
+      "type": "file",
+      "name": "classifiers.py",
+      "filePath": "phases/19-capstone-projects/85-content-classifier-integration/code/classifiers.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/85-content-classifier-integration/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/19-capstone-projects/85-content-classifier-integration/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/85-content-classifier-integration/code/tests.py",
+      "type": "file",
+      "name": "tests.py",
+      "filePath": "phases/19-capstone-projects/85-content-classifier-integration/code/tests.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "test",
+        "python"
+      ],
+      "language": "python"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/85-content-classifier-integration/code/classifiers.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/85-content-classifier-integration/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:phases/19-capstone-projects/85-content-classifier-integration/code/main.py",
+      "target": "file:phases/19-capstone-projects/85-content-classifier-integration/code/classifiers.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/85-content-classifier-integration/code/tests.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:phases/19-capstone-projects/85-content-classifier-integration/code/tests.py",
+      "target": "file:phases/19-capstone-projects/85-content-classifier-integration/code/classifiers.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:phases/19-capstone-projects/85-content-classifier-integration/code/tests.py",
+      "target": "file:phases/19-capstone-projects/85-content-classifier-integration/code/main.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

@@ -1,0 +1,541 @@
+{
+  "nodes": [
+    {
+      "id": "file:phases/07-transformers-deep-dive/07-gpt-causal-language-modeling/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/07-transformers-deep-dive/07-gpt-causal-language-modeling/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/07-transformers-deep-dive/07-gpt-causal-language-modeling/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/07-transformers-deep-dive/07-gpt-causal-language-modeling/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/07-transformers-deep-dive/07-gpt-causal-language-modeling/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/07-transformers-deep-dive/07-gpt-causal-language-modeling/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/07-transformers-deep-dive/07-gpt-causal-language-modeling/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/07-transformers-deep-dive/07-gpt-causal-language-modeling/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/07-transformers-deep-dive/07-gpt-causal-language-modeling/outputs/skill-sampling-tuner.md",
+      "type": "document",
+      "name": "skill-sampling-tuner.md",
+      "filePath": "phases/07-transformers-deep-dive/07-gpt-causal-language-modeling/outputs/skill-sampling-tuner.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/07-transformers-deep-dive/08-t5-bart-encoder-decoder/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/07-transformers-deep-dive/08-t5-bart-encoder-decoder/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/07-transformers-deep-dive/08-t5-bart-encoder-decoder/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/07-transformers-deep-dive/08-t5-bart-encoder-decoder/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/07-transformers-deep-dive/08-t5-bart-encoder-decoder/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/07-transformers-deep-dive/08-t5-bart-encoder-decoder/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/07-transformers-deep-dive/08-t5-bart-encoder-decoder/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/07-transformers-deep-dive/08-t5-bart-encoder-decoder/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/07-transformers-deep-dive/08-t5-bart-encoder-decoder/outputs/skill-seq2seq-picker.md",
+      "type": "document",
+      "name": "skill-seq2seq-picker.md",
+      "filePath": "phases/07-transformers-deep-dive/08-t5-bart-encoder-decoder/outputs/skill-seq2seq-picker.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/07-transformers-deep-dive/09-vision-transformers/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/07-transformers-deep-dive/09-vision-transformers/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/07-transformers-deep-dive/09-vision-transformers/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/07-transformers-deep-dive/09-vision-transformers/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/07-transformers-deep-dive/09-vision-transformers/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/07-transformers-deep-dive/09-vision-transformers/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/07-transformers-deep-dive/09-vision-transformers/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/07-transformers-deep-dive/09-vision-transformers/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/07-transformers-deep-dive/09-vision-transformers/outputs/skill-vit-configurator.md",
+      "type": "document",
+      "name": "skill-vit-configurator.md",
+      "filePath": "phases/07-transformers-deep-dive/09-vision-transformers/outputs/skill-vit-configurator.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/07-transformers-deep-dive/10-audio-transformers-whisper/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/07-transformers-deep-dive/10-audio-transformers-whisper/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/07-transformers-deep-dive/10-audio-transformers-whisper/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/07-transformers-deep-dive/10-audio-transformers-whisper/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/07-transformers-deep-dive/10-audio-transformers-whisper/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/07-transformers-deep-dive/10-audio-transformers-whisper/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/07-transformers-deep-dive/10-audio-transformers-whisper/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/07-transformers-deep-dive/10-audio-transformers-whisper/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/07-transformers-deep-dive/10-audio-transformers-whisper/outputs/skill-asr-configurator.md",
+      "type": "document",
+      "name": "skill-asr-configurator.md",
+      "filePath": "phases/07-transformers-deep-dive/10-audio-transformers-whisper/outputs/skill-asr-configurator.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/07-transformers-deep-dive/11-mixture-of-experts/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/07-transformers-deep-dive/11-mixture-of-experts/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/07-transformers-deep-dive/11-mixture-of-experts/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/07-transformers-deep-dive/11-mixture-of-experts/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/07-transformers-deep-dive/11-mixture-of-experts/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/07-transformers-deep-dive/11-mixture-of-experts/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/07-transformers-deep-dive/11-mixture-of-experts/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/07-transformers-deep-dive/11-mixture-of-experts/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/07-transformers-deep-dive/11-mixture-of-experts/outputs/skill-moe-configurator.md",
+      "type": "document",
+      "name": "skill-moe-configurator.md",
+      "filePath": "phases/07-transformers-deep-dive/11-mixture-of-experts/outputs/skill-moe-configurator.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/07-transformers-deep-dive/07-gpt-causal-language-modeling/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/07-transformers-deep-dive/07-gpt-causal-language-modeling/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/07-transformers-deep-dive/07-gpt-causal-language-modeling/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/07-transformers-deep-dive/07-gpt-causal-language-modeling/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/07-transformers-deep-dive/07-gpt-causal-language-modeling/outputs/skill-sampling-tuner.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/07-transformers-deep-dive/08-t5-bart-encoder-decoder/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/07-transformers-deep-dive/08-t5-bart-encoder-decoder/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/07-transformers-deep-dive/08-t5-bart-encoder-decoder/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/07-transformers-deep-dive/08-t5-bart-encoder-decoder/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/07-transformers-deep-dive/08-t5-bart-encoder-decoder/outputs/skill-seq2seq-picker.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/07-transformers-deep-dive/09-vision-transformers/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/07-transformers-deep-dive/09-vision-transformers/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/07-transformers-deep-dive/09-vision-transformers/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/07-transformers-deep-dive/09-vision-transformers/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/07-transformers-deep-dive/09-vision-transformers/outputs/skill-vit-configurator.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/07-transformers-deep-dive/10-audio-transformers-whisper/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/07-transformers-deep-dive/10-audio-transformers-whisper/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/07-transformers-deep-dive/10-audio-transformers-whisper/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/07-transformers-deep-dive/10-audio-transformers-whisper/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/07-transformers-deep-dive/10-audio-transformers-whisper/outputs/skill-asr-configurator.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/07-transformers-deep-dive/11-mixture-of-experts/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/07-transformers-deep-dive/11-mixture-of-experts/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/07-transformers-deep-dive/11-mixture-of-experts/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/07-transformers-deep-dive/11-mixture-of-experts/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/07-transformers-deep-dive/11-mixture-of-experts/outputs/skill-moe-configurator.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

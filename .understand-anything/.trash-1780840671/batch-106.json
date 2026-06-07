@@ -1,0 +1,541 @@
+{
+  "nodes": [
+    {
+      "id": "file:phases/15-autonomous-systems/20-openai-preparedness-deepmind-fsf/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/15-autonomous-systems/20-openai-preparedness-deepmind-fsf/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/15-autonomous-systems/20-openai-preparedness-deepmind-fsf/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/15-autonomous-systems/20-openai-preparedness-deepmind-fsf/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/15-autonomous-systems/20-openai-preparedness-deepmind-fsf/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/15-autonomous-systems/20-openai-preparedness-deepmind-fsf/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/15-autonomous-systems/20-openai-preparedness-deepmind-fsf/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/15-autonomous-systems/20-openai-preparedness-deepmind-fsf/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/15-autonomous-systems/20-openai-preparedness-deepmind-fsf/outputs/skill-cross-policy-diff.md",
+      "type": "document",
+      "name": "skill-cross-policy-diff.md",
+      "filePath": "phases/15-autonomous-systems/20-openai-preparedness-deepmind-fsf/outputs/skill-cross-policy-diff.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/15-autonomous-systems/21-metr-external-evaluation/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/15-autonomous-systems/21-metr-external-evaluation/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/15-autonomous-systems/21-metr-external-evaluation/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/15-autonomous-systems/21-metr-external-evaluation/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/15-autonomous-systems/21-metr-external-evaluation/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/15-autonomous-systems/21-metr-external-evaluation/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/15-autonomous-systems/21-metr-external-evaluation/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/15-autonomous-systems/21-metr-external-evaluation/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/15-autonomous-systems/21-metr-external-evaluation/outputs/skill-horizon-interpretation.md",
+      "type": "document",
+      "name": "skill-horizon-interpretation.md",
+      "filePath": "phases/15-autonomous-systems/21-metr-external-evaluation/outputs/skill-horizon-interpretation.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/15-autonomous-systems/22-cais-caisi-societal-risk/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/15-autonomous-systems/22-cais-caisi-societal-risk/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/15-autonomous-systems/22-cais-caisi-societal-risk/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/15-autonomous-systems/22-cais-caisi-societal-risk/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/15-autonomous-systems/22-cais-caisi-societal-risk/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/15-autonomous-systems/22-cais-caisi-societal-risk/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/15-autonomous-systems/22-cais-caisi-societal-risk/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/15-autonomous-systems/22-cais-caisi-societal-risk/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/15-autonomous-systems/22-cais-caisi-societal-risk/outputs/skill-societal-risk-review.md",
+      "type": "document",
+      "name": "skill-societal-risk-review.md",
+      "filePath": "phases/15-autonomous-systems/22-cais-caisi-societal-risk/outputs/skill-societal-risk-review.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/15-autonomous-systems/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "phases/15-autonomous-systems/README.md",
+      "summary": "项目文档文件，补充课程、贡献流程或仓库治理信息。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/16-multi-agent-and-swarms/01-why-multi-agent/code/single_vs_multi.ts",
+      "type": "file",
+      "name": "single_vs_multi.ts",
+      "filePath": "phases/16-multi-agent-and-swarms/01-why-multi-agent/code/single_vs_multi.ts",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "typescript"
+      ],
+      "language": "typescript"
+    },
+    {
+      "id": "document:phases/16-multi-agent-and-swarms/01-why-multi-agent/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/16-multi-agent-and-swarms/01-why-multi-agent/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/16-multi-agent-and-swarms/01-why-multi-agent/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/16-multi-agent-and-swarms/01-why-multi-agent/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/16-multi-agent-and-swarms/01-why-multi-agent/outputs/prompt-multi-agent-decision.md",
+      "type": "document",
+      "name": "prompt-multi-agent-decision.md",
+      "filePath": "phases/16-multi-agent-and-swarms/01-why-multi-agent/outputs/prompt-multi-agent-decision.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/16-multi-agent-and-swarms/01-why-multi-agent/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/16-multi-agent-and-swarms/01-why-multi-agent/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/16-multi-agent-and-swarms/02-fipa-acl-heritage/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/16-multi-agent-and-swarms/02-fipa-acl-heritage/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/16-multi-agent-and-swarms/02-fipa-acl-heritage/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/16-multi-agent-and-swarms/02-fipa-acl-heritage/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/16-multi-agent-and-swarms/02-fipa-acl-heritage/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/16-multi-agent-and-swarms/02-fipa-acl-heritage/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/16-multi-agent-and-swarms/02-fipa-acl-heritage/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/16-multi-agent-and-swarms/02-fipa-acl-heritage/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/15-autonomous-systems/20-openai-preparedness-deepmind-fsf/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/15-autonomous-systems/20-openai-preparedness-deepmind-fsf/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/15-autonomous-systems/20-openai-preparedness-deepmind-fsf/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/15-autonomous-systems/20-openai-preparedness-deepmind-fsf/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/15-autonomous-systems/20-openai-preparedness-deepmind-fsf/outputs/skill-cross-policy-diff.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/15-autonomous-systems/21-metr-external-evaluation/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/15-autonomous-systems/21-metr-external-evaluation/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/15-autonomous-systems/21-metr-external-evaluation/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/15-autonomous-systems/21-metr-external-evaluation/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/15-autonomous-systems/21-metr-external-evaluation/outputs/skill-horizon-interpretation.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/15-autonomous-systems/22-cais-caisi-societal-risk/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/15-autonomous-systems/22-cais-caisi-societal-risk/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/15-autonomous-systems/22-cais-caisi-societal-risk/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/15-autonomous-systems/22-cais-caisi-societal-risk/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/15-autonomous-systems/22-cais-caisi-societal-risk/outputs/skill-societal-risk-review.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/15-autonomous-systems/README.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/16-multi-agent-and-swarms/01-why-multi-agent/code/single_vs_multi.ts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/16-multi-agent-and-swarms/01-why-multi-agent/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/16-multi-agent-and-swarms/01-why-multi-agent/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/16-multi-agent-and-swarms/01-why-multi-agent/outputs/prompt-multi-agent-decision.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/16-multi-agent-and-swarms/01-why-multi-agent/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/16-multi-agent-and-swarms/02-fipa-acl-heritage/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/16-multi-agent-and-swarms/02-fipa-acl-heritage/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/16-multi-agent-and-swarms/02-fipa-acl-heritage/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/16-multi-agent-and-swarms/02-fipa-acl-heritage/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

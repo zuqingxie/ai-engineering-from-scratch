@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "在 ViT-MLP-LLM VLM 模式中，哪个组件最常被训练，而其他组件在对齐过程中保持冻结？",
+      "options": [
+        "视觉编码器",
+        "投影仪（ViT 和 LLM 之间的 2-4 层 MLP）——它将视觉标记映射到 LLM 的嵌入空间并携带大部分跨模态对齐信号",
+        "法学硕士",
+        "所有组件始终一起训练"
+      ],
+      "correct": 1,
+      "explanation": "标准 VLM 配方首先使用冻结的 ViT 和 LLM（对齐阶段）来训练投影仪，然后可选择解冻所有内容以进行预训练和指令调整。投影仪很小（数千万到数亿参数），并且在模态桥中首当其冲。制作中的微调通常只训练投影仪 + LoRA 的注意力——廉价而有效。"
+    },
+    {
+      "stage": "pre",
+      "question": "DeepStack（用于Qwen3-VL）的作用是什么？",
+      "options": [
+        "仅使用最深的 ViT 层的特征",
+        "在投影之前堆叠来自多个 ViT 深度的特征，因此法学硕士可以看到高级语义（深层）和细粒度空间细节（浅层）",
+        "Doubles the depth of the LLM",
+        "Is a specific quantisation scheme"
+      ],
+      "correct": 1,
+      "explanation": "Vanilla VLM 仅投影最后一层 ViT 功能。 DeepStack 对多个深度进行采样、连接和项目。深层给出语义（“这是一张图表”）；浅层给出位置和纹理（“x=120 处的条是红色的”）。这种组合缩小了需要精细本地化的任务的基础差距，例如 GUI 代理操作或密集字幕。"
+    },
+    {
+      "stage": "post",
+      "question": "生产 VLM 显示出较高的文本置信度，但生成的文本描述了图像中不存在的对象。 Which metric captures this failure?",
+      "options": [
+        "困惑",
+        "跨模态错误率 (CMER) — 文本置信度较高但图像文本余弦相似度（通过 CLIP 系列检查器）较低的输出比例； ~12% typical on uncurated web data",
+        "MMMU 精度",
+        "令牌生成延迟"
+      ],
+      "correct": 1,
+      "explanation": "CMER is a production alignment KPI.它捕捉到了经典的 VLM 幻觉模式：模型对其文本很确定，但文本并不以图像为基础。 Monitor CMER per endpoint and prompt type;将上升的 CMER 视为模型偏离分布或遇到无法处理的提示类别的信号。 Skywork.ai 通过使 CMER 成为一流 KPI，将幻觉减少了约 35%。"
+    },
+    {
+      "stage": "post",
+      "question": "为什么现代 VLM 使用 SigLIP 或自定义视觉编码器而不是监督 ImageNet ResNet 作为主干？",
+      "options": [
+        "SigLIP 更快",
+        "CLIP/SigLIP 式编码器与文本联合训练，因此它们的输出空间已经与语言大致对齐；投影仪只需做更少的工作，模型就能更好地解释视觉文本概念",
+        "ResNets cannot produce tokens",
+        "SigLIP has more parameters"
+      ],
+      "correct": 1,
+      "explanation": "视觉语言预训练使编码器能够生活在文本兼容的空间中。有监督的 ImageNet ResNet 是在没有任何文本信号的情况下进行训练的，因此过渡到法学硕士需要更大的投影仪和更多的数据。 CLIP/SigLIP/DINOv3 编码器产生的特征可供 LLM 通过几个线性层使用。由于这个原因，几乎每个 SOTA VLM 都使用 CLIP 系列或 SigLIP 编码器。"
+    },
+    {
+      "stage": "post",
+      "question": "Qwen3-VL-235B-A22B 在 OSWorld 上获得最高分。 What is OSWorld, and what does this imply?",
+      "options": [
+        "综合基准",
+        "模型操作桌面 GUI 的代理基准测试 — 识别按钮、读取 UI 状态、发出操作； Qwen3-VL's top scores imply VLMs are now viable visual agents for GUI automation",
+        "A pose-estimation benchmark",
+        "视频质量检查基准"
+      ],
+      "correct": 1,
+      "explanation": "OSWorld通过截图测试模型是否能够自主操作桌面环境。 Qwen3-VL's top global scores indicate the 'visual agent' paradigm — VLM reads screen, decides action, tool-calls the mouse/keyboard — has crossed into practical territory. This is what 2026 AI PC demos run;它也是进入自动化 QA、RPA 和辅助产品的直接途径。"
+    }
+  ]
+}

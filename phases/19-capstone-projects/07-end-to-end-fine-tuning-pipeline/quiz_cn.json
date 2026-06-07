@@ -1,0 +1,90 @@
+{
+  "lesson": "07-end-to-end-fine-tuning-pipeline",
+  "title": "Capstone 07 — End-to-End Fine-Tuning Pipeline (Data to SFT to DPO to Serve)",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "数据准备过程中污染检查要防止什么？",
+      "options": [
+        "SFT 和 DPO 阶段之间的分词器漂移",
+        "训练和服务之间的 GPU 驱动程序不匹配",
+        "llama.cpp 构建中的 GGUF 版本存在偏差",
+        "测试集从 MMLU-Pro 和 MT-Bench-v2 等公共基准测试泄漏到训练数据中"
+      ],
+      "correct": 3,
+      "explanation": ""
+    },
+    {
+      "stage": "pre",
+      "question": "为什么管道先由 SFT 组成，然后由 DPO（或 GRPO）组成，而不是单独由 DPO 组成？",
+      "options": [
+        "Axolotl 没有实现 DPO",
+        "SFT 在标记完成上建立领域行为，而 DPO 或 GRPO 则根据偏好对或可验证的奖励来调整模型",
+        "DPO 需要单独的基础模型架构",
+        "DPO 无法在量化权重上运行"
+      ],
+      "correct": 1,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "EAGLE-3 对 vLLM 服务阶段有何贡献？",
+      "options": [
+        "新的提示缓存层",
+        "工具调用的 OPA 策略",
+        "自动数据重复删除步骤",
+        "预测未来 N 个代币的草稿头；目标一次性验证 2-3 倍的吞吐量"
+      ],
+      "correct": 3,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "哪个指标报告推测解码草案与目标模型的一致性程度？",
+      "options": [
+        "录取率",
+        "覆盖范围增量",
+        "PSI",
+        "困惑"
+      ],
+      "correct": 0,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "管道提供哪三个量化指标来实现部署灵活性？",
+      "options": [
+        "ONNX、CoreML、TFLite",
+        "GPTQ-INT4-Marlin、AWQ-INT4 和 GGUF-Q4_K_M",
+        "INT8 仅跨三个运行时",
+        "FP32、FP16、BF16"
+      ],
+      "correct": 1,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "2026 年模型卡在此顶点中遵循哪个框架约定？",
+      "options": [
+        "数据集的数据表",
+        "模型开放性框架 (MOF) 2026 模板涵盖数据、培训、评估、安全性、许可和可重复性",
+        "HuggingFace 仅 YAML 前题",
+        "OpenAI的模型卡格式"
+      ],
+      "correct": 1,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "哪个 HPA 指标用于自动缩放服务副本？",
+      "options": [
+        "排队等待时间",
+        "CPU利用率",
+        "GPU温度",
+        "网络出口字节"
+      ],
+      "correct": 0,
+      "explanation": ""
+    }
+  ]
+}

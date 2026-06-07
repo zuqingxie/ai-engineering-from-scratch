@@ -1,0 +1,546 @@
+{
+  "nodes": [
+    {
+      "id": "document:phases/03-deep-learning-core/07-regularization/outputs/prompt-regularization-advisor.md",
+      "type": "document",
+      "name": "prompt-regularization-advisor.md",
+      "filePath": "phases/03-deep-learning-core/07-regularization/outputs/prompt-regularization-advisor.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/03-deep-learning-core/07-regularization/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/03-deep-learning-core/07-regularization/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/03-deep-learning-core/08-weight-initialization/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/03-deep-learning-core/08-weight-initialization/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/03-deep-learning-core/08-weight-initialization/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/03-deep-learning-core/08-weight-initialization/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/03-deep-learning-core/08-weight-initialization/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/03-deep-learning-core/08-weight-initialization/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/03-deep-learning-core/08-weight-initialization/outputs/prompt-init-strategy.md",
+      "type": "document",
+      "name": "prompt-init-strategy.md",
+      "filePath": "phases/03-deep-learning-core/08-weight-initialization/outputs/prompt-init-strategy.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/03-deep-learning-core/08-weight-initialization/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/03-deep-learning-core/08-weight-initialization/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/03-deep-learning-core/09-learning-rate-schedules/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/03-deep-learning-core/09-learning-rate-schedules/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/03-deep-learning-core/09-learning-rate-schedules/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/03-deep-learning-core/09-learning-rate-schedules/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/03-deep-learning-core/09-learning-rate-schedules/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/03-deep-learning-core/09-learning-rate-schedules/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/03-deep-learning-core/09-learning-rate-schedules/outputs/prompt-lr-schedule-advisor.md",
+      "type": "document",
+      "name": "prompt-lr-schedule-advisor.md",
+      "filePath": "phases/03-deep-learning-core/09-learning-rate-schedules/outputs/prompt-lr-schedule-advisor.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/03-deep-learning-core/09-learning-rate-schedules/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/03-deep-learning-core/09-learning-rate-schedules/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/03-deep-learning-core/10-mini-framework/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/03-deep-learning-core/10-mini-framework/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/03-deep-learning-core/10-mini-framework/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/03-deep-learning-core/10-mini-framework/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/03-deep-learning-core/10-mini-framework/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/03-deep-learning-core/10-mini-framework/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/03-deep-learning-core/10-mini-framework/outputs/prompt-framework-architect.md",
+      "type": "document",
+      "name": "prompt-framework-architect.md",
+      "filePath": "phases/03-deep-learning-core/10-mini-framework/outputs/prompt-framework-architect.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/03-deep-learning-core/10-mini-framework/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/03-deep-learning-core/10-mini-framework/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/03-deep-learning-core/11-intro-to-pytorch/code/pytorch_intro.py",
+      "type": "file",
+      "name": "pytorch_intro.py",
+      "filePath": "phases/03-deep-learning-core/11-intro-to-pytorch/code/pytorch_intro.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/03-deep-learning-core/11-intro-to-pytorch/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/03-deep-learning-core/11-intro-to-pytorch/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/03-deep-learning-core/11-intro-to-pytorch/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/03-deep-learning-core/11-intro-to-pytorch/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/03-deep-learning-core/11-intro-to-pytorch/outputs/prompt-pytorch-debugger.md",
+      "type": "document",
+      "name": "prompt-pytorch-debugger.md",
+      "filePath": "phases/03-deep-learning-core/11-intro-to-pytorch/outputs/prompt-pytorch-debugger.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/03-deep-learning-core/11-intro-to-pytorch/outputs/skill-pytorch-patterns.md",
+      "type": "document",
+      "name": "skill-pytorch-patterns.md",
+      "filePath": "phases/03-deep-learning-core/11-intro-to-pytorch/outputs/skill-pytorch-patterns.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/03-deep-learning-core/11-intro-to-pytorch/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/03-deep-learning-core/11-intro-to-pytorch/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/03-deep-learning-core/12-intro-to-jax/code/jax_intro.py",
+      "type": "file",
+      "name": "jax_intro.py",
+      "filePath": "phases/03-deep-learning-core/12-intro-to-jax/code/jax_intro.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/03-deep-learning-core/12-intro-to-jax/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/03-deep-learning-core/12-intro-to-jax/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/03-deep-learning-core/07-regularization/outputs/prompt-regularization-advisor.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/03-deep-learning-core/07-regularization/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/03-deep-learning-core/08-weight-initialization/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/03-deep-learning-core/08-weight-initialization/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/03-deep-learning-core/08-weight-initialization/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/03-deep-learning-core/08-weight-initialization/outputs/prompt-init-strategy.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/03-deep-learning-core/08-weight-initialization/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/03-deep-learning-core/09-learning-rate-schedules/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/03-deep-learning-core/09-learning-rate-schedules/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/03-deep-learning-core/09-learning-rate-schedules/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/03-deep-learning-core/09-learning-rate-schedules/outputs/prompt-lr-schedule-advisor.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/03-deep-learning-core/09-learning-rate-schedules/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/03-deep-learning-core/10-mini-framework/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/03-deep-learning-core/10-mini-framework/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/03-deep-learning-core/10-mini-framework/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/03-deep-learning-core/10-mini-framework/outputs/prompt-framework-architect.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/03-deep-learning-core/10-mini-framework/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/03-deep-learning-core/11-intro-to-pytorch/code/pytorch_intro.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/03-deep-learning-core/11-intro-to-pytorch/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/03-deep-learning-core/11-intro-to-pytorch/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/03-deep-learning-core/11-intro-to-pytorch/outputs/prompt-pytorch-debugger.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/03-deep-learning-core/11-intro-to-pytorch/outputs/skill-pytorch-patterns.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/03-deep-learning-core/11-intro-to-pytorch/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/03-deep-learning-core/12-intro-to-jax/code/jax_intro.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/03-deep-learning-core/12-intro-to-jax/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

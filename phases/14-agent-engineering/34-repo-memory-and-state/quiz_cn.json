@@ -1,0 +1,90 @@
+{
+  "lesson": "34-repo-memory-and-state",
+  "title": "Repo Memory and Durable State",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "决定一条信息是否属于存储库内存的持久性测试是什么？",
+      "options": [
+        "是否为JSON",
+        "从现在起三个月后的 CI 重新运行中是否有用；如果是，则回购；如果否，遥测",
+        "用户是否将其标记为重要",
+        "是否适合 4 kB"
+      ],
+      "correct": 1,
+      "explanation": "回购内存用于持久的、三个月后可用的状态；瞬态数据是遥测数据。"
+    },
+    {
+      "stage": "pre",
+      "question": "哪个模式字段携带代理的合同版本？",
+      "options": [
+        "模式版本",
+        "构建哈希值",
+        "型号_id",
+        "会话UUID"
+      ],
+      "correct": 0,
+      "explanation": "schema_version 是整数合约；管理器拒绝从未知版本加载。"
+    },
+    {
+      "stage": "check",
+      "question": "原子写入是如何工作的？",
+      "options": [
+        "tempfile.mkstemp 在同一目录中，在目标上写入、fsync、os.replace（原子重命名）",
+        "截断然后写入目标",
+        "只附加 CRC",
+        "加密并覆盖"
+      ],
+      "correct": 0,
+      "explanation": "POSIX 和 Windows 上的原子重命名可以防止部分写入损坏。"
+    },
+    {
+      "stage": "check",
+      "question": "为什么非幂等工具调用需要幂等密钥？",
+      "options": [
+        "用于计费",
+        "如果代理在工具调用之后但在检查结果之前崩溃，请安全地重试；在执行前记录调用 ID 并在重试时跳过该调用",
+        "删除重复日志",
+        "缩短输出"
+      ],
+      "correct": 1,
+      "explanation": "pending_calls.jsonl 携带呼叫 ID；恢复检查并跳过已经执行的工作。"
+    },
+    {
+      "stage": "check",
+      "question": "相对于状态，大型工件（CSV、长记录、生成的文件）应该存放在哪里？",
+      "options": [
+        "内联在agent_state.json中",
+        "作为单独的文件（或对象存储），仅保留路径状态，因此检查点保持小而快",
+        "在环境变量中",
+        "连接成一根巨大的日志"
+      ],
+      "correct": 1,
+      "explanation": "单独的工件独立于状态而增长；检查点的读写成本很低。"
+    },
+    {
+      "stage": "post",
+      "question": "用于审计的事件溯源+用于简历的快照能为您带来什么？",
+      "options": [
+        "降低磁盘使用率",
+        "重放代理通过读取快照然后重放快照后的事件来逐字决策；与 Postgres WAL 形状相同",
+        "更快的推理",
+        "原生语音支持"
+      ],
+      "correct": 1,
+      "explanation": "每次突变时附加到 state.events.jsonl ；定期快照到state.json；重播快照时间戳之后的事件。"
+    },
+    {
+      "stage": "post",
+      "question": "课程中说当 schema_version 不匹配时会发生什么？",
+      "options": [
+        "经理默默升级",
+        "管理器拒绝加载，直到 tools/migrate_state.py 中的迁移脚本运行",
+        "状态已删除",
+        "代理重试"
+      ],
+      "correct": 1,
+      "explanation": "架构迁移或拒绝加载；永不静默升级。"
+    }
+  ]
+}

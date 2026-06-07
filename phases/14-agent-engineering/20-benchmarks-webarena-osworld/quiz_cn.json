@@ -1,0 +1,90 @@
+{
+  "lesson": "20-benchmarks-webarena-osworld",
+  "title": "Benchmarks: WebArena and OSWorld",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "为什么 WebArena 自行托管其四个目标应用程序？",
+      "options": [
+        "为了省钱",
+        "固定可重现的版本，以便评估基于执行而不是不稳定的",
+        "在 GPU 上运行",
+        "避免 TLS"
+      ],
+      "correct": 1,
+      "explanation": "固定的自托管应用程序使基于执行的评估随着时间的推移变得可靠且具有可比性。"
+    },
+    {
+      "stage": "pre",
+      "question": "为什么 OSWorld 使用真实的操作系统屏幕截图而不是辅助功能 API？",
+      "options": [
+        "辅助功能 API 速度太快",
+        "屏幕截图迫使代理在 1920x1080 下进行真实的 GUI 基础，匹配生产限制",
+        "辅助功能 API 泄露 PII",
+        "截图成本更低"
+      ],
+      "correct": 1,
+      "explanation": "屏幕截图驱动的评估迫使像素到元素接地，这是实际生产的限制。"
+    },
+    {
+      "stage": "check",
+      "question": "OSWorld 提出哪两种主要故障模式？",
+      "options": [
+        "延迟和带宽",
+        "GUI基础和操作知识",
+        "嵌入漂移和令牌泄漏",
+        "幻觉和拒绝"
+      ],
+      "correct": 1,
+      "explanation": "基础知识（像素到元素）和操作知识（菜单、快捷方式）是头条新闻的障碍。"
+    },
+    {
+      "stage": "check",
+      "question": "OSWorld-Human 在基本基准之上添加了什么？",
+      "options": [
+        "更多任务",
+        "手动策划的黄金行动轨迹，显示出 1.4-2.7 倍的代理步骤效率低下差距",
+        "更大的屏幕分辨率",
+        "新操作系统"
+      ],
+      "correct": 1,
+      "explanation": "黄金轨迹使轨迹效率可测量，而不仅仅是成功率。"
+    },
+    {
+      "stage": "check",
+      "question": "本课程引用了 WebArena 的哪个发布时间编号？",
+      "options": [
+        "最佳 GPT-4 试剂成功率 14.41%，而人类成功率 78.24%",
+        "最佳代理为 99%，人类为 100%",
+        "最佳代理为 50%，人类为 50%",
+        "全面 0% 的最佳代理商"
+      ],
+      "correct": 0,
+      "explanation": "14.41% 与 78.24% 的差距是 WebArena 发布时间的数字。"
+    },
+    {
+      "stage": "post",
+      "question": "当代理使用 DOM 或可访问性 API 时，课程警告仅屏幕截图评估会发生什么情况？",
+      "options": [
+        "没有任何变化",
+        "你错过了 OSWorld 旨在衡量的接地挑战",
+        "您超出了速率限制",
+        "测试顺利通过"
+      ],
+      "correct": 1,
+      "explanation": "在仅屏幕截图基准测试上评估可访问性 API 代理会跳过基础测试。"
+    },
+    {
+      "stage": "post",
+      "question": "为什么忽略轨迹长度会导致基准测试失败？",
+      "options": [
+        "它隐藏了单靠成功率所忽略的成本和低效率（OSWorld-Human 表面的 1.4-2.7 倍差距）",
+        "轨迹长度始终与黄金匹配",
+        "轨迹无法测量",
+        "长度是唯一重要的指标"
+      ],
+      "correct": 0,
+      "explanation": "成功率达到 60% 的两个智能体的步骤可能会相差 2-3 倍；只有测量轨迹长度，成本和效率才会显现出来。"
+    }
+  ]
+}

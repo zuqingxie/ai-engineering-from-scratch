@@ -1,0 +1,102 @@
+{
+  "lesson": "26-relation-extraction-kg",
+  "title": "Relation Extraction & Knowledge Graph Construction",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "知识图谱的原子单元是什么？",
+      "options": [
+        "POS 标签",
+        "A（主语、关系、宾语）三元组",
+        "一个代币",
+        "一句话"
+      ],
+      "correct": 1,
+      "explanation": "KG 将信息存储为 (s, r, o) 三元组；聚合三元组形成图表。"
+    },
+    {
+      "stage": "pre",
+      "question": "2026年关系抽取中AEVS代表什么？",
+      "options": [
+        "锚点-提取-验证-补充：锚点跨度、提取三元组、验证源、补充覆盖范围",
+        "自动编码器矢量搜索",
+        "异步实体验证服务",
+        "聚合实体值模式"
+      ],
+      "correct": 0,
+      "explanation": "AEVS 是 2026 年接地 RE 幻觉缓解框架。"
+    },
+    {
+      "stage": "check",
+      "question": "为什么每个三元组必须携带源出处（doc id + span）？",
+      "options": [
+        "Provenance 可让您审核三元组并拒绝跨度与源文本不匹配的幻觉",
+        "它加快了提取速度",
+        "出处改变了本体论",
+        "SPARQL 需要出处"
+      ],
+      "correct": 0,
+      "explanation": "Provenance 支持审计，是 AEVS 式幻觉检测的核心。"
+    },
+    {
+      "stage": "check",
+      "question": "关系规范化有什么作用？",
+      "options": [
+        "将表面动词短语（例如“出生于”、“是本地人”）映射到固定属性 id 上，以便图表可查询",
+        "删除三元组",
+        "添加嵌入",
+        "翻译文档"
+      ],
+      "correct": 0,
+      "explanation": "规范化将释义折叠成规范的 KG 属性 id。"
+    },
+    {
+      "stage": "check",
+      "question": "为什么关系提取通常首先需要共指消解？",
+      "options": [
+        "在三元组提取之前，必须将诸如“heFoundApple”之类的代词解析为命名实体",
+        "Coref 添加嵌入",
+        "Coref提供职位",
+        "Coref 标准化案例"
+      ],
+      "correct": 0,
+      "explanation": "如果没有 coref，RE 将关系附加到代词而不是底层命名实体。"
+    },
+    {
+      "stage": "post",
+      "question": "哪个选择用开放 IE 召回来换取图形可查询性？",
+      "options": [
+        "跳过 NER",
+        "三元组的随机抽样",
+        "仅嵌入图",
+        "在合并到 KG 之前将开放 IE 关系映射到封闭本体（例如维基数据属性）"
+      ],
+      "correct": 3,
+      "explanation": "封闭的本体使图可查询；标准化步骤在下游是值得的。"
+    },
+    {
+      "stage": "post",
+      "question": "为什么许多生产 KG 使用时间限定符（开始/结束时间）？",
+      "options": [
+        "更快的 SPARQL",
+        "RDF 要求",
+        "许多关系都是有时间限制的（雇主、配偶、角色）；限定词可以防止“永远真实”的主张变得过时",
+        "删除 NIL 实体"
+      ],
+      "correct": 2,
+      "explanation": "有时间限制的关系需要限定符（例如维基数据 P580/P582），否则事实就会默默地变得陈旧。"
+    },
+    {
+      "stage": "post",
+      "question": "什么是叛逆者？",
+      "options": [
+        "矢量数据库",
+        "一个 seq2seq 关系提取器，可输出 Wikidata 属性 id 中已有的三元组",
+        "分词器",
+        "共指模型"
+      ],
+      "correct": 1,
+      "explanation": "REBEL (Babelscape) 是一个在远程监督的维基数据三元组上训练的 seq2seq RE 模型。"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "lesson": "16-text-generation-pre-transformer",
+  "title": "Text Generation Before Transformers — N-gram Language Models",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "n-gram 语言模型估计什么？",
+      "options": [
+        "编辑单词之间的距离",
+        "P(标签|文档)",
+        "文档嵌入",
+        "来自计数统计的 P(下一个单词 | 前 n-1 个单词)"
+      ],
+      "correct": 3,
+      "explanation": "n-gram LM 通过计数的出现次数对 P(w | 最后 n-1 个单词) 进行建模。"
+    },
+    {
+      "stage": "pre",
+      "question": "平滑在 n-gram 模型中解决什么问题？",
+      "options": [
+        "数值精度",
+        "内存使用情况",
+        "对训练中未见的 n 元语法进行零概率分配，从而将句子可能性压缩为零",
+        "标记化不匹配"
+      ],
+      "correct": 2,
+      "explanation": "平滑重新分配概率质量，因此看不见的 n 元模型获得非零概率。"
+    },
+    {
+      "stage": "check",
+      "question": "是什么洞察力使克内瑟内伊平滑比朴素的绝对贴现更好？",
+      "options": [
+        "它使用连续概率（单词出现的不同上下文的数量）而不是原始频率来估计低阶分布",
+        "它使用 TF-IDF",
+        "它使用更大的n",
+        "它使用梯度下降"
+      ],
+      "correct": 0,
+      "explanation": "连续概率归功于上下文的多样性，而不仅仅是原始计数。"
+    },
+    {
+      "stage": "check",
+      "question": "困惑度衡量什么？",
+      "options": [
+        "保留测试集上每个标记的平均负对数似然指数；越低越好",
+        "不同 n 元语法的数量",
+        "标签的交叉熵",
+        "发电量"
+      ],
+      "correct": 0,
+      "explanation": "困惑度 = exp(- 平均 log P);较低意味着模型对测试文本的惊讶程度较低。"
+    },
+    {
+      "stage": "check",
+      "question": "为什么在比较困惑度数字时训练集和测试集必须使用相同的标记化？",
+      "options": [
+        "梯度下降所需",
+        "避免OOV",
+        "困惑度取决于标记化方案；不匹配的分词器产生不可比较的分数",
+        "控制批量大小"
+      ],
+      "correct": 2,
+      "explanation": "不同的标记化会改变标记数量和可能性，使得困惑度值无法比较。"
+    },
+    {
+      "stage": "post",
+      "question": "为什么生成的 trigram-LM 句子感觉局部流畅但全局不连贯？",
+      "options": [
+        "他们放弃标点符号",
+        "束搜索失败",
+        "局部三元组上下文指导每个下一个单词，但模型没有超过 n-1 个标记的远程记忆",
+        "他们使用拉普拉斯平滑"
+      ],
+      "correct": 2,
+      "explanation": "仅对最后 n-1 个标记进行调节会使远程一致性变得偶然。"
+    },
+    {
+      "stage": "post",
+      "question": "2026 年，n-gram 模型仍在哪些地方生产？",
+      "options": [
+        "多语言翻译",
+        "开放域聊天机器人",
+        "延迟关键路径，例如通过 KenLM 等库进行语音识别重新评分和设备上自动完成",
+        "总结"
+      ],
+      "correct": 2,
+      "explanation": "KenLM 风格的 n-gram 模型仍然用作快速设备或重新评分组件。"
+    },
+    {
+      "stage": "post",
+      "question": "为什么仍然建议在宣布神经 LM“好”之前计算 n-gram 基线？",
+      "options": [
+        "它加快了训练速度",
+        "需要 ROUGE",
+        "它消除了 OOV",
+        "如果 Transformer LM 在相同的标记化上没有大幅击败调整后的 Kneser-Ney 基线，则说明训练流程中出现了问题"
+      ],
+      "correct": 3,
+      "explanation": "KN 基线出奇地强；神经 LM 应该以很大优势获胜，否则你就会遇到错误。"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "lesson": "10-multi-agent-software-team",
+  "title": "Capstone 10 — Multi-Agent Software Engineering Team",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "为什么即使在 20 万个令牌的上下文中，单代理工具在处理大型任务时也会遇到上限？",
+      "options": [
+        "单个代理无法进行工具调用",
+        "沙箱拒绝托管多个进程",
+        "上下文无法同时容纳架构计划、四个并行代码库切片、审阅者评论和测试输出",
+        "模型缺乏对 git 的支持"
+      ],
+      "correct": 2,
+      "explanation": ""
+    },
+    {
+      "stage": "pre",
+      "question": "建筑师在这个工厂造型中扮演什么角色？",
+      "options": [
+        "检查合并后的差异是否存在幻觉",
+        "阅读问题并发布包含具有显式接口的子任务的计划",
+        "在干净的沙箱中运行测试套件",
+        "当编码人员意见不一致时强制合并分支"
+      ],
+      "correct": 1,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "为什么每个编码员都在自己的 git 工作树和 Daytona 沙箱中工作？",
+      "options": [
+        "工作树的克隆速度比分支更快",
+        "Daytona 是唯一支持 SSH 的沙箱",
+        "独立的工作树让 N 个编码员可以并行实现子任务，而无需踩踏共享文件",
+        "架构师需要工作树 ID"
+      ],
+      "correct": 2,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "为了保持诚实，对审稿人施加了什么限制？",
+      "options": [
+        "测试人员下线后才能运行",
+        "它无法批准其编写或提议的差异",
+        "它必须批准它读取的每个差异",
+        "必须和建筑师是同一个模型"
+      ],
+      "correct": 1,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "为什么该标题要根据单代理基线来权衡代币效率？",
+      "options": [
+        "多代理总是更便宜",
+        "角色边界添加了摘要和交接上下文，因此真正的问题是工厂是否每美元都能获胜",
+        "单代理没有可观察性故事",
+        "代币成本与性能无关"
+      ],
+      "correct": 1,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "在事后分析过程中，每个失败的问题都会产生哪些工件？",
+      "options": [
+        "新的建筑师计划模板",
+        "更新的 A2A 协议规范",
+        "强制推送日志",
+        "切换失败直方图，确定哪个角色边界被打破（计划、合并、审查、测试）"
+      ],
+      "correct": 3,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "Capstone 使用哪个评估集来跨角色获得 pass@1 分数？",
+      "options": [
+        "SWE-bench Pro 50 个问题子集",
+        "HumanEval-Java",
+        "MT-Bench-v2",
+        "迁移台"
+      ],
+      "correct": 0,
+      "explanation": ""
+    }
+  ]
+}

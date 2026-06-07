@@ -1,0 +1,78 @@
+{
+  "lesson": "37-loading-pretrained-weights",
+  "title": "Loading Pretrained Weights",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "为什么加载器需要名称映射？",
+      "options": [
+        "预训练张量和局部参数同名",
+        "已发布的 GPT-2 权重使用 wte、wpe、h.N.attn.c_attn 等名称；本地模型使用tok_embed、pos_embed、blocks.N.attn.qkv；装载机将一个翻译到另一个上",
+        "Safetensors 文件已加密",
+        "火炬需要它"
+      ],
+      "correct": 1,
+      "explanation": "这两种命名约定有着不同的历史；地图是每层扩展的字面字典。"
+    },
+    {
+      "stage": "check",
+      "question": "什么是 conv1d 转置，哪些张量需要它？",
+      "options": [
+        "所有权重张量",
+        "已发布的 GPT-2 将 c_attn、c_proj 和 c_fc 权重存储在tensorflow conv1d 布局中，这是 nn.Linear.weight 期望的转置；加载程序在分配期间调用 .t()",
+        "仅嵌入",
+        "仅 LayerNorm 缩放"
+      ],
+      "correct": 1,
+      "explanation": "三个后缀需要转置；偏差和 LayerNorms 的形状已经正确。"
+    },
+    {
+      "stage": "check",
+      "question": "为什么 LM 头不在 safetensors 文件中？",
+      "options": [
+        "它是在运行时根据 logits 计算的",
+        "权重绑定：LM head 与 token embedding (wte) 共享存储，因此加载 wte 并在加载重建 head 后别名 lm_head.weight = tok_embed.weight",
+        "太大了",
+        "它是从单独的文件加载的"
+      ],
+      "correct": 1,
+      "explanation": "wte落地后设置lm_head.weight = tok_embed.weight可恢复别名；相反，复制会使参数数量加倍。"
+    },
+    {
+      "stage": "check",
+      "question": "装载机在形状不匹配时会做什么？",
+      "options": [
+        "填充较小的张量",
+        "将不匹配记录在LoadReport.shape_mismatch中并拒绝分配，保持本地参数不变",
+        "使进程崩溃",
+        "截断较大的张量"
+      ],
+      "correct": 1,
+      "explanation": "半载型号是无声故障机器；拒绝分配使报告保持诚实。"
+    },
+    {
+      "stage": "post",
+      "question": "为什么演示的存根装置不是真正的 GPT-2 下载？",
+      "options": [
+        "真实文件不是 safetensors 格式",
+        "演示必须离线且快速运行；存根使用精确的预训练命名约定，因此加载程序代码路径是相同的，并且交换真实文件不会改变加载程序",
+        "真实权重已加密",
+        "Safetensors 无法存储大张量"
+      ],
+      "correct": 1,
+      "explanation": "相同的代码路径，更小的负载；装载机可以在任何一个上工作。"
+    },
+    {
+      "stage": "post",
+      "question": "为什么要在加载前后生成样本？",
+      "options": [
+        "测量推理速度",
+        "如果加载后样本与加载前样本相同，则加载不会改变模型，这意味着映射默默地错过了每个张量",
+        "预热 GPU 缓存",
+        "设置随机种子"
+      ],
+      "correct": 1,
+      "explanation": "健全性生成是最便宜的门：无法更改的样本指纹会暴露 LoadReport 摘要无法自行捕获的损坏负载。"
+    }
+  ]
+}

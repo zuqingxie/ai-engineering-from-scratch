@@ -1,0 +1,90 @@
+{
+  "lesson": "13-mcp-server-with-registry",
+  "title": "Capstone 13 — MCP Server with Registry and Governance",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "为什么 2026 年 MCP 修订版支持生产服务器使用 StreamableHTTP？",
+      "options": [
+        "它消除了身份验证的需要",
+        "它是唯一支持工具调用的传输",
+        "它自动加密有效负载",
+        "默认情况下它是无状态的，因此负载均衡器后面的单个端点可以水平扩展"
+      ],
+      "correct": 3,
+      "explanation": ""
+    },
+    {
+      "stage": "pre",
+      "question": "在此顶点中调用哪个授权模型门工具？",
+      "options": [
+        "携带每个工具范围的 OAuth 2.1 令牌，在工具调用时检查",
+        "共享管理员密码",
+        "每个 IP 地址的 API 密钥",
+        "无范围的相互 TLS"
+      ],
+      "correct": 0,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": ".well-known/mcp-capability 文件的作用是什么？",
+      "options": [
+        "存储服务器的审核日志",
+        "列出出站 IP 范围",
+        "持有 OPA 策略包",
+        "公开工具清单、传输 URL 和身份验证要求，以便注册表可以验证服务器并为其建立索引"
+      ],
+      "correct": 3,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "在此设计中，为何破坏性工具驻留在单独的 MCP 服务器上？",
+      "options": [
+        "它们不能通过 StreamableHTTP 公开",
+        "它们在较慢的硬件上运行",
+        "他们在短时间内通过 Slack 卡提升批准令牌",
+        "他们需要不同的编程语言"
+      ],
+      "correct": 2,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "OPA / Rego 在每次工具调用时决定什么？",
+      "options": [
+        "调用哪个模型",
+        "审计日志写在哪里",
+        "服务器应如何重新排列响应",
+        "调用者的范围是否允许调用，以及 PII 编辑和有效负载上限"
+      ],
+      "correct": 3,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "哪些证据表明 StreamableHTTP 在负载测试中水平扩展？",
+      "options": [
+        "减少单个客户端的并发量",
+        "切换到 stdio 传输",
+        "在单个进程中运行所有内容",
+        "添加第二个副本并显示负载均衡器在没有会话粘性的情况下重新分配"
+      ],
+      "correct": 3,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "为什么审核日志在按租户持久保存之前会通过 Presidio 清除 PII？",
+      "options": [
+        "使日志更短",
+        "满足企业安全要求，同时保持每次调用沿袭可查询",
+        "Presidio 减少 ClickHouse 写入放大",
+        "PII 提高搜索性能"
+      ],
+      "correct": 1,
+      "explanation": ""
+    }
+  ]
+}

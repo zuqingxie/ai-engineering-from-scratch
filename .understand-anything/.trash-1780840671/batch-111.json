@@ -1,0 +1,541 @@
+{
+  "nodes": [
+    {
+      "id": "document:phases/16-multi-agent-and-swarms/22-production-scaling-queues-checkpoints/outputs/skill-scaling-advisor.md",
+      "type": "document",
+      "name": "skill-scaling-advisor.md",
+      "filePath": "phases/16-multi-agent-and-swarms/22-production-scaling-queues-checkpoints/outputs/skill-scaling-advisor.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/16-multi-agent-and-swarms/23-failure-modes-mast-groupthink/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/16-multi-agent-and-swarms/23-failure-modes-mast-groupthink/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/16-multi-agent-and-swarms/23-failure-modes-mast-groupthink/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/16-multi-agent-and-swarms/23-failure-modes-mast-groupthink/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/16-multi-agent-and-swarms/23-failure-modes-mast-groupthink/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/16-multi-agent-and-swarms/23-failure-modes-mast-groupthink/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/16-multi-agent-and-swarms/23-failure-modes-mast-groupthink/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/16-multi-agent-and-swarms/23-failure-modes-mast-groupthink/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/16-multi-agent-and-swarms/23-failure-modes-mast-groupthink/outputs/skill-mast-auditor.md",
+      "type": "document",
+      "name": "skill-mast-auditor.md",
+      "filePath": "phases/16-multi-agent-and-swarms/23-failure-modes-mast-groupthink/outputs/skill-mast-auditor.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/16-multi-agent-and-swarms/24-evaluation-coordination-benchmarks/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/16-multi-agent-and-swarms/24-evaluation-coordination-benchmarks/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/16-multi-agent-and-swarms/24-evaluation-coordination-benchmarks/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/16-multi-agent-and-swarms/24-evaluation-coordination-benchmarks/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/16-multi-agent-and-swarms/24-evaluation-coordination-benchmarks/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/16-multi-agent-and-swarms/24-evaluation-coordination-benchmarks/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/16-multi-agent-and-swarms/24-evaluation-coordination-benchmarks/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/16-multi-agent-and-swarms/24-evaluation-coordination-benchmarks/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/16-multi-agent-and-swarms/24-evaluation-coordination-benchmarks/outputs/skill-benchmark-reader.md",
+      "type": "document",
+      "name": "skill-benchmark-reader.md",
+      "filePath": "phases/16-multi-agent-and-swarms/24-evaluation-coordination-benchmarks/outputs/skill-benchmark-reader.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/16-multi-agent-and-swarms/25-case-studies-2026-sota/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/16-multi-agent-and-swarms/25-case-studies-2026-sota/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/16-multi-agent-and-swarms/25-case-studies-2026-sota/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/16-multi-agent-and-swarms/25-case-studies-2026-sota/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/16-multi-agent-and-swarms/25-case-studies-2026-sota/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/16-multi-agent-and-swarms/25-case-studies-2026-sota/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/16-multi-agent-and-swarms/25-case-studies-2026-sota/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/16-multi-agent-and-swarms/25-case-studies-2026-sota/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/16-multi-agent-and-swarms/25-case-studies-2026-sota/outputs/skill-case-study-mapper.md",
+      "type": "document",
+      "name": "skill-case-study-mapper.md",
+      "filePath": "phases/16-multi-agent-and-swarms/25-case-studies-2026-sota/outputs/skill-case-study-mapper.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/16-multi-agent-and-swarms/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "phases/16-multi-agent-and-swarms/README.md",
+      "summary": "项目文档文件，补充课程、贡献流程或仓库治理信息。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/17-infrastructure-and-production/01-managed-llm-platforms/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/17-infrastructure-and-production/01-managed-llm-platforms/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/17-infrastructure-and-production/01-managed-llm-platforms/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/17-infrastructure-and-production/01-managed-llm-platforms/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/17-infrastructure-and-production/01-managed-llm-platforms/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/17-infrastructure-and-production/01-managed-llm-platforms/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "file:phases/17-infrastructure-and-production/01-managed-llm-platforms/notebook/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "phases/17-infrastructure-and-production/01-managed-llm-platforms/notebook/.gitkeep",
+      "summary": "项目文件，属于课程仓库的内容、工具或站点支持结构。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "unknown"
+      ],
+      "language": "unknown"
+    },
+    {
+      "id": "document:phases/17-infrastructure-and-production/01-managed-llm-platforms/outputs/skill-managed-platform-picker.md",
+      "type": "document",
+      "name": "skill-managed-platform-picker.md",
+      "filePath": "phases/17-infrastructure-and-production/01-managed-llm-platforms/outputs/skill-managed-platform-picker.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/17-infrastructure-and-production/01-managed-llm-platforms/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/17-infrastructure-and-production/01-managed-llm-platforms/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/17-infrastructure-and-production/02-inference-platform-economics/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/17-infrastructure-and-production/02-inference-platform-economics/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/17-infrastructure-and-production/02-inference-platform-economics/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/17-infrastructure-and-production/02-inference-platform-economics/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/16-multi-agent-and-swarms/22-production-scaling-queues-checkpoints/outputs/skill-scaling-advisor.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/16-multi-agent-and-swarms/23-failure-modes-mast-groupthink/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/16-multi-agent-and-swarms/23-failure-modes-mast-groupthink/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/16-multi-agent-and-swarms/23-failure-modes-mast-groupthink/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/16-multi-agent-and-swarms/23-failure-modes-mast-groupthink/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/16-multi-agent-and-swarms/23-failure-modes-mast-groupthink/outputs/skill-mast-auditor.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/16-multi-agent-and-swarms/24-evaluation-coordination-benchmarks/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/16-multi-agent-and-swarms/24-evaluation-coordination-benchmarks/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/16-multi-agent-and-swarms/24-evaluation-coordination-benchmarks/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/16-multi-agent-and-swarms/24-evaluation-coordination-benchmarks/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/16-multi-agent-and-swarms/24-evaluation-coordination-benchmarks/outputs/skill-benchmark-reader.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/16-multi-agent-and-swarms/25-case-studies-2026-sota/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/16-multi-agent-and-swarms/25-case-studies-2026-sota/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/16-multi-agent-and-swarms/25-case-studies-2026-sota/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/16-multi-agent-and-swarms/25-case-studies-2026-sota/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/16-multi-agent-and-swarms/25-case-studies-2026-sota/outputs/skill-case-study-mapper.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/16-multi-agent-and-swarms/README.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/17-infrastructure-and-production/01-managed-llm-platforms/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/17-infrastructure-and-production/01-managed-llm-platforms/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/17-infrastructure-and-production/01-managed-llm-platforms/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/17-infrastructure-and-production/01-managed-llm-platforms/notebook/.gitkeep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/17-infrastructure-and-production/01-managed-llm-platforms/outputs/skill-managed-platform-picker.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/17-infrastructure-and-production/01-managed-llm-platforms/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/17-infrastructure-and-production/02-inference-platform-economics/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/17-infrastructure-and-production/02-inference-platform-economics/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

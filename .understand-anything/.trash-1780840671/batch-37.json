@@ -1,0 +1,547 @@
+{
+  "nodes": [
+    {
+      "id": "file:phases/01-math-foundations/15-statistics-for-ml/code/statistics.py",
+      "type": "file",
+      "name": "statistics.py",
+      "filePath": "phases/01-math-foundations/15-statistics-for-ml/code/statistics.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/01-math-foundations/15-statistics-for-ml/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/01-math-foundations/15-statistics-for-ml/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/01-math-foundations/15-statistics-for-ml/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/01-math-foundations/15-statistics-for-ml/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/01-math-foundations/15-statistics-for-ml/outputs/skill-statistical-testing.md",
+      "type": "document",
+      "name": "skill-statistical-testing.md",
+      "filePath": "phases/01-math-foundations/15-statistics-for-ml/outputs/skill-statistical-testing.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "test",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/01-math-foundations/15-statistics-for-ml/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/01-math-foundations/15-statistics-for-ml/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/01-math-foundations/16-sampling-methods/code/sampling.py",
+      "type": "file",
+      "name": "sampling.py",
+      "filePath": "phases/01-math-foundations/16-sampling-methods/code/sampling.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/01-math-foundations/16-sampling-methods/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/01-math-foundations/16-sampling-methods/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/01-math-foundations/16-sampling-methods/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/01-math-foundations/16-sampling-methods/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/01-math-foundations/16-sampling-methods/outputs/skill-sampling-strategy.md",
+      "type": "document",
+      "name": "skill-sampling-strategy.md",
+      "filePath": "phases/01-math-foundations/16-sampling-methods/outputs/skill-sampling-strategy.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/01-math-foundations/16-sampling-methods/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/01-math-foundations/16-sampling-methods/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/01-math-foundations/17-linear-systems/code/linear_systems.py",
+      "type": "file",
+      "name": "linear_systems.py",
+      "filePath": "phases/01-math-foundations/17-linear-systems/code/linear_systems.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/01-math-foundations/17-linear-systems/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/01-math-foundations/17-linear-systems/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/01-math-foundations/17-linear-systems/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/01-math-foundations/17-linear-systems/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/01-math-foundations/17-linear-systems/outputs/prompt-linear-solver.md",
+      "type": "document",
+      "name": "prompt-linear-solver.md",
+      "filePath": "phases/01-math-foundations/17-linear-systems/outputs/prompt-linear-solver.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/01-math-foundations/17-linear-systems/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/01-math-foundations/17-linear-systems/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/01-math-foundations/18-convex-optimization/code/convex.py",
+      "type": "file",
+      "name": "convex.py",
+      "filePath": "phases/01-math-foundations/18-convex-optimization/code/convex.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/01-math-foundations/18-convex-optimization/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/01-math-foundations/18-convex-optimization/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/01-math-foundations/18-convex-optimization/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/01-math-foundations/18-convex-optimization/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/01-math-foundations/18-convex-optimization/outputs/skill-convexity-checker.md",
+      "type": "document",
+      "name": "skill-convexity-checker.md",
+      "filePath": "phases/01-math-foundations/18-convex-optimization/outputs/skill-convexity-checker.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/01-math-foundations/18-convex-optimization/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/01-math-foundations/18-convex-optimization/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/01-math-foundations/19-complex-numbers/code/complex_numbers.py",
+      "type": "file",
+      "name": "complex_numbers.py",
+      "filePath": "phases/01-math-foundations/19-complex-numbers/code/complex_numbers.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/01-math-foundations/19-complex-numbers/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/01-math-foundations/19-complex-numbers/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/01-math-foundations/19-complex-numbers/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/01-math-foundations/19-complex-numbers/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/01-math-foundations/19-complex-numbers/outputs/skill-complex-arithmetic.md",
+      "type": "document",
+      "name": "skill-complex-arithmetic.md",
+      "filePath": "phases/01-math-foundations/19-complex-numbers/outputs/skill-complex-arithmetic.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/01-math-foundations/19-complex-numbers/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/01-math-foundations/19-complex-numbers/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/01-math-foundations/15-statistics-for-ml/code/statistics.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/01-math-foundations/15-statistics-for-ml/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/01-math-foundations/15-statistics-for-ml/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/01-math-foundations/15-statistics-for-ml/outputs/skill-statistical-testing.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/01-math-foundations/15-statistics-for-ml/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/01-math-foundations/16-sampling-methods/code/sampling.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/01-math-foundations/16-sampling-methods/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/01-math-foundations/16-sampling-methods/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/01-math-foundations/16-sampling-methods/outputs/skill-sampling-strategy.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/01-math-foundations/16-sampling-methods/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/01-math-foundations/17-linear-systems/code/linear_systems.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/01-math-foundations/17-linear-systems/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/01-math-foundations/17-linear-systems/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/01-math-foundations/17-linear-systems/outputs/prompt-linear-solver.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/01-math-foundations/17-linear-systems/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/01-math-foundations/18-convex-optimization/code/convex.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/01-math-foundations/18-convex-optimization/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/01-math-foundations/18-convex-optimization/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/01-math-foundations/18-convex-optimization/outputs/skill-convexity-checker.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/01-math-foundations/18-convex-optimization/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/01-math-foundations/19-complex-numbers/code/complex_numbers.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/01-math-foundations/19-complex-numbers/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/01-math-foundations/19-complex-numbers/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/01-math-foundations/19-complex-numbers/outputs/skill-complex-arithmetic.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/01-math-foundations/19-complex-numbers/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

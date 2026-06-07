@@ -25,6 +25,23 @@
   var _isOpen     = false;
   var _prevFocus  = null;
 
+  function tr(key) {
+    var zh = false;
+    try { zh = (localStorage.getItem('site:lang') || 'en') === 'zh'; } catch (_) {}
+    var dict = {
+      'cp.label': zh ? '搜索课程和术语' : 'Search lessons and glossary',
+      'cp.placeholder': zh ? '搜索课程和术语...' : 'Search lessons and glossary…',
+      'cp.search': zh ? '搜索' : 'Search',
+      'cp.results': zh ? '搜索结果' : 'Search results',
+      'cp.navigate': zh ? '导航' : 'navigate',
+      'cp.open': zh ? '打开' : 'open',
+      'cp.close': zh ? '关闭' : 'close',
+      'cp.phase': zh ? '阶段' : 'Phase',
+      'cp.glossary': zh ? '术语' : 'Glossary'
+    };
+    return dict[key] || key;
+  }
+
   // ── Search index ─────────────────────────────────────────────────────
   /**
    * Build the flat search index once from window.PHASES and window.GLOSSARY.
@@ -230,7 +247,7 @@
     el.id = PALETTE_ID;
     el.setAttribute('role', 'dialog');
     el.setAttribute('aria-modal', 'true');
-    el.setAttribute('aria-label', 'Search lessons and glossary');
+    el.setAttribute('aria-label', tr('cp.label'));
 
     el.innerHTML =
       '<div class="cp-backdrop" id="cpBackdrop"></div>' +
@@ -243,27 +260,27 @@
             '<line x1="21" y1="21" x2="16.65" y2="16.65"/>' +
           '</svg>' +
           '<input class="cp-input" id="cpInput" type="search"' +
-          ' placeholder="Search lessons and glossary…"' +
+          ' placeholder="' + tr('cp.placeholder') + '"' +
           ' autocomplete="off" autocorrect="off"' +
           ' autocapitalize="off" spellcheck="false"' +
-          ' aria-label="Search" aria-autocomplete="list"' +
+          ' aria-label="' + tr('cp.search') + '" aria-autocomplete="list"' +
           ' aria-controls="cpResults">' +
           '<kbd class="cp-kbd-esc" id="cpKbdEsc">Esc</kbd>' +
         '</div>' +
         '<ul class="cp-results" id="cpResults"' +
-        ' role="listbox" aria-label="Search results"></ul>' +
+        ' role="listbox" aria-label="' + tr('cp.results') + '"></ul>' +
         '<div class="cp-footer">' +
           '<span class="cp-footer-group">' +
             '<kbd>↑</kbd><kbd>↓</kbd>' +
-            '<span class="cp-footer-label">navigate</span>' +
+            '<span class="cp-footer-label">' + tr('cp.navigate') + '</span>' +
           '</span>' +
           '<span class="cp-footer-group">' +
             '<kbd>↵</kbd>' +
-            '<span class="cp-footer-label">open</span>' +
+            '<span class="cp-footer-label">' + tr('cp.open') + '</span>' +
           '</span>' +
           '<span class="cp-footer-group">' +
             '<kbd>Esc</kbd>' +
-            '<span class="cp-footer-label">close</span>' +
+            '<span class="cp-footer-label">' + tr('cp.close') + '</span>' +
           '</span>' +
           '<span class="cp-footer-shortcut">' + shortcutLabel + '</span>' +
         '</div>' +
@@ -371,7 +388,7 @@
         dest = r.lessonPath
           ? 'lesson.html?path=' + encodeURIComponent(r.lessonPath)
           : r.url;
-        chip = 'Phase ' + String(r.phaseId).padStart(2, '0');
+        chip = tr('cp.phase') + ' ' + String(r.phaseId).padStart(2, '0');
       } else if (r.kind === 'artifact') {
         // Jump to the lesson that produced this artifact
         dest = r.lessonPath
@@ -384,7 +401,7 @@
         // Deep-link: pre-populate glossary search with the exact term name
         // so the user lands directly on the definition, not the full list.
         dest      = 'glossary.html?q=' + encodeURIComponent(r.name);
-        chip      = 'Glossary';
+        chip      = tr('cp.glossary');
         chipClass += ' cp-item-chip--alt';
       }
 
@@ -395,7 +412,7 @@
         if (r.lang && r.lang !== '—') metaParts.push(r.lang);
       } else if (r.kind === 'artifact') {
         if (r.phaseId !== undefined && r.phaseId !== null) {
-          metaParts.push('Phase ' + String(r.phaseId).padStart(2, '0'));
+          metaParts.push(tr('cp.phase') + ' ' + String(r.phaseId).padStart(2, '0'));
         }
       }
       var meta = metaParts.join(' · '); // ·

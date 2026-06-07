@@ -1,0 +1,72 @@
+{
+  "nodes": [
+    {
+      "id": "config:phases/14-agent-engineering/42-agent-workbench-capstone/outputs/agent-workbench-pack/schemas/agent_state.schema.json",
+      "type": "config",
+      "name": "agent_state.schema.json",
+      "filePath": "phases/14-agent-engineering/42-agent-workbench-capstone/outputs/agent-workbench-pack/schemas/agent_state.schema.json",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "config:phases/14-agent-engineering/42-agent-workbench-capstone/outputs/agent-workbench-pack/schemas/scope_contract.schema.json",
+      "type": "config",
+      "name": "scope_contract.schema.json",
+      "filePath": "phases/14-agent-engineering/42-agent-workbench-capstone/outputs/agent-workbench-pack/schemas/scope_contract.schema.json",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "config:phases/14-agent-engineering/42-agent-workbench-capstone/outputs/agent-workbench-pack/schemas/task_board.schema.json",
+      "type": "config",
+      "name": "task_board.schema.json",
+      "filePath": "phases/14-agent-engineering/42-agent-workbench-capstone/outputs/agent-workbench-pack/schemas/task_board.schema.json",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/14-agent-engineering/42-agent-workbench-capstone/outputs/agent-workbench-pack/schemas/agent_state.schema.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/14-agent-engineering/42-agent-workbench-capstone/outputs/agent-workbench-pack/schemas/scope_contract.schema.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/14-agent-engineering/42-agent-workbench-capstone/outputs/agent-workbench-pack/schemas/task_board.schema.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

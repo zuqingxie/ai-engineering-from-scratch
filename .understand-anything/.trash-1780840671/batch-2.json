@@ -1,0 +1,345 @@
+{
+  "nodes": [
+    {
+      "id": "file:phases/19-capstone-projects/02-rag-over-codebase/code/ts/src/corpus.ts",
+      "type": "file",
+      "name": "corpus.ts",
+      "filePath": "phases/19-capstone-projects/02-rag-over-codebase/code/ts/src/corpus.ts",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "typescript"
+      ],
+      "language": "typescript"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/02-rag-over-codebase/code/ts/src/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "phases/19-capstone-projects/02-rag-over-codebase/code/ts/src/index.ts",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "typescript"
+      ],
+      "language": "typescript"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/02-rag-over-codebase/code/ts/src/index_store.ts",
+      "type": "file",
+      "name": "index_store.ts",
+      "filePath": "phases/19-capstone-projects/02-rag-over-codebase/code/ts/src/index_store.ts",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "typescript"
+      ],
+      "language": "typescript"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/02-rag-over-codebase/code/ts/src/retrieval.ts",
+      "type": "file",
+      "name": "retrieval.ts",
+      "filePath": "phases/19-capstone-projects/02-rag-over-codebase/code/ts/src/retrieval.ts",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "typescript"
+      ],
+      "language": "typescript"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/02-rag-over-codebase/code/ts/src/server.ts",
+      "type": "file",
+      "name": "server.ts",
+      "filePath": "phases/19-capstone-projects/02-rag-over-codebase/code/ts/src/server.ts",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "示例代码",
+        "typescript"
+      ],
+      "language": "typescript"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/02-rag-over-codebase/code/ts/src/types.ts",
+      "type": "file",
+      "name": "types.ts",
+      "filePath": "phases/19-capstone-projects/02-rag-over-codebase/code/ts/src/types.ts",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "示例代码",
+        "typescript"
+      ],
+      "language": "typescript"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/02-rag-over-codebase/code/ts/tests/index_store.test.ts",
+      "type": "file",
+      "name": "index_store.test.ts",
+      "filePath": "phases/19-capstone-projects/02-rag-over-codebase/code/ts/tests/index_store.test.ts",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "test",
+        "typescript"
+      ],
+      "language": "typescript"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/02-rag-over-codebase/code/ts/tests/retrieval.test.ts",
+      "type": "file",
+      "name": "retrieval.test.ts",
+      "filePath": "phases/19-capstone-projects/02-rag-over-codebase/code/ts/tests/retrieval.test.ts",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "test",
+        "typescript"
+      ],
+      "language": "typescript"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/02-rag-over-codebase/code/ts/tests/server.test.ts",
+      "type": "file",
+      "name": "server.test.ts",
+      "filePath": "phases/19-capstone-projects/02-rag-over-codebase/code/ts/tests/server.test.ts",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "test",
+        "typescript"
+      ],
+      "language": "typescript"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/02-rag-over-codebase/code/ts/src/corpus.ts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:phases/19-capstone-projects/02-rag-over-codebase/code/ts/src/corpus.ts",
+      "target": "file:phases/19-capstone-projects/02-rag-over-codebase/code/ts/src/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/02-rag-over-codebase/code/ts/src/index.ts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:phases/19-capstone-projects/02-rag-over-codebase/code/ts/src/index.ts",
+      "target": "file:phases/19-capstone-projects/02-rag-over-codebase/code/ts/src/corpus.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:phases/19-capstone-projects/02-rag-over-codebase/code/ts/src/index.ts",
+      "target": "file:phases/19-capstone-projects/02-rag-over-codebase/code/ts/src/retrieval.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:phases/19-capstone-projects/02-rag-over-codebase/code/ts/src/index.ts",
+      "target": "file:phases/19-capstone-projects/02-rag-over-codebase/code/ts/src/server.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:phases/19-capstone-projects/02-rag-over-codebase/code/ts/src/index.ts",
+      "target": "file:phases/19-capstone-projects/02-rag-over-codebase/code/ts/src/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/02-rag-over-codebase/code/ts/src/index_store.ts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:phases/19-capstone-projects/02-rag-over-codebase/code/ts/src/index_store.ts",
+      "target": "file:phases/19-capstone-projects/02-rag-over-codebase/code/ts/src/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/02-rag-over-codebase/code/ts/src/retrieval.ts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:phases/19-capstone-projects/02-rag-over-codebase/code/ts/src/retrieval.ts",
+      "target": "file:phases/19-capstone-projects/02-rag-over-codebase/code/ts/src/corpus.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:phases/19-capstone-projects/02-rag-over-codebase/code/ts/src/retrieval.ts",
+      "target": "file:phases/19-capstone-projects/02-rag-over-codebase/code/ts/src/index_store.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:phases/19-capstone-projects/02-rag-over-codebase/code/ts/src/retrieval.ts",
+      "target": "file:phases/19-capstone-projects/02-rag-over-codebase/code/ts/src/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/02-rag-over-codebase/code/ts/src/server.ts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:phases/19-capstone-projects/02-rag-over-codebase/code/ts/src/server.ts",
+      "target": "file:phases/19-capstone-projects/02-rag-over-codebase/code/ts/src/corpus.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:phases/19-capstone-projects/02-rag-over-codebase/code/ts/src/server.ts",
+      "target": "file:phases/19-capstone-projects/02-rag-over-codebase/code/ts/src/index_store.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:phases/19-capstone-projects/02-rag-over-codebase/code/ts/src/server.ts",
+      "target": "file:phases/19-capstone-projects/02-rag-over-codebase/code/ts/src/retrieval.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/02-rag-over-codebase/code/ts/src/types.ts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/02-rag-over-codebase/code/ts/tests/index_store.test.ts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:phases/19-capstone-projects/02-rag-over-codebase/code/ts/tests/index_store.test.ts",
+      "target": "file:phases/19-capstone-projects/02-rag-over-codebase/code/ts/src/corpus.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:phases/19-capstone-projects/02-rag-over-codebase/code/ts/tests/index_store.test.ts",
+      "target": "file:phases/19-capstone-projects/02-rag-over-codebase/code/ts/src/index_store.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:phases/19-capstone-projects/02-rag-over-codebase/code/ts/tests/index_store.test.ts",
+      "target": "file:phases/19-capstone-projects/02-rag-over-codebase/code/ts/src/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/02-rag-over-codebase/code/ts/tests/retrieval.test.ts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:phases/19-capstone-projects/02-rag-over-codebase/code/ts/tests/retrieval.test.ts",
+      "target": "file:phases/19-capstone-projects/02-rag-over-codebase/code/ts/src/corpus.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:phases/19-capstone-projects/02-rag-over-codebase/code/ts/tests/retrieval.test.ts",
+      "target": "file:phases/19-capstone-projects/02-rag-over-codebase/code/ts/src/retrieval.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:phases/19-capstone-projects/02-rag-over-codebase/code/ts/tests/retrieval.test.ts",
+      "target": "file:phases/19-capstone-projects/02-rag-over-codebase/code/ts/src/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/02-rag-over-codebase/code/ts/tests/server.test.ts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:phases/19-capstone-projects/02-rag-over-codebase/code/ts/tests/server.test.ts",
+      "target": "file:phases/19-capstone-projects/02-rag-over-codebase/code/ts/src/retrieval.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:phases/19-capstone-projects/02-rag-over-codebase/code/ts/tests/server.test.ts",
+      "target": "file:phases/19-capstone-projects/02-rag-over-codebase/code/ts/src/server.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:phases/19-capstone-projects/02-rag-over-codebase/code/ts/tests/server.test.ts",
+      "target": "file:phases/19-capstone-projects/02-rag-over-codebase/code/ts/src/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "lesson": "24-coreference-resolution",
+  "title": "Coreference Resolution",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "共指消解的目标是什么？",
+      "options": [
+        "对引用同一现实世界实体的所有提及（命名、名义、代词）进行聚类",
+        "标记词性",
+        "提取关系",
+        "将代词翻译为名词"
+      ],
+      "correct": 0,
+      "explanation": "Coref 集群提到的跨度都引用同一实体。"
+    },
+    {
+      "stage": "pre",
+      "question": "哪种类型的表达是“名义”提及？",
+      "options": [
+        "仅专有名词",
+        "名词短语，例如“首席执行官”或“公司”",
+        "像“她”这样的代词",
+        "一个动词"
+      ],
+      "correct": 1,
+      "explanation": "名义提及是名词短语，例如“公司”；代词提及的是代词。"
+    },
+    {
+      "stage": "check",
+      "question": "什么是现代（Lee et al., 2017）coref 架构？",
+      "options": [
+        "BM25检索",
+        "仅基于规则的语法分析",
+        "决策树",
+        "基于端到端跨度：枚举跨度，对提及进行评分，然后对先行概率进行评分并贪婪地进行聚类"
+      ],
+      "correct": 3,
+      "explanation": "端到端神经 coref 枚举跨度并联合学习提及 + 前行评分。"
+    },
+    {
+      "stage": "check",
+      "question": "CoNLL F1 平均水平是多少？",
+      "options": [
+        "F1 跨语言",
+        "MUC、B 立方和 CEAF-phi4 F1 分数",
+        "令牌和跨度 F1",
+        "准确率和召回率"
+      ],
+      "correct": 1,
+      "explanation": "CoNLL F1 是 MUC、B 立方和 CEAF-phi4 指标的平均值。"
+    },
+    {
+      "stage": "check",
+      "question": "什么是桥接照应？",
+      "options": [
+        "一个误译",
+        "隐式引用，例如“车轮”，暗示前面提到的汽车的车轮",
+        "代词位于其所指对象之前",
+        "没有先行词的代词"
+      ],
+      "correct": 1,
+      "explanation": "桥接将提及链接到隐含但未明确说明的实体的一部分或相关实体。"
+    },
+    {
+      "stage": "post",
+      "question": "为什么仅 LLM coref 在长文档上不可靠？",
+      "options": [
+        "LLM 无法阅读文本",
+        "分词器失败",
+        "单次呼叫法学硕士在 50 多个段落中过度合并或默默地删除提及内容；需要滑动窗口加合并",
+        "Coref 需要 CFG"
+      ],
+      "correct": 2,
+      "explanation": "长文档LLM coref降级；具有跨窗口合并的滑动窗口可以缓解。"
+    },
+    {
+      "stage": "post",
+      "question": "为什么在下游任务之前将 coref 集群合并到 NER 结果中？",
+      "options": [
+        "维基数据要求",
+        "增加令牌数量",
+        "更低的延迟",
+        "因此，下游任务看到每个集群一个实体，而不是每个表面提及一个实体，从而极大地提高了覆盖范围"
+      ],
+      "correct": 3,
+      "explanation": "在不合并的情况下，NER 会单独计算每个表面形式，并错过 60-80% 的实体提及。"
+    },
+    {
+      "stage": "post",
+      "question": "为什么硬编码的性别规则在 coref 系统中是脆弱的？",
+      "options": [
+        "他们打破了非二元参照物、组织和动物；学习评分更加稳健",
+        "他们需要 GPU",
+        "他们跑得太快",
+        "他们不能使用 POS 标签"
+      ],
+      "correct": 0,
+      "explanation": "性别启发法在人口多样化的文本中失败；学习模型是首选。"
+    }
+  ]
+}

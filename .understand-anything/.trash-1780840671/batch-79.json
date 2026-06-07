@@ -1,0 +1,547 @@
+{
+  "nodes": [
+    {
+      "id": "document:phases/11-llm-engineering/06-rag/outputs/skill-rag-pipeline.md",
+      "type": "document",
+      "name": "skill-rag-pipeline.md",
+      "filePath": "phases/11-llm-engineering/06-rag/outputs/skill-rag-pipeline.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/11-llm-engineering/06-rag/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/11-llm-engineering/06-rag/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/11-llm-engineering/07-advanced-rag/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/11-llm-engineering/07-advanced-rag/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/11-llm-engineering/07-advanced-rag/docs/cn.cn.failed.md",
+      "type": "document",
+      "name": "cn.cn.failed.md",
+      "filePath": "phases/11-llm-engineering/07-advanced-rag/docs/cn.cn.failed.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/11-llm-engineering/07-advanced-rag/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/11-llm-engineering/07-advanced-rag/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/11-llm-engineering/07-advanced-rag/outputs/prompt-advanced-rag-debugger.md",
+      "type": "document",
+      "name": "prompt-advanced-rag-debugger.md",
+      "filePath": "phases/11-llm-engineering/07-advanced-rag/outputs/prompt-advanced-rag-debugger.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/11-llm-engineering/07-advanced-rag/outputs/skill-advanced-rag.md",
+      "type": "document",
+      "name": "skill-advanced-rag.md",
+      "filePath": "phases/11-llm-engineering/07-advanced-rag/outputs/skill-advanced-rag.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/11-llm-engineering/07-advanced-rag/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/11-llm-engineering/07-advanced-rag/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/11-llm-engineering/08-fine-tuning-lora/code/lora.py",
+      "type": "file",
+      "name": "lora.py",
+      "filePath": "phases/11-llm-engineering/08-fine-tuning-lora/code/lora.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/11-llm-engineering/08-fine-tuning-lora/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/11-llm-engineering/08-fine-tuning-lora/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/11-llm-engineering/08-fine-tuning-lora/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/11-llm-engineering/08-fine-tuning-lora/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/11-llm-engineering/08-fine-tuning-lora/outputs/prompt-lora-advisor.md",
+      "type": "document",
+      "name": "prompt-lora-advisor.md",
+      "filePath": "phases/11-llm-engineering/08-fine-tuning-lora/outputs/prompt-lora-advisor.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/11-llm-engineering/08-fine-tuning-lora/outputs/skill-fine-tuning-guide.md",
+      "type": "document",
+      "name": "skill-fine-tuning-guide.md",
+      "filePath": "phases/11-llm-engineering/08-fine-tuning-lora/outputs/skill-fine-tuning-guide.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/11-llm-engineering/08-fine-tuning-lora/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/11-llm-engineering/08-fine-tuning-lora/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/11-llm-engineering/09-function-calling/code/function_calling.py",
+      "type": "file",
+      "name": "function_calling.py",
+      "filePath": "phases/11-llm-engineering/09-function-calling/code/function_calling.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:phases/11-llm-engineering/09-function-calling/code/main.ts",
+      "type": "file",
+      "name": "main.ts",
+      "filePath": "phases/11-llm-engineering/09-function-calling/code/main.ts",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "typescript"
+      ],
+      "language": "typescript"
+    },
+    {
+      "id": "document:phases/11-llm-engineering/09-function-calling/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/11-llm-engineering/09-function-calling/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/11-llm-engineering/09-function-calling/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/11-llm-engineering/09-function-calling/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/11-llm-engineering/09-function-calling/outputs/prompt-tool-designer.md",
+      "type": "document",
+      "name": "prompt-tool-designer.md",
+      "filePath": "phases/11-llm-engineering/09-function-calling/outputs/prompt-tool-designer.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/11-llm-engineering/09-function-calling/outputs/skill-function-calling-patterns.md",
+      "type": "document",
+      "name": "skill-function-calling-patterns.md",
+      "filePath": "phases/11-llm-engineering/09-function-calling/outputs/skill-function-calling-patterns.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "config:phases/11-llm-engineering/09-function-calling/quiz.json",
+      "type": "config",
+      "name": "quiz.json",
+      "filePath": "phases/11-llm-engineering/09-function-calling/quiz.json",
+      "summary": "课程测验数据，按 pre、check 和 post 阶段组织理解检查问题。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "configuration",
+        "json"
+      ],
+      "language": "json"
+    },
+    {
+      "id": "file:phases/11-llm-engineering/10-evaluation/code/eval_framework.py",
+      "type": "file",
+      "name": "eval_framework.py",
+      "filePath": "phases/11-llm-engineering/10-evaluation/code/eval_framework.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "document:phases/11-llm-engineering/10-evaluation/docs/cn.md",
+      "type": "document",
+      "name": "cn.md",
+      "filePath": "phases/11-llm-engineering/10-evaluation/docs/cn.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/11-llm-engineering/10-evaluation/docs/en.md",
+      "type": "document",
+      "name": "en.md",
+      "filePath": "phases/11-llm-engineering/10-evaluation/docs/en.md",
+      "summary": "课程讲义文档，解释该课的目标、概念、实现思路和学习产物。",
+      "complexity": "complex",
+      "tags": [
+        "课程",
+        "lesson-doc",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    },
+    {
+      "id": "document:phases/11-llm-engineering/10-evaluation/outputs/prompt-eval-designer.md",
+      "type": "document",
+      "name": "prompt-eval-designer.md",
+      "filePath": "phases/11-llm-engineering/10-evaluation/outputs/prompt-eval-designer.md",
+      "summary": "课程输出产物，可作为 prompt、skill、agent 或工具配置复用于实际工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "可复用产物",
+        "documentation",
+        "markdown"
+      ],
+      "language": "markdown"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/11-llm-engineering/06-rag/outputs/skill-rag-pipeline.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/11-llm-engineering/06-rag/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/11-llm-engineering/07-advanced-rag/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/11-llm-engineering/07-advanced-rag/docs/cn.cn.failed.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/11-llm-engineering/07-advanced-rag/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/11-llm-engineering/07-advanced-rag/outputs/prompt-advanced-rag-debugger.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/11-llm-engineering/07-advanced-rag/outputs/skill-advanced-rag.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/11-llm-engineering/07-advanced-rag/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/11-llm-engineering/08-fine-tuning-lora/code/lora.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/11-llm-engineering/08-fine-tuning-lora/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/11-llm-engineering/08-fine-tuning-lora/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/11-llm-engineering/08-fine-tuning-lora/outputs/prompt-lora-advisor.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/11-llm-engineering/08-fine-tuning-lora/outputs/skill-fine-tuning-guide.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/11-llm-engineering/08-fine-tuning-lora/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/11-llm-engineering/09-function-calling/code/function_calling.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/11-llm-engineering/09-function-calling/code/main.ts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/11-llm-engineering/09-function-calling/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/11-llm-engineering/09-function-calling/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/11-llm-engineering/09-function-calling/outputs/prompt-tool-designer.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/11-llm-engineering/09-function-calling/outputs/skill-function-calling-patterns.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "config:phases/11-llm-engineering/09-function-calling/quiz.json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/11-llm-engineering/10-evaluation/code/eval_framework.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/11-llm-engineering/10-evaluation/docs/cn.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/11-llm-engineering/10-evaluation/docs/en.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "document:phases/11-llm-engineering/10-evaluation/outputs/prompt-eval-designer.md",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

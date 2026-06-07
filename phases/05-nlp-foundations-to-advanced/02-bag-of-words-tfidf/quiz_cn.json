@@ -1,0 +1,102 @@
+{
+  "lesson": "02-bag-of-words-tfidf",
+  "title": "Bag of Words, TF-IDF, and Text Representation",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "词袋会扔掉什么？",
+      "options": [
+        "代币订单",
+        "词汇量",
+        "文件长度",
+        "标点符号"
+      ],
+      "correct": 0,
+      "explanation": "BoW 对每个文档的标记进行计数，但丢弃它们的序列。"
+    },
+    {
+      "stage": "pre",
+      "question": "为什么要通过 IDF 因子来缩放 TF？",
+      "options": [
+        "每个文档中出现的单词几乎没有任何歧视性信号，应降低权重",
+        "标准化文档长度",
+        "加速训练",
+        "删除标点符号"
+      ],
+      "correct": 0,
+      "explanation": "IDF 惩罚普遍存在的单词并提高罕见的单词。"
+    },
+    {
+      "stage": "check",
+      "question": "在平滑后的IDF公式log((N+1)/(df+1)) + 1中，尾随的+1保证了什么？",
+      "options": [
+        "计算速度更快",
+        "每个文档中出现的单词仍然具有 IDF 1 而不是 0",
+        "与原始计数的兼容性",
+        "大 N 的数值稳定性"
+      ],
+      "correct": 1,
+      "explanation": "+1 将普遍存在的单词保留在 IDF=1 处，因此它们不会被清零，这与 scikit-learn 的默认值相匹配。"
+    },
+    {
+      "stage": "check",
+      "question": "为什么在余弦相似度之前对 TF-IDF 行进行 L2 归一化？",
+      "options": [
+        "将稀疏向量转换为稠密向量",
+        "压缩词汇量",
+        "删除零条目",
+        "否则，较长的文档将主导相似性得分；标准化将所有文档放在单位超球面上"
+      ],
+      "correct": 3,
+      "explanation": "L2 归一化消除了文档长度偏差，并将余弦相似度转换为点积。"
+    },
+    {
+      "stage": "check",
+      "question": "哪种 TfidfVectorizer 设置对于启用情感分析存在风险？",
+      "options": [
+        "stop_words='英语'",
+        "ngram_range=(1, 2)",
+        "min_df=2",
+        "亚线性_tf=真"
+      ],
+      "correct": 0,
+      "explanation": "英语停用词列出了诸如“not”之类的否定词，这些否定词带有情感信号。"
+    },
+    {
+      "stage": "post",
+      "question": "2026 年 TF-IDF 还能赢得哪项任务？",
+      "options": [
+        "开放式对话",
+        "机器翻译",
+        "垃圾邮件检测、日志异常标记和低延迟窄分类",
+        "图像字幕"
+      ],
+      "correct": 2,
+      "explanation": "当单词存在是信号并且可解释性或速度很重要时，TF-IDF 击败嵌入。"
+    },
+    {
+      "stage": "post",
+      "question": "为什么 TF-IDF 在“电影不好”与“电影很棒”这对上失败？",
+      "options": [
+        "TF-IDF 无法处理停用词",
+        "TF-IDF 需要二元组才能工作",
+        "嵌入重叠太高",
+        "两个文档共享大部分代币；词袋没有否定或词序的概念"
+      ],
+      "correct": 3,
+      "explanation": "如果没有词序或句法上下文，BoW 就无法模拟“不”翻转“好”的情绪。"
+    },
+    {
+      "stage": "post",
+      "question": "什么是 TF-IDF 加权嵌入混合？",
+      "options": [
+        "在平均之前使用 TF-IDF 权重作为每个令牌嵌入的池化权重",
+        "在 TF-IDF 上运行 PCA，然后重新嵌入",
+        "连接 BoW 和密集嵌入",
+        "在 TF-IDF 特征上训练 BERT"
+      ],
+      "correct": 0,
+      "explanation": "该混合算法通过 TF-IDF 分数和平均值对每个标记的嵌入进行加权，将语义容量与稀有词强调相结合。"
+    }
+  ]
+}

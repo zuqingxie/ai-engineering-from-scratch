@@ -1,0 +1,126 @@
+{
+  "nodes": [
+    {
+      "id": "file:phases/19-capstone-projects/84-refusal-evaluation/code/main.py",
+      "type": "file",
+      "name": "main.py",
+      "filePath": "phases/19-capstone-projects/84-refusal-evaluation/code/main.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/84-refusal-evaluation/code/mock_llm.py",
+      "type": "file",
+      "name": "mock_llm.py",
+      "filePath": "phases/19-capstone-projects/84-refusal-evaluation/code/mock_llm.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/84-refusal-evaluation/code/prompts.py",
+      "type": "file",
+      "name": "prompts.py",
+      "filePath": "phases/19-capstone-projects/84-refusal-evaluation/code/prompts.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "python"
+      ],
+      "language": "python"
+    },
+    {
+      "id": "file:phases/19-capstone-projects/84-refusal-evaluation/code/tests.py",
+      "type": "file",
+      "name": "tests.py",
+      "filePath": "phases/19-capstone-projects/84-refusal-evaluation/code/tests.py",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "moderate",
+      "tags": [
+        "课程",
+        "示例代码",
+        "test",
+        "python"
+      ],
+      "language": "python"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/84-refusal-evaluation/code/main.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:phases/19-capstone-projects/84-refusal-evaluation/code/main.py",
+      "target": "file:phases/19-capstone-projects/84-refusal-evaluation/code/mock_llm.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:phases/19-capstone-projects/84-refusal-evaluation/code/main.py",
+      "target": "file:phases/19-capstone-projects/84-refusal-evaluation/code/prompts.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/84-refusal-evaluation/code/mock_llm.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/84-refusal-evaluation/code/prompts.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "file:phases/19-capstone-projects/84-refusal-evaluation/code/tests.py",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:phases/19-capstone-projects/84-refusal-evaluation/code/tests.py",
+      "target": "file:phases/19-capstone-projects/84-refusal-evaluation/code/main.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:phases/19-capstone-projects/84-refusal-evaluation/code/tests.py",
+      "target": "file:phases/19-capstone-projects/84-refusal-evaluation/code/mock_llm.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:phases/19-capstone-projects/84-refusal-evaluation/code/tests.py",
+      "target": "file:phases/19-capstone-projects/84-refusal-evaluation/code/prompts.py",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

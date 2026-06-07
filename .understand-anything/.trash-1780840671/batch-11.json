@@ -1,0 +1,50 @@
+{
+  "nodes": [
+    {
+      "id": "service:phases/00-setup-and-tooling/07-docker-for-ai/code/docker-compose.yml",
+      "type": "service",
+      "name": "docker-compose.yml",
+      "filePath": "phases/00-setup-and-tooling/07-docker-for-ai/code/docker-compose.yml",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "示例代码",
+        "infrastructure",
+        "yaml"
+      ],
+      "language": "yaml"
+    },
+    {
+      "id": "service:phases/00-setup-and-tooling/07-docker-for-ai/code/Dockerfile",
+      "type": "service",
+      "name": "Dockerfile",
+      "filePath": "phases/00-setup-and-tooling/07-docker-for-ai/code/Dockerfile",
+      "summary": "课程配套实现代码或测试，用于从底层实现并验证该课的核心技术。",
+      "complexity": "simple",
+      "tags": [
+        "课程",
+        "示例代码",
+        "infrastructure",
+        "dockerfile"
+      ],
+      "language": "dockerfile"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:curriculum",
+      "target": "service:phases/00-setup-and-tooling/07-docker-for-ai/code/docker-compose.yml",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "module:curriculum",
+      "target": "service:phases/00-setup-and-tooling/07-docker-for-ai/code/Dockerfile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}

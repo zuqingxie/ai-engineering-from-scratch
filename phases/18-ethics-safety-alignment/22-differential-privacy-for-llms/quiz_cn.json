@@ -1,0 +1,78 @@
+{
+  "lesson": "22-differential-privacy-for-llms",
+  "title": "Differential Privacy for LLMs",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "对于随机算法 M，(epsilon, delta) 差分隐私保证什么？",
+      "options": [
+        "M 从未记住过任何训练数据",
+        "M 对噪声具有确定性",
+        "对于在一个示例和任何事件 S 中存在差异的任何两个数据集，P(S 中的 M(D)) <= e^epsilon * S 中的 P(M(D')) + delta，因此无法可靠地推断出任何单个个体的贡献",
+        "M 可证明等价于非私有算法"
+      ],
+      "correct": 2,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "这不是 Abadi 等人所描述的 DP-SGD 的步骤。 2016年？",
+      "options": [
+        "对小批量进行采样并计算每个示例的梯度",
+        "将每个示例梯度剪辑到阈值 C",
+        "在步骤之间重新随机化模型的标记器",
+        "对截断的梯度求和并添加按 sigma * C 缩放的高斯噪声"
+      ],
+      "correct": 2,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "为什么 LoRA + DP-SGD 是 2025 年常见配置？",
+      "options": [
+        "前沿模型上的完整 DP-SGD 是令人望而却步的； LoRA 将梯度更新限制在小型适配器上，减少了每个示例的梯度存储，同时仍然在适配器上提供 DP 保证",
+        "它使用 LoRA 作为标记器",
+        "LoRA 通过设计增加了 epsilon",
+        "LoRA 消除了对会计师的需求"
+      ],
+      "correct": 0,
+      "explanation": ""
+    },
+    {
+      "stage": "check",
+      "question": "2025 年 3 月的审计 (arXiv:2503.06808) 如何解决金丝雀 MIA 与训练数据提取之间的紧张关系？",
+      "options": [
+        "它完全消除了对金丝雀的需求",
+        "事实证明DP-SGD是不必要的",
+        "它表明两者测量相同的属性",
+        "它表明他们衡量的是不同的东西：插入金丝雀的 MIA 低估了记忆力，因为金丝雀没有优化为实际上对隐私很重要的“最可提取”的示例"
+      ],
+      "correct": 3,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "PMixED (arXiv:2403.15638) 提供什么作为 DP 培训的替代方案？",
+      "options": [
+        "A faster DP-SGD variant",
+        "Renyi DP 的新会计师",
+        "通过专家对下一个令牌分布的混合进行推理时差分隐私，并具有聚合噪声；完全避免 DP 训练",
+        "一种仅根据 epsilon-delta 计算来计算 epsilon 的方法"
+      ],
+      "correct": 2,
+      "explanation": ""
+    },
+    {
+      "stage": "post",
+      "question": "什么是通过 LLM 反馈攻击实现差异隐私逆转？",
+      "options": [
+        "使用 DP 训练模型的置信度分数作为重新识别个体的预言机，即使输出不直接泄漏",
+        "对分词器熵的攻击",
+        "将 epsilon 重置为零的方法",
+        "金丝雀插入的对策"
+      ],
+      "correct": 0,
+      "explanation": ""
+    }
+  ]
+}

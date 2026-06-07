@@ -1,0 +1,90 @@
+{
+  "lesson": "38-verification-gates",
+  "title": "Verification Gates",
+  "questions": [
+    {
+      "stage": "pre",
+      "question": "验证门回答哪一个问题？",
+      "options": [
+        "模型速度快吗？",
+        "这个任务真的完成了吗？ （阅读范围、规则、反馈和差异工件）",
+        "提示是最佳的吗？",
+        "代币预算是否健康？"
+      ],
+      "correct": 1,
+      "explanation": "门是针对工作台工件的确定性函数，可产生通过/失败判定。"
+    },
+    {
+      "stage": "pre",
+      "question": "为什么门必须是确定性的？",
+      "options": [
+        "决定论是免费的",
+        "相同的工件集每次都必须产生相同的判决； LLM评委属于审稿人（定性），而不是门（地位）",
+        "提供商需要它",
+        "省钱"
+      ],
+      "correct": 1,
+      "explanation": "将模型判断混合到门中会瓦解确定性/定性的分裂。"
+    },
+    {
+      "stage": "check",
+      "question": "门的超控规则是什么？",
+      "options": [
+        "任何人都可以默默地覆盖",
+        "块严重性结果只能由在签名审核日志中记录了 override_reason 和 overridden_by 用户 ID 的人员覆盖",
+        "覆盖需要经理电子邮件",
+        "禁止覆盖"
+      ],
+      "correct": 1,
+      "explanation": "签名的覆盖位于outputs/verification/overrides.jsonl中；代理不能自我覆盖。"
+    },
+    {
+      "stage": "check",
+      "question": "课程引用的混合规范配对是什么？",
+      "options": [
+        "热/冷提示",
+        "可验证的奖励（测试、模式、退出代码）回答“它解决了问题吗？”； LLM 的标准回答“可读、安全、合乎风格吗？”",
+        "GPU 和 CPU 分割",
+        "缓存与无缓存"
+      ],
+      "correct": 1,
+      "explanation": "人择2026指引：门跑一流；审阅者（第 39 课）运行第二个。"
+    },
+    {
+      "stage": "check",
+      "question": "纵深防御如何分层？",
+      "options": [
+        "合流时单门",
+        "预提交钩子 -> CI 状态检查 -> 预工具 authz 钩子 -> 预合并门；每一层都是确定性的，因此一层的失败会被下一层捕获",
+        "仅 IDE 警告",
+        "仅聊天提醒"
+      ],
+      "correct": 1,
+      "explanation": "多个不可绕过的层可以捕获单个层会错过的内容。"
+    },
+    {
+      "stage": "post",
+      "question": "coverage_floor 检查可以防止什么？",
+      "options": [
+        "热路径延迟",
+        "代理悄悄删除失败的测试；如果测量的覆盖范围低于下限或上次合并超过 1 个百分点，则门将失败",
+        "冷启动",
+        "过时的锁文件"
+      ],
+      "correct": 1,
+      "explanation": "如果没有下限，代理人可以默默地降低覆盖率以保持裁决绿色。"
+    },
+    {
+      "stage": "post",
+      "question": "--strict 模式什么时候应该将每个警告提升为阻止？",
+      "options": [
+        "总是",
+        "发布分支、阻船 PR、事件后分类；不是每日默认设置，因为严格控制一切会腐蚀流程",
+        "从来没有",
+        "仅限周日"
+      ],
+      "correct": 1,
+      "explanation": "--strict 是按分支选择加入；为高风险时刻做好准备。"
+    }
+  ]
+}

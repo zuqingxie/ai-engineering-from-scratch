@@ -1,0 +1,26 @@
+{
+  "nodes": [
+    {
+      "id": "pipeline:.github/workflows/curriculum.yml",
+      "type": "pipeline",
+      "name": "curriculum.yml",
+      "filePath": ".github/workflows/curriculum.yml",
+      "summary": "GitHub 仓库自动化配置，用于 PR 模板、资助信息或 CI 工作流。",
+      "complexity": "moderate",
+      "tags": [
+        "infrastructure",
+        "yaml"
+      ],
+      "language": "yaml"
+    }
+  ],
+  "edges": [
+    {
+      "source": "module:configuration",
+      "target": "pipeline:.github/workflows/curriculum.yml",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    }
+  ]
+}
