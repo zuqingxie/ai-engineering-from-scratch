@@ -1,4 +1,15 @@
-1. 嵌入tts语音： https://github.com/OpenMOSS/MOSS-TTS-Nano
-2. 在每一个文字的右上方都添加一个语音喇叭标志，使得可以自由播放文字内容
-3. 不用翻译成中文的列表：
-    pipeline
+目标：
+    让客户可以使用上开箱即用的AI从零学习工具。 省时省力
+
+Feature 开发：
+    1. 嵌入tts语音： https://github.com/OpenMOSS/MOSS-TTS-Nano 完成但是效果不好->选择合适的模型很重要
+    2. 在每一个页面里面设计一个terminal，
+        用户可以在上面编辑python，然后点击运行。
+        让每一个代码块都能快速运行，不起import 和print 内容
+
+
+Debugs:
+    1. 有一些数学的模型还是不能显示
+
+美化：
+    1. 双语

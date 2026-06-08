@@ -2,8 +2,8 @@ import numpy as np
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from torch.utils.data import Dataset, DataLoader
 from torch.optim import Adam
+from torch.utils.data import DataLoader, Dataset
 
 
 class DoubleConv(nn.Module):
@@ -40,7 +40,9 @@ class Up(nn.Module):
     def forward(self, x, skip):
         x = self.up(x)
         if x.shape[-2:] != skip.shape[-2:]:
-            x = F.interpolate(x, size=skip.shape[-2:], mode="bilinear", align_corners=False)
+            x = F.interpolate(
+                x, size=skip.shape[-2:], mode="bilinear", align_corners=False
+            )
         x = torch.cat([skip, x], dim=1)
         return self.conv(x)
 
@@ -89,16 +91,16 @@ def combined_loss(logits, targets, num_classes, lam=1.0):
 
 
 @torch.no_grad()
-def iou_per_class(logits, targets, num_classes):
+def iou_counts(logits, targets, num_classes):
     preds = logits.argmax(dim=1)
-    ious = torch.zeros(num_classes)
+    intersections = torch.zeros(num_classes, device=logits.device)
+    unions = torch.zeros(num_classes, device=logits.device)
     for c in range(num_classes):
-        pred_c = (preds == c)
-        true_c = (targets == c)
-        inter = (pred_c & true_c).sum().float()
-        union = (pred_c | true_c).sum().float()
-        ious[c] = (inter / union) if float(union) > 0 else float("nan")
-    return ious
+        pred_c = preds == c
+        true_c = targets == c
+        intersections[c] = (pred_c & true_c).sum().float()
+        unions[c] = (pred_c | true_c).sum().float()
+    return intersections, unions
 
 
 def synthetic_segmentation(num_samples=120, size=64, seed=0):
@@ -115,7 +117,7 @@ def synthetic_segmentation(num_samples=120, size=64, seed=0):
         cx, cy = int(rng.integers(14, size - 14)), int(rng.integers(14, size - 14))
         r = int(rng.integers(8, 14))
         if cls == 1:
-            mask = (xx - cx) ** 2 + (yy - cy) ** 2 < r ** 2
+            mask = (xx - cx) ** 2 + (yy - cy) ** 2 < r**2
             images[i][mask] = circle_color
         else:
             mask = (np.abs(xx - cx) < r) & (np.abs(yy - cy) < r)
@@ -169,12 +171,23 @@ def main():
             total += x.size(0)
 
         model.eval()
-        iou_sum = torch.zeros(num_classes)
+        iou_intersections = torch.zeros(num_classes, device=device)
+        iou_unions = torch.zeros(num_classes, device=device)
         with torch.no_grad():
             for x, y in val_loader:
                 x, y = x.to(device), y.to(device)
-                iou_sum += iou_per_class(model(x), y, num_classes).nan_to_num(0)
-        iou_mean = (iou_sum / len(val_loader)).tolist()
+                batch_intersections, batch_unions = iou_counts(model(x), y, num_classes)
+                iou_intersections += batch_intersections
+                iou_unions += batch_unions
+        iou_mean = (
+            torch.where(
+                iou_unions > 0,
+                iou_intersections / iou_unions,
+                torch.full_like(iou_unions, float("nan")),
+            )
+            .cpu()
+            .tolist()
+        )
         print(f"epoch {epoch}  train_loss {loss_sum/total:.3f}  iou {[f'{v:.2f}' for v in iou_mean]}")
 
 

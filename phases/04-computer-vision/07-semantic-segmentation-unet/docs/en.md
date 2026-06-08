@@ -257,19 +257,19 @@ Dice is computed per class then averaged (macro Dice). The `eps` prevents divisi
 
 ```python
 @torch.no_grad()
-def iou_per_class(logits, targets, num_classes):
+def iou_counts(logits, targets, num_classes):
     preds = logits.argmax(dim=1)
-    ious = torch.zeros(num_classes)
+    intersections = torch.zeros(num_classes, device=logits.device)
+    unions = torch.zeros(num_classes, device=logits.device)
     for c in range(num_classes):
         pred_c = (preds == c)
         true_c = (targets == c)
-        inter = (pred_c & true_c).sum().float()
-        union = (pred_c | true_c).sum().float()
-        ious[c] = (inter / union) if union > 0 else torch.tensor(float("nan"))
-    return ious
+        intersections[c] = (pred_c & true_c).sum().float()
+        unions[c] = (pred_c | true_c).sum().float()
+    return intersections, unions
 ```
 
-Returns a vector of length C. `nan` marks classes absent from the batch — do not average over those when computing mIoU.
+Returns per-class intersection and union counts. During evaluation, accumulate these counts over the full validation set, then divide once to avoid batch-averaging bias.
 
 ### Step 6: Synthetic dataset for end-to-end verification
 
@@ -324,10 +324,26 @@ Three classes: background (0), circles (1), squares (2). The network must learn 
 ### Step 7: Training loop
 
 ```python
+def evaluate_iou(model, loader, device, num_classes):
+    model.eval()
+    iou_intersections = torch.zeros(num_classes, device=device)
+    iou_unions = torch.zeros(num_classes, device=device)
+    with torch.no_grad():
+        for x, y in loader:
+            x, y = x.to(device), y.to(device)
+            batch_intersections, batch_unions = iou_counts(model(x), y, num_classes)
+            iou_intersections += batch_intersections
+            iou_unions += batch_unions
+    return torch.where(
+        iou_unions > 0,
+        iou_intersections / iou_unions,
+        torch.full_like(iou_unions, float("nan")),
+    )
+
+
 def train_one_epoch(model, loader, optimizer, device, num_classes):
     model.train()
     loss_sum, total = 0.0, 0
-    iou_sum = torch.zeros(num_classes)
     for x, y in loader:
         x, y = x.to(device), y.to(device)
         logits = model(x)
@@ -337,11 +353,10 @@ def train_one_epoch(model, loader, optimizer, device, num_classes):
         optimizer.step()
         loss_sum += loss.item() * x.size(0)
         total += x.size(0)
-        iou_sum += iou_per_class(logits, y, num_classes).nan_to_num(0)
-    return loss_sum / total, iou_sum / len(loader)
+    return loss_sum / total
 ```
 
-Run this for 10-30 epochs on the synthetic dataset and watch mIoU climb past 0.9 for the shape classes. Note the `nan_to_num(0)` treats classes absent from a batch as zero; for accurate per-class IoU, mask by presence and use `torch.nanmean` across batches at evaluation time rather than averaging here.
+Run this for 10-30 epochs on the synthetic dataset and watch mIoU climb past 0.9 for the shape classes. The key is to accumulate intersections and unions at validation-set level (as in `main.py`) instead of averaging batch-wise IoUs.
 
 ## Use It
 

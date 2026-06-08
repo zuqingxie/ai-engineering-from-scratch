@@ -2,9 +2,9 @@
 
 > 分割（segmentation）是在每个像素上进行分类。U-Net 通过将下采样编码器（encoder）与上采样解码器（decoder）配对，并在它们之间连接跳跃连接（skip connections），使其得以实现。
 
-**类型：** 构建  
-**语言：** Python  
-**先决条件：** 第 4 阶段 第 3 课（卷积神经网络 CNN），第 4 阶段 第 4 课（图像分类）  
+**类型：** 构建
+**语言：** Python
+**先决条件：** 第 4 阶段 第 3 课（卷积神经网络 CNN），第 4 阶段 第 4 课（图像分类）
 **时间：** ~75 分钟
 
 ## 学习目标
@@ -52,13 +52,16 @@
 
 像素级交叉熵处理每个像素的类别概率，Dice 系数直接衡量预测掩码与真实掩码的重叠程度：
 
-$$
-\mathcal{L}_{\mathrm{pixel\ CE}} = -\frac{1}{HW}\sum_{u=1}^{H}\sum_{v=1}^{W}\log p_{u,v,y_{u,v}}
-$$
+```text
+Loss = mean over (n, h, w) of -log(softmax(logits[n, :, h, w])[target[n, h, w]])
+```
 
-$$
-\operatorname{Dice}(P, Y) = \frac{2|P \cap Y|}{|P| + |Y|}, \qquad \mathcal{L}_{\mathrm{Dice}} = 1 - \operatorname{Dice}(P, Y)
-$$
+```text
+Dice(p, y) = 2 * sum(p * y) / (sum(p) + sum(y) + epsilon)
+Dice_loss = 1 - Dice
+```
+
+其中 `p` 是某个类别的 sigmoid/softmax 概率图，`y` 是对应类别的二值真值掩码。交叉熵负责稳定地学习每个像素的类别概率，Dice 直接优化预测掩码和真实掩码的重叠程度。
 
 ### 语义分割 vs 实例分割 vs 全景分割
 
@@ -126,7 +129,7 @@ flowchart LR
 语义分割有 C 个类别，模型输出尺寸为 `(N, C, H, W)`，目标尺寸为 `(N, H, W)`，其中为整数类别 ID。交叉熵与分类相同，只是应用在每个空间位置：
 
 ```text
-Loss = 对 (n, h, w) 取均值的 -log( softmax(logits[n, :, h, w])[target[n, h, w]] )
+Loss = mean over (n, h, w) of -log(softmax(logits[n, :, h, w])[target[n, h, w]])
 ```
 
 PyTorch 中的 `F.cross_entropy` 原生支持这个形状，无需 reshape。
@@ -154,10 +157,10 @@ L = L_cross_entropy + lambda * L_dice       (lambda ≈ 1)
 
 ### 评估指标
 
-- **像素准确率** — 预测正确的像素百分比。简单。因类别不平衡同交叉熵准确率一样失效。
-- **每类 IoU** — 每类掩膜的交并比；类均值称为 mIoU。
-- **Dice（像素上的 F1）** — 类似 IoU；`Dice = 2 * IoU / (1 + IoU)`。医学影像偏好 Dice，驱动社区偏好 IoU，二者单调相关。
-- **边界 F1** — 测量预测边界与真值边界的贴合度，惩罚微小偏差。对半导体检测等高精度任务重要。
+- **Pixel accuracy（像素准确率）** — 预测正确的像素占比。计算便宜，但在类别不平衡时容易失真：如果背景占 99%，全预测背景也能得到很高准确率。
+- **IoU per class（每类交并比）** — 对每个类别分别计算预测掩码与真实掩码的交集除以并集；再对类别求平均就是 mIoU。
+- **Dice / pixel F1（Dice 系数，像素级 F1）** — 另一个重叠指标，和 IoU 单调相关：`Dice = 2 * IoU / (1 + IoU)`。医学影像通常报告 Dice，自动驾驶和通用视觉分割更常报告 IoU。
+- **Boundary F1（边界 F1）** — 只在边界附近计算 F1，衡量预测轮廓是否贴近真实轮廓。对半导体检测、医学边缘和高精度抠图这类任务很重要。
 
 报告每类 IoU，而非仅给 mIoU。均值隐藏了单个类别 15% 但其余 9 类有 85% 的情况。
 
@@ -165,8 +168,8 @@ L = L_cross_entropy + lambda * L_dice       (lambda ≈ 1)
 
 U-Net 编码器尺寸减半 4 次，输入须为 16 的倍数。医学图像多为 512x512 或 1024x1024。自动驾驶裁剪图是 2048x1024。U-Net 的内存需求随 `H * W * C_max` 线性增长，1024x1024 且瓶颈通道数为 1024 时，前向传递已占用数 GB 显存。
 
-两种常见解决方案：  
-1. 切片输入 — 对 256x256 的带重叠切片分别处理再拼接。  
+两种常见解决方案：
+1. 切片输入 — 对 256x256 的带重叠切片分别处理再拼接。
 2. 用膨胀卷积（dilated convolutions）替代瓶颈，保持较高空间分辨率同时扩大感受野（例如 DeepLab 系列）。
 
 初学时，256x256 输入、64 通道基数的 U-Net 可在 8GB 显存上顺利训练。
@@ -293,19 +296,19 @@ Dice 计算为每个类别的得分后平均（宏 Dice）。`eps` 防止对批�
 
 ```python
 @torch.no_grad()
-def iou_per_class(logits, targets, num_classes):
+def iou_counts(logits, targets, num_classes):
     preds = logits.argmax(dim=1)
-    ious = torch.zeros(num_classes)
+    intersections = torch.zeros(num_classes, device=logits.device)
+    unions = torch.zeros(num_classes, device=logits.device)
     for c in range(num_classes):
         pred_c = (preds == c)
         true_c = (targets == c)
-        inter = (pred_c & true_c).sum().float()
-        union = (pred_c | true_c).sum().float()
-        ious[c] = (inter / union) if union > 0 else torch.tensor(float("nan"))
-    return ious
+        intersections[c] = (pred_c & true_c).sum().float()
+        unions[c] = (pred_c | true_c).sum().float()
+    return intersections, unions
 ```
 
-返回长度为 C 的向量。`nan` 标记批次中不存在的类别——计算 mIoU 时不要对这些类别做平均。
+返回每个类别的交集和并集计数。评估时在整个验证集上累加这些计数，再做除法，避免按 batch 平均引入偏差。
 
 ### 第6步：用于端到端验证的合成数据集
 
@@ -360,10 +363,26 @@ class SegDataset(Dataset):
 ### 第7步：训练循环
 
 ```python
+def evaluate_iou(model, loader, device, num_classes):
+    model.eval()
+    iou_intersections = torch.zeros(num_classes, device=device)
+    iou_unions = torch.zeros(num_classes, device=device)
+    with torch.no_grad():
+        for x, y in loader:
+            x, y = x.to(device), y.to(device)
+            batch_intersections, batch_unions = iou_counts(model(x), y, num_classes)
+            iou_intersections += batch_intersections
+            iou_unions += batch_unions
+    return torch.where(
+        iou_unions > 0,
+        iou_intersections / iou_unions,
+        torch.full_like(iou_unions, float("nan")),
+    )
+
+
 def train_one_epoch(model, loader, optimizer, device, num_classes):
     model.train()
     loss_sum, total = 0.0, 0
-    iou_sum = torch.zeros(num_classes)
     for x, y in loader:
         x, y = x.to(device), y.to(device)
         logits = model(x)
@@ -373,11 +392,10 @@ def train_one_epoch(model, loader, optimizer, device, num_classes):
         optimizer.step()
         loss_sum += loss.item() * x.size(0)
         total += x.size(0)
-        iou_sum += iou_per_class(logits, y, num_classes).nan_to_num(0)
-    return loss_sum / total, iou_sum / len(loader)
+    return loss_sum / total
 ```
 
-在合成数据集上运行 10-30 个 epoch，观察形状类别的 mIoU 逐渐超过 0.9。注意 `nan_to_num(0)` 将批次中缺失的类别视为零；为了准确计算每类 IoU，评估时应按存在性掩码，并使用 `torch.nanmean` 对批次求平均，而不是这里简单平均。
+在合成数据集上运行 10-30 个 epoch，观察形状类别的 mIoU 逐渐超过 0.9。关键是像 `main.py` 那样在验证集层面累计交并计数，而不是先算 batch IoU 再平均。
 
 ## 使用它
 
