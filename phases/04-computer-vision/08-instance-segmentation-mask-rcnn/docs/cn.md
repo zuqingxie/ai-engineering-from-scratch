@@ -1,6 +1,8 @@
 # 实例分割（Instance Segmentation）——Mask R-CNN
 
-> 在 Faster R-CNN 检测器（detector）上添加一个小的掩码分支（mask branch），就实现了实例分割。难点在于 RoIAlign，它比看上去更复杂。
+> R-CNN 和 Faster R-CNN 本质上是在做目标检测. 结合检测框的回归和物体的分类问题,结合输出结果
+> 实例分割 Instance Segmentation 是在 Faster R-CNN 检测器（detector）上添加一个小的掩码分支（mask branch）。难点在于 RoIAlign，它比看上去更复杂。
+> 实力分割输出: [Class, Bounding Box, Segmentation Mask]
 
 **类型：** 构建 + 学习  
 **语言：** Python  
@@ -50,7 +52,8 @@ Mask R-CNN（He 等，2017）通过将实例分割重新定义为检测加掩码
 
 ### 关键公式（Key equations）
 
-RoIAlign 对连续坐标处的特征做双线性插值（bilinear interpolation），避免 RoIPool 的量化误差：
+它解决的是特征图（Feature Map）上的坐标与原图坐标对不齐（misalignment）的问题。
+问题: 输入图像坐标 (x, y) 可能落在特征图像素之间，RoIPool 会将其四舍五入到最近的整数坐标，导致量化误差。RoIAlign 对连续坐标处的特征做双线性插值（bilinear interpolation），避免 RoIPool 的量化误差：
 
 $$
 F(x, y) = \sum_{i \in \{\lfloor x \rfloor, \lceil x \rceil\}}\sum_{j \in \{\lfloor y \rfloor, \lceil y \rceil\}} w_{ij} F_{ij}
@@ -104,6 +107,7 @@ RoIPool:
 
 RoIAlign:
   边界框 (34.7, 51.3, 98.2, 142.9)
+  划分网格
   在精确浮点坐标处用双线性插值采样
   无任何四舍五入
 ```
@@ -129,8 +133,8 @@ L = L_rpn_cls + L_rpn_box + L_box_cls + L_box_reg + L_mask
 ```
 
 - `L_rpn_cls`, `L_rpn_box` — RPN 的目标置信度和边界框回归损失。
-- `L_box_cls` — 头部分类别交叉熵损失（含背景共 C+1 类）。
-- `L_box_reg` — 头部框细化的平滑 L1 损失。
+- `L_box_cls` — 分类头交叉熵损失（含背景共 C+1 类）。
+- `L_box_reg` — 框头细化的平滑 L1 损失。
 - `L_mask` — 28x28 掩码输出的每像素二元交叉熵损失。
 
 各损失有默认权重，torchvision 实现支持作为构造函数参数传入。
