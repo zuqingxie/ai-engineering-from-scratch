@@ -34,7 +34,7 @@
 | 振荡 | Oscillation |
 | 谱归一化 | Spectral normalization |
 | 双时间尺度更新规则 | Two-timescale update rule, TTUR |
-| Fréchet Inception 距离 | Fréchet Inception Distance, FID |
+| Fréchet Inception Distance (FID) | Fréchet Inception Distance, FID |
 
 
 ## 问题描述
@@ -131,13 +131,12 @@ flowchart LR
 - **振荡**：两网反复获胜，无均衡。解决：TTUR（D学习速率比G快2-4倍），或者切换到 Wasserstein 损失。
 
 ### 评估
-
 GAN没有真实标签，怎样判断是否有效？
 
-- **样本检查** — 每个 epoch 结束看64个样本。必做。
-- **FID（Fréchet Inception距离）** — 衡量真实和生成图像的Inception-v3特征分布距离，值越小越好。社区标准。
-- **Inception分数** — 较旧且脆弱，推荐FID。
-- **生成模型的精度/召回率** — 分别衡量质量（精度）和覆盖度（召回），比FID更具信息量。
+- **Sample inspection** — 每个 epoch 结束看64个样本。必做。
+- **FID (Fréchet Inception Distance)** — 衡量真实和生成图像的Inception-v3特征分布距离，值越小越好。社区标准。
+- **Inception Score** — 较旧且脆弱，推荐FID。
+- **Precision/Recall for generative models** — 分别衡量质量（精度）和覆盖度（召回），比FID更具信息量。
 
 小规模合成数据训练时，样本观察足够。
 
@@ -285,7 +284,7 @@ def sample(G, n=16, z_dim=64, device="cpu"):
 
 ### 第6步：谱归一化
 
-判别器中批归一化的替代，保证网络是1-利普希茨。解决大多数“判别器过强”失败。
+Spectral Normalization 就是在每次训练时，把神经网络权重矩阵除以它的最大奇异值（Spectral Norm），从而限制网络的最大放大能力，使判别器满足近似 Lipschitz 条件，训练更加稳定。
 
 ```python
 from torch.nn.utils import spectral_norm
@@ -337,7 +336,7 @@ def build_sn_discriminator(img_channels=3, feat=64):
 | Mode collapse（模式崩溃） | “生成器只做一种” | G 只生成数据分布的一小部分；用 SN、mini-batch 判别或更大 batch 解决 |
 | TTUR（双重学习率） | “两个学习率” | D 以比 G 快 2-4 倍速度学习，稳定训练 |
 | Spectral norm（谱范数） | “1-Lipschitz 层” | 权重归一化，限制每层的 Lipschitz 常数；防止判别器过陡 |
-| FID（Fréchet Inception Distance） | “弗雷歇特 Inception 距离” | 真实和生成图集的 Inception-v3 特征分布间的距离；标准评价指标 |
+| FID (Fréchet Inception Distance) | “Fréchet Inception Distance” | 真实和生成图集的 Inception-v3 特征分布间的距离；标准评价指标 |
 
 ## 延伸阅读
 

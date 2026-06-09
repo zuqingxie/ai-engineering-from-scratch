@@ -1,3 +1,15 @@
+'''
+这里的代码实现了一个简单的生成对抗网络（GAN），用于生成合成的圆形图像。
+代码包括了生成器（Generator）和判别器（Discriminator）的定义，以及训练步骤和数据生成函数。
+生成器 - 使用转置卷积层来将随机噪声向量转换为图像
+    输入：随机噪声向量 z，形状为 (batch_size=32, z_dim=64) 
+    输出：生成的图像，形状为 (batch_size=32, img_channels=3, 32, 32)，像素值范围为 [-1, 1]
+判别器 - 卷积层来区分真实图像和生成图像。
+    输入：图像，形状为 (batch_size=32, img_channels=3, 32, 32)
+    输出：每个图像的真实性评分，形状为 (batch_size=32,)
+训练 - 判别器和生成器交替更新，以提高生成图像的质量。
+采样 - 从训练好的生成器中生成新图像。
+'''
 import numpy as np
 import torch
 import torch.nn as nn
@@ -7,20 +19,21 @@ from torch.nn.utils import spectral_norm
 
 
 class Generator(nn.Module):
-    def __init__(self, z_dim=64, img_channels=3, feat=32):
+    def __init__(self, z_dim=64, img_channels=3, feat=32): # feat 是特征图的基数，生成器和判别器中卷积层的通道数会基于这个值进行扩展
         super().__init__()
         self.net = nn.Sequential(
-            nn.ConvTranspose2d(z_dim, feat * 4, 4, 1, 0, bias=False),
+            nn.ConvTranspose2d(in_channels=z_dim, out_channels=feat * 4, kernel_size=4, stride=1, padding=0, bias=False),
             nn.BatchNorm2d(feat * 4),
             nn.ReLU(inplace=True),
-            nn.ConvTranspose2d(feat * 4, feat * 2, 4, 2, 1, bias=False),
+            nn.ConvTranspose2d(in_channels=feat * 4, out_channels=feat * 2, kernel_size=4, stride=2, padding=1, bias=False),
             nn.BatchNorm2d(feat * 2),
             nn.ReLU(inplace=True),
-            nn.ConvTranspose2d(feat * 2, feat, 4, 2, 1, bias=False),
+            nn.ConvTranspose2d(in_channels=feat * 2, out_channels=feat, kernel_size=4, stride=2, padding=1, bias=False),
             nn.BatchNorm2d(feat),
             nn.ReLU(inplace=True),
-            nn.ConvTranspose2d(feat, img_channels, 4, 2, 1, bias=False),
-            nn.Tanh(),
+            nn.ConvTranspose2d(in_channels=feat, out_channels=img_channels, kernel_size=4, stride=2, padding=1, bias=False),
+            nn.Tanh(), # 输出像素值范围为 [-1, 1]
+            # NCHW = 32 3 32 32
         )
 
     def forward(self, z):
@@ -33,8 +46,8 @@ class Discriminator(nn.Module):
         layers = []
         def conv(in_c, out_c, bn):
             c = nn.Conv2d(in_c, out_c, 4, 2, 1, bias=not bn)
-            if use_sn:
-                c = spectral_norm(c)
+            if use_sn: # 是否使用谱归一化 spectral normalization，增强训练稳定性
+                c = spectral_norm(c) # 原理: 约束权重矩阵的谱范数（最大奇异值）不超过1，防止判别器过强导致训练不稳定
             layers.append(c)
             if bn and not use_sn:
                 layers.append(nn.BatchNorm2d(out_c))
@@ -48,15 +61,15 @@ class Discriminator(nn.Module):
         self.net = nn.Sequential(*layers)
 
     def forward(self, x):
-        return self.net(x).view(-1)
+        return self.net(x).view(-1) 
 
 
 def train_step(G, D, real, z, opt_g, opt_d, device):
     real = real.to(device)
 
     opt_d.zero_grad()
-    d_real = D(real)
-    d_fake = D(G(z).detach())
+    d_real = D(real) # forward
+    d_fake = D(G(z).detach()) # forward
     loss_d = (F.binary_cross_entropy_with_logits(d_real, torch.ones_like(d_real))
               + F.binary_cross_entropy_with_logits(d_fake, torch.zeros_like(d_fake)))
     loss_d.backward()
