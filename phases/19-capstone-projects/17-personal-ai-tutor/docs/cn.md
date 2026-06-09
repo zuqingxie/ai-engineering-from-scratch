@@ -112,11 +112,11 @@ learner: "6"
 
 | 权重 | 评分标准       | 测量方式                                 |
 |:----:|--------------|---------------------------------------|
-|  25  | 学习增益差值   | 10名学习者两周内前后测分差              |
-|  20  | 苏格拉底一致性 | 脚本样本评分量表                       |
-|  20  | 多模态用户体验 | 语音+拍照+文本的端到端连贯性            |
-|  20  | 安全与隐私态度 | Llama Guard 4通过率 + COPPA保留规范     |
-|  15  | 课程广度及图质量| 概念覆盖率 + 先决条件图一致性           |
+|  25  | 学习增益差值   | Pre/post score delta for 10 learners over two weeks |
+|  20  | 苏格拉底一致性 | Scripted-sample rubric score |
+|  20  | 多模态用户体验 | End-to-end coherence across voice, photo, and text |
+|  20  | 安全与隐私态度 | Llama Guard 4 pass rate plus COPPA retention compliance |
+|  15  | 课程广度及图质量| Concept coverage and prerequisite-graph consistency |
 | **100** |              |                                       |
 
 ## 练习

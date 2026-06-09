@@ -100,11 +100,11 @@ $ curl -X POST https://my-otel-collector/v1/traces -d @trace.json
 
 | 权重 | 评判标准 | 评估方式 |
 |:-:|---|---|
-| 25 | Trace schema 覆盖度 | 生产标准 GenAI span 的 SDK 家族数量（目标：6 个及以上） |
-| 20 | 评估准确度 | DeepEval / RAGAS 评分与人工标注的对比 |
-| 20 | 仪表盘用户体验 | 注入回归的平均修复时间（MTTR，目标 5 分钟内） |
-| 20 | 成本与规模 | 持续支持 1000 spans/秒采集且无积压 |
-| 15 | 告警与漂移检测 | Prometheus/Alertmanager 全链路演练 |
+| 25 | Trace schema 覆盖度 | Number of SDK families emitting production-standard GenAI spans (target: 6+) |
+| 20 | 评估准确度 | DeepEval / RAGAS score agreement with human annotations |
+| 20 | 仪表盘用户体验 | Mean time to repair injected regressions (MTTR target: under 5 minutes) |
+| 20 | 成本与规模 | Sustained 1000 spans/second ingestion without backlog |
+| 15 | 告警与漂移检测 | End-to-end Prometheus/Alertmanager drill |
 | **100** | | |
 
 ## 练习

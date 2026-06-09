@@ -101,11 +101,11 @@ $ agent run ./my-repo "Fix the race condition in worker.rs"
 
 | 权重 | 评判标准 | 测量方式 |
 |:-:|---|---|
-| 25 | SWE-bench Pro pass@1 相比基线 | 你的框架与 mini-swe-agent 在匹配的 30 个 Python 任务上的比对 |
-| 20 | 架构清晰度 | 计划/执行/观察分离、钩子表面、工具结构，参考 Live-SWE-agent 布局 |
-| 20 | 安全性 | 沙箱逃逸测试、权限提示、破坏性命令保护通过红队测试 |
-| 20 | 可观察性 | 追踪完整性（工具调用全部覆盖）、每轮代币计费准确 |
-| 15 | 开发者体验 | 冷启动 < 2 秒，崩溃恢复计划，Ctrl-C 中断工具调用干净 |
+| 25 | SWE-bench Pro pass@1 相比基线 | Matched 30-task Python comparison against mini-swe-agent |
+| 20 | 架构清晰度 | Plan/execute/observe separation, hook surface, and tool structure against Live-SWE-agent layout |
+| 20 | 安全性 | Sandbox escape tests, permission prompts, and destructive-command red-team tests |
+| 20 | 可观察性 | Trace completeness for all tool calls and per-turn token accounting accuracy |
+| 15 | 开发者体验 | Cold start under 2 seconds, crash recovery plan, and clean Ctrl-C tool-call interruption |
 | **100** |  |  |
 
 ## 练习

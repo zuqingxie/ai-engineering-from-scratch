@@ -108,11 +108,11 @@ $ team run --issue https://github.com/acme/widget/issues/842
 
 | 权重 | 评判标准 | 衡量方式 |
 |:-:|---|---|
-| 25 | SWE-bench Pro pass@1 | 匹配 50 个问题子集，pass@1 达成率 |
-| 20 | 并行提速 | 墙钟时间相较单代理基线 |
-| 20 | 审核质量 | 注入漏洞探测的误批率 |
-| 20 | token 效率 | 每解决问题的总 token 数相较单代理 |
-| 15 | 协调工程 | 合并冲突解决策略，交接失败直方图 |
+| 25 | SWE-bench Pro pass@1 | pass@1 success rate on a matched 50-issue subset |
+| 20 | 并行提速 | Wall-clock time compared with a single-agent baseline |
+| 20 | 审核质量 | False-approval rate on injected vulnerability probes |
+| 20 | token 效率 | Total tokens per solved issue compared with a single-agent baseline |
+| 15 | 协调工程 | Merge-conflict resolution strategy and handoff-failure histogram |
 | **100** | | |
 
 ## 练习

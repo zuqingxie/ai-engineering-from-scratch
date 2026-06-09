@@ -111,11 +111,11 @@ $ safety probe --model=target --family=PAIR --budget=50
 
 | 权重 | 评估标准 | 测量方式 |
 |:-:|---|---|
-| 25 | 攻击面覆盖 | 6+ 攻击家族演练，2+ 语言覆盖 |
-| 20 | 误报/真报权衡 | 攻击阻断率 vs XSTest 无害通过率 |
-| 20 | 自我批判差异 | 持出评估集上的无害性前后差异 |
-| 20 | 文档与披露 | 带时间轴的 CVSS 评分发现报告 |
-| 15 | 自动化与可复现性 | 全流程定时执行并报警 |
+| 25 | 攻击面覆盖 | 6+ attack-family drills with 2+ language coverage |
+| 20 | 误报/真报权衡 | Attack block rate vs XSTest benign pass rate |
+| 20 | 自我批判差异 | Pre/post harmlessness delta on a held-out evaluation set |
+| 20 | 文档与披露 | CVSS-scored findings report with disclosure timeline |
+| 15 | 自动化与可复现性 | Scheduled end-to-end run with alerting |
 | **100** | | |
 
 ## 练习

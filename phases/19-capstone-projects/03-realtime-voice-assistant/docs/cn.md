@@ -108,11 +108,11 @@ turn latency: 1040ms user-stop -> audio-out
 
 | 权重 | 评判标准 | 测量方式 |
 |:-:|---|---|
-| 25 | 端到端延迟 | 100 次录音通话中 p50 首次音频输出低于 800ms |
-| 20 | 轮次切换质量 | Hamming VAD 基准误切断率低于 3% |
-| 20 | 工具使用正确性 | 对话中调用工具并返回正确数据且不阻塞音频 |
-| 20 | 丢包下的可靠性 | 注入 3% 丢包后 WER 和轮次切换稳定性 |
-| 15 | 评估工具完整性 | 可复现测量结果和公开配置 |
+| 25 | 端到端延迟 | p50 first audio out under 800ms across 100 recorded calls |
+| 20 | 轮次切换质量 | False cut-off rate below 3% on the Hamming VAD benchmark |
+| 20 | 工具使用正确性 | Correct in-conversation tool calls without blocking audio |
+| 20 | 丢包下的可靠性 | WER and turn-taking stability after 3% packet-loss injection |
+| 15 | 评估工具完整性 | Reproducible measurement outputs and published configuration |
 | **100** | | |
 
 ## 练习

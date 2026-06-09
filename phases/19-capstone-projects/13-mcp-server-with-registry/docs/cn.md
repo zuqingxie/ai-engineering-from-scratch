@@ -105,11 +105,11 @@ response:    { "result": { "rows": [[1]] } }
 
 | 权重 | 标准 | 测量方式 |
 |:-:|---|---|
-| 25 | 规范符合 | StreamableHTTP + 能力清单通过 MCP 合规测试 |
-| 20 | 安全 | 全工具权限执行，OPA 策略覆盖，密钥管理规范 |
-| 20 | 可观察性 | 每次调⽤的审计日志，含 PII 脱敏 |
-| 20 | 可扩展性 | 100 客户端负载测试证明水平扩展 |
-| 15 | 注册中心用户体验 | 支持发现 / 验证 / 启用-禁用工作流 |
+| 25 | 规范符合 | MCP compliance tests for StreamableHTTP and capability manifest |
+| 20 | 安全 | Per-tool permission enforcement, OPA policy coverage, and secret-management hygiene |
+| 20 | 可观察性 | Audit log for every call with PII redaction |
+| 20 | 可扩展性 | 100-client load test demonstrating horizontal scaling |
+| 15 | 注册中心用户体验 | Discovery, verification, and enable-disable workflow support |
 | **100** | | |
 
 ## 练习

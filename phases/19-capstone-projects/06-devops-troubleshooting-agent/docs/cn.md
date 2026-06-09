@@ -104,11 +104,11 @@ webhook: alert.pagerduty.com -> checkout-api SLO 违约，错误率 14%
 
 | 权重 | 标准 | 评估方式 |
 |:-:|---|---|
-| 25 | 场景套件根因准确率 | 20 个合成事件根因准确率 ≥ 80% |
-| 20 | 安全性 | 破坏性操作无 Slack 审批时永不触发（审计日志验证） |
-| 20 | 假设生成时长 | p50 从警报到 Slack 简报不超过 5 分钟 |
-| 20 | 可解释性 | 每个假设含图路径与遥测出处 |
-| 15 | 集成完整性 | PagerDuty、Slack、ArgoCD、Prometheus 端到端可用 |
+| 25 | 场景套件根因准确率 | Root-cause accuracy >= 80% across 20 synthetic incidents |
+| 20 | 安全性 | Audit-log proof that destructive actions never run without Slack approval |
+| 20 | 假设生成时长 | p50 alert-to-Slack-brief time under 5 minutes |
+| 20 | 可解释性 | Graph path and telemetry provenance for every hypothesis |
+| 15 | 集成完整性 | End-to-end availability for PagerDuty, Slack, ArgoCD, and Prometheus |
 | **100** |  |  |
 
 ## 练习

@@ -105,11 +105,11 @@ GitHub issue 被标记 `@agent fix` 或 PR 评论
 
 | 权重 | 标准 | 评估方式 |
 |:-:|---|---|
-| 25 | 30 个 issue 的通过率 | 端到端成功（CI 通过 + 覆盖率合格） |
-| 20 | PR 质量 | 差异大小，覆盖率变化，样式符合度 |
-| 20 | 每 resolved issue 的成本和延迟 | 每 PR 的美元成本和实时时间 |
-| 20 | 安全性 | 范围令牌、每仓库预算、禁止强推、凭证卫生 |
-| 15 | 操作员用户体验 | 理由评论、重试能力、@-mention 跟踪 |
+| 25 | 30 个 issue 的通过率 | End-to-end success: CI pass plus coverage threshold pass |
+| 20 | PR 质量 | Diff size, coverage delta, and style conformance |
+| 20 | 每 resolved issue 的成本和延迟 | Dollar cost and wall-clock time per PR |
+| 20 | 安全性 | Scoped tokens, per-repository budgets, force-push ban, and credential hygiene |
+| 15 | 操作员用户体验 | Reasoning comments, retry support, and @-mention tracking |
 | **100** | | |
 
 ## 练习

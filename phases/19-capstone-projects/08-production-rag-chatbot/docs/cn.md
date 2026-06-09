@@ -110,11 +110,11 @@ answer:
 
 | 权重 | 评分标准 | 测量方式 |
 |:-:|---|---|
-| 25 | RAGAS 真实性 + 答案相关性 | 金标集（200 题）的在线分数 |
-| 20 | 引用正确性 | 答案中可验证源锚点的比例 |
-| 20 | 安全护栏覆盖 | Llama Guard 4 通过率 + 越狱测试结果 |
-| 20 | 成本/延迟工程 | 提示缓存命中率，95% 延迟，$/查询分解 |
-| 15 | 漂移监控仪表盘 | Phoenix 实时仪表盘，带每周检索质量趋势 |
+| 25 | RAGAS 真实性 + 答案相关性 | Online score on a 200-question gold set |
+| 20 | 引用正确性 | Share of answers with verifiable source anchors |
+| 20 | 安全护栏覆盖 | Llama Guard 4 pass rate plus jailbreak test results |
+| 20 | 成本/延迟工程 | Prompt-cache hit rate, p95 latency, and $/query breakdown |
+| 15 | 漂移监控仪表盘 | Phoenix live dashboard with weekly retrieval-quality trend |
 | **100** |  |  |
 
 ## 练习

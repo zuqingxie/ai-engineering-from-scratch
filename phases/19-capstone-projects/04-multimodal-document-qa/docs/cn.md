@@ -96,11 +96,11 @@ $ doc-qa ask "what was the 2024 operating margin change for segment EMEA?"
 
 | 权重 | 评判标准 | 测量方式 |
 |:-:|---|---|
-| 25 | ViDoRe v3 / M3DocVQA 准确率 | 与 OCR-文本基线和已发布排行榜的基准数值 |
-| 20 | 证据区域定位 | 被引用区域实际包含答案跨度的比例 |
-| 20 | 存储和延迟工程 | DocPruner 压缩率，索引 p95 延迟，回答 p95 延迟 |
-| 20 | 多页推理 | 一套 100 题手标注多页准确率 |
-| 15 | 来源检查用户体验 | 查看器清晰度、叠加精度、并排比较工具 |
+| 25 | ViDoRe v3 / M3DocVQA 准确率 | Benchmark comparison against OCR-text baselines and published leaderboards |
+| 20 | 证据区域定位 | Share of cited regions that contain the answer span |
+| 20 | 存储和延迟工程 | DocPruner compression rate, index p95 latency, and answer p95 latency |
+| 20 | 多页推理 | Accuracy on a 100-question hand-labeled multi-page set |
+| 15 | 来源检查用户体验 | Viewer clarity, overlay precision, and side-by-side comparison tooling |
 | **100** |  |  |
 
 ## 练习

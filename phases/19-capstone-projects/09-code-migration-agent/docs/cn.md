@@ -100,11 +100,11 @@ $ migrate legacy-java-service --target java17
 
 | 权重 | 评判标准 | 评判方法 |
 |:-:|---|---|
-| 25 | MigrationBench 通过率 | 50 仓库子集 pass@1 |
-| 20 | 测试覆盖保持 | 平均覆盖率差异（相对基线） |
-| 20 | 每迁移仓库成本 | 通过运行的 $/仓库 |
-| 20 | 代理与确定性工具集成 | OpenRewrite 处理的修复比例 vs 代理原创比例 |
-| 15 | 失败分析报告 | 分类完整性及示例 |
+| 25 | MigrationBench 通过率 | pass@1 on a 50-repository subset |
+| 20 | 测试覆盖保持 | Mean coverage delta relative to baseline |
+| 20 | 每迁移仓库成本 | $/repository for successful runs |
+| 20 | 代理与确定性工具集成 | OpenRewrite-handled fix share vs agent-authored fix share |
+| 15 | 失败分析报告 | Classification completeness and examples |
 | **100** | | |
 
 ## 练习

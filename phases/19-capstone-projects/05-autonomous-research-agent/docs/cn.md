@@ -112,11 +112,11 @@ $ ai-scientist run --seed "attention sparsity in sub-1B transformers" --budget 3
 
 | 权重 | 标准 | 评估方式 |
 |:-:|---|---|
-| 25 | 论文质量 | 盲评对比已发布研讨会论文 |
-| 20 | 实验严谨性 | 基线、种子、消融；每条结论都有结果表单元支持 |
-| 20 | 成本与计算纪律 | 每篇论文最高 30 美元限制，Langfuse 监控 |
-| 20 | 安全性 | 沙箱红队测试通过；网络策略和紧急终止开关验证 |
-| 15 | 可复现性 | 一条命令重现，种子相同，论文一致 |
+| 25 | 论文质量 | Blind review against published workshop papers |
+| 20 | 实验严谨性 | Baselines, seeds, ablations, and result-table support for every claim |
+| 20 | 成本与计算纪律 | $30 maximum per paper with Langfuse monitoring |
+| 20 | 安全性 | Sandbox red-team pass, network policy verification, and emergency stop validation |
+| 15 | 可复现性 | One-command reproduction with the same seed and matching paper output |
 | **100** | | |
 
 ## 练习

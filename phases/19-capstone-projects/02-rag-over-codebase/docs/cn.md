@@ -102,11 +102,11 @@ $ code-rag ask "how is S3 multipart abort wired into our retry budget?"
 
 | 权重 | 标准 | 测量方式 |
 |:-:|---|---|
-| 25 | 检索质量 | 100 个问题的 MRR@10 和 nDCG@10 |
-| 20 | 引证准确度 | 答案中带有可验证文件:行号锚点的声明比例 |
-| 20 | 延迟与规模 | 10k QPS 下的 p95 查询延迟，基于索引语料规模 |
-| 20 | 增量索引正确性 | 50 文件提交从 git push 到可检索时间 |
-| 15 | 用户体验与答案格式 | 引用点击性、代码片段预览、后续交互能力 |
+| 25 | 检索质量 | MRR@10 and nDCG@10 on 100 questions |
+| 20 | 引证准确度 | Share of answer claims with verifiable file:line anchors |
+| 20 | 延迟与规模 | p95 query latency at 10k QPS, stratified by indexed corpus size |
+| 20 | 增量索引正确性 | Time from git push to retrievable state for a 50-file commit |
+| 15 | 用户体验与答案格式 | Citation clickability, code snippet preview, and follow-up interaction support |
 | **100** | | |
 
 ## 练习

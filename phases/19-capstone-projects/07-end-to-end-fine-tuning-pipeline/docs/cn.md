@@ -105,11 +105,11 @@ $ ./pipeline.sh config/llama3.3-8b-domainX.yaml
 
 | 权重 | 评判标准 | 测量方式 |
 |:-:|---|---|
-| 25 | 目标任务相较基础模型的性能提升 | 在MMLU-Pro、MT-Bench-v2、任务特定基准的测量增益 |
-| 20 | 流水线复现性 | 一条命令使用相同随机种子端到端重跑 |
-| 20 | 数据卫生状况 | 去重率、PII清理覆盖率、污染检测通过状态 |
-| 20 | 服务效率 | 批量1/8/32时tokens/s、EAGLE-3接受率、$/1M tokens成本 |
-| 15 | 模型卡及安全评估 | 完整的2026 MOF模板填写+Llama Guard 4通过率 |
+| 25 | 目标任务相较基础模型的性能提升 | Measured gains on MMLU-Pro, MT-Bench-v2, and task-specific benchmarks |
+| 20 | 流水线复现性 | One-command end-to-end rerun with the same random seed |
+| 20 | 数据卫生状况 | Deduplication rate, PII cleanup coverage, and contamination-check pass status |
+| 20 | 服务效率 | tokens/s at batch sizes 1/8/32, EAGLE-3 acceptance rate, and $/1M tokens |
+| 15 | 模型卡及安全评估 | Complete 2026 MOF template plus Llama Guard 4 pass rate |
 | **100** | | |
 
 ## 练习

@@ -103,11 +103,11 @@ $ video-qa ask --url=https://youtube.com/watch?v=X "how many cars pass the inter
 
 | 权重 | 评估标准 | 计量方法 |
 |:-:|---|---|
-| 25 | 时间定位 IoU | 在保留的时间定位集上的交并比 |
-| 20 | 问答准确率 | NeXT-GQA 和自定义 100 题 |
-| 20 | 摄取吞吐量 | 每美元处理视频小时数 |
-| 20 | UI 和引用体验 | 时间戳链接、缩略图条、跳转帧功能 |
-| 15 | 幻觉率 | 计数和动作类准确率分开统计 |
+| 25 | 时间定位 IoU | Intersection-over-union on a held-out temporal localization set |
+| 20 | 问答准确率 | NeXT-GQA plus a custom 100-question set |
+| 20 | 摄取吞吐量 | Processed video hours per dollar |
+| 20 | UI 和引用体验 | Timestamp links, thumbnail strip, and jump-to-frame behavior |
+| 15 | 幻觉率 | Separate count accuracy and action-class accuracy statistics |
 | **100** | | |
 
 ## 练习任务

@@ -95,11 +95,11 @@ $ curl https://infer.example.com/v1/chat/completions -d '{"messages":[...]}'
 
 | 权重 | 评价标准 | 测量方式 |
 |:-:|---|---|
-| 25 | 相较基线的实际加速 | 两个模型上匹配质量时吞吐 ≥2.5 倍 |
-| 20 | 真实流量的接受率 | 按分布报告接受率 |
-| 20 | p99 尾延迟指标 | 批大小 1/8/32 不同猜测状态下的 p99 延迟 |
-| 20 | 运营能力 | K8s 部署，基于队列等待的 HPA，平滑滚展 |
-| 15 | 文档与方法论 | 清晰解释变化与原因 |
+| 25 | 相较基线的实际加速 | >=2.5x throughput at matched quality across two models |
+| 20 | 真实流量的接受率 | Acceptance rate reported by distribution slice |
+| 20 | p99 尾延迟指标 | p99 latency at batch sizes 1/8/32 across draft states |
+| 20 | 运营能力 | K8s deployment, queue-wait HPA, and smooth rolling update |
+| 15 | 文档与方法论 | Clear explanation of changes and reasons |
 | **100** | | |
 
 ## 练习
