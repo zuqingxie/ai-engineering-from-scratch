@@ -21,7 +21,7 @@ def describe_pipeline():
     print("  unet_params:    860M (SD 1.5) / 2.6B (SDXL) / 12B (FLUX)")
     print("  vae_latent:     4 x 64 x 64 for 512x512 input, 4 x 128 x 128 for 1024x1024")
     print("  vae_scale:      0.18215 (SD 1.5/2), 0.13025 (SDXL)")
-    print("  default_cfg:    7.5")
+    print("  default_cfg:    7.5") # 这个gradient scale越高，生成的图像越贴合文本提示，但过高可能导致过度锐化和失真。常见范围是5-10，具体值取决于提示的复杂性和所需的创造力水平。
 
 
 def cfg_sweep_demo():
@@ -38,7 +38,7 @@ def cfg_sweep_demo():
         print(f"  w={w:5.1f}  expected: {effect}")
 
 
-def text_to_image_stub(prompt, seed=42):
+def text_to_image_stub(prompt, scheduler="DPMSolverMultistepScheduler", guidance_scale=7.5, seed=42, save_name="sd_demo.png"):
     print(f"\n[text_to_image] prompt={prompt!r} seed={seed}")
     if not has_diffusers():
         print("  diffusers not installed. `pip install diffusers transformers accelerate` to run.")
@@ -46,15 +46,18 @@ def text_to_image_stub(prompt, seed=42):
     if not torch.cuda.is_available():
         print("  CUDA not available; running SD on CPU is extremely slow. Skipping real call.")
         return None
-    from diffusers import StableDiffusionPipeline, DPMSolverMultistepScheduler
+    from diffusers import StableDiffusionPipeline, DPMSolverMultistepScheduler, EulerAncestralDiscreteScheduler
     pipe = StableDiffusionPipeline.from_pretrained(
         "runwayml/stable-diffusion-v1-5",
         torch_dtype=torch.float16,
     ).to("cuda")
-    pipe.scheduler = DPMSolverMultistepScheduler.from_config(pipe.scheduler.config)
+    if scheduler == "DPMSolverMultistepScheduler":
+        pipe.scheduler = DPMSolverMultistepScheduler.from_config(pipe.scheduler.config)
+    elif scheduler == "EulerAncestralDiscreteScheduler":
+        pipe.scheduler = EulerAncestralDiscreteScheduler.from_config(pipe.scheduler.config)
     gen = torch.Generator("cuda").manual_seed(seed)
-    out = pipe(prompt, guidance_scale=7.5, num_inference_steps=25, generator=gen).images[0]
-    path = os.path.expanduser("~/sd_demo.png")
+    out = pipe(prompt, guidance_scale=guidance_scale, num_inference_steps=25, generator=gen).images[0]
+    path = os.path.expanduser(f"~/{save_name}")
     out.save(path)
     print(f"  saved: {path}")
 
@@ -62,25 +65,26 @@ def text_to_image_stub(prompt, seed=42):
 def lora_training_sketch():
     print("\n[lora training pseudocode]")
     pseudo = """
-for step, batch in enumerate(dataloader):
-    images, prompts = batch
-    latents = vae.encode(images).latent_dist.sample() * 0.18215
-    t = torch.randint(0, num_train_timesteps, (batch_size,))
-    noise = torch.randn_like(latents)
-    noisy_latents = scheduler.add_noise(latents, noise, t)
-    text_emb = text_encoder(tokenizer(prompts))
-    pred_noise = unet(noisy_latents, t, text_emb)       # LoRA weights injected
-    loss = F.mse_loss(pred_noise, noise)
-    loss.backward()
-    optimizer.step()
-"""
+            for step, batch in enumerate(dataloader):
+                images, prompts = batch
+                latents = vae.encode(images).latent_dist.sample() * 0.18215
+                t = torch.randint(0, num_train_timesteps, (batch_size,))
+                noise = torch.randn_like(latents)
+                noisy_latents = scheduler.add_noise(latents, noise, t)
+                text_emb = text_encoder(tokenizer(prompts))
+                pred_noise = unet(noisy_latents, t, text_emb)       # LoRA weights injected
+                loss = F.mse_loss(pred_noise, noise)
+                loss.backward()
+                optimizer.step()
+            """
     print(pseudo)
 
 
 def main():
     describe_pipeline()
     cfg_sweep_demo()
-    text_to_image_stub("a dog riding a skateboard in tokyo, studio ghibli style")
+    text_to_image_stub("a beautiful girl riding a skateboard in tokyo, studio ghibli style", scheduler="EulerAncestralDiscreteScheduler", guidance_scale=20, save_name="sd_demo.png")
+    text_to_image_stub("上海黄浦江的夜景", scheduler="DPMSolverMultistepScheduler", guidance_scale=20, save_name="sd_demo2.png")
     lora_training_sketch()
 
 

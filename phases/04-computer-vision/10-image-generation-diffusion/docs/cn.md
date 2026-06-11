@@ -58,19 +58,23 @@ $$
 q(x_t \mid x_0) = \mathcal{N}\left(x_t; \sqrt{\bar\alpha_t}x_0, (1-\bar\alpha_t)I\right), \qquad \bar\alpha_t = \prod_{s=1}^{t}(1-\beta_s)
 $$
 
-训练目标通常回归加入的噪声：
+损失函数是预测噪声和真实加入的噪声的的均方误差：
 
 $$
 \mathcal{L}_{\mathrm{simple}} = \mathbb{E}_{t,x_0,\epsilon}\left[\left\|\epsilon - \epsilon_\theta(x_t,t)\right\|_2^2\right]
 $$
 
+注意: 这里的加噪声和CV里面的高斯模糊不一样,这里是调整噪声水平的线性插值,而不是卷积核模糊.高斯模糊会导致图像变得模糊,而这里是添加噪声,保持图像结构不变.
+
 ### 前向过程
 
 取图像 `x_0`。加入少量高斯噪声生成 `x_1`。继续加少量噪声得到 `x_2`。重复T步，直到 `x_T` 几乎是纯高斯噪声。
 
-```text
-q(x_t | x_{t-1}) = N(x_t; sqrt(1 - beta_t) * x_{t-1},  beta_t * I)
-```
+
+TODO 将式子改成数学表达式
+$$
+q(x_t \mid x_{t-1}) = \mathcal{N}\left(x_t; \sqrt{1-\beta_t}x_{t-1}, \beta_t I\right)
+$$
 
 `beta_t` 是小的方差调度，通常在T=1000步中线性从0.0001变到0.02。每步会稍微缩小信号并注入新噪声。
 
@@ -78,17 +82,23 @@ q(x_t | x_{t-1}) = N(x_t; sqrt(1 - beta_t) * x_{t-1},  beta_t * I)
 
 逐步加噪是马尔可夫链，但数学上可化简：可以一步采样 `x_t` 直接来自 `x_0`。
 
-```text
-定义 alpha_t = 1 - beta_t
-定义 alpha_bar_t = prod_{s=1..t} alpha_s
+TODO 将式子改成数学表达式
+$$
+\alpha_t = 1 - \beta_t
+$$
+$$
+\bar{\alpha}_t = \prod_{s=1}^{t} \alpha_s
+$$
 
-则:
-  q(x_t | x_0) = N(x_t; sqrt(alpha_bar_t) * x_0,  (1 - alpha_bar_t) * I)
+TODO 将式子改成数学表达式
+$$
+q(x_t \mid x_0) = \mathcal{N}\left(x_t; \sqrt{\bar\alpha_t}x_0, (1-\bar\alpha_t)I\right)
+$$
 
 等价于:
-  x_t = sqrt(alpha_bar_t) * x_0 + sqrt(1 - alpha_bar_t) * epsilon
-  其中 epsilon ~ N(0, I)
-```
+$$
+x_t = \sqrt{\bar\alpha_t} x_0 + \sqrt{1 - \bar\alpha_t} \epsilon, \quad \epsilon \sim \mathcal{N}(0, I)
+$$
 
 此方程是扩散模型实用的根本原因。训练时随机选t，从 `x_0` 直接采样 `x_t`，一站式训练——无须模拟完整马尔可夫链。
 

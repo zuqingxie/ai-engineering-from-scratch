@@ -37,10 +37,10 @@ Meta的**MusicGen**（2023年，MIT许可）及众多衍生版本：以文本/�
 
 ### 评估方式
 
-- **FAD（Fréchet音频距离）**。使用VGGish或PANN提取特征计算生成音频与真实音频嵌入分布距离，越低越好。MusicGen small：MusicCaps数据集上4.5 FAD；SOTA约3.0。
-- **音乐性（主观评估）**。人工偏好。Suno v5 ELO 1293领先。
-- **文本-音频匹配度**。利用CLAP评分评估提示和输出。
-- **音乐性缺陷**。节拍错误转换，人声音调漂移，30秒以上结构丢失。
+- **FAD (Fréchet Audio Distance)**。使用VGGish或PANN提取特征计算生成音频与真实音频嵌入分布距离，越低越好。MusicGen small：MusicCaps数据集上4.5 FAD；SOTA约3.0。
+- **Musicality (subjective evaluation)**。人工偏好。Suno v5 ELO 1293领先。
+- **Text-audio alignment**。利用CLAP评分评估提示和输出。
+- **Musical defect rate**。节拍错误转换，人声音调漂移，30秒以上结构丢失。
 
 ## 2026年模型图谱
 

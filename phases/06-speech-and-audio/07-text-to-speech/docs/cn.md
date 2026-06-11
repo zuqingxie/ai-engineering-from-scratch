@@ -49,11 +49,11 @@
 
 ### 评估方法
 
-- **MOS（平均意见分Mean Opinion Score）**，1–5 评分，众包。仍是金标准，但速度极慢。
-- **CMOS（对比MOS）**，A 对 B 的偏好比较。单次标注置信区间更紧凑。
-- **UTMOS、DNSMOS。** 无参考神经网络 MOS 预测器。常用于排行榜。
-- **CER（字符错误率）通过 ASR。** 将 TTS 输出通过 Whisper 转录，计算与输入文本的 CER。语音可懂度的代理指标。
-- **SECS（说话人嵌入余弦相似度）。** 语音克隆质量指标。
+- **MOS (Mean Opinion Score)**，1–5 评分，众包。仍是金标准，但速度极慢。
+- **CMOS (Comparative Mean Opinion Score)**，A 对 B 的偏好比较。单次标注置信区间更紧凑。
+- **UTMOS, DNSMOS.** 无参考神经网络 MOS 预测器。常用于排行榜。
+- **CER (Character Error Rate via ASR).** 将 TTS 输出通过 Whisper 转录，计算与输入文本的 CER。语音可懂度的代理指标。
+- **SECS (Speaker Embedding Cosine Similarity).** 语音克隆质量指标。
 
 2026 年 LibriTTS test-clean 数据集指标：
 
